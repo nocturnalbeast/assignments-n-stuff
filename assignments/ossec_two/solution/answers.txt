@@ -1,0 +1,9 @@
+Answers:
+
+1. Environmental variables in 
+
+(Please refer to env-rev1.c for section a and env-rev2.c for section b.)
+
+2.a.
+
+2.b.
