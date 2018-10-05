@@ -1,6 +1,34 @@
-# Import statements for all that's needed.
-import os, sys, socket, json
+# Import statements for all that's needed; sys for the arguments, socket for creating and managing the server, json for handling the incoming JSON string and converting the final answer to JSON, and threading cause multi-client, duh.
+import sys, socket, json, threading
+# Yeah, and OrderedDict to retain the final answer's dictionary order.
 from collections import OrderedDict
+
+# Class that runs in a separate threads and manages each client. Essentially recieves a client while spawning in a new thread, and manages communication between this program and the client.
+class ClientHandler(threading.Thread):
+	# Init function to initialise instance variables and init procedures for thread.
+ 	def __init__(self, c_sock, c_addr):
+ 		# Start init procedure for each thread.
+ 		threading.Thread.__init__(self)
+ 		# Declaring and initialising the instance variables for client address and client connection.
+ 		# Probably could manage with only the client connection variable.
+ 		self.c_sock = c_sock
+ 		self.c_addr = c_addr
+ 	# Function that actually handles the client
+ 	def run(self):
+ 		# Infinite loop. Not much to explain.
+	 	# Recieve the JSON string from the client. Now uses makefile, but still slightly unclear. Need to read Python documentation and figure out better ways.
+		json_file = self.c_sock.makefile()
+ 		while True:
+ 			json_str = json_file.readline()
+ 			# If the string is the termination character sequence, then end the loop.
+ 			if json_str == '0\n':
+ 				break
+ 			# Or it's assumed to be a valid JSON string, so generate the result from that oh-so-beautiful function below and send the result back to the client.
+			res_msg = snl(json_str.strip('\n')) + '\n'
+			self.c_sock.send(res_msg)
+		# Close all the shiz.
+		json_file.close()
+ 		self.c_sock.close()
 
 # Actual process happens here.
 def snl(data):
@@ -50,19 +78,10 @@ def snl(data):
 	# At laast. What is love? Baby, don't hurt me, don't hurt me no more.
 	return answer
 
-# Multi-process server handler. Needs refinement. Probably threads to replace this hacky stuff?
-def mult_server():
-	for i in xrange(3):
-		cli_soc, cli_addr = serv_soc.accept()
-		pid = os.fork()
-		if pid == 0:
-			data = cli_soc.recv(8192)
-			cli_soc.send(snl(data))
-			cli_soc.close()
-			break
-
-# Final driver code.
+# Finally, code to invoke all this pizazz. Don't think this needs much explanation. Moreover, don't want to. I'm tired of explaining all this.
 serv_soc = socket.socket()
-serv_soc.bind(('localhost',int(sys.argv[1])))
-serv_soc.listen(1)
-mult_server()
+serv_soc.bind(('',int(sys.argv[1])))
+serv_soc.listen(3)
+for i in xrange(3):
+	c_sock,c_addr = serv_soc.accept()
+	ClientHandler(c_sock,c_addr).start()
