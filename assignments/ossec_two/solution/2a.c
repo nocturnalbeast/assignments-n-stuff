@@ -13,7 +13,8 @@ int main() {
 	
 	pthread_create(&tid, NULL, greet, NULL);
 	pthread_join(tid, NULL);
-	
+
+	printf("The thread is now dead!\n");
 	return 0;
 
 }
