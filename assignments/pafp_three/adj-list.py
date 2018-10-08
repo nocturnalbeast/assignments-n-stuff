@@ -9,8 +9,8 @@ while True:
         break
     else:
         nodes = vertice.split(',')
-        adj_list[int(nodes[0])] = adj_list[int(nodes[0])] + [int(nodes[1])]
-        adj_list[int(nodes[1])] = adj_list[int(nodes[1])] + [int(nodes[0])]
+        adj_list[int(nodes[0])] += [int(nodes[1])]
+        adj_list[int(nodes[1])] += [int(nodes[0])]
 
 for i in adj_list.keys():
     print i,":",adj_list[i]

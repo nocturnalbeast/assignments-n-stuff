@@ -146,6 +146,80 @@ oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
 
 The program starts with the main/parent thread (i.e. the thread in which the main() function runs). It suddenly follows up with the initialization of a pthread_t instance variable which is then used to link itself with a newly created thread (which is created using the pthread_create function). This newly created thread is assigned to run the print_xs function. However, before it starts the execution of said function in this thread, the execution of the newly created thread is blocked by the pthread_mutex_lock function that is called by the main thread due to the fact that the print_xs function attempts to lock the mutex variable that is already blocked, thus effectively blocking it from execution till the variable is unlocked. Now the thread cannot run till another thread unlocks the mutex variable with a pthread_mutex_unlock function call. So, the main thread now proceeds to execute the print_os() function, which then prints the character 'o' a thousand times. After the function print_os completes execution in the main thread, the main function continues in the main thread with the pthread_mutex_unlock call, unlocking the mutex variable in the program. Now the child thread can continue execution since the mutex variable is now unlocked and can be locked by the child thread. Now the print_xs function continues in the child thread, which prints the character 'x' a thousand times. Then it unlocks the mutex variable with a pthread_mutex_unlock function call. With this, the second thread exits, and returns to the main thread, which exits as well.
 
+3.b.
+
+Code:
+
+#include <stdio.h>
+#include <pthread.h>
+
+static void print_os();
+pthread_mutex_t mutex;
+
+void* print_xs(void* unused) {
+int j;
+for(j = 0; j < 1000; j++)
+fputc('x', stderr);
+pthread_mutex_unlock(&mutex);
+return NULL;
+}
+
+static void print_os() {
+int i;
+for(i = 0; i < 1000; i++)
+fputc('o', stderr);
+}
+
+int main() {
+pthread_t new;
+pthread_mutex_lock(&mutex);
+pthread_create(&new, NULL, &print_xs, NULL);
+pthread_mutex_lock(&mutex);
+print_os();
+pthread_mutex_unlock(&mutex);
+pthread_join(new, NULL);
+return 0;
+}
+
+Alternatively, you could also delay the running of the mutex_lock call in the main function, which would also work. This is shown in the code below:
+
+#include <stdio.h>
+#include <unistd.h>
+#include <pthread.h>
+
+static void print_os();
+pthread_mutex_t mutex;
+
+void* print_xs(void* unused) {
+int j;
+pthread_mutex_lock(&mutex);
+for(j = 0; j < 1000; j++)
+fputc('x', stderr);
+pthread_mutex_unlock(&mutex);
+return NULL;
+}
+
+static void print_os() {
+int i;
+for(i = 0; i < 1000; i++)
+fputc('o', stderr);
+}
+
+int main() {
+pthread_t new;
+pthread_create(&new, NULL, &print_xs, NULL);
+sleep(1);
+pthread_mutex_lock(&mutex);
+print_os();
+pthread_mutex_unlock(&mutex);
+pthread_join(new, NULL);
+return 0;
+}
+
+Output:
+
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+
 4.
 
 Code:
