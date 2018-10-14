@@ -4,7 +4,7 @@
 CREATE TABLE user_creds_enc (
     id int(5) AUTO_INCREMENT PRIMARY KEY,
     username varchar(30) NOT NULL UNIQUE,
-    password varchar(250) NOT NULL,
+    password varchar(255) NOT NULL,
     fname varchar(30) NOT NULL,
     lname varchar(30)
 );

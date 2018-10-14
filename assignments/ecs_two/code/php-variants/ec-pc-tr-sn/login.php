@@ -3,20 +3,32 @@ require('db_conn.php');
 
 if (isset($_POST['user_name']) and isset($_POST['user_pass'])){
 	
-    $name = $_POST['user_name'];
-    $pass = password_hash($_POST['user_pass'],PASSWORD_DEFAULT);
+    $name = mysqli_real_escape_string($connection, $_POST['user_name']);
+    $pass = mysqli_real_escape_string($connection, $_POST['user_pass']);
     
-    $query = "SELECT * FROM `user_creds_encrypt` WHERE username='$name' and password='$pass'";
+    $stmt = $connection->prepare("SELECT username, password FROM user_creds_vtwo WHERE username = ?");
+    $stmt->bind_param('s', $name);
+    $stmt->execute();
+    $stmt->bind_result($username, $password);
+    $stmt->store_result();
     
-    $result = mysqli_query($connection, $query) or die(mysqli_error($connection));
-    $count = mysqli_num_rows($result);
-    
-    if ($count == 1){
-        echo "<script type='text/javascript'>alert('Welcome!')</script>";
-        header("Location: /landing.html");
-        exit;
+    if ($stmt->num_rows == 1) {
+        if ($stmt->fetch()) {
+            if (password_verify($pass, $password)) {
+                header("Location: ./landing.html");
+                exit();
+            } else {
+                echo "Invalid password. Try again.";
+                header("Location: ./login.html");
+            }
+        }
     } else {
-        echo "<script type='text/javascript'>alert('Error!')</script>";
+        echo "Invalid username. Try again.";
+        header("Location: ./login.html");
     }
+    
+    $stmt->close(); 
+    $connection->close();
+    
 }
 ?>
