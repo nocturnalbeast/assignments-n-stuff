@@ -1,0 +1,5 @@
+1. The instructions were followed.
+2. It means the packet is a bad packet i.e. either a duplicate packet, or a corrupted one, or one that is out of order.
+3. ip.src==192.168.42.106 && http
+4. Because HTTP runs on top of TCP and DNS runs on top of UDP.
+5. ftp.request.command == PASS

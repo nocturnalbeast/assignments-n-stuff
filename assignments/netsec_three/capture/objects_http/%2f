@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width" />
+        <title>XKCD of the day!</title>
+    </head>
+    <body>
+        <div align="center">
+            <h1>XKCD of the day!</h1>
+            <img src="/149_sandwich.png" />
+            <h3>Original source: <a
+                 href="https://xkcd.com/149">https://xkcd.com/149</a></h3>
+            <h3>Didn't understand the comic? Click <a
+                    href="https://www.explainxkcd.com/149">here</a> for
+                explanation.</h3>
+        </div>
+    </body>
+</html>
