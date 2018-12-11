@@ -16,7 +16,7 @@ def dns_ans_three():
 			ans_dict.update({dom:typ})
 		if input("Enter 0 to end or any other number to continue: ") == 0:
 			break
-	return json.dumps(ans_dict)
+	return json.dumps(ans_dict).replace(' ', '')
 
 def dns_ans_four():
 	ans_dict = {}
@@ -32,7 +32,7 @@ def dns_ans_four():
 		ans_dict.update({dom:rsp_lst})
 		if input("Enter 0 to end or any other number to continue: ") == 0:
 			break
-	return json.dumps(ans_dict)
+	return json.dumps(ans_dict).replace(' ', '')
 
 def dns_ans_five():
 	ans_list = []
@@ -40,7 +40,7 @@ def dns_ans_five():
 		ans_list.append(raw_input("Enter the IP address returned with A record: "))
 		if input("Enter 0 to end or any other number to continue: ") == 0:
 			break
-	return json.dumps(ans_list)
+	return json.dumps(ans_list).replace(' ', '')
 
 
 def dns_ans_six():
@@ -49,7 +49,7 @@ def dns_ans_six():
 		ans_list.append(raw_input("Enter the domains returned with CNAME record: "))
 		if input("Enter 0 to end or any other number to continue: ") == 0:
 			break
-	return json.dumps(ans_list)
+	return json.dumps(ans_list).replace(' ', '')
 
 
 def dns_ans_seven():
@@ -58,15 +58,15 @@ def dns_ans_seven():
 		ans_list.append(raw_input("Enter the domains returned with MX record: "))
 		if input("Enter 0 to end or any other number to continue: ") == 0:
 			break
-	return json.dumps(ans_list)
+	return json.dumps(ans_list).replace(' ', '')
 
 
 def dns_ans_eight():
 	ans_dict = {}
 	ans_dict.update({"domain":raw_input("Enter the domain of the chosen MX server: ")})
 	ans_dict.update({"ip":raw_input("Enter the IP address of the chosen MX server: ")})
-	ans_dict.update({"preference":raw_input("Enter the preference value of the chosen MX server: ")})
-	return json.dumps(ans_dict)
+	ans_dict.update({"preference":input("Enter the preference value of the chosen MX server: ")})
+	return json.dumps(ans_dict).replace(' ', '')
 
 
 dict_que = {

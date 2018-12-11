@@ -1,0 +1,28 @@
+  TODO for pafp_three
+  
+  Documentation
+  - 
+  -	Kruskal
+  - topological sort
+  - Dijkstra
+  - formatting functions
+  - helper functions
+  - 
+  
+  Restructure
+  - 
+  -	Split algorithms into folder
+  - Split helpers into sep_py
+  - 
+  
+  Code
+  - 
+  -	Finish SCC
+  - Finish articulation
+  - 
+  
+  Cleanup
+  - 
+  -	Try Dijkstra's with dyn-add
+  - Remove all redundant files
+  - review traversals.py

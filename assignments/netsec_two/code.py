@@ -13,7 +13,7 @@ class ClientHandler(threading.Thread):
 		# Probably could manage with only the client connection variable.
 		self.c_sock = c_sock
 		self.c_addr = c_addr
-	# Function that actually handles the client
+	# Function that actually handles the client.
 	def run(self):
 		# Recieve the JSON string from the client. Now uses makefile, but still slightly unclear. Need to read Python documentation and figure out better ways.
 		json_file = self.c_sock.makefile()

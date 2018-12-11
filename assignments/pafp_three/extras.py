@@ -1,3 +1,5 @@
+# Basic functions and classes that are not used in the solution, but are used as reference for the implementation of more complex algorithms and classes.
+
 class Stack:
     def __init__(self):
         self.elements = []

@@ -37,7 +37,6 @@ A: 7ffa29fbd25da766dfb2494f2103afe6ce4514f3ca7989b90863300bf0f8796c
 A: 667c735a243caa740a0fc7a904209567fdff03ec
 
 
-
 DNS packet analysis
 
 1.What is the IP address of client performing the DNS resolution?
@@ -47,19 +46,19 @@ A: 192.168.43.106
 A: 192.168.43.156
 
 3.List all domains queried and type of DNS record requested by the client. Answer should be a JSON string of a dictionary with keys as domains and values as record types. If multiple requests were made for a domain, values should be a list of record types.
-A: {"alt2.gmail-smtp-in.l.google.com": "A", "try.github.io": "A", "gmail.com": ["A", "MX"], "rrdajhvrpordlexbvbri.io": "A", "gmail-smtp-in.l.google.com": "A", "alt3.gmail-smtp-in.l.google.com": "A"}
+A: {"alt2.gmail-smtp-in.l.google.com":"A","try.github.io":"A","gmail.com":["A","MX"],"rrdajhvrpordlexbvbri.io":"A","gmail-smtp-in.l.google.com":"A","alt3.gmail-smtp-in.l.google.com":"A"}
 
 4.List types of all responses received for domains queried by the client. Answer should be a JSON string of a dictionary with keys as domains. If multiples responses are received, value should be a list of all response types. Otherwise, value is just that single response type received.
-A: {"gmail-smtp-in.l.google.com": "A", "alt3.gmail-smtp-in.l.google.com": "A", "try.github.io": ["CNAME", "CNAME", "CNAME", "A", "A", "A"], "gmail.com": ["MX", "MX", "MX", "MX", "MX"], "alt2.gmail-smtp-in.l.google.com": "A"}
+A: {"rrdajhvrpordlexbvbri.io":"NXDOMAIN","gmail-smtp-in.l.google.com":"A","alt3.gmail-smtp-in.l.google.com":"A","try.github.io":["CNAME","CNAME","CNAME","A","A","A"],"gmail.com":["A","MX","MX","MX","MX","MX"],"alt2.gmail-smtp-in.l.google.com":"A"}
 
 5.List all IPs returned in all A records from the DNS server. Answer should be a JSON string of a list of all values.
-A: ["172.217.10.5", "54.225.216.44", "54.225.160.62", "54.243.223.126", "173.194.208.27", "209.85.202.27", "173.194.222.26"]
+A: ["172.217.10.5","54.225.216.44","54.225.160.62","54.243.223.126","173.194.208.27","209.85.202.27","173.194.222.26"]
 
 6.List all domains returned in CNAME responses received from DNS server. Answer should be a JSON string of a list of all values.
-A: ["trygithub.codeschool.com", "fukui-7948.herokussl.com", "elb049611-645559665.us-east-1.elb.amazonaws.com"]
+A: ["trygithub.codeschool.com","fukui-7948.herokussl.com","elb049611-645559665.us-east-1.elb.amazonaws.com"]
 
 7.List all domains returned in MX responses received from DNS server. Answer should be a JSON string of a list of all values.
-A: ["gmail-smtp-in.l.google.com", "alt1.gmail-smtp-in.l.google.com", "alt2.gmail-smtp-in.l.google.com", "alt3.gmail-smtp-in.l.google.com", "alt4.gmail-smtp-in.l.google.com"]
+A: ["gmail-smtp-in.l.google.com","alt1.gmail-smtp-in.l.google.com","alt2.gmail-smtp-in.l.google.com","alt3.gmail-smtp-in.l.google.com","alt4.gmail-smtp-in.l.google.com"]
 
 8.Which among the returned MX servers is chosen for SMTP? What is it's IP address and preference value? Answer should be a JSON dictionary with keys "domain", "ip" and "preference" and corresponding values the MX server name, IP address and preference value.
-A: {"ip": "173.194.222.26", "domain": "alt3.gmail-smtp-in.l.google.com", "preference": "30"}
+A: {"ip":"173.194.208.27","domain":"gmail-smtp-in.l.google.com","preference":5}
