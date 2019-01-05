@@ -21,7 +21,7 @@ while True:
 			# Add the character to the string, if the condition is fulfilled.
 			recv_str += recv_char
 		# If the string contains something, but the next received char does not match the set of filtered characters, then do so.
-		if not re.search(r'[A-Z]|[a-z]|[0-9]|_', recv_char) and len(var) > 0:
+		if not re.search(r'[A-Z]|[a-z]|[0-9]|_', recv_char) and len(recv_str) > 0:
 			# Use os module to spawn a command to execute the mosquitto client to publish the data.
 			os.system("mosquitto_pub -h " + broker_ip + " -t " + pub_topic + " -m " + recv_str)
 			# Print the data that was transferred.
