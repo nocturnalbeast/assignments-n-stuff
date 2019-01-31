@@ -1,0 +1,55 @@
+body {
+    font-family: 'Work Sans';
+    background-color: #181818;
+    color: #eaeaea; }
+
+.headings {
+    font-family: 'Space Mono';
+    font-weight: 700; }
+
+.maintext {
+    position: absolute;
+    top: 40%;
+    left: 0;
+    right: 0;
+    text-align: center }
+
+.maintext-color {
+    color: #505050; }
+
+.maintext-highlight-color {
+    color: #dadada; }
+
+.wb {
+    color: #3a3a3a;
+    margin: 1%; }
+
+.end-wb {
+    position: fixed;
+    bottom: 0;
+    text-align: right;
+    margin-right: 2%; 
+    width: 100%; }
+
+.btn-bar {
+    overflow: auto;
+    position: absolute;
+    text-align: center;
+    top: 30; bottom: 40; left: 0; right: 0;
+}
+
+.buttons {
+    margin: 3%;
+    color: #3a3a3a;
+    height: 50px;
+    font-size: 30px;
+    border: none;
+}
+
+.buttons:hover {
+    color: #dadada;
+}
+
+.buttons:focus {
+    color: #3a3a3a;
+}

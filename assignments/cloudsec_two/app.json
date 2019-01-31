@@ -1,0 +1,6 @@
+{
+  "name": "nct-beast-testapp",
+  "description": "Testing out the Heroku framework",
+  "repository": "https://github.com/nocturnalbeast",
+  "addons": []
+}
