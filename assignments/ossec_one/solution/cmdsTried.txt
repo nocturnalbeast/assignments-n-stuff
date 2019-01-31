@@ -1,780 +1,0 @@
-Script started on 2018-08-02 15:33:06+0530
-]0;betrant@T2-Reborn:~/Desktop/ossec]0;betrant@T2-Reborn:~/Desktop/ossec]0;~/Desktop/ossec[0m[27m[24m[J
-[34m~/Desktop/ossec[39m
-[35m❯[39m [K[?1h=[?2004h[32ml[39m[32ml[32ms[39m[?1l>[?2004l
-]0;ossec: ls --group-directories-first --color=autocmdsTried.txt
-]0;betrant@T2-Reborn:~/Desktop/ossec]0;~/Desktop/ossec[0m[27m[24m[J
-[34m~/Desktop/ossec[39m
-[35m❯[39m [K[?1h=[?2004h[32ml[39m[32ml[32ms[39m -al[?1l>[?2004l
-]0;ossec: ls --group-directories-first --color=auto -altotal 8
-drwxr-xr-x 2 betrant betrant 4096 Aug  2 15:33 [0m[1;34m.[0m
-drwxr-xr-x 7 betrant betrant 4096 Aug  2 15:32 [1;34m..[0m
--rw-r--r-- 1 betrant betrant    0 Aug  2 15:33 cmdsTried.txt
-]0;betrant@T2-Reborn:~/Desktop/ossec]0;~/Desktop/ossec[0m[27m[24m[J
-[34m~/Desktop/ossec[39m
-[35m❯[39m [K[?1h=[?2004h[4mc[24m[24m[32mc[32md[39m [4m.[24m[4m.[4m.[24m[?1l>[?2004l
-]0;ossec: cd ..]0;betrant@T2-Reborn:~/Desktop]0;~/Desktop[0m[27m[24m[J
-[34m~/Desktop[39m
-[35m❯[39m [K[?1h=[?2004h[32ml[39m[32ml[32ms[39m[?1l>[?2004l
-]0;Desktop: ls --group-directories-first --color=auto[0m[1;34mKPApp[0m  [1;34mossec[0m  [1;34mpafp[0m  [1;34mSDK[0m  [1;34mstudio[0m
-]0;betrant@T2-Reborn:~/Desktop]0;~/Desktop[0m[27m[24m[J
-[34m~/Desktop[39m
-[35m❯[39m [K[?1h=[?2004h[1m[31mc[0m[39m[0m[32mc[32md[39m [33m[39m[33m[39m[33m[39m[33m[39m
-[33m-- local directory --[39m
-[J[1;34mKPApp[0m/   [J[1;34mossec[0m/   [J[1;34mpafp[0m/    [J[1;34mSDK[0m/     [J[1;34mstudio[0m/[J[A[A[0m[27m[24m[39m[2C[32mcd[39m[K[39m[1C[33m[39m[33m[39m[33m[39mKPApp[1m/[0m[33m[39m
-[33m-- local directory --[39m[K[K
-[J[7mKPApp/ [0m  [J[1;34mossec[0m/   [J[1;34mpafp[0m/    [J[1;34mSDK[0m/     [J[1;34mstudio[0m/[J[A[A[0m[27m[24m[39m[2C[32mcd[39m KPApp[1m/[0m[K[39m
-[1B[7mKPApp/ [0m  [7mKPApp/ [0m  [A[A[0m[27m[24m[39m[2C[32mcd[39m KPApp[1m/[0m[K[39mossec[1C
-[1B[9C[7mossec/ [0m  [1;34mKPApp[0m/   [A[A[0m[27m[24m[39m[2C[32mcd[39m ossec[1m/[0m[K[39m
-[J[A[11C[4mo[4ms[4ms[4me[4mc[1m[4m/[0m[24m[4mc[24m[0m[24m [?1l>[?2004l
-[J]0;Desktop: cd ossec]0;betrant@T2-Reborn:~/Desktop/ossec]0;~/Desktop/ossec[0m[27m[24m[J
-[34m~/Desktop/ossec[39m
-[35m❯[39m [K[?1h=[?2004h[32ml[39m[32ml[32ms[39m 0a  -akl  li[?1l>[?2004l
-]0;ossec: ls --group-directories-first --color=auto -alitotal 8
-658935 drwxr-xr-x 2 betrant betrant 4096 Aug  2 15:33 [0m[1;34m.[0m
-262215 drwxr-xr-x 7 betrant betrant 4096 Aug  2 15:32 [1;34m..[0m
-658936 -rw-r--r-- 1 betrant betrant    0 Aug  2 15:33 cmdsTried.txt
-]0;betrant@T2-Reborn:~/Desktop/ossec]0;~/Desktop/ossec[0m[27m[24m[J
-[34m~/Desktop/ossec[39m
-[35m❯[39m [K[?1h=[?2004h[1m[31mp[0m[39m[0m[32mp[32ms[39m aux[?1l>[?2004l
-]0;ossec: ps auxUSER       PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
-root         1  0.0  0.1 225688  9288 ?        Ss   08:35   0:03 /sbin/init spla
-root         2  0.0  0.0      0     0 ?        S    08:35   0:00 [kthreadd]
-root         4  0.0  0.0      0     0 ?        I<   08:35   0:00 [kworker/0:0H]
-root         6  0.0  0.0      0     0 ?        I<   08:35   0:00 [mm_percpu_wq]
-root         7  0.0  0.0      0     0 ?        S    08:35   0:00 [ksoftirqd/0]
-root         8  0.0  0.0      0     0 ?        I    08:35   0:06 [rcu_sched]
-root         9  0.0  0.0      0     0 ?        I    08:35   0:00 [rcu_bh]
-root        10  0.0  0.0      0     0 ?        S    08:35   0:00 [migration/0]
-root        11  0.0  0.0      0     0 ?        S    08:35   0:00 [watchdog/0]
-root        12  0.0  0.0      0     0 ?        S    08:35   0:00 [cpuhp/0]
-root        13  0.0  0.0      0     0 ?        S    08:35   0:00 [cpuhp/1]
-root        14  0.0  0.0      0     0 ?        S    08:35   0:00 [watchdog/1]
-root        15  0.0  0.0      0     0 ?        S    08:35   0:00 [migration/1]
-root        16  0.0  0.0      0     0 ?        S    08:35   0:00 [ksoftirqd/1]
-root        18  0.0  0.0      0     0 ?        I<   08:35   0:00 [kworker/1:0H]
-root        19  0.0  0.0      0     0 ?        S    08:35   0:00 [cpuhp/2]
-root        20  0.0  0.0      0     0 ?        S    08:35   0:00 [watchdog/2]
-root        21  0.0  0.0      0     0 ?        S    08:35   0:00 [migration/2]
-root        22  0.0  0.0      0     0 ?        S    08:35   0:00 [ksoftirqd/2]
-root        24  0.0  0.0      0     0 ?        I<   08:35   0:00 [kworker/2:0H]
-root        25  0.0  0.0      0     0 ?        S    08:35   0:00 [cpuhp/3]
-root        26  0.0  0.0      0     0 ?        S    08:35   0:00 [watchdog/3]
-root        27  0.0  0.0      0     0 ?        S    08:35   0:00 [migration/3]
-root        28  0.0  0.0      0     0 ?        S    08:35   0:00 [ksoftirqd/3]
-root        30  0.0  0.0      0     0 ?        I<   08:35   0:00 [kworker/3:0H]
-root        31  0.0  0.0      0     0 ?        S    08:35   0:00 [kdevtmpfs]
-root        32  0.0  0.0      0     0 ?        I<   08:35   0:00 [netns]
-root        33  0.0  0.0      0     0 ?        S    08:35   0:00 [rcu_tasks_kthr
-root        34  0.0  0.0      0     0 ?        S    08:35   0:00 [kauditd]
-root        37  0.0  0.0      0     0 ?        S    08:35   0:00 [khungtaskd]
-root        38  0.0  0.0      0     0 ?        S    08:35   0:00 [oom_reaper]
-root        39  0.0  0.0      0     0 ?        I<   08:35   0:00 [writeback]
-root        40  0.0  0.0      0     0 ?        S    08:35   0:00 [kcompactd0]
-root        41  0.0  0.0      0     0 ?        SN   08:35   0:00 [ksmd]
-root        42  0.0  0.0      0     0 ?        SN   08:35   0:00 [khugepaged]
-root        43  0.0  0.0      0     0 ?        I<   08:35   0:00 [crypto]
-root        44  0.0  0.0      0     0 ?        I<   08:35   0:00 [kintegrityd]
-root        45  0.0  0.0      0     0 ?        I<   08:35   0:00 [kblockd]
-root        48  0.0  0.0      0     0 ?        I<   08:35   0:00 [ata_sff]
-root        49  0.0  0.0      0     0 ?        I<   08:35   0:00 [md]
-root        50  0.0  0.0      0     0 ?        I<   08:35   0:00 [edac-poller]
-root        51  0.0  0.0      0     0 ?        I<   08:35   0:00 [devfreq_wq]
-root        52  0.0  0.0      0     0 ?        I<   08:35   0:00 [watchdogd]
-root        55  0.0  0.0      0     0 ?        S    08:35   0:00 [kswapd0]
-root        56  0.0  0.0      0     0 ?        S    08:35   0:00 [ecryptfs-kthre
-root        98  0.0  0.0      0     0 ?        I<   08:35   0:00 [kthrotld]
-root        99  0.0  0.0      0     0 ?        I<   08:35   0:00 [acpi_thermal_p
-root       103  0.0  0.0      0     0 ?        I<   08:35   0:00 [ipv6_addrconf]
-root       112  0.0  0.0      0     0 ?        I<   08:35   0:00 [kstrp]
-root       133  0.0  0.0      0     0 ?        I<   08:35   0:00 [charger_manage
-root       182  0.0  0.0      0     0 ?        S    08:35   0:00 [scsi_eh_0]
-root       183  0.0  0.0      0     0 ?        I<   08:35   0:00 [scsi_tmf_0]
-root       184  0.0  0.0      0     0 ?        S    08:35   0:00 [scsi_eh_1]
-root       185  0.0  0.0      0     0 ?        I<   08:35   0:00 [scsi_tmf_1]
-root       186  0.0  0.0      0     0 ?        S    08:35   0:00 [scsi_eh_2]
-root       187  0.0  0.0      0     0 ?        I<   08:35   0:00 [scsi_tmf_2]
-root       188  0.0  0.0      0     0 ?        S    08:35   0:00 [scsi_eh_3]
-root       189  0.0  0.0      0     0 ?        I<   08:35   0:00 [scsi_tmf_3]
-root       195  0.0  0.0      0     0 ?        I<   08:35   0:00 [nvkm-disp]
-root       197  0.0  0.0      0     0 ?        I<   08:35   0:00 [kworker/0:1H]
-root       198  0.0  0.0      0     0 ?        I<   08:35   0:00 [kworker/1:1H]
-root       202  0.0  0.0      0     0 ?        I<   08:35   0:00 [ttm_swap]
-root       228  0.0  0.0      0     0 ?        S    08:35   0:00 [jbd2/sda2-8]
-root       229  0.0  0.0      0     0 ?        I<   08:35   0:00 [ext4-rsv-conve
-root       241  0.0  0.0      0     0 ?        I<   08:35   0:00 [kworker/3:1H]
-root       270  0.0  0.7 181468 59516 ?        S<s  08:35   0:01 /lib/systemd/sy
-root       283  0.0  0.0      0     0 ?        I<   08:35   0:00 [kworker/2:1H]
-root       297  0.0  0.0  97708  1832 ?        Ss   08:35   0:00 /sbin/lvmetad -
-root       302  0.0  0.0  34828  4468 ?        Ss   08:35   0:00 /lib/systemd/sy
-root       322  0.0  0.0      0     0 ?        S    08:35   0:00 [irq/128-mei_me
-systemd+   773  0.0  0.0  71140  6480 ?        Ss   08:35   0:00 /lib/systemd/sy
-systemd+   774  0.0  0.0 146096  3320 ?        Ssl  08:35   0:00 /lib/systemd/sy
-root       778  0.0  0.1 576900 12360 ?        Ssl  08:35   0:02 /usr/lib/udisks
-syslog     780  0.0  0.0 263036  4604 ?        Ssl  08:35   0:00 /usr/sbin/rsysl
-root       781  0.0  0.1 427252  9028 ?        Ssl  08:35   0:00 /usr/sbin/Modem
-root       783  0.0  0.0  38428  3248 ?        Ss   08:35   0:00 /usr/sbin/cron 
-root       786  0.0  0.2 177632 17228 ?        Ssl  08:35   0:00 /usr/bin/python
-root       788  0.0  0.0   4552   848 ?        Ss   08:35   0:00 /usr/sbin/acpid
-root       791  0.0  0.1 186976  9304 ?        Ssl  08:35   0:01 /usr/sbin/therm
-root       793  0.0  0.0 294728  6892 ?        Ssl  08:35   0:00 /usr/lib/accoun
-message+   797  0.0  0.0  51596  5916 ?        Ss   08:35   0:01 /usr/bin/dbus-d
-root       808  0.0  0.0  44752  2812 ?        Ss   08:35   0:00 /sbin/wpa_suppl
-avahi      809  0.0  0.0  47256  3232 ?        Ss   08:35   0:01 avahi-daemon: r
-root       810  0.0  0.0 110476  3428 ?        Ssl  08:35   0:01 /usr/sbin/irqba
-root       814  0.0  0.0  70692  6092 ?        Ss   08:35   0:00 /lib/systemd/sy
-root       816  0.0  0.2 565828 16868 ?        Ssl  08:35   0:00 /usr/sbin/Netwo
-root       844  0.0  0.0      0     0 ?        I<   08:35   0:00 [iprt-VBoxWQueu
-root       848  0.0  0.0      0     0 ?        S    08:35   0:00 [iprt-VBoxTscTh
-avahi      876  0.0  0.0  47076   340 ?        S    08:35   0:00 avahi-daemon: c
-root       883  0.0  0.1 304152 10668 ?        Ssl  08:35   0:00 /usr/lib/policy
-root       930  0.0  0.4 1830172 38684 ?       Ssl  08:35   0:00 /usr/sbin/libvi
-root       937  0.0  0.0 290520  6948 ?        SLsl 08:35   0:00 /usr/sbin/light
-root       943  0.9  1.4 617408 120876 tty7    Ssl+ 08:35   3:54 /usr/lib/xorg/X
-root       954  0.0  0.0  23288  1924 tty1     Ss+  08:35   0:00 /sbin/agetty -o
-root      1014  0.0  0.0  25656  6016 ?        S    08:35   0:00 /sbin/dhclient 
-libvirt+  1179  0.0  0.0  49964  2440 ?        S    08:35   0:00 /usr/sbin/dnsma
-root      1181  0.0  0.0  49936   368 ?        S    08:35   0:00 /usr/sbin/dnsma
-root      1262  0.0  0.1 272448 12504 ?        Ss   08:35   0:00 /usr/sbin/nmbd 
-whoopsie  1269  0.0  0.1 388504 12608 ?        Ssl  08:35   0:00 /usr/bin/whoops
-kernoops  1272  0.0  0.0  56932   420 ?        Ss   08:35   0:00 /usr/sbin/kerne
-kernoops  1281  0.0  0.0  56932   420 ?        Ss   08:35   0:00 /usr/sbin/kerne
-root      1314  0.0  0.2 363732 20744 ?        Ss   08:35   0:00 /usr/sbin/smbd 
-root      1325  0.0  0.0 352132  5964 ?        S    08:35   0:00 /usr/sbin/smbd 
-root      1326  0.0  0.0 352156  4632 ?        S    08:35   0:00 /usr/sbin/smbd 
-root      1419  0.0  0.0 363716  7300 ?        S    08:35   0:00 /usr/sbin/smbd 
-root      1455  0.0  0.1 322316  8712 ?        Ssl  08:35   0:00 /usr/lib/upower
-root      1591  0.0  0.0 250544  7160 ?        Sl   08:35   0:00 lightdm --sessi
-root      2078  0.0  0.6 448760 56124 ?        Ssl  08:35   0:05 /usr/lib/packag
-betrant   2155  0.0  0.1  76984  8260 ?        Ss   08:35   0:00 /lib/systemd/sy
-betrant   2156  0.0  0.0 114172  2772 ?        S    08:35   0:00 (sd-pam)
-betrant   2169  0.0  0.0 288360  7484 ?        Sl   08:35   0:00 /usr/bin/gnome-
-betrant   2175  0.0  0.1 715296 14452 ?        Ssl  08:35   0:00 /usr/lib/gnome-
-betrant   2221  0.0  0.1 362404  8184 ?        Ssl  08:35   0:13 /usr/bin/ibus-d
-betrant   2228  0.0  0.0  51232  5636 ?        Ss   08:35   0:01 /usr/bin/dbus-d
-betrant   2230  0.0  0.0 291956  6852 ?        Ssl  08:35   0:00 /usr/lib/gvfs/g
-betrant   2235  0.0  0.0 416108  5268 ?        Sl   08:35   0:00 /usr/lib/gvfs/g
-betrant   2237  0.0  0.0 280756  6532 ?        Sl   08:35   0:00 /usr/lib/ibus/i
-betrant   2239  0.0  0.4 479196 35396 ?        Sl   08:35   0:04 /usr/lib/ibus/i
-betrant   2246  0.0  0.2 346604 23252 ?        Sl   08:35   0:00 /usr/lib/ibus/i
-betrant   2249  0.0  0.0 278552  5916 ?        Sl   08:35   0:00 /usr/lib/ibus/i
-betrant   2254  0.0  0.0 349344  5532 ?        Ssl  08:35   0:00 /usr/lib/at-spi
-betrant   2259  0.0  0.0  50056  4344 ?        S    08:35   0:00 /usr/bin/dbus-d
-betrant   2261  0.0  0.0 220640  5284 ?        Sl   08:35   0:00 /usr/lib/at-spi
-betrant   2305  0.0  0.0      0     0 ?        Z    08:35   0:00 [xbrlapi] <defu
-betrant   2325  0.0  0.0  11304   316 ?        Ss   08:35   0:00 /usr/bin/ssh-ag
-betrant   2329  0.0  0.0 204880  6544 ?        Sl   08:35   0:03 /usr/lib/ibus/i
-betrant   2342  0.0  0.4 504280 33260 ?        Sl   08:35   0:01 /usr/bin/gnome-
-betrant   2356  0.0  0.2 500716 23228 ?        Sl   08:35   0:00 /usr/lib/gnome-
-betrant   2357  0.0  0.3 942952 25772 ?        Sl   08:35   0:00 /usr/lib/gnome-
-betrant   2361  0.0  0.0 278204  5828 ?        Sl   08:35   0:00 /usr/lib/gnome-
-betrant   2364  0.0  0.3 593656 24608 ?        Sl   08:35   0:00 /usr/lib/gnome-
-betrant   2367  0.0  0.1 349312 10220 ?        Sl   08:35   0:00 /usr/lib/gnome-
-betrant   2368  0.0  0.0 275728  5012 ?        Sl   08:35   0:00 /usr/lib/gnome-
-betrant   2371  0.0  0.0 377976  7800 ?        Sl   08:35   0:00 /usr/lib/gnome-
-betrant   2375  0.0  0.1 332932  9088 ?        Sl   08:35   0:00 /usr/lib/gnome-
-betrant   2376  0.0  0.0 423340  5728 ?        Sl   08:35   0:00 /usr/lib/gnome-
-betrant   2379  0.0  0.1 452868  9600 ?        Sl   08:35   0:00 /usr/lib/gnome-
-betrant   2392  0.0  0.2 504820 23484 ?        Sl   08:35   0:00 /usr/lib/gnome-
-betrant   2393  0.0  0.3 497260 24472 ?        Sl   08:35   0:00 /usr/lib/gnome-
-betrant   2397  0.0  0.2 346264 22648 ?        Sl   08:35   0:00 /usr/lib/gnome-
-betrant   2398  0.0  0.0 278208  5772 ?        Sl   08:35   0:00 /usr/lib/gnome-
-betrant   2401  0.0  0.1 469804 13656 ?        Sl   08:35   0:00 /usr/lib/gnome-
-betrant   2405  0.0  0.2 668104 23044 ?        Sl   08:35   0:01 /usr/lib/gnome-
-betrant   2407  0.0  0.0 364500  7040 ?        Sl   08:35   0:00 /usr/lib/gnome-
-betrant   2425  0.0  0.1 508752 12644 ?        Sl   08:35   0:00 /usr/lib/gnome-
-betrant   2455  0.0  0.1 2220864 12232 ?       S<l  08:35   0:00 /usr/bin/pulsea
-rtkit     2456  0.0  0.0 183504  3020 ?        SNsl 08:35   0:00 /usr/lib/rtkit/
-colord    2461  0.0  0.1 324880 14116 ?        Ssl  08:35   0:00 /usr/lib/colord
-betrant   2510  1.7  1.3 1659400 105784 ?      Sl   08:35   7:13 budgie-wm
-betrant   2538  0.1  1.1 1325732 89292 ?       Sl   08:35   0:26 budgie-panel
-betrant   2554  0.0  0.0 188160  5476 ?        Sl   08:35   0:00 /usr/lib/dconf/
-betrant   2559  0.0  0.1 306416  8536 ?        Ssl  08:35   0:00 /usr/lib/gvfs/g
-betrant   2563  0.0  0.0 378808  7692 ?        Ssl  08:35   0:00 /usr/lib/gvfs/g
-betrant   2568  0.0  0.0 274040  5788 ?        Ssl  08:35   0:00 /usr/lib/gvfs/g
-betrant   2572  0.0  0.3 101434836 31140 ?     Sl   08:35   0:00 /usr/lib/gnome-
-betrant   2607  0.0  0.0 303352  7440 ?        Sl   08:35   0:00 /usr/lib/gnome-
-betrant   2612  0.0  0.0 288652  6684 ?        Ssl  08:35   0:00 /usr/lib/gvfs/g
-betrant   2616  0.0  0.0 275864  4976 ?        Ssl  08:35   0:00 /usr/lib/gvfs/g
-betrant   2623  0.0  0.7 588584 57656 ?        Sl   08:35   0:04 budgie-daemon
-betrant   2625  0.0  0.4 644876 35720 ?        Sl   08:35   0:00 budgie-polkit-d
-betrant   2637  0.0  0.0 271928  6128 ?        Sl   08:35   0:00 /usr/lib/gnome-
-betrant   2638  0.0  1.9 1394528 157008 ?      SLl  08:35   0:04 /usr/bin/gnome-
-betrant   2644  0.0  0.4 598564 36712 ?        Sl   08:35   0:00 nm-applet --no-
-betrant   2649  0.0  0.1 391284 10784 ?        Sl   08:35   0:00 /usr/lib/x86_64
-betrant   2650  0.0  0.7 690176 59872 ?        Sl   08:35   0:04 plank
-betrant   2651  0.0  0.6 545940 51960 ?        Sl   08:35   0:00 /usr/bin/python
-betrant   2652  0.0  0.4 287948 40212 ?        Sl   08:35   0:01 /usr/bin/python
-betrant   2681  0.0  0.6 465200 50500 ?        Ssl  08:35   0:02 /usr/lib/x86_64
-root      2701  0.0  0.2 556916 18960 ?        Ssl  08:35   0:00 /usr/lib/fwupd/
-betrant   2733  0.0  0.9 1089804 73276 ?       Sl   08:36   0:18 /usr/bin/nautil
-betrant   2737  0.0  0.0 368100  7384 ?        Sl   08:36   0:00 /usr/lib/gvfs/g
-betrant   2752  0.0  0.5 809656 41008 ?        Rsl  08:36   0:11 /usr/lib/gnome-
-betrant   2766  0.0  0.0  63280  6556 pts/0    Ss   08:36   0:00 zsh
-betrant   2771  2.4  8.2 3363900 667360 ?      Sl   08:36  10:06 /usr/lib/firefo
-betrant   2779  0.2  1.4 1694744 117700 ?      Sl   08:36   0:56 /usr/share/code
-betrant   2789  0.0  0.0  58716  4084 pts/1    Ss+  08:36   0:00 zsh
-betrant   2808  0.0  0.3 357260 30464 ?        S    08:36   0:00 /usr/share/code
-betrant   2817  0.0  0.0 204544  5968 ?        Ssl  08:36   0:00 /usr/lib/gvfs/g
-betrant   2835  0.0  0.0  79952  5584 ?        S    08:36   0:00 /usr/lib/x86_64
-betrant   2855  0.1  1.0 557396 83224 ?        Sl   08:36   0:32 /proc/self/exe 
-betrant   2928  2.6  5.6 2316396 460896 ?      Sl   08:36  10:55 /usr/lib/firefo
-betrant   3014  1.2  8.4 2687308 688636 ?      Sl   08:36   5:13 /usr/lib/firefo
-betrant   3090  0.0  1.3 1221860 107404 ?      Sl   08:36   0:13 /usr/share/code
-betrant   3396  0.0  0.4 644968 33420 ?        Sl   08:36   0:00 update-notifier
-root      3454  0.0  0.0 219332  6880 ?        Sl   08:37   0:00 /usr/bin/pkexec
-betrant   3568  0.0  0.0   4628  1696 pts/0    S+   08:38   0:00 /bin/sh ./studi
-betrant   3620  1.0  9.9 5183052 806012 pts/0  Sl+  08:38   4:31 /home/betrant/D
-betrant   3653  0.0  0.0   4700  1780 pts/0    S+   08:38   0:00 /home/betrant/D
-root      4019  0.0  0.1 107680  8116 ?        Ss   08:40   0:00 /usr/sbin/cupsd
-root      4020  0.0  0.1 303516 10968 ?        Ssl  08:40   0:00 /usr/sbin/cups-
-betrant   4598  0.3  3.5 1877296 285396 ?      Sl   08:56   1:20 /usr/lib/firefo
-betrant   4635  1.2  3.9 2024552 322620 ?      Sl   08:56   5:06 /usr/lib/firefo
-betrant   4707  0.0  0.0  64896  7888 pts/2    Ss   08:57   0:03 zsh
-betrant   4714  0.0  0.0  58720  4200 pts/3    Ss+  08:57   0:00 zsh
-root      6142  0.0  0.1 370152 15008 ?        S    10:40   0:00 /usr/sbin/smbd 
-root      6805  0.0  0.1 370152 15008 ?        S    11:27   0:00 /usr/sbin/smbd 
-root      7373  0.0  0.0      0     0 ?        I    12:35   0:00 [kworker/0:0]
-betrant   7549  0.7  2.6 1292680 214632 ?      Sl   12:51   1:14 /usr/share/code
-betrant   7573  0.0  0.9 1005784 73464 ?       Sl   12:51   0:02 /usr/share/code
-betrant   7612  0.0  0.6 936232 52860 ?        Sl   12:51   0:00 /usr/share/code
-root      7760  0.0  0.0      0     0 ?        I    12:54   0:06 [kworker/u8:4]
-betrant   9241  0.2  0.6 945276 52516 ?        Sl   13:13   0:17 uget-gtk
-root      9550  0.0  0.0      0     0 ?        I    13:32   0:02 [kworker/u8:2]
-root     10722  0.0  0.0      0     0 ?        I    13:44   0:00 [kworker/2:0]
-root     10723  0.0  0.0      0     0 ?        I    13:44   0:00 [kworker/3:0]
-betrant  12846  0.0  0.4 662880 37760 ?        Sl   14:03   0:01 file-roller /ho
-betrant  12873  0.0  0.7 1357236 59860 ?       Sl   14:03   0:02 evince /home/be
-betrant  12881  0.0  0.0 187732  4248 ?        Ssl  14:03   0:00 /usr/lib/evince
-root     13393  0.0  0.0      0     0 ?        I    14:44   0:00 [kworker/0:1]
-root     13722  0.0  0.0      0     0 ?        I    15:15   0:00 [kworker/1:1]
-root     13768  0.0  0.0      0     0 ?        I    15:19   0:00 [kworker/3:2]
-root     13807  0.0  0.0      0     0 ?        I    15:23   0:00 [kworker/2:1]
-betrant  13856  0.0  0.0 444156  7484 ?        Sl   15:25   0:00 /usr/lib/gvfs/g
-betrant  13870  0.0  0.0 381284  7308 ?        Sl   15:25   0:00 /usr/lib/gvfs/g
-betrant  13876  0.0  0.2 840348 19584 ?        SLl  15:25   0:00 /usr/lib/gvfs/g
-root     13893  0.1  0.0      0     0 ?        I    15:26   0:00 [kworker/u8:1]
-betrant  13924  0.1  0.6 1324156 54484 ?       Sl   15:27   0:00 evince /run/use
-betrant  13945  0.0  0.1 359648 10064 ?        Sl   15:27   0:00 /usr/lib/gvfs/g
-root     13960  0.0  0.0      0     0 ?        I    15:27   0:00 [kworker/1:0]
-betrant  14169  0.0  0.0  29352  2612 pts/2    S+   15:33   0:00 script cmdsTrie
-betrant  14170  0.3  0.0  63028  6600 pts/4    Ss   15:33   0:00 zsh -i
-betrant  14176  0.0  0.0  58624  4144 pts/5    Ss+  15:33   0:00 zsh -i
-betrant  14246  0.0  0.0  46772  3512 pts/4    R+   15:33   0:00 ps aux
-]0;betrant@T2-Reborn:~/Desktop/ossec]0;~/Desktop/ossec[0m[27m[24m[J
-[34m~/Desktop/ossec[39m
-[35m❯[39m [K[?1h=[?2004h[1m[31mt[0m[39m[1m[31mt[1m[31mo[0m[39m[1m[31mt[1m[31mo[1m[31mu[0m[39m[1m[31mu[1m[31mc[0m[39m[0m[32mt[0m[32mo[0m[32mu[0m[32mc[32mh[39m newfile[?1l>[?2004l
-]0;ossec: touch newfile]0;betrant@T2-Reborn:~/Desktop/ossec]0;~/Desktop/ossec[0m[27m[24m[J
-[34m~/Desktop/ossec[39m
-[35m❯[39m [K[?1h=[?2004h[1m[31mp[0m[39m[1m[31mp[1m[31mg[0m[39m[1m[31mp[1m[31mg[1m[31mr[0m[39m[1m[31mr[1m[31me[0m[39m[0m[32mp[0m[32mg[0m[32mr[0m[32me[32mp[39m [1m[31mp[1m[31mg[1m[31mr[1m[31me[0m[39m[39m [1m[31mr[0m[39m[0m[39m [1m[31mp[1m[31mg[0m[39m[0m[39m [1m[31mp[0m[39m[0m[39m [0m[39m [1m[31md[0m[39m[0m[32md[32mf[39m -h[?1l>[?2004l
-]0;ossec: df -h -hFilesystem      Size  Used Avail Use% Mounted on
-udev            3.9G     0  3.9G   0% /dev
-tmpfs           792M  3.2M  789M   1% /run
-/dev/sda2       457G   25G  410G   6% /
-tmpfs           3.9G   62M  3.9G   2% /dev/shm
-tmpfs           5.0M  4.0K  5.0M   1% /run/lock
-tmpfs           3.9G     0  3.9G   0% /sys/fs/cgroup
-/dev/sda1       511M  5.9M  506M   2% /boot/efi
-tmpfs           792M   68K  792M   1% /run/user/1000
-]0;betrant@T2-Reborn:~/Desktop/ossec]0;~/Desktop/ossec[0m[27m[24m[J
-[34m~/Desktop/ossec[39m
-[35m❯[39m [K[?1h=[?2004h[4mc[24m[24m[1m[31mc[1m[31mh[0m[39m[1m[31mc[1m[31mh[1m[31mm[0m[39m[1m[31mm[1m[31mo[0m[39m[0m[32mc[0m[32mh[0m[32mm[0m[32mo[32md[39m 777 [4mn[24m[4mn[4me[24m[4me[4mw[24m[33m[39m[4mw[4mfile[24m[1m [0m[0m [?1l>[?2004l
-]0;ossec: chmod --preserve-root -v 777 newfilemode of 'newfile' changed from 0644 (rw-r--r--) to 0777 (rwxrwxrwx)
-]0;betrant@T2-Reborn:~/Desktop/ossec]0;~/Desktop/ossec[0m[27m[24m[J
-[34m~/Desktop/ossec[39m
-[35m❯[39m [K[?1h=[?2004h[4mc[24m[24m[1m[31mc[1m[31mh[0m[39m[1m[31mc[1m[31mh[1m[31mm[0m[39m[1m[31mm[1m[31mo[0m[39m[0m[32mc[0m[32mh[0m[32mm[0m[32mo[32md[39m -x [4mn[24m[4mn[4me[24m[4me[4mw[24m[4mw[4mf[24m[4mf[4mi[24m[4mi[4ml[24m[4ml[4me[24m[?1l>[?2004l
-]0;ossec: chmod --preserve-root -v -x newfilemode of 'newfile' changed from 0777 (rwxrwxrwx) to 0666 (rw-rw-rw-)
-]0;betrant@T2-Reborn:~/Desktop/ossec]0;~/Desktop/ossec[0m[27m[24m[J
-[34m~/Desktop/ossec[39m
-[35m❯[39m [K[?1h=[?2004h[32ml[39m[32ml[32ms[39m 0 -alk [?1l>[?2004l
-]0;ossec: ls --group-directories-first --color=auto -altotal 28
-drwxr-xr-x 2 betrant betrant  4096 Aug  2 15:34 [0m[1;34m.[0m
-drwxr-xr-x 7 betrant betrant  4096 Aug  2 15:32 [1;34m..[0m
--rw-r--r-- 1 betrant betrant 20480 Aug  2 15:33 cmdsTried.txt
--rw-rw-rw- 1 betrant betrant     0 Aug  2 15:34 newfile
-]0;betrant@T2-Reborn:~/Desktop/ossec]0;~/Desktop/ossec[0m[27m[24m[J
-[34m~/Desktop/ossec[39m
-[35m❯[39m [K[?1h=[?2004h[32ml[39m[32ml[32ms[39m [32ml[39m[39m [39m [1m[31mp[0m[39m[0m[32mp[32ms[39m - aux | [32mg[39m[32mg[32mr[39m[1m[31mg[1m[31mr[1m[31me[0m[39m[0m[32mg[0m[32mr[0m[32me[32mp[39m firefox[?1l>[?2004l
-]0;ossec: ps aux | grep --color=auto firefoxbetrant   2771  2.4  8.2 3357752 667956 ?      Sl   08:36  10:07 /usr/lib/[37;45m[Kfirefox[m[K/[37;45m[Kfirefox[m[K
-betrant   2928  2.6  5.6 2316396 461136 ?      Sl   08:36  10:55 /usr/lib/[37;45m[Kfirefox[m[K/[37;45m[Kfirefox[m[K -contentproc -childID 1 -isForBrowser -prefsLen 8018 -schedulerPrefs 0001,2 -greomni /usr/lib/[37;45m[Kfirefox[m[K/omni.ja -appomni /usr/lib/[37;45m[Kfirefox[m[K/browser/omni.ja -appdir /usr/lib/[37;45m[Kfirefox[m[K/browser 2771 true tab
-betrant   3014  1.2  8.4 2685260 688440 ?      Sl   08:36   5:14 /usr/lib/[37;45m[Kfirefox[m[K/[37;45m[Kfirefox[m[K -contentproc -childID 2 -isForBrowser -prefsLen 11210 -schedulerPrefs 0001,2 -greomni /usr/lib/[37;45m[Kfirefox[m[K/omni.ja -appomni /usr/lib/[37;45m[Kfirefox[m[K/browser/omni.ja -appdir /usr/lib/[37;45m[Kfirefox[m[K/browser 2771 true tab
-betrant   4598  0.3  3.5 1877296 285564 ?      Sl   08:56   1:21 /usr/lib/[37;45m[Kfirefox[m[K/[37;45m[Kfirefox[m[K -contentproc -childID 5 -isForBrowser -prefsLen 12089 -schedulerPrefs 0001,2 -greomni /usr/lib/[37;45m[Kfirefox[m[K/omni.ja -appomni /usr/lib/[37;45m[Kfirefox[m[K/browser/omni.ja -appdir /usr/lib/[37;45m[Kfirefox[m[K/browser 2771 true tab
-betrant   4635  1.2  3.9 2024552 322916 ?      Sl   08:56   5:06 /usr/lib/[37;45m[Kfirefox[m[K/[37;45m[Kfirefox[m[K -contentproc -childID 6 -isForBrowser -prefsLen 12089 -schedulerPrefs 0001,2 -greomni /usr/lib/[37;45m[Kfirefox[m[K/omni.ja -appomni /usr/lib/[37;45m[Kfirefox[m[K/browser/omni.ja -appdir /usr/lib/[37;45m[Kfirefox[m[K/browser 2771 true tab
-betrant  14314  0.0  0.0  21536  1028 pts/4    S+   15:34   0:00 grep --color=auto [37;45m[Kfirefox[m[K
-]0;betrant@T2-Reborn:~/Desktop/ossec]0;~/Desktop/ossec[0m[27m[24m[J
-[34m~/Desktop/ossec[39m
-[35m❯[39m [K[?1h=[?2004h[32ml[39m[1m[31ml[1m[31mu[0m[39m[0m[32ml[39m[0m[39m [1m[31ml[1m[31my[0m[39m[1m[31ml[1m[31my[1m[31mn[0m[39m[1m[31mn[1m[31mx[0m[39m[?1l>[?2004l
-]0;ossec: lynxzsh: command not found: lynx
-]0;betrant@T2-Reborn:~/Desktop/ossec]0;~/Desktop/ossec[0m[27m[24m[J
-[34m~/Desktop/ossec[39m
-[31m❯[39m [K[?1h=[?2004h[32mw[39m[1m[31mw[1m[31m3[0m[39m[1m[31mw[1m[31m3[1m[31mm[0m[39m[1m[31mw[1m[31m3[0m[39m[0m[39m [0m[32mw[39m[0m[39m [39m [1m[31mp[0m[39m[1m[31mp[1m[31mg[0m[39m[1m[31mp[1m[31mg[1m[31mr[0m[39m[1m[31mr[1m[31me[0m[39m[0m[32mp[0m[32mg[0m[32mr[0m[32me[32mp[39m vlc[?1l>[?2004l
-]0;ossec: pgrep vlc14337
-]0;betrant@T2-Reborn:~/Desktop/ossec]0;~/Desktop/ossec[0m[27m[24m[J
-[34m~/Desktop/ossec[39m
-[35m❯[39m [K[?1h=[?2004h[1m[31mk[0m[39m[1m[31mk[1m[31mi[0m[39m[1m[31mk[1m[31mi[1m[31ml[0m[39m[0m[32mk[0m[32mi[0m[32ml[32ml[39m 14337[?1l>[?2004l
-]0;ossec: kill 14337]0;betrant@T2-Reborn:~/Desktop/ossec]0;~/Desktop/ossec[0m[27m[24m[J
-[34m~/Desktop/ossec[39m
-[35m❯[39m [K[?1h=[?2004h[1m[31mm[0m[39m[1m[31mm[1m[31ma[0m[39m[0m[32mm[0m[32ma[32mn[39m gcc[?1l>[?2004l
-]0;ossec: man gcc[?1049h[22;0;0t[?1h=GCC(1)                                GNU                               GCC(1)[m
-[m
-[1;31mNAME[0m[m
-       gcc - GNU project C and C++ compiler[m
-[m
-[1;31mSYNOPSIS[0m[m
-       gcc [[1;31m-c[0m|[1;31m-S[0m|[1;31m-E[0m] [[1;31m-std=[0m[1;32mstandard[0m][m
-           [[1;31m-g[0m] [[1;31m-pg[0m] [[1;31m-O[0m[1;32mlevel[0m][m
-           [[1;31m-W[0m[1;32mwarn[0m...] [[1;31m-Wpedantic[0m][m
-           [[1;31m-I[0m[1;32mdir[0m...] [[1;31m-L[0m[1;32mdir[0m...][m
-           [[1;31m-D[0m[1;32mmacro[0m[=[1;32mdefn[0m]...] [[1;31m-U[0m[1;32mmacro[0m][m
-           [[1;31m-f[0m[1;32moption[0m...] [[1;31m-m[0m[1;32mmachine-option[0m...][m
-           [[1;31m-o[0m [1;32moutfile[0m] [@[1;32mfile[0m] [1;32minfile[0m...[m
-[m
-       Only the most useful options are listed here; see below for the[m
-       remainder.  [1;31mg++[0m accepts mostly the same options as [1;31mgcc[0m.[m
-[m
-[1;31mDESCRIPTION[0m[m
-       When you invoke GCC, it normally does preprocessing, compilation,[m
-       assembly and linking.  The "overall options" allow you to stop this[m
-       process at an intermediate stage.  For example, the [1;31m-c[0m option says not[m
-       to run the linker.  Then the output consists of object files output by[m
-       the assembler.[m
-[7m Manual page gcc(1) line 1 (press h for help or q to quit)[0m[K[K[?1l>[?1049l[23;0;0t]0;betrant@T2-Reborn:~/Desktop/ossec]0;~/Desktop/ossec[0m[27m[24m[J
-[34m~/Desktop/ossec[39m
-[35m❯[39m [K[?1h=[?2004h[1m[31mm[0m[39m[1m[31mm[1m[31ma[0m[39m[0m[32mm[0m[32ma[32mn[39m make[?1l>[?2004l
-]0;ossec: man make[?1049h[22;0;0t[?1h=MAKE(1)                          User Commands                         MAKE(1)[m
-[m
-[1;31mNAME[0m[m
-       make - GNU make utility to maintain groups of programs[m
-[m
-[1;31mSYNOPSIS[0m[m
-       [1;31mmake[0m [[1;32mOPTION[0m]... [[1;32mTARGET[0m]...[m
-[m
-[1;31mDESCRIPTION[0m[m
-       The  [1;32mmake[0m  utility will determine automatically which pieces of a large[m
-       program need to be recompiled, and  issue  the  commands  to  recompile[m
-       them.   The  manual describes the GNU implementation of [1;31mmake[0m, which was[m
-       written by Richard Stallman and Roland McGrath, and is currently  main‐[m
-       tained  by  Paul  Smith.   Our examples show C programs, since they are[m
-       very common, but you can use [1;31mmake[0m with any programming  language  whose[m
-       compiler can be run with a shell command.  In fact, [1;31mmake[0m is not limited[m
-       to programs.  You can use it to describe any task where some files must[m
-       be updated automatically from others whenever the others change.[m
-[m
-       To  prepare to use [1;31mmake[0m, you must write a file called the [1;32mmakefile[0m that[m
-       describes the relationships among files in your program, and the states[m
-       the  commands for updating each file.  In a program, typically the exe‐[m
-       cutable file is updated from object files, which are in  turn  made  by[m
-[7m Manual page make(1) line 1 (press h for help or q to quit)[0m[K[K:[K11[K[K[7m Manual page make(1) line 1 (press h for help or q to quit)[0m[K[K[?1l>[?1049l[23;0;0t]0;betrant@T2-Reborn:~/Desktop/ossec]0;~/Desktop/ossec[0m[27m[24m[J
-[34m~/Desktop/ossec[39m
-[35m❯[39m [K[?1h=[?2004h[1m[31mm[0m[39m[1m[31mm[1m[31ma[0m[39m[0m[32mm[0m[32ma[32mn[39m mkfs[?1l>[?2004l
-]0;ossec: man mkfs[?1049h[22;0;0t[?1h=MKFS(8)                      System Administration                     MKFS(8)[m
-[m
-[1;31mNAME[0m[m
-       mkfs - build a Linux filesystem[m
-[m
-[1;31mSYNOPSIS[0m[m
-       [1;31mmkfs[0m [options] [[1;31m-t[0m [1;32mtype[0m] [[1;32mfs-options[0m] [1;32mdevice[0m [[1;32msize[0m][m
-[m
-[1;31mDESCRIPTION[0m[m
-       [1;31mThis[0m  [1;31mmkfs[0m  [1;31mfrontend[0m  [1;31mis[0m  [1;31mdeprecated[0m  [1;31min[0m  [1;31mfavour[0m [1;31mof[0m [1;31mfilesystem[0m [1;31mspecific[0m[m
-       [1;31mmkfs.<type>[0m [1;31mutils.[0m[m
-[m
-       [1;31mmkfs[0m is used to build a Linux filesystem on a device,  usually  a  hard[m
-       disk  partition.   The  [1;32mdevice[0m argument is either the device name (e.g.[m
-       [1;32m/dev/hda1[0m, [1;32m/dev/sdb2[0m),  or  a  regular  file  that  shall  contain  the[m
-       filesystem.   The  [1;32msize[0m argument is the number of blocks to be used for[m
-       the filesystem.[m
-[m
-       The exit code returned by [1;31mmkfs[0m is 0 on success and 1 on failure.[m
-[m
-       In actuality, [1;31mmkfs[0m is simply a front-end  for  the  various  filesystem[m
-       builders  ([1;31mmkfs.[0m[1;32mfstype[0m) available under Linux.  The filesystem-specific[m
-       builder is searched for via your PATH environment setting only.  Please[m
-[7m Manual page mkfs(8) line 1 (press h for help or q to quit)[0m[K[K [KESCESC[KOO[KBB[K       see the filesystem-specific builder manual pages for further details.[m
-[7m Manual page mkfs(8) line 2 (press h for help or q to quit)[0m[K[K [KESCESC[KOO[KBB[K[m
-[7m Manual page mkfs(8) line 3 (press h for help or q to quit)[0m[K[K [KESCESC[KOO[KBB[K[1;31mOPTIONS[0m[m
-[7m Manual page mkfs(8) line 4 (press h for help or q to quit)[0m[K[K [KESCESC[KOO[KBB[K       [1;31m-t[0m, [1;31m--type[0m [1;32mtype[0m[m
-[7m Manual page mkfs(8) line 5 (press h for help or q to quit)[0m[K[K [KESCESC[KOO[KBB[K              Specify  the  [1;32mtype[0m of filesystem to be built.  If not specified,[m
-[7m Manual page mkfs(8) line 6 (press h for help or q to quit)[0m[K[K [KESCESC[KOO[KBB[K              the default filesystem type (currently ext2) is used.[m
-[7m Manual page mkfs(8) line 7 (press h for help or q to quit)[0m[K[K [KESCESC[KOO[KBB[K[m
-[7m Manual page mkfs(8) line 8 (press h for help or q to quit)[0m[K[K [KESCESC[KOO[KBB[K       [1;32mfs-options[0m[m
-[7m Manual page mkfs(8) line 9 (press h for help or q to quit)[0m[K[K [KESCESC[KOO[KBB[K              Filesystem-specific options to be passed to the real  filesystem[m
-[7m Manual page mkfs(8) line 10 (press h for help or q to quit)[0m[K[K [KESCESC[KOO[KBB[K              builder.[m
-[7m Manual page mkfs(8) line 11 (press h for help or q to quit)[0m[K[K [KESCESC[KOO[KBB[K[m
-[7m Manual page mkfs(8) line 12 (press h for help or q to quit)[0m[K[K [KESCESC[KOO[KBB[K       [1;31m-V[0m, [1;31m--verbose[0m[m
-[7m Manual page mkfs(8) line 13 (press h for help or q to quit)[0m[K[K [KESCESC[KOO[KBB[K              Produce  verbose  output, including all filesystem-specific com‐[m
-[7m Manual page mkfs(8) line 14 (press h for help or q to quit)[0m[K[K [KESCESC[KOO[KBB[K              mands that are executed.  Specifying this option more than  once[m
-[7m Manual page mkfs(8) line 15 (press h for help or q to quit)[0m[K[K [KESCESC[KOO[KBB[K              inhibits execution of any filesystem-specific commands.  This is[m
-[7m Manual page mkfs(8) line 16 (press h for help or q to quit)[0m[K[K [KESCESC[KOO[KBB[K              really only useful for testing.[m
-[7m Manual page mkfs(8) line 17 (press h for help or q to quit)[0m[K[K [KESCESC[KOO[KBB[K[m
-[7m Manual page mkfs(8) line 18 (press h for help or q to quit)[0m[K[K [KESCESC[KOO[KBB[K       [1;31m-V[0m, [1;31m--version[0m[m
-[7m Manual page mkfs(8) line 19 (press h for help or q to quit)[0m[K[K [KESCESC[KOO[KBB[K              Display version information and exit.  (Option [1;31m-V[0m  will  display[m
-[7m Manual page mkfs(8) line 20 (press h for help or q to quit)[0m[K[K [KESCESC[KOO[KBB[K              version  information  only when it is the only parameter, other‐[m
-[7m Manual page mkfs(8) line 21 (press h for help or q to quit)[0m[K[K [KESCESC[KOO[KBB[K              wise it will work as [1;31m--verbose[0m.)[m
-[7m Manual page mkfs(8) line 22 (press h for help or q to quit)[0m[K[K [KESCESC[KOO[KBB[K[m
-[7m Manual page mkfs(8) line 23 (press h for help or q to quit)[0m[K[K [KESCESC[KOO[KBB[K       [1;31m-h[0m, [1;31m--help[0m[m
-[7m Manual page mkfs(8) line 24 (press h for help or q to quit)[0m[K[K [KESCESC[KOO[KBB[K              Display help text and exit.[m
-[7m Manual page mkfs(8) line 25 (press h for help or q to quit)[0m[K[K [KESCESC[KOO[KBB[K[m
-[7m Manual page mkfs(8) line 26 (press h for help or q to quit)[0m[K[K [KESCESC[KOO[KBB[K[1;31mBUGS[0m[m
-[7m Manual page mkfs(8) line 27 (press h for help or q to quit)[0m[K[K [KESCESC[KOO[KBB[K       All generic options must precede and not be combined  with  filesystem-[m
-[7m Manual page mkfs(8) line 28 (press h for help or q to quit)[0m[K[K [KESCESC[KOO[KBB[K       specific  options.   Some filesystem-specific programs do not automati‐[m
-[7m Manual page mkfs(8) line 29 (press h for help or q to quit)[0m[K[K [KESCESC[KOO[KBB[K       cally detect the device size and require the [1;32msize[0m parameter to be spec‐[m
-[7m Manual page mkfs(8) line 30 (press h for help or q to quit)[0m[K[K [KESCESC[KOO[KBB[K       ified.[m
-[7m Manual page mkfs(8) line 31 (press h for help or q to quit)[0m[K[K [KESCESC[KOO[KBB[K[m
-[7m Manual page mkfs(8) line 32 (press h for help or q to quit)[0m[K[K [KESCESC[KOO[KBB[K[1;31mAUTHORS[0m[m
-[7m Manual page mkfs(8) line 33 (press h for help or q to quit)[0m[K[K [KESCESC[KOO[KBB[K       David Engel (david@ods.com)[m
-[7m Manual page mkfs(8) line 34 (press h for help or q to quit)[0m[K[K [KESCESC[KOO[KBB[K       Fred N. van Kempen (waltje@uwalt.nl.mugnet.org)[m
-[7m Manual page mkfs(8) line 35 (press h for help or q to quit)[0m[K[K [KESCESC[KOO[KBB[K       Ron Sommeling (sommel@sci.kun.nl)[m
-[7m Manual page mkfs(8) line 36 (press h for help or q to quit)[0m[K[K [KESCESC[KOO[KBB[K       The  manual  page  was shamelessly adapted from Remy Card's version for[m
-[7m Manual page mkfs(8) line 37 (press h for help or q to quit)[0m[K[K [KESCESC[KOO[KBB[K       the ext2 filesystem.[m
-[7m Manual page mkfs(8) line 38 (press h for help or q to quit)[0m[K[K [KESCESC[KOO[KBB[K[m
-[7m Manual page mkfs(8) line 39 (press h for help or q to quit)[0m[K[K [KESCESC[KOO[KBB[K[1;31mSEE[0m [1;31mALSO[0m[m
-[7m Manual page mkfs(8) line 40 (press h for help or q to quit)[0m[K[K [KESCESC[KOO[KBB[K       [1;31mfs[0m(5), [1;31mbadblocks[0m(8), [1;31mfsck[0m(8), [1;31mmkdosfs[0m(8), [1;31mmke2fs[0m(8), [1;31mmkfs.bfs[0m(8),[m
-[7m Manual page mkfs(8) line 41 (press h for help or q to quit)[0m[K[K [KESCESC[KOO[KBB[K       [1;31mmkfs.ext2[0m(8), [1;31mmkfs.ext3[0m(8), [1;31mmkfs.ext4[0m(8), [1;31mmkfs.minix[0m(8), [1;31mmkfs.msdos[0m(8),[m
-[7m Manual page mkfs(8) line 42 (press h for help or q to quit)[0m[K[K [KESCESC[KOO[KBB[K       [1;31mmkfs.vfat[0m(8), [1;31mmkfs.xfs[0m(8)[m
-[7m Manual page mkfs(8) line 43 (press h for help or q to quit)[0m[K[K [KESCESC[KOO[KBB[K[m
-[7m Manual page mkfs(8) line 44 (press h for help or q to quit)[0m[K[K [KESCESC[KOO[KBB[K[1;31mAVAILABILITY[0m[m
-[7m Manual page mkfs(8) line 45 (press h for help or q to quit)[0m[K[K [KESCESC[KOO[KBB[K       The mkfs command is part of the util-linux  package  and  is  available[m
-[7m Manual page mkfs(8) line 46 (press h for help or q to quit)[0m[K[K [KESCESC[KOO[KBB[K       from https://www.kernel.org/pub/linux/utils/util-linux/.[m
-[7m Manual page mkfs(8) line 47 (press h for help or q to quit)[0m[K[K [KESCESC[KOO[KBB[K[m
-[7m Manual page mkfs(8) line 48 (press h for help or q to quit)[0m[K[K [KESCESC[KOO[KBB[Kutil-linux                         June 2011                           MKFS(8)[m
-[7m Manual page mkfs(8) line 49 (press h for help or q to quit)[0m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page mkfs(8) line 49/71 (END) (press h for help or q to quit)[0m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page mkfs(8) line 49/71 (END) (press h for help or q to quit)[0m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page mkfs(8) line 49/71 (END) (press h for help or q to quit)[0m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page mkfs(8) line 49/71 (END) (press h for help or q to quit)[0m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page mkfs(8) line 49/71 (END) (press h for help or q to quit)[0m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page mkfs(8) line 49/71 (END) (press h for help or q to quit)[0m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page mkfs(8) line 49/71 (END) (press h for help or q to quit)[0m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page mkfs(8) line 49/71 (END) (press h for help or q to quit)[0m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page mkfs(8) line 49/71 (END) (press h for help or q to quit)[0m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page mkfs(8) line 49/71 (END) (press h for help or q to quit)[0m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page mkfs(8) line 49/71 (END) (press h for help or q to quit)[0m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page mkfs(8) line 49/71 (END) (press h for help or q to quit)[0m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page mkfs(8) line 49/71 (END) (press h for help or q to quit)[0m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page mkfs(8) line 49/71 (END) (press h for help or q to quit)[0m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page mkfs(8) line 49/71 (END) (press h for help or q to quit)[0m[K[K[?1l>[?1049l[23;0;0t]0;betrant@T2-Reborn:~/Desktop/ossec]0;~/Desktop/ossec[0m[27m[24m[J
-[34m~/Desktop/ossec[39m
-[35m❯[39m [K[?1h=[?2004h[32mw[39m[1m[31mw[1m[31mg[0m[39m[1m[31mw[1m[31mg[1m[31me[0m[39m[0m[32mw[0m[32mg[0m[32me[32mt[39m [7mhttps://services.gradle.org/distributions/gradle-4.4-all.zip[27m[60D[27mh[27mt[27mt[27mp[27ms[27m:[27m/[27m/[27ms[27me[27mr[27mv[27mi[27mc[27me[27ms[27m.[27mg[27mr[27ma[27md[27ml[27me[27m.[27mo[27mr[27mg[27m/[27md[27mi[27ms[27mt[27mr[27mi[27mb[27mu[27mt[27mi[27mo[27mn[27ms[27m/[27mg[27mr[27ma[27md[27ml[27me[27m-[27m4[27m.[27m4[27m-[27ma[27ml[27ml[27m.[27mz[27mi[27mp[?1l>[?2004l
-]0;ossec: wget https://services.gradle.org/distributions/gradle-4.4-all.zip--2018-08-02 15:36:37--  https://services.gradle.org/distributions/gradle-4.4-all.zip
-Resolving services.gradle.org (services.gradle.org)... 104.16.172.166, 104.16.171.166, 104.16.173.166, ...
-Connecting to services.gradle.org (services.gradle.org)|104.16.172.166|:443... connected.
-HTTP request sent, awaiting response... 301 Moved Permanently
-Location: https://downloads.gradle.org/distributions/gradle-4.4-all.zip [following]
---2018-08-02 15:36:39--  https://downloads.gradle.org/distributions/gradle-4.4-all.zip
-Resolving downloads.gradle.org (downloads.gradle.org)... 104.16.172.166, 104.16.173.166, 104.16.174.166, ...
-Connecting to downloads.gradle.org (downloads.gradle.org)|104.16.172.166|:443... connected.
-HTTP request sent, awaiting response... 200 OK
-Length: 98824466 (94M) [application/zip]
-Saving to: ‘gradle-4.4-all.zip’
-
-gradle-4.4-all.zip    0%[                    ]       0  --.-KB/s               gradle-4.4-all.zip    0%[                    ]   9.77K  14.1KB/s               gradle-4.4-all.zip    0%[                    ]  23.14K  10.3KB/s               gradle-4.4-all.zip    0%[                    ]  28.48K  9.07KB/s    eta 2h 57m gradle-4.4-all.zip    0%[                    ]  57.51K  15.6KB/s    eta 2h 57m gradle-4.4-all.zip    0%[                    ]  61.64K  14.2KB/s    eta 1h 52m ^C
-]0;betrant@T2-Reborn:~/Desktop/ossec]0;~/Desktop/ossec[0m[27m[24m[J
-[34m~/Desktop/ossec[39m [33m10s[39m
-[31m❯[39m [K[?1h=[?2004h[32mw[39m[1m[31mw[1m[31mh[0m[39m[0m[32mw[0m[32mh[32mo[39m[?1l>[?2004l
-]0;ossec: whobetrant  tty7         2018-08-02 08:35 (:0)
-]0;betrant@T2-Reborn:~/Desktop/ossec]0;~/Desktop/ossec[0m[27m[24m[J
-[34m~/Desktop/ossec[39m
-[35m❯[39m [K[?1h=[?2004h[32mw[39m[1m[31mw[1m[31mh[0m[39m[0m[32mw[0m[32mh[32mo[39m[1m[31mw[1m[31mh[1m[31mo[1m[31ma[0m[39m[1m[31ma[1m[31mm[0m[39m[0m[32mw[0m[32mh[0m[32mo[0m[32ma[0m[32mm[32mi[39m[?1l>[?2004l
-]0;ossec: whoamibetrant
-]0;betrant@T2-Reborn:~/Desktop/ossec]0;~/Desktop/ossec[0m[27m[24m[J
-[34m~/Desktop/ossec[39m
-[35m❯[39m [K[?1h=[?2004h[1m[31mt[0m[39m[1m[31mt[1m[31mi[0m[39m[1m[31mt[1m[31mi[1m[31mm[0m[39m[0m[33mt[0m[33mi[0m[33mm[33me[39m[?1l>[?2004l
-]0;ossec: timeshell  0.57s user 0.22s system 0% cpu 3:53.37 total
-children  0.56s user 0.10s system 0% cpu 3:53.37 total
-]0;betrant@T2-Reborn:~/Desktop/ossec]0;~/Desktop/ossec[0m[27m[24m[J
-[34m~/Desktop/ossec[39m
-[35m❯[39m [K[?1h=[?2004h[1m[31md[0m[39m[1m[31md[1m[31ma[0m[39m[1m[31md[1m[31ma[1m[31mt[0m[39m[0m[32md[0m[32ma[0m[32mt[32me[39m[?1l>[?2004l
-]0;ossec: dateThu Aug  2 15:37:02 IST 2018
-]0;betrant@T2-Reborn:~/Desktop/ossec]0;~/Desktop/ossec[0m[27m[24m[J
-[34m~/Desktop/ossec[39m
-[35m❯[39m [K[?1h=[?2004h[1m[31mo[0m[39m[0m[32mo[32md[39m [4mn[24m[4mn[4me[24m[4me[4mw[24m[33m[39m[4mw[4mfile[24m[1m [0m[0m [?1l>[?2004l
-]0;ossec: od newfile0000000
-]0;betrant@T2-Reborn:~/Desktop/ossec]0;~/Desktop/ossec[0m[27m[24m[J
-[34m~/Desktop/ossec[39m
-[35m❯[39m [K[?1h=[?2004h[4mn[24m[24m[1m[31mn[1m[31ma[0m[39m[1m[31mn[1m[31ma[1m[31mn[0m[39m[0m[32mn[0m[32ma[0m[32mn[32mo[39m [4mn[24m[4mn[4me[24m[4me[4mw[24m[4mw[4mf[24m[4mf[4mi[24m[4mi[4ml[24m[4ml[4me[24m[?1l>[?2004l
-]0;ossec: nano newfile[?1049h[22;0;0t[1;24r(B[m[4l[?7h[39;49m[?1h=[?1h=[?1h=[?25l[39;49m(B[m[H[2J[22;33H(B[0;7m[ Reading File ](B[m[22;39H(B[0;7m 0 lines ](B[m[H(B[0;7m  GNU nano 2.9.3                       newfile                                  [1;79H(B[m[23d(B[0;7m^G(B[m Get Help  (B[0;7m^O(B[m Write Out (B[0;7m^W(B[m Where Is  (B[0;7m^K(B[m Cut Text  (B[0;7m^J(B[m Justify   (B[0;7m^C(B[m Cur Pos[24d(B[0;7m^X(B[m Exit[14G(B[0;7m^R(B[m Read File (B[0;7m^\(B[m Replace   (B[0;7m^U(B[m Uncut Text(B[0;7m^T(B[m To Spell  (B[0;7m^_(B[m Go To Line[22d[3d[39;49m(B[m[?12l[?25h[?25l[1;71H(B[0;7mModified(B[m[3dt[?12l[?25h[?25lh[?12l[?25h[?25li[?12l[?25h[?25ls[?12l[?25h[?25l [?12l[?25h[?25li[?12l[?25h[?25ls[?12l[?25h[?25l [?12l[?25h[?25la[?12l[?25h[?25l [?12l[?25h[?25ln[?12l[?25h[?25le[?12l[?25h[?25lw[?12l[?25h[?25l [?12l[?25h[?25lf[?12l[?25h[?25li[?12l[?25h[?25ll[?12l[?25h[?25le[?12l[?25h[?25l.[?12l[?25h[?25l[4d[?12l[?25h[?25lw[?12l[?25h[?25le[?12l[?25h[?25ll[?12l[?25h[?25lc[?12l[?25h[?25lo[?12l[?25h[?25ln[22d[K[4;7H[?12l[?25h[?25l [?12l[?25h[?25lm[?12l[?25h[?25le[?12l[?25h[?25l![?12l[?25h[?25l[5d[?12l[?25h[?25l[4;9H[?12l[?25h[?25l[22d(B[0;7mSave modified buffer?  (Answering "No" will DISCARD changes.)                   [23;1H Y(B[m Yes[K[24d(B[0;7m N(B[m No  [14G   (B[0;7m^C(B[m Cancel[K[22;63H[?12l[?25h[?25l[23d(B[0;7m^G(B[m Get Help[23;21H(B[0;7mM-D(B[m DOS Format[41G(B[0;7mM-A(B[m Append[23;61H(B[0;7mM-B(B[m Backup File[24d(B[0;7m^C(B[m Cancel[17G    (B[0;7mM-M(B[m Mac Format[41G(B[0;7mM-P(B[m Prepend[24;61H(B[0;7m^T(B[m To Files[22d(B[0;7mFile Name to Write: newfile                                  (B[m[22;28H[?12l[?25h[?25l[K[1;79H[1;71H(B[0;7m        (B[m[22;32H(B[0;7m[ Wrote 2 lines ](B[m[J[24;80H[?12l[?25h[24;1H[?1049l[23;0;0t[?1l>]0;betrant@T2-Reborn:~/Desktop/ossec]0;~/Desktop/ossec[0m[27m[24m[J
-[34m~/Desktop/ossec[39m [33m12s[39m
-[35m❯[39m [K[?1h=[?2004h[32mnano[39m [4mnewfile[24m[12D[32mo[32md[39m[39m [39m[4mn[4me[4mw[4mf[4mi[4ml[4me[24m[24m [24m [?1l>[?2004l
-]0;ossec: od newfile0000000 064164 071551 064440 020163 020141 062556 020167 064546
-0000020 062554 005056 062567 061554 066557 020545 000012
-0000035
-]0;betrant@T2-Reborn:~/Desktop/ossec]0;~/Desktop/ossec[0m[27m[24m[J
-[34m~/Desktop/ossec[39m
-[35m❯[39m [K[?1h=[?2004h[32ml[39m[32ml[32mn[39m [4mn[24m[24mnre f  [4mn[24m [4mn[4me[24m[4me[4mw[24m[4mw[4mf[24m[4mf[4mi[24m[4mi[4ml[24m[4ml[4me[24m hardlinktonewfile[?1l>[?2004l
-]0;ossec: ln newfile hardlinktonewfile]0;betrant@T2-Reborn:~/Desktop/ossec]0;~/Desktop/ossec[0m[27m[24m[J
-[34m~/Desktop/ossec[39m
-[35m❯[39m [K[?1h=[?2004h[32ml[39m[32ml[32ms[39m -ali[?1l>[?2004l
-]0;ossec: ls --group-directories-first --color=auto -alitotal 148
-658935 drwxr-xr-x 2 betrant betrant  4096 Aug  2 15:37 [0m[1;34m.[0m
-262215 drwxr-xr-x 7 betrant betrant  4096 Aug  2 15:32 [1;34m..[0m
-658936 -rw-r--r-- 1 betrant betrant 49152 Aug  2 15:37 cmdsTried.txt
-658938 -rw-r--r-- 1 betrant betrant 76845 Aug  2 15:36 gradle-4.4-all.zip
-658915 -rw-rw-rw- 2 betrant betrant    29 Aug  2 15:37 hardlinktonewfile
-658915 -rw-rw-rw- 2 betrant betrant    29 Aug  2 15:37 newfile
-]0;betrant@T2-Reborn:~/Desktop/ossec]0;~/Desktop/ossec[0m[27m[24m[J
-[34m~/Desktop/ossec[39m
-[35m❯[39m [K[?1h=[?2004h[32ml[39m[32ml[32mn[39m -s symbolic        b symlinktonr ewfui  ile[7me[27m[7ml[27m[27me[7mi[27m[27ml[7mf[27m[27mi[7mw[27m[27mf[7me[27m[27mw[7mn[27m[27me[7mo[27m[27mn[7mt[27m[27mo[7mk[27m[27mt[7mn[27m[27mk[7mi[27m[27mn[7ml[27m[27mi[7mm[27m[27ml[7my[27m[27mm[7ms[27m[27my[7m [27m[27ms[7ms[27m[27m [27ms[7m [27m[27m [7ms[27m[27mn[7ms[27mymlinktonewfile[16D[27me[7ms[27mymlinktonewfile[16D[27mw[7ms[27mymlinktonewfile[16D[27mf[7ms[27mymlinktonewfile[16D[27mi[7ms[27mymlinktonewfile[16D[27ml[7ms[27mymlinktonewfile[16D[27me[7ms[27mymlinktonewfile[16D[4mn[4me[4mw[4mf[4mi[4ml[4me[24m[27m [7ms[27mymlinktonewfile[16D[?1l>[?2004l[27ms
-]0;ossec: ln -s newfile symlinktonewfile]0;betrant@T2-Reborn:~/Desktop/ossec]0;~/Desktop/ossec[0m[27m[24m[J
-[34m~/Desktop/ossec[39m
-[35m❯[39m [K[?1h=[?2004h[32ml[39m[32ml[32ms[39m -ali[?1l>[?2004l
-]0;ossec: ls --group-directories-first --color=auto -alitotal 148
-658935 drwxr-xr-x 2 betrant betrant  4096 Aug  2 15:40 [0m[1;34m.[0m
-262215 drwxr-xr-x 7 betrant betrant  4096 Aug  2 15:32 [1;34m..[0m
-658936 -rw-r--r-- 1 betrant betrant 49152 Aug  2 15:37 cmdsTried.txt
-658938 -rw-r--r-- 1 betrant betrant 76845 Aug  2 15:36 gradle-4.4-all.zip
-658915 -rw-rw-rw- 2 betrant betrant    29 Aug  2 15:37 hardlinktonewfile
-658915 -rw-rw-rw- 2 betrant betrant    29 Aug  2 15:37 newfile
-658939 lrwxrwxrwx 1 betrant betrant     7 Aug  2 15:40 [35msymlinktonewfile[0m -> newfile
-]0;betrant@T2-Reborn:~/Desktop/ossec]0;~/Desktop/ossec[0m[27m[24m[J
-[34m~/Desktop/ossec[39m
-[35m❯[39m [K[?1h=[?2004h[32mr[39m[32mr[32mm[39m [4mh[24m[4mh[4ma[24m[33m[39m[4ma[4mrdlinktonewfile[24m[1m [0m[0m [?1l>[?2004l
-]0;ossec: rm hardlinktonewfile]0;betrant@T2-Reborn:~/Desktop/ossec]0;~/Desktop/ossec[0m[27m[24m[J
-[34m~/Desktop/ossec[39m
-[35m❯[39m [K[?1h=[?2004h[1m[31mm[0m[39m[1m[31mm[1m[31mk[0m[39m[1m[31mm[1m[31mk[1m[31md[0m[39m[1m[31md[1m[31mo[0m[39m[1m[31mo[1m[31mr[0m[39m[1m[31mo[0m[39m[0m[39m [1m[31md[0m[39m[0m[39m [1m[31md[1m[31mi[0m[39m[0m[32mm[0m[32mk[0m[32md[0m[32mi[32mr[39m testfolder[?1l>[?2004l
-]0;ossec: mkdir testfolder]0;betrant@T2-Reborn:~/Desktop/ossec]0;~/Desktop/ossec[0m[27m[24m[J
-[34m~/Desktop/ossec[39m
-[35m❯[39m [K[?1h=[?2004h[32mr[39m[32mr[32mm[39m[32mr[39m[39m [39m [4mc[24m[24m[32mc[32md[39m [39m[4mc[24m[39m [24m [1m[31mm[0m[39m[1m[31mm[1m[31mk[0m[39m[1m[31mm[1m[31mk[1m[31md[0m[39m[1m[31md[1m[31mi[0m[39m[0m[32mm[0m[32mk[0m[32md[0m[32mi[32mr[39m [4mt[24m[4mt[4me[24m[4me[4ms[24m[4ms[4mt[24m[4mt[4mf[24m[4mf[4mo[24m[4mo[4ml[24m[4ml[4md[24m[4md[4me[24m[4me[4mr[24m && [4mc[24m[24m[32mc[32md[39m [4mt[24m[4mt[4me[24m[4me[4ms[24m[4ms[4mt[24m[4mt[4mf[24m[4mf[4mo[24m[4mo[4ml[24m[4ml[4md[24m[4md[4me[24m[4me[4mr[24m[?1l>[?2004l
-]0;ossec: mkdir testfolder && cd testfoldermkdir: cannot create directory ‘testfolder’: File exists
-]0;betrant@T2-Reborn:~/Desktop/ossec]0;~/Desktop/ossec[0m[27m[24m[J
-[34m~/Desktop/ossec[39m
-[31m❯[39m [K[?1h=[?2004h[32mmkdir[39m [4mtestfolder[24m && [32mcd[39m [4mtestfolder[24m[7m[4mr[27m[24m[7m[4me[27m[27m[4mr[24m[7m[4md[27m[27m[4me[7m[4ml[27m[27m[4md[7m[4mo[27m[27m[4ml[7m[4mf[27m[27m[4mo[7m[4mt[27m[27m[4mf[7m[4ms[27m[27m[4mt[7m[4me[27m[27m[4ms[7m[4mt[27m[27m[4me[24m[7m [27m[27m[4mt[24m[7m[32md[27m[39m[27m [7m[32mc[27m[27m[32md[39m[7m [27m[27m[32mc[39m[7m&[27m[27m [7m&[27m[27m&[7m [27m[27m&[7m[4mr[27m[24m[27m [7m[4me[27m[27m[4mr[24m[7m[4md[27m[27m[4me[7m[4ml[27m[27m[4md[7m[4mo[27m[27m[4ml[7m[4mf[27m[27m[4mo[7m[4mt[27m[27m[4mf[7m[4ms[27m[27m[4mt[7m[4me[27m[27m[4ms[7m[4mt[27m[27m[4me[27m[4mt[7m[4me[27m[7m[4mt[27m[27m[4me[27m[24m[24ms[24m[7mt[27m[24me[24ms[24mt[24mf[24mo[24ml[24md[24mer &&[39m [32mc[32md[39m[24m [4mt[4me[4ms[4mt[4mf[4mo[4ml[4md[4me[4mr[24m[27D[27me[7mt[27mestfolder &&[39m [32mc[32md[39m[24m [4mt[4me[4ms[4mt[4mf[4mo[4ml[4md[4me[4mr[24m[27D[27mc[7mt[27mestfolder &&[39m [32mc[32md[39m[24m [4mt[4me[4ms[4mt[4mf[4mo[4ml[4md[4me[4mr[24m[27D[27mo[7mt[27mestfolder &&[39m [32mc[32md[39m[24m [4mt[4me[4ms[4mt[4mf[4mo[4ml[4md[4me[4mr[24m[27D[27mn[7mt[27mestfolder &&[39m [32mc[32md[39m[24m [4mt[4me[4ms[4mt[4mf[4mo[4ml[4md[4me[4mr[24m[27D[27md[7mt[27mestfolder &&[39m [32mc[32md[39m[24m [4mt[4me[4ms[4mt[4mf[4mo[4ml[4md[4me[4mr[24m[27D[27mt[7me[27m[27me[7ms[27m[27ms[7mt[27m[27mt[7mf[27m[27mf[7mo[27m[27mo[7ml[27m[27ml[7md[27m[27md[7me[27m[27me[7mr[27m[27mr[7m [27m[27m [7m&[27m[27m&[7m&[27m[27m&[7m [27m[27m [7m[32mc[27m[27m[32mc[7m[32md[27m[39m[27m[32md[39m[7m [27m[27m [7m[4mt[27m[24m[7m [27m[27m[4mt[27m[24m [7m[4mt[27m[27m[24m[24ms[24m[7mt[27m[24me[24ms[24mt[24mf[24mo[24ml[24md[24mer[10D[27me[7mt[27mestfolder[10D[27mc[7mt[27mestfolder[10D[27mo[7mt[27mestfolder[10D[27mn[7mt[27mestfolder[10D[27md[7mt[27mestfolder[10D[?1l>[?2004l[27mt
-]0;ossec: mkdir secondtestfolder && cd secondtestfolder]0;betrant@T2-Reborn:~/Desktop/ossec/secondtestfolder]0;~/Desktop/ossec/secondtestfolder[0m[27m[24m[J
-[34m~/Desktop/ossec/secondtestfolder[39m
-[35m❯[39m [K[?1h=[?2004h[1m[31mt[0m[39m[1m[31mt[1m[31mo[0m[39m[1m[31mt[1m[31mo[1m[31mu[0m[39m[1m[31mu[1m[31mc[0m[39m[0m[32mt[0m[32mo[0m[32mu[0m[32mc[32mh[39m nre   aon  notherfile[?1l>[?2004l
-]0;secondtestfolder: touch anotherfile]0;betrant@T2-Reborn:~/Desktop/ossec/secondtestfolder]0;~/Desktop/ossec/secondtestfolder[0m[27m[24m[J
-[34m~/Desktop/ossec/secondtestfolder[39m
-[35m❯[39m [K[?1h=[?2004h[1m[31mc[0m[39m[0m[32mc[32md[39m [4m.[24m[4m.[4m.[24m[?1l>[?2004l
-]0;secondtestfolder: cd ..]0;betrant@T2-Reborn:~/Desktop/ossec]0;~/Desktop/ossec[0m[27m[24m[J
-[34m~/Desktop/ossec[39m
-[35m❯[39m [K[?1h=[?2004h[32mr[39m[32mr[32mm[39m [1m[31mr[1m[31mm[1m[31md[0m[39m[1m[31md[1m[31mi[0m[39m[0m[32mr[0m[32mm[0m[32md[0m[32mi[32mr[39m [4ms[24m[4ms[4me[24m[33m[39m[4me[4mcondtestfolder[1m[4m/[0m[24m[4mr[24m[0m[24m [?1l>[?2004l
-]0;ossec: rmdir secondtestfolderrmdir: failed to remove 'secondtestfolder': Directory not empty
-]0;betrant@T2-Reborn:~/Desktop/ossec]0;~/Desktop/ossec[0m[27m[24m[J
-[34m~/Desktop/ossec[39m
-[31m❯[39m [K[?1h=[?2004h[32mrmdir[39m [4msecondtestfolder[24m [7m [27m[7m[4mr[27m[24m[27m [7m[4me[27m[27m[4mr[24m[7m[4md[27m[27m[4me[7m[4ml[27m[27m[4md[7m[4mo[27m[27m[4ml[7m[4mf[27m[27m[4mo[7m[4mt[27m[27m[4mf[7m[4ms[27m[27m[4mt[7m[4me[27m[27m[4ms[7m[4mt[27m[27m[4me[7m[4md[27m[27m[4mt[7m[4mn[27m[27m[4md[7m[4mo[27m[27m[4mn[7m[4mc[27m[27m[4mo[7m[4me[27m[27m[4mc[7m[4ms[27m[27m[4me[24m[7m [27m[27m[4ms[24m[7m[32mr[27m[39m[27m [7m[32mi[27m[27m[32mr[39m[7m[32md[27m[27m[32mi[27m[32md[7m[32mi[27m[27m[32mi[7m[32mr[27m[39m[1m[31mr[1m[31mm[1m[31md[1m[31mi[0m[39m[39m[7m [27m[P[17C [19D[1m[31md[0m[39m[P[18C [19D[0m[32mr[0m[32mm[39m[P[18C [19D[27m [24m[7m [27m[4ms[4me[4mc[4mo[4mn[4md[4mt[4me[4ms[4mt[4mf[4mo[4ml[4md[4me[4mr[24m [18D[27m-[24m[7m [27m[4ms[4me[4mc[4mo[4mn[4md[4mt[4me[4ms[4mt[4mf[4mo[4ml[4md[4me[4mr[24m [18D[27mR[24m[7m [27m[4ms[4me[4mc[4mo[4mn[4md[4mt[4me[4ms[4mt[4mf[4mo[4ml[4md[4me[4mr[24m [18D[27mF[24m[7m [27m[4ms[4me[4mc[4mo[4mn[4md[4mt[4me[4ms[4mt[4mf[4mo[4ml[4md[4me[4mr[24m [18D[27m [24m[7m [27m[4ms[4me[4mc[4mo[4mn[4md[4mt[4me[4ms[4mt[4mf[4mo[4ml[4md[4me[4mr[24m [18D[P[18C [19D[P[18C [19D[P[18C [19D[33m[39m[33m[39m[33m[39m[33m[39m
-[33m-- option --[39m
-[0m--dir               -d      -- remove directories as well                     
---force             -f      -- ignore nonexistent files, never prompt         
---help                      -- display help message and exit                  
--i                          -- prompt before every removal                    
--I                          -- prompt when removing many files                
---interactive               -- prompt under given condition (defaulting to alw
---no-preserve-root          -- do not treat / specially                       
---one-file-system           -- stay within filesystems of files given as argum
---preserve-root             -- do not remove / (default)                      
---recursive         -R  -r  -- remove directories and their contents recursive
---verbose           -v      -- explain what is being done                     
-[J--version           [J    [J    [J-- output version information and exit            [J[13A[0m[27m[24m[39m[2C[32mrm[39m -[7m [27m[4msecondtestfolder[24m[K[39m[17D[27mr[24m[7m [27m[4ms[4me[4mc[4mo[4mn[4md[4mt[4me[4ms[4mt[4mf[4mo[4ml[4md[4me[4mr[24m [18D[27mf[24m[7m [27m[4ms[4me[4mc[4mo[4mn[4md[4mt[4me[4ms[4mt[4mf[4mo[4ml[4md[4me[4mr[24m [18D[?1l>[?2004l[27m 
-[J]0;ossec: rm -rf secondtestfolder]0;betrant@T2-Reborn:~/Desktop/ossec]0;~/Desktop/ossec[0m[27m[24m[J
-[34m~/Desktop/ossec[39m
-[35m❯[39m [K[?1h=[?2004h[32ml[39m[32ml[32ms[39m[?1l>[?2004l
-]0;ossec: ls --group-directories-first --color=auto[0m[1;34mtestfolder[0m  cmdsTried.txt  gradle-4.4-all.zip  newfile  [35msymlinktonewfile[0m
-]0;betrant@T2-Reborn:~/Desktop/ossec]0;~/Desktop/ossec[0m[27m[24m[J
-[34m~/Desktop/ossec[39m
-[35m❯[39m [K[?1h=[?2004h[4mn[24m[24m[1m[31mn[1m[31ma[0m[39m[1m[31mn[1m[31ma[1m[31mn[0m[39m[0m[32mn[0m[32ma[0m[32mn[32mo[39m[1m[31mn[1m[31ma[1m[31mn[0m[39m[39m [1m[31mn[1m[31ma[0m[39m[0m[39m [0m[39m[4mn[24m[0m[39m [24m [4ms[24m[24m[1m[31ms[1m[31ml[0m[39m[1m[31ms[1m[31ml[1m[31mo[0m[39m[1m[31mo[1m[31mc[0m[39m[1m[31mc[1m[31mc[0m[39m[1m[31mc[1m[31mo[0m[39m[1m[31mo[1m[31mu[0m[39m[1m[31mu[1m[31mn[0m[39m[1m[31mn[1m[31mt[0m[39m [?1l>[?2004l
-]0;ossec: sloccountzsh: command not found: sloccount
-]0;betrant@T2-Reborn:~/Desktop/ossec]0;~/Desktop/ossec[0m[27m[24m[J
-[34m~/Desktop/ossec[39m
-[31m❯[39m [K[?1h=[?2004h[4ms[24m[24m[1m[31ms[1m[31mo[0m[39m[1m[31ms[1m[31mo[1m[31mu[0m[39m[1m[31mu[1m[31mr[0m[39m[1m[31mr[1m[31mc[0m[39m[0m[32ms[0m[32mo[0m[32mu[0m[32mr[0m[32mc[32me[39m[1m[31ms[1m[31mo[1m[31mu[1m[31mr[1m[31mc[0m[39m[39m [1m[31mr[0m[39m[0m[39m [1m[31mu[0m[39m[0m[39m [1m[31ms[1m[31mo[0m[39m[0m[39m [0m[39m[4ms[24m[0m[39m [24m [4mt[24m[24m[1m[31mt[1m[31mm[0m[39m[1m[31mt[1m[31mm[1m[31mu[0m[39m[1m[31mu[1m[31mx[0m[39m[?1l>[?2004l
-]0;ossec: tmuxzsh: command not found: tmux
-]0;betrant@T2-Reborn:~/Desktop/ossec]0;~/Desktop/ossec[0m[27m[24m[J
-[34m~/Desktop/ossec[39m
-[31m❯[39m [K[?1h=[?2004h[1m[31mu[0m[39m[1m[31mu[1m[31mm[0m[39m[1m[31mu[1m[31mm[1m[31ma[0m[39m[1m[31ma[1m[31ms[0m[39m[0m[32mu[0m[32mm[0m[32ma[0m[32ms[32mk[39m [4mn[24m[33m[39m[4mn[4mewfile[24m[1m [0m[0m [?1l>[?2004l
-]0;ossec: umask newfileumask: bad symbolic mode operator: n
-]0;betrant@T2-Reborn:~/Desktop/ossec]0;~/Desktop/ossec[0m[27m[24m[J
-[34m~/Desktop/ossec[39m
-[31m❯[39m [K[?1h=[?2004h[32mumask[39m [4mnewfile[24m[4ml[24m[24m [4mi[24m[24m [4mf[24m[24m [4mw[24m[24m [4me[24m[24m [4mn[24m[24m [24m [1m[31mu[1m[31mm[1m[31ma[1m[31ms[0m[39m[39m [1m[31ma[0m[39m[0m[39m [1m[31mu[1m[31mm[0m[39m[0m[39m [1m[31mu[0m[39m[0m[39m [0m[39m [4mn[24m[24m [1m[31mm[0m[39m[1m[31mm[1m[31ma[0m[39m[0m[32mm[0m[32ma[32mn[39m [4mn[24m[4mn[4me[24m[4me[4mw[24m[4mw[4mf[24m[4mf[4mi[24m[4mi[4ml[24m[4ml[4me[24m[?1l>[?2004l
-]0;ossec: man newfileNo manual entry for newfile
-]0;betrant@T2-Reborn:~/Desktop/ossec]0;~/Desktop/ossec[0m[27m[24m[J
-[34m~/Desktop/ossec[39m
-[31m❯[39m [K[?1h=[?2004h[32mman[39m [4mnewfile[24m[4ml[24m[24m [4mi[24m[24m [4mf[24m[24m [4mw[24m[24m [4me[24m[24m [4mn[24m[24m [24m umask[?1l>[?2004l
-]0;ossec: man umask[?1049h[22;0;0t[?1h=UMASK(2)                   Linux Programmer's Manual                  UMASK(2)[m
-[m
-[1;31mNAME[0m[m
-       umask - set file mode creation mask[m
-[m
-[1;31mSYNOPSIS[0m[m
-       [1;31m#include[0m [1;31m<sys/types.h>[0m[m
-       [1;31m#include[0m [1;31m<sys/stat.h>[0m[m
-[m
-       [1;31mmode_t[0m [1;31mumask(mode_t[0m [1;32mmask[0m[1;31m);[0m[m
-[m
-[1;31mDESCRIPTION[0m[m
-       [1;31mumask[0m()  sets  the calling process's file mode creation mask (umask) to[m
-       [1;32mmask[0m & 0777 (i.e., only the file permission bits of [1;32mmask[0m are used), and[m
-       returns the previous value of the mask.[m
-[m
-       The  umask  is  used  by [1;31mopen[0m(2), [1;31mmkdir[0m(2), and other system calls that[m
-       create files to modify the permissions placed on newly created files or[m
-       directories.   Specifically,  permissions  in  the umask are turned off[m
-       from the [1;32mmode[0m argument to [1;31mopen[0m(2) and [1;31mmkdir[0m(2).[m
-[m
-       Alternatively, if the parent directory has a default ACL (see  [1;31macl[0m(5)),[m
-       the umask is ignored, the default ACL is inherited, the permission bits[m
-[7m Manual page umask(2) line 1 (press h for help or q to quit)[0m[K[K [KESCESC[KOO[KBB[K       are set based on the inherited ACL, and permission bits absent  in  the[m
-[7m Manual page umask(2) line 2 (press h for help or q to quit)[0m[K[K [KESCESC[KOO[KBB[K       [1;32mmode[0m  argument  are turned off.  For example, the following default ACL[m
-[7m Manual page umask(2) line 3 (press h for help or q to quit)[0m[K[K [KESCESC[KOO[KBB[K       is equivalent to a umask of 022:[m
-[7m Manual page umask(2) line 4 (press h for help or q to quit)[0m[K[K [KESCESC[KOO[KBB[K[m
-[7m Manual page umask(2) line 5 (press h for help or q to quit)[0m[K[K [KESCESC[KOO[KBB[K           u::rwx,g::r-x,o::r-x[m
-[7m Manual page umask(2) line 6 (press h for help or q to quit)[0m[K[K [KESCESC[KOO[KBB[K[m
-[7m Manual page umask(2) line 7 (press h for help or q to quit)[0m[K[K [KESCESC[KOO[KBB[K       Combining the effect of this default ACL with a [1;32mmode[0m argument  of  0666[m
-[7m Manual page umask(2) line 8 (press h for help or q to quit)[0m[K[K [KESCESC[K[[[K66[K~~[K       (rw-rw-rw-), the resulting file permissions would be 0644 (rw-r--r--).[m
-[m
-       The  constants  that  should  be  used to specify [1;32mmask[0m are described in[m
-       [1;31minode[0m(7).[m
-[m
-       The typical default value for the process  umask  is  [1;32mS_IWGRP[0m [1;32m|[0m [1;32mS_IWOTH[0m[m
-       (octal  022).   In the usual case where the [1;32mmode[0m argument to [1;31mopen[0m(2) is[m
-       specified as:[m
-[m
-           S_IRUSR | S_IWUSR | S_IRGRP | S_IWGRP | S_IROTH | S_IWOTH[m
-[m
-       (octal 0666) when creating a new file, the permissions on the resulting[m
-       file will be:[m
-[m
-           S_IRUSR | S_IWUSR | S_IRGRP | S_IROTH[m
-[m
-       (because 0666 & ~022 = 0644; i.e., rw-r--r--).[m
-[m
-[1;31mRETURN[0m [1;31mVALUE[0m[m
-       This  system call always succeeds and the previous value of the mask is[m
-       returned.[m
-[m
-[1;31mCONFORMING[0m [1;31mTO[0m[m
-[7m Manual page umask(2) line 31 (press h for help or q to quit)[0m[K[K [KESCESC[K[[[K66[K~~[K       POSIX.1-2001, POSIX.1-2008, SVr4, 4.3BSD.[m
-[m
-[1;31mNOTES[0m[m
-       A child process created via [1;31mfork[0m(2) inherits its parent's  umask.   The[m
-       umask is left unchanged by [1;31mexecve[0m(2).[m
-[m
-       It  is  impossible to use [1;31mumask[0m() to fetch a process's umask without at[m
-       the same time changing it.  A second call  to  [1;31mumask[0m()  would  then  be[m
-       needed  to restore the umask.  The nonatomicity of these two steps pro‐[m
-       vides the potential for races in multithreaded programs.[m
-[m
-       Since Linux 4.7, the umask of any process can be viewed via  the  [1;32mUmask[0m[m
-       field  of [1;32m/proc/[pid]/status[0m.  Inspecting this field in [1;32m/proc/self/sta‐[0m[m
-       [1;32mtus[0m allows a process to retrieve its umask without  at  the  same  time[m
-       changing it.[m
-[m
-       The  umask  setting  also affects the permissions assigned to POSIX IPC[m
-       objects ([1;31mmq_open[0m(3), [1;31msem_open[0m(3), [1;31mshm_open[0m(3)), FIFOs ([1;31mmkfifo[0m(3)),  and[m
-       UNIX  domain  sockets ([1;31munix[0m(7)) created by the process.  The umask does[m
-       not affect the permissions assigned to System V IPC objects created  by[m
-       the process (using [1;31mmsgget[0m(2), [1;31msemget[0m(2), [1;31mshmget[0m(2)).[m
-[m
-[1;31mSEE[0m [1;31mALSO[0m[m
-[7m Manual page umask(2) line 54 (press h for help or q to quit)[0m[K[K [KESCESC[K[[[K66[K~~[K       [1;31mchmod[0m(2), [1;31mmkdir[0m(2), [1;31mopen[0m(2), [1;31mstat[0m(2), [1;31macl[0m(5)[m
-[m
-[1;31mCOLOPHON[0m[m
-       This  page  is  part of release 4.15 of the Linux [1;32mman-pages[0m project.  A[m
-       description of the project, information about reporting bugs,  and  the[m
-       latest     version     of     this    page,    can    be    found    at[m
-       https://www.kernel.org/doc/man-pages/.[m
-[m
-Linux                             2017-09-15                          UMASK(2)[m
-[7m Manual page umask(2) line 63/85 (END) (press h for help or q to quit)[0m[K[K [KESCESC[K[[[K66[K~~[K[K[7m Manual page umask(2) line 63/85 (END) (press h for help or q to quit)[0m[K[K[?1l>[?1049l[23;0;0t]0;betrant@T2-Reborn:~/Desktop/ossec]0;~/Desktop/ossec[0m[27m[24m[J
-[34m~/Desktop/ossec[39m [33m7s[39m
-[35m❯[39m [K[?1h=[?2004h[32ml[39m[32ml[32ms[39m | [32mg[39m[32mg[32mr[39m[1m[31mg[1m[31mr[1m[31me[0m[39m[0m[32mg[0m[32mr[0m[32me[32mp[39m [4mn[24m[4mn[4me[24m[4me[4mw[24m[?1l>[?2004l[24mn[24me[24mw
-]0;ossec: ls --group-directories-first --color=auto | grep --color=auto new[37;45m[Knew[m[Kfile
-symlinkto[37;45m[Knew[m[Kfile
-]0;betrant@T2-Reborn:~/Desktop/ossec]0;~/Desktop/ossec[0m[27m[24m[J
-[34m~/Desktop/ossec[39m
-[35m❯[39m [K[?1h=[?2004h[1m[31md[0m[39m[0m[32md[32mu[39m[?1l>[?2004l
-]0;ossec: du -h4.0K	./testfolder
-164K	.
-]0;betrant@T2-Reborn:~/Desktop/ossec]0;~/Desktop/ossec[0m[27m[24m[J
-[34m~/Desktop/ossec[39m
-[35m❯[39m [K[?1h=[?2004h[1m[31md[0m[39m[0m[32md[32mf[39m -T[?1l>[?2004l
-]0;ossec: df -h -TFilesystem     Type      Size  Used Avail Use% Mounted on
-udev           devtmpfs  3.9G     0  3.9G   0% /dev
-tmpfs          tmpfs     792M  3.2M  789M   1% /run
-/dev/sda2      ext4      457G   25G  410G   6% /
-tmpfs          tmpfs     3.9G   62M  3.9G   2% /dev/shm
-tmpfs          tmpfs     5.0M  4.0K  5.0M   1% /run/lock
-tmpfs          tmpfs     3.9G     0  3.9G   0% /sys/fs/cgroup
-/dev/sda1      vfat      511M  5.9M  506M   2% /boot/efi
-tmpfs          tmpfs     792M   64K  792M   1% /run/user/1000
-]0;betrant@T2-Reborn:~/Desktop/ossec]0;~/Desktop/ossec[0m[27m[24m[J
-[34m~/Desktop/ossec[39m
-[35m❯[39m [K[?1h=[?2004h[32ml[39m[32ml[32ms[39m[1m[31ml[1m[31ms[1m[31mv[0m[39m[0m[32ml[0m[32ms[39m[0m[39m [32ml[39m[39m [39m [1m[31md[0m[39m[0m[32md[32md[39m[1m[31md[1m[31md[1m[31md[0m[39m[?1l>[?2004l
-]0;ossec: dddzsh: command not found: ddd
-]0;betrant@T2-Reborn:~/Desktop/ossec]0;~/Desktop/ossec[0m[27m[24m[J
-[34m~/Desktop/ossec[39m
-[31m❯[39m [K[?1h=[?2004h[1m[31md[0m[39m[0m[32md[32mf[39m[1m[31md[0m[39m[39m [0m[39m [1m[31md[0m[39m[1m[31md[1m[31mi[0m[39m[1m[31md[1m[31mi[1m[31mf[0m[39m[0m[32md[0m[32mi[0m[32mf[32mf[39m [4mn[24m[4mn[4me[24m[4me[4mw[24m[33m[39m[4mw[4mfile[24m[1m [0m[33m[39m[33m[39m[33m[39m[0m [33m[39m
-[33m-- new file --[39m
-[J[0mcmdsTried.txt       [Jgradle-4.4-all.zip  [J[35msymlinktonewfile[0m@   [J[1;34mtestfolder[0m/       [J[A[A[0m[27m[24m[39m[2C[32mdiff[39m [4mnewfile[24m[K[39m[1C[4ms[24m[33m[39m[4ms[4mymlinktonewfile[24m[1m [0m[0m [?1l>[?2004l
-[J]0;ossec: diff newfile symlinktonewfile]0;betrant@T2-Reborn:~/Desktop/ossec]0;~/Desktop/ossec[0m[27m[24m[J
-[34m~/Desktop/ossec[39m
-[35m❯[39m [K[?1h=[?2004h[4mn[24m[24m[1m[31mn[1m[31ma[0m[39m[1m[31mn[1m[31ma[1m[31mn[0m[39m[0m[32mn[0m[32ma[0m[32mn[32mo[39m [4mn[24m[24mnr[4mn[24m [4mn[4me[24m[4me[4mw[24m[4mw[4mf[24m[4mf[4mi[24m[4mi[4ml[24m[4ml[4me[24m [4ml[24m[24m [4mi[24m[24m [4mf[24m[24m [4mw[24m[24m [4me[24m[24m [4mn[24m[24m [24m [4ms[24m[24mseconfg  dfi;[1m[31me[0m[39m[0m[39m  le[?1l>[?2004l
-]0;ossec: nano secondfile[?1049h[22;0;0t[1;24r(B[m[4l[?7h[39;49m[?1h=[?1h=[?1h=[?25l[39;49m(B[m[H[2J[22;35H(B[0;7m[ New File ](B[m[H(B[0;7m  GNU nano 2.9.3                      secondfile                                [1;79H(B[m[23d(B[0;7m^G(B[m Get Help  (B[0;7m^O(B[m Write Out (B[0;7m^W(B[m Where Is  (B[0;7m^K(B[m Cut Text  (B[0;7m^J(B[m Justify   (B[0;7m^C(B[m Cur Pos[24d(B[0;7m^X(B[m Exit[14G(B[0;7m^R(B[m Read File (B[0;7m^\(B[m Replace   (B[0;7m^U(B[m Uncut Text(B[0;7m^T(B[m To Spell  (B[0;7m^_(B[m Go To Line[22d[3d[39;49m(B[m[?12l[?25h[?25l[1;71H(B[0;7mModified(B[m[3dy[?12l[?25h[?25le[?12l[?25h[?25lt[?12l[?25h[?25l [?12l[?25h[?25la[?12l[?25h[?25ln[?12l[?25h[?25ld[?12l[?25h[?25l [?12l[?25h[?25lo[?12l[?25h[?25lt[?12l[?25h[?25lh[?12l[?25h[?25le[?12l[?25h[?25lr[?12l[?25h[?25l [?12l[?25h[?25lf[?12l[?25h[?25li[?12l[?25h[?25ll[?12l[?25h[?25le[?12l[?25h[?25l[22d(B[0;7mSave modified buffer?  (Answering "No" will DISCARD changes.)                   [23;1H Y(B[m Yes[K[24d(B[0;7m N(B[m No  [14G   (B[0;7m^C(B[m Cancel[K[22;63H[?12l[?25h[?25l[23d(B[0;7m^G(B[m Get Help[23;21H(B[0;7mM-D(B[m DOS Format[41G(B[0;7mM-A(B[m Append[23;61H(B[0;7mM-B(B[m Backup File[24d(B[0;7m^C(B[m Cancel[17G    (B[0;7mM-M(B[m Mac Format[41G(B[0;7mM-P(B[m Prepend[24;61H(B[0;7m^T(B[m To Files[22d(B[0;7mFile Name to Write: secondfile                               (B[m[22;31H[?12l[?25h[?25l[K[1;79H[1;71H(B[0;7m        (B[m[22;33H(B[0;7m[ Wrote 1 line ](B[m[J[24;80H[?12l[?25h[24;1H[?1049l[23;0;0t[?1l>]0;betrant@T2-Reborn:~/Desktop/ossec]0;~/Desktop/ossec[0m[27m[24m[J
-[34m~/Desktop/ossec[39m [33m8s[39m
-[35m❯[39m [K[?1h=[?2004h[32mnano[39m [4msecondfile[24m[15D[32md[32mi[32mf[32mf[39m [4mn[4me[4mw[4mf[4mi[4ml[4me[24m[24m [4ms[4my[4mmlinktonewfile[24m[4ml[24m[24m [4mi[24m[24m [4mf[24m[24m [4mw[24m[24m [4me[24m[24m [4mn[24m[24m [4mo[24m[24m [4mt[24m[24m [4mk[24m[24m [4mn[24m[24m [4mi[24m[24m [4ml[24m[24m [4mm[24m[24m [4my[24m[24m [4ms[24m[24m [24m [4ms[24m[4ms[4me[24m[4me[4mc[24m[4mc[4mo[24m[4mo[4mn[24m[4mn[4md[24m[33m[39m[4md[4mfile[24m[1m [0m[0m [?1l>[?2004l
-]0;ossec: diff newfile secondfile1,2c1
-< this is a new file.
-< welcome!
----
-> yet another file
-]0;betrant@T2-Reborn:~/Desktop/ossec]0;~/Desktop/ossec[0m[27m[24m[J
-[34m~/Desktop/ossec[39m
-[31m❯[39m [K[?1h=[?2004h[1m[31mb[0m[39m[0m[32mb[32mg[39m --help[?1l>[?2004l
-]0;ossec: bg --helpbg: job not found: --help
-]0;betrant@T2-Reborn:~/Desktop/ossec]0;~/Desktop/ossec[0m[27m[24m[J
-[34m~/Desktop/ossec[39m
-[31m❯[39m [K[?1h=[?2004h[32mbg[39m --help     h[?1l>[?2004l
-]0;ossec: bg -hbg: job not found: -h
-]0;betrant@T2-Reborn:~/Desktop/ossec]0;~/Desktop/ossec[0m[27m[24m[J
-[34m~/Desktop/ossec[39m
-[31m❯[39m [K[?1h=[?2004h[32mbg[39m -h  [?1l>[?2004l
-]0;ossec: bgbg: no current job
-]0;betrant@T2-Reborn:~/Desktop/ossec]0;~/Desktop/ossec[0m[27m[24m[J
-[34m~/Desktop/ossec[39m
-[31m❯[39m [K[?1h=[?2004h[32mbg[39m -l[?1l>[?2004l
-]0;ossec: bg -lbg: job not found: -l
-]0;betrant@T2-Reborn:~/Desktop/ossec]0;~/Desktop/ossec[0m[27m[24m[J
-[34m~/Desktop/ossec[39m
-[31m❯[39m [K[?1h=[?2004h[1m[31me[0m[39m[0m[32me[32mx[39m[1m[31me[1m[31mx[1m[31mi[0m[39m[0m[32me[0m[32mx[0m[32mi[32mt[39m[1m[31me[1m[31mx[1m[31mi[0m[39m[39m [0m[32me[0m[32mx[39m[0m[39m [1m[31me[0m[39m[39m [0m[39m [1m[31mx[0m[39m[1m[31mx[1m[31mx[0m[39m[1m[31mx[1m[31mx[1m[31mg[0m[39m[1m[31mg[1m[31md[0m[39m[1m[31md[1m[31mb[0m[39m[?1l>[?2004l
-]0;ossec: xxgdbzsh: command not found: xxgdb
-]0;betrant@T2-Reborn:~/Desktop/ossec]0;~/Desktop/ossec[0m[27m[24m[J
-[34m~/Desktop/ossec[39m
-[31m❯[39m [K[?1h=[?2004h[4mn[24m[24m[1m[31mn[1m[31mo[0m[39m[1m[31mn[1m[31mo[1m[31mh[0m[39m[1m[31mh[1m[31mu[0m[39m[0m[32mn[0m[32mo[0m[32mh[0m[32mu[32mp[39m ls[?1l>[?2004l
-]0;ossec: nohup lsnohup: ignoring input and appending output to 'nohup.out'
-]0;betrant@T2-Reborn:~/Desktop/ossec]0;~/Desktop/ossec[0m[27m[24m[J
-[34m~/Desktop/ossec[39m
-[35m❯[39m [K[?1h=[?2004h[32ml[39m[32ml[32ms[39m[?1l>[?2004l
-]0;ossec: ls --group-directories-first --color=auto[0m[1;34mtestfolder[0m     gradle-4.4-all.zip  nohup.out   [35msymlinktonewfile[0m
-cmdsTried.txt  newfile             secondfile
-]0;betrant@T2-Reborn:~/Desktop/ossec]0;~/Desktop/ossec[0m[27m[24m[J
-[34m~/Desktop/ossec[39m
-[35m❯[39m [K[?1h=[?2004h[4mn[24m[24m[1m[31mn[1m[31ma[0m[39m[1m[31mn[1m[31ma[1m[31mn[0m[39m[0m[32mn[0m[32ma[0m[32mn[32mo[39m [4mn[24m[4mn[4mo[24m[33m[39m[4mo[4mhup.out[24m[1m [0m[0m [?1l>[?2004l
-]0;ossec: nano nohup.out[?1049h[22;0;0t[1;24r(B[m[4l[?7h[39;49m[?1h=[?1h=[?1h=[?25l[39;49m(B[m[H[2J[22;33H(B[0;7m[ Reading File ](B[m[22;39H(B[0;7m 7 lines ](B[m[H(B[0;7m  GNU nano 2.9.3                      nohup.out                                 [1;79H(B[m[23d(B[0;7m^G(B[m Get Help  (B[0;7m^O(B[m Write Out (B[0;7m^W(B[m Where Is  (B[0;7m^K(B[m Cut Text  (B[0;7m^J(B[m Justify   (B[0;7m^C(B[m Cur Pos[24d(B[0;7m^X(B[m Exit[14G(B[0;7m^R(B[m Read File (B[0;7m^\(B[m Replace   (B[0;7m^U(B[m Uncut Text(B[0;7m^T(B[m To Spell  (B[0;7m^_(B[m Go To Line[22d[3d[39;49m(B[mcmdsTried.txt[4dgradle-4.4-all.zip[5dnewfile[6dnohup.out[7dsecondfile[8dsymlinktonewfile[9dtestfolder[3d[?12l[?25h[?25l[22d[J[24;80H[?12l[?25h[24;1H[?1049l[23;0;0t[?1l>]0;betrant@T2-Reborn:~/Desktop/ossec]0;~/Desktop/ossec[0m[27m[24m[J
-[34m~/Desktop/ossec[39m
-[35m❯[39m [K[?1h=[?2004h[4mc[24m[24m[1m[31mc[1m[31ma[0m[39m[1m[31mc[1m[31ma[1m[31mt[0m[39m[1m[31mt[1m[31mr[0m[39m [0m[32mc[0m[32ma[0m[32mt[39m[0m[39m  [4mn[24m[33m[39m[33m[39m[33m[39m[33m[39m
-[33m-- files --[39m
-[J[0mnewfile    [Jnohup.out[J[A[A[0m[27m[24m[39m[2C[32mcat[39m [4mn[24m[K[39m[33m[39m[33m[39m[33m[39m[24mnewfile[33m[39m
-[33m-- files --[39m[K[K
-[J[7mnewfile  [0m  [Jnohup.out[J[A[A[0m[27m[24m[39m[2C[32mcat[39m newfile[K[39m
-[1B[7mnewfile  [0m  [7mnewfile  [0m  [A[A[0m[27m[24m[39m[2C[32mcat[39m newfile[K[39mohup.out
-[1B[11C[7mnohup.out[0mnewfile    [A[A[0m[27m[24m[39m[2C[32mcat[39m nohup.out[K[39m
-[J[A[15C[1m [0m[10D[4mn[4mo[4mh[4mu[4mp[4m.[4mo[4mu[4mt[24m[1C[0m [?1l>[?2004l
-[J]0;ossec: cat nohup.outcmdsTried.txt
-gradle-4.4-all.zip
-newfile
-nohup.out
-secondfile
-symlinktonewfile
-testfolder
-]0;betrant@T2-Reborn:~/Desktop/ossec]0;~/Desktop/ossec[0m[27m[24m[J
-[34m~/Desktop/ossec[39m
-[35m❯[39m [K[?1h=[?2004h[1m[31mf[0m[39m[0m[32mf[32mg[39m [1m[31mf[0m[39m[39m [0m[39m [4ms[24m[24m[1m[31ms[1m[31mc[0m[39m[1m[31ms[1m[31mc[1m[31mr[0m[39m[1m[31mr[1m[31mp[0m[39m[1m[31mp[1m[31mi[0m[39m[1m[31mi[1m[31mt[0m[39m[33m[39m[33m[39m[33m[39m[1m[31mo[1m[31ml[1m[31ml[1m[31mkeeper-[0m[39m[1m[31mr[0m[39m[0m[39m [1m[31me[0m[39m[0m[39m [1m[31mp[0m[39m[0m[39m [1m[31me[0m[39m[0m[39m [1m[31me[0m[39m[0m[39m [1m[31mk[0m[39m[0m[39m [1m[31ml[0m[39m[0m[39m [1m[31ml[0m[39m[0m[39m [1m[31mo[0m[39m[0m[39m [1m[31mr[0m[39m[0m[39m [33m[39m[33m[39m[33m[39m[33m[39m
-[33m-- external command --[39m
-[0mscreendump                              scrollkeeper-get-index-from-docpath   
-script                                  scrollkeeper-get-toc-from-docpath     
-scriptreplay                            scrollkeeper-get-toc-from-id          
-scrollkeeper-config                     scrollkeeper-install                  
-scrollkeeper-extract                    scrollkeeper-preinstall               
-scrollkeeper-gen-seriesid               scrollkeeper-rebuilddb                
-scrollkeeper-get-cl                     scrollkeeper-uninstall                
-scrollkeeper-get-content-list           scrollkeeper-update                   
-[Jscrollkeeper-get-extended-content-list  [J                                      [10A[0m[27m[24m[39m[2C[1m[31mscr[0m[39m[K[39m[1m[31mr[1m[31mi[0m[39m[1m[31mi[1m[31mp[0m[39m[33m[39m[33m[39m[33m[39m
-[J[A[7C[0m[32ms[0m[32mc[0m[32mr[0m[32mi[0m[32mp[32mt[39m[33m[39m[33m[39m[33m[39m[33m[39m
-[J[33m-- external command --[39m
-[J[0mscript        [Jscriptreplay[J[A[A[0m[27m[24m[39m[2C[32mscript[39m[K[39m[?1l>[?2004l
-[J]0;ossec: scriptScript started, file is typescript
-]0;betrant@T2-Reborn:~/Desktop/ossec]0;betrant@T2-Reborn:~/Desktop/ossec]0;~/Desktop/ossec[0m[27m[24m[J
-[34m~/Desktop/ossec[39m
-[35m❯[39m [K[?1h=[?2004h[1m[31mk[0m[39m[1m[31mk[1m[31mi[0m[39m[1m[31mk[0m[39m[0m[39m [0m[39m [4mn[24m[24m[1m[31mn[1m[31ma[0m[39m[1m[31mn[1m[31ma[1m[31mn[0m[39m[0m[32mn[0m[32ma[0m[32mn[32mo[39m [4mc[24m[33m[39m[4mc[4mmdsTried.txt[24m[1m [0m[0m [?1l>[?2004l
-]0;ossec: nano cmdsTried.txt[?1049h[22;0;0t[1;24r(B[m[4l[?7h[39;49m[?1h=[?1h=[?1h=[?25l[39;49m(B[m[H[2J[22;33H(B[0;7m[ Reading File ](B[m[22;32H(B[0;7m[ Read 767 lines ](B[m[H(B[0;7m  GNU nano 2.9.3                    cmdsTried.txt                               [1;79H(B[m[23d(B[0;7m^G(B[m Get Help  (B[0;7m^O(B[m Write Out (B[0;7m^W(B[m Where Is  (B[0;7m^K(B[m Cut Text  (B[0;7m^J(B[m Justify   (B[0;7m^C(B[m Cur Pos[24d(B[0;7m^X(B[m Exit[14G(B[0;7m^R(B[m Read File (B[0;7m^\(B[m Replace   (B[0;7m^U(B[m Uncut Text(B[0;7m^T(B[m To Spell  (B[0;7m^_(B[m Go To Line[22d[3d[39;49m(B[mScript started on 2018-08-02 15:33:06+0530[4d^[]0;betrant@T2-Reborn:~/Desktop/ossec^G^[]0;betrant@T2-Reborn:~/Desktop/ossec^$[5;1H^M^[[34m~/Desktop/ossec^[[39m[6d^M^[[35m❯^[[39m ^[[K^[[?1h^[=^[[?2004h^[[32ml^[[39m^H^[[32ml^[[32ms^[[39m^[[?1l$[7;1H^[]0;ossec: ls --group-directories-first --color=auto^GcmdsTried.txt[8d^[]0;betrant@T2-Reborn:~/Desktop/ossec^G^[]0;~/Desktop/ossec^G^[[0m^[[27m^[[24m$[9;1H^M^[[34m~/Desktop/ossec^[[39m[10d^M^[[35m❯^[[39m ^[[K^[[?1h^[=^[[?2004h^[[32ml^[[39m^H^[[32ml^[[32ms^[[39m -al^[$[11;1H^[]0;ossec: ls --group-directories-first --color=auto -al^Gtotal 8[12ddrwxr-xr-x 2 betrant betrant 4096 Aug  2 15:33 ^[[0m^[[1;34m.^[[0m[13ddrwxr-xr-x 7 betrant betrant 4096 Aug  2 15:32 ^[[1;34m..^[[0m[14d-rw-r--r-- 1 betrant betrant    0 Aug  2 15:33 cmdsTried.txt[15d^[]0;betrant@T2-Reborn:~/Desktop/ossec^G^[]0;~/Desktop/ossec^G^[[0m^[[27m^[[24m$[16;1H^M^[[34m~/Desktop/ossec^[[39m[17d^M^[[35m❯^[[39m ^[[K^[[?1h^[=^[[?2004h^[[4mc^[[24m^H^[[24m^[[32mc^[[32md^[[39m $[18;1H^[]0;ossec: cd ..^G^[]0;betrant@T2-Reborn:~/Desktop^G^[]0;~/Desktop^G^[[0m^[[27$[19;1H^M^[[34m~/Desktop^[[39m[20d^M^[[35m❯^[[39m ^[[K^[[?1h^[=^[[?2004h^[[32ml^[[39m^H^[[32ml^[[32ms^[[39m^[[?1l$[21;1H^[]0;Desktop: ls --group-directories-first --color=auto^G^[[0m^[[1;34mKPApp^[[0$[3;1H[?12l[?25h[?25l[4d[?12l[?25h[?25l[5d[?12l[?25h[?25l[6d[?12l[?25h[?25l[7d[?12l[?25h[?25l[8d[?12l[?25h[?25l[9d[?12l[?25h[?25l[10d[?12l[?25h[?25l[11d[?12l[?25h[?25l[12d[?12l[?25h[?25l[13d[?12l[?25h[?25l[14d[?12l[?25h[?25l[15d[?12l[?25h[?25l[16d[?12l[?25h[?25l[17d[?12l[?25h[?25l[18d[?12l[?25h[?25l[19d[?12l[?25h[?25l[20d[?12l[?25h[?25l[21d[?12l[?25h[?25l7[3;21r8[10S[1;24r[12;1H^[]0;betrant@T2-Reborn:~/Desktop^G^[]0;~/Desktop^G^[[0m^[[27m^[[24m^[[J[13d^M^[[34m~/Desktop^[[39m[14d^M^[[35m❯^[[39m ^[[K^[[?1h^[=^[[?2004h^[[1m^[[31mc^[[0m^[[39m^H^[[0m^[[32mc^[[3$[15;1H^[[33m-- local directory --^[[39m[16d^[[J^[[1;34mKPApp^[[0m/   ^[[J^[[1;34mossec^[[0m/   ^[[J^[[1;34mpafp^[[0m/    ^$[17;1H^[[33m-- local directory --^[[39m^[[K^[[K[18d^[[J^[[7mKPApp/ ^[[0m  ^[[J^[[1;34mossec^[[0m/   ^[[J^[[1;34mpafp^[[0m/    ^[[J$[19;1H^[[1B^[[7mKPApp/ ^[[0m  ^M^[[7mKPApp/ ^[[0m  ^M^[[A^[[A^[[0m^[[27m^[[24m^[[39m^$[20;1H^[[1B^[[9C^[[7mossec/ ^[[0m  ^M^[[1;34mKPApp^[[0m/   ^M^[[A^[[A^[[0m^[[27m^[[24$[21;1H^[[J^[[A^[[11C^H^H^H^H^H^H^[[4mo^[[4ms^[[4ms^[[4me^[[4mc^[[1m^[[4m/^[[0m^[[24m^$[12;1H[?12l[?25h[?25l[13d[?12l[?25h[?25l[14d[?12l[?25h[?25l[15d[?12l[?25h[?25l[16d[?12l[?25h[?25l[17d[?12l[?25h[?25l[18d[?12l[?25h[?25l[22d[K[19d[?12l[?25h[?25l[20d[?12l[?25h[?25l[21d[?12l[?25h[?25l7[3;22r8[22d[10S[1;24r[12;1H^[[J^[]0;Desktop: cd ossec^G^[]0;betrant@T2-Reborn:~/Desktop/ossec^G^[]0;~/Desk$[13;1H^M^[[34m~/Desktop/ossec^[[39m[14d^M^[[35m❯^[[39m ^[[K^[[?1h^[=^[[?2004h^[[32ml^[[39m^H^[[32ml^[[32ms^[[39m 0a^H $[15;1H^[]0;ossec: ls --group-directories-first --color=auto -ali^Gtotal 8[16d658935 drwxr-xr-x 2 betrant betrant 4096 Aug  2 15:33 ^[[0m^[[1;34m.^[[0m[17d262215 drwxr-xr-x 7 betrant betrant 4096 Aug  2 15:32 ^[[1;34m..^[[0m[18d658936 -rw-r--r-- 1 betrant betrant    0 Aug  2 15:33 cmdsTried.txt[19d^[]0;betrant@T2-Reborn:~/Desktop/ossec^G^[]0;~/Desktop/ossec^G^[[0m^[[27m^[[24m$[20;1H^M^[[34m~/Desktop/ossec^[[39m[21d^M^[[35m❯^[[39m ^[[K^[[?1h^[=^[[?2004h^[[1m^[[31mp^[[0m^[[39m^H^[[0m^[[32mp^[[3$[12;1H[?12l[?25h[?25l[13d[?12l[?25h[?25l[14d[?12l[?25h[?25l[15d[?12l[?25h[?25l[16d[?12l[?25h[?25l[17d[?12l[?25h[?25l[18d[?12l[?25h[?25l[19d[?12l[?25h[?25l[20d[?12l[?25h[?25l[21d[?12l[?25h[?25l7[3;22r8[22d[10S[1;24r[12;1H^[]0;ossec: ps aux^GUSER[32GPID %CPU %MEM    VSZ   RSS TTY[68GSTAT START  $[13;1Hroot[13;14H1  0.0  0.1 225688  9288 ?[13;48HSs   08:35   0:03 /sbin/init spla[14;1Hroot[14;14H2  0.0  0.0[31G0     0 ?[14;48HS    08:35   0:00 [kthreadd][15droot[15;14H4  0.0  0.0[31G0     0 ?[15;48HI<   08:35   0:00 [kworker/0:0H][16droot[16;14H6  0.0  0.0[31G0     0 ?[16;48HI<   08:35   0:00 [mm_percpu_wq][17droot[17;14H7  0.0  0.0[31G0     0 ?[17;48HS    08:35   0:00 [ksoftirqd/0][18droot[18;14H8  0.0  0.0[31G0     0 ?[18;48HI    08:35   0:06 [rcu_sched][19droot[19;14H9  0.0  0.0[31G0     0 ?[19;48HI    08:35   0:00 [rcu_bh][20droot[20;13H10  0.0  0.0[31G0     0 ?[20;48HS    08:35   0:00 [migration/0][21droot[21;13H11  0.0  0.0[31G0     0 ?[21;48HS    08:35   0:00 [watchdog/0][12d[?12l[?25h[?25l[13d[?12l[?25h[?25l[14d[?12l[?25h[?25l[15d[?12l[?25h[?25l[16d[?12l[?25h[?25l[17d[?12l[?25h[?25l[18d[?12l[?25h[?25l[19d[?12l[?25h[?25l[20d[?12l[?25h[?25l[21d[?12l[?25h[?25l7[3;22r8[22d[10S[1;24r[12;1Hroot[12;13H12  0.0  0.0[31G0     0 ?[12;48HS    08:35   0:00 [cpuhp/0][13droot[13;13H13  0.0  0.0[31G0     0 ?[13;48HS    08:35   0:00 [cpuhp/1][14droot[14;13H14  0.0  0.0[31G0     0 ?[14;48HS    08:35   0:00 [watchdog/1][15droot[15;13H15  0.0  0.0[31G0     0 ?[15;48HS    08:35   0:00 [migration/1][16droot[16;13H16  0.0  0.0[31G0     0 ?[16;48HS    08:35   0:00 [ksoftirqd/1][17droot[17;13H18  0.0  0.0[31G0     0 ?[17;48HI<   08:35   0:00 [kworker/1:0H][18droot[18;13H19  0.0  0.0[31G0     0 ?[18;48HS    08:35   0:00 [cpuhp/2][19droot[19;13H20  0.0  0.0[31G0     0 ?[19;48HS    08:35   0:00 [watchdog/2][20droot[20;13H21  0.0  0.0[31G0     0 ?[20;48HS    08:35   0:00 [migration/2][21droot[21;13H22  0.0  0.0[31G0     0 ?[21;48HS    08:35   0:00 [ksoftirqd/2][12d[?12l[?25h[?25l[13d[?12l[?25h[?25l[14d[?12l[?25h[?25l[15d[?12l[?25h[?25l[16d[?12l[?25h[?25l[17d[?12l[?25h[?25l[18d[?12l[?25h[?25l[19d[?12l[?25h[?25l[20d[?12l[?25h[?25l[21d[?12l[?25h[?25l7[3;22r8[22d[10S[1;24r[12;1Hroot[12;13H24  0.0  0.0[31G0     0 ?[12;48HI<   08:35   0:00 [kworker/2:0H][13droot[13;13H25  0.0  0.0[31G0     0 ?[13;48HS    08:35   0:00 [cpuhp/3][14droot[14;13H26  0.0  0.0[31G0     0 ?[14;48HS    08:35   0:00 [watchdog/3][15droot[15;13H27  0.0  0.0[31G0     0 ?[15;48HS    08:35   0:00 [migration/3][16droot[16;13H28  0.0  0.0[31G0     0 ?[16;48HS    08:35   0:00 [ksoftirqd/3][17droot[17;13H30  0.0  0.0[31G0     0 ?[17;48HI<   08:35   0:00 [kworker/3:0H][18droot[18;13H31  0.0  0.0[31G0     0 ?[18;48HS    08:35   0:00 [kdevtmpfs][19droot[19;13H32  0.0  0.0[31G0     0 ?[19;48HI<   08:35   0:00 [netns][20droot[20;13H33  0.0  0.0[31G0     0 ?[20;48HS    08:35   0:00 [rcu_tasks_kthr[21;1Hroot[21;13H34  0.0  0.0[31G0     0 ?[21;48HS    08:35   0:00 [kauditd][12d[?12l[?25h[?25l[13d[?12l[?25h[?25l[14d[?12l[?25h[?25l[15d[?12l[?25h[?25l[16d[?12l[?25h[?25l[17d[?12l[?25h[?25l[18d[?12l[?25h[?25l[19d[?12l[?25h[?25l[20d[?12l[?25h[?25l[21d[?12l[?25h[?25l7[3;22r8[22d[10S[1;24r[12;1Hroot[12;13H37  0.0  0.0[31G0     0 ?[12;48HS    08:35   0:00 [khungtaskd][13droot[13;13H38  0.0  0.0[31G0     0 ?[13;48HS    08:35   0:00 [oom_reaper][14droot[14;13H39  0.0  0.0[31G0     0 ?[14;48HI<   08:35   0:00 [writeback][15droot[15;13H40  0.0  0.0[31G0     0 ?[15;48HS    08:35   0:00 [kcompactd0][16droot[16;13H41  0.0  0.0[31G0     0 ?[16;48HSN   08:35   0:00 [ksmd][17droot[17;13H42  0.0  0.0[31G0     0 ?[17;48HSN   08:35   0:00 [khugepaged][18droot[18;13H43  0.0  0.0[31G0     0 ?[18;48HI<   08:35   0:00 [crypto][19droot[19;13H44  0.0  0.0[31G0     0 ?[19;48HI<   08:35   0:00 [kintegrityd][20droot[20;13H45  0.0  0.0[31G0     0 ?[20;48HI<   08:35   0:00 [kblockd][21droot[21;13H48  0.0  0.0[31G0     0 ?[21;48HI<   08:35   0:00 [ata_sff][12d[?12l[?25h[?25l[13d[?12l[?25h[?25l[14d[?12l[?25h[?25l[15d[?12l[?25h[?25l[16d[?12l[?25h[?25l[17d[?12l[?25h[?25l[18d[?12l[?25h[?25l[19d[?12l[?25h[?25l[20d[?12l[?25h[?25l[21d[?12l[?25h[?25l7[3;22r8[22d[10S[1;24r[12;1Hroot[12;13H49  0.0  0.0[31G0     0 ?[12;48HI<   08:35   0:00 [md][13droot[13;13H50  0.0  0.0[31G0     0 ?[13;48HI<   08:35   0:00 [edac-poller][14droot[14;13H51  0.0  0.0[31G0     0 ?[14;48HI<   08:35   0:00 [devfreq_wq][15droot[15;13H52  0.0  0.0[31G0     0 ?[15;48HI<   08:35   0:00 [watchdogd][16droot[16;13H55  0.0  0.0[31G0     0 ?[16;48HS    08:35   0:00 [kswapd0][17droot[17;13H56  0.0  0.0[31G0     0 ?[17;48HS    08:35   0:00 [ecryptfs-kthre[18;1Hroot[18;13H98  0.0  0.0[31G0     0 ?[18;48HI<   08:35   0:00 [kthrotld][19droot[19;13H99  0.0  0.0[31G0     0 ?[19;48HI<   08:35   0:00 [acpi_thermal_p[20;1Hroot[12G103  0.0  0.0[31G0     0 ?[20;48HI<   08:35   0:00 [ipv6_addrconf][21;1Hroot[12G112  0.0  0.0[31G0     0 ?[21;48HI<   08:35   0:00 [kstrp][12d[?12l[?25h[?25l[13d[?12l[?25h[?25l[14d[?12l[?25h[?25l[15d[?12l[?25h[?25l[16d[?12l[?25h[?25l[17d[?12l[?25h[?25l[18d[?12l[?25h[?25l[19d[?12l[?25h[?25l[20d[?12l[?25h[?25l[21d[?12l[?25h[?25l7[3;22r8[22d[10S[1;24r[12;1Hroot[12G133  0.0  0.0[31G0     0 ?[12;48HI<   08:35   0:00 [charger_manage[13;1Hroot[12G182  0.0  0.0[31G0     0 ?[13;48HS    08:35   0:00 [scsi_eh_0][14droot[12G183  0.0  0.0[31G0     0 ?[14;48HI<   08:35   0:00 [scsi_tmf_0][15droot[12G184  0.0  0.0[31G0     0 ?[15;48HS    08:35   0:00 [scsi_eh_1][16droot[12G185  0.0  0.0[31G0     0 ?[16;48HI<   08:35   0:00 [scsi_tmf_1][17droot[12G186  0.0  0.0[31G0     0 ?[17;48HS    08:35   0:00 [scsi_eh_2][18droot[12G187  0.0  0.0[31G0     0 ?[18;48HI<   08:35   0:00 [scsi_tmf_2][19droot[12G188  0.0  0.0[31G0     0 ?[19;48HS    08:35   0:00 [scsi_eh_3][20droot[12G189  0.0  0.0[31G0     0 ?[20;48HI<   08:35   0:00 [scsi_tmf_3][21droot[12G195  0.0  0.0[31G0     0 ?[21;48HI<   08:35   0:00 [nvkm-disp][12d[?12l[?25h[?25l[13d[?12l[?25h[?25l[14d[?12l[?25h[?25l[15d[?12l[?25h[?25l[16d[?12l[?25h[?25l[17d[?12l[?25h[?25l[18d[?12l[?25h[?25l[19d[?12l[?25h[?25l[20d[?12l[?25h[?25l[21d[?12l[?25h[?25l7[3;22r8[22d[10S[1;24r[12;1Hroot[12G197  0.0  0.0[31G0     0 ?[12;48HI<   08:35   0:00 [kworker/0:1H][13droot[12G198  0.0  0.0[31G0     0 ?[13;48HI<   08:35   0:00 [kworker/1:1H][14droot[12G202  0.0  0.0[31G0     0 ?[14;48HI<   08:35   0:00 [ttm_swap][15droot[12G228  0.0  0.0[31G0     0 ?[15;48HS    08:35   0:00 [jbd2/sda2-8][16droot[12G229  0.0  0.0[31G0     0 ?[16;48HI<   08:35   0:00 [ext4-rsv-conve[17;1Hroot[12G241  0.0  0.0[31G0     0 ?[17;48HI<   08:35   0:00 [kworker/3:1H][18droot[12G270  0.0  0.7 181468 59516 ?[18;48HS<s  08:35   0:01 /lib/systemd/sy[19;1Hroot[12G283  0.0  0.0[31G0     0 ?[19;48HI<   08:35   0:00 [kworker/2:1H][20droot[12G297  0.0  0.0  97708  1832 ?[20;48HSs   08:35   0:00 /sbin/lvmetad -[21;1Hroot[12G302  0.0  0.0  34828  4468 ?[21;48HSs   08:35   0:00 /lib/systemd/sy[12;1H[?12l[?25h[?25l[13d[?12l[?25h[?25l[14d[?12l[?25h[?25l[15d[?12l[?25h[?25l[16d[?12l[?25h[?25l[17d[?12l[?25h[?25l[18d[?12l[?25h[?25l[19d[?12l[?25h[?25l[20d[?12l[?25h[?25l[21d[?12l[?25h[?25l7[3;22r8[22d[10S[1;24r[12;1Hroot[12G322  0.0  0.0[31G0     0 ?[12;48HS    08:35   0:00 [irq/128-mei_me[13;1Hsystemd+   773  0.0  0.0  71140  6480 ?[13;48HSs   08:35   0:00 /lib/systemd/sy[14;1Hsystemd+   774  0.0  0.0 146096  3320 ?[14;48HSsl  08:35   0:00 /lib/systemd/sy[15;1Hroot[12G778  0.0  0.1 576900 12360 ?[15;48HSsl  08:35   0:02 /usr/lib/udisks[16;1Hsyslog     780  0.0  0.0 263036  4604 ?[16;48HSsl  08:35   0:00 /usr/sbin/rsysl[17;1Hroot[12G781  0.0  0.1 427252  9028 ?[17;48HSsl  08:35   0:00 /usr/sbin/Modem[18;1Hroot[12G783  0.0  0.0  38428  3248 ?[18;48HSs   08:35   0:00 /usr/sbin/cron[19droot[12G786  0.0  0.2 177632 17228 ?[19;48HSsl  08:35   0:00 /usr/bin/python[20;1Hroot[12G788  0.0  0.0   4552   848 ?[20;48HSs   08:35   0:00 /usr/sbin/acpid[21;1Hroot[12G791  0.0  0.1 186976  9304 ?[21;48HSsl  08:35   0:01 /usr/sbin/therm[12;1H[?12l[?25h[?25l[13d[?12l[?25h[?25l[14d[?12l[?25h[?25l[15d[?12l[?25h[?25l[16d[?12l[?25h[?25l[17d[?12l[?25h[?25l[18d[?12l[?25h[?25l[19d[?12l[?25h[?25l[20d[?12l[?25h[?25l[21d[?12l[?25h[?25l7[3;22r8[22d[10S[1;24r[12;1Hroot[12G793  0.0  0.0 294728  6892 ?[12;48HSsl  08:35   0:00 /usr/lib/accoun[13;1Hmessage+   797  0.0  0.0  51596  5916 ?[13;48HSs   08:35   0:01 /usr/bin/dbus-d[14;1Hroot[12G808  0.0  0.0  44752  2812 ?[14;48HSs   08:35   0:00 /sbin/wpa_suppl[15;1Havahi[12G809  0.0  0.0  47256  3232 ?[15;48HSs   08:35   0:01 avahi-daemon: r[16;1Hroot[12G810  0.0  0.0 110476  3428 ?[16;48HSsl  08:35   0:01 /usr/sbin/irqba[17;1Hroot[12G814  0.0  0.0  70692  6092 ?[17;48HSs   08:35   0:00 /lib/systemd/sy[18;1Hroot[12G816  0.0  0.2 565828 16868 ?[18;48HSsl  08:35   0:00 /usr/sbin/Netwo[19;1Hroot[12G844  0.0  0.0[31G0     0 ?[19;48HI<   08:35   0:00 [iprt-VBoxWQueu[20;1Hroot[12G848  0.0  0.0[31G0     0 ?[20;48HS    08:35   0:00 [iprt-VBoxTscTh[21;1Havahi[12G876  0.0  0.0  47076   340 ?[21;48HS    08:35   0:00 avahi-daemon: c[12;1H[?12l[?25h[?25l[13d[?12l[?25h[?25l[14d[?12l[?25h[?25l[15d[?12l[?25h[?25l[16d[?12l[?25h[?25l[17d[?12l[?25h[?25l[18d[?12l[?25h[?25l[19d[?12l[?25h[?25l[20d[?12l[?25h[?25l[21d[?12l[?25h[?25l7[3;22r8[22d[10S[1;24r[12;1Hroot[12G883  0.0  0.1 304152 10668 ?[12;48HSsl  08:35   0:00 /usr/lib/policy[13;1Hroot[12G930  0.0  0.4 1830172 38684 ?[48GSsl  08:35   0:00 /usr/sbin/libvi[14;1Hroot[12G937  0.0  0.0 290520  6948 ?[14;48HSLsl 08:35   0:00 /usr/sbin/light[15;1Hroot[12G943  0.9  1.4 617408 120876 tty7    Ssl+ 08:35   3:54 /usr/lib/xorg/X[16;1Hroot[12G954  0.0  0.0  23288  1924 tty1     Ss+  08:35   0:00 /sbin/agetty -o[17;1Hroot[11G1014  0.0  0.0  25656  6016 ?[17;48HS    08:35   0:00 /sbin/dhclient[18dlibvirt+  1179  0.0  0.0  49964  2440 ?[18;48HS    08:35   0:00 /usr/sbin/dnsma[19;1Hroot[11G1181  0.0  0.0  49936   368 ?[19;48HS    08:35   0:00 /usr/sbin/dnsma[20;1Hroot[11G1262  0.0  0.1 272448 12504 ?[20;48HSs   08:35   0:00 /usr/sbin/nmbd[21dwhoopsie  1269  0.0  0.1 388504 12608 ?[21;48HSsl  08:35   0:00 /usr/bin/whoops[12;1H[?12l[?25h[?25l[13d[?12l[?25h[?25l[14d[?12l[?25h[?25l[15d[?12l[?25h[?25l[16d[?12l[?25h[?25l[17d[?12l[?25h[?25l[18d[?12l[?25h[?25l[19d[?12l[?25h[?25l[20d[?12l[?25h[?25l[21d[?12l[?25h[?25l7[3;22r8[22d[10S[1;24r[12;1Hkernoops  1272  0.0  0.0  56932   420 ?[12;48HSs   08:35   0:00 /usr/sbin/kerne[13;1Hkernoops  1281  0.0  0.0  56932   420 ?[13;48HSs   08:35   0:00 /usr/sbin/kerne[14;1Hroot[11G1314  0.0  0.2 363732 20744 ?[14;48HSs   08:35   0:00 /usr/sbin/smbd[15droot[11G1325  0.0  0.0 352132  5964 ?[15;48HS    08:35   0:00 /usr/sbin/smbd[16droot[11G1326  0.0  0.0 352156  4632 ?[16;48HS    08:35   0:00 /usr/sbin/smbd[17droot[11G1419  0.0  0.0 363716  7300 ?[17;48HS    08:35   0:00 /usr/sbin/smbd[18droot[11G1455  0.0  0.1 322316  8712 ?[18;48HSsl  08:35   0:00 /usr/lib/upower[19;1Hroot[11G1591  0.0  0.0 250544  7160 ?[19;48HSl   08:35   0:00 lightdm --sessi[20;1Hroot[11G2078  0.0  0.6 448760 56124 ?[20;48HSsl  08:35   0:05 /usr/lib/packag[21;1Hbetrant   2155  0.0  0.1  76984  8260 ?[21;48HSs   08:35   0:00 /lib/systemd/sy[12;1H[?12l[?25h[?25l[13d[?12l[?25h[?25l[14d[?12l[?25h[?25l[15d[?12l[?25h[?25l[16d[?12l[?25h[?25l[17d[?12l[?25h[?25l[18d[?12l[?25h[?25l[19d[?12l[?25h[?25l[20d[?12l[?25h[?25l[21d[?12l[?25h[?25l7[3;22r8[22d[10S[1;24r[12;1Hbetrant   2156  0.0  0.0 114172  2772 ?[12;48HS    08:35   0:00 (sd-pam)[13dbetrant   2169  0.0  0.0 288360  7484 ?[13;48HSl   08:35   0:00 /usr/bin/gnome-[14;1Hbetrant   2175  0.0  0.1 715296 14452 ?[14;48HSsl  08:35   0:00 /usr/lib/gnome-[15;1Hbetrant   2221  0.0  0.1 362404  8184 ?[15;48HSsl  08:35   0:13 /usr/bin/ibus-d[16;1Hbetrant   2228  0.0  0.0  51232  5636 ?[16;48HSs   08:35   0:01 /usr/bin/dbus-d[17;1Hbetrant   2230  0.0  0.0 291956  6852 ?[17;48HSsl  08:35   0:00 /usr/lib/gvfs/g[18;1Hbetrant   2235  0.0  0.0 416108  5268 ?[18;48HSl   08:35   0:00 /usr/lib/gvfs/g[19;1Hbetrant   2237  0.0  0.0 280756  6532 ?[19;48HSl   08:35   0:00 /usr/lib/ibus/i[20;1Hbetrant   2239  0.0  0.4 479196 35396 ?[20;48HSl   08:35   0:04 /usr/lib/ibus/i[21;1Hbetrant   2246  0.0  0.2 346604 23252 ?[21;48HSl   08:35   0:00 /usr/lib/ibus/i[12;1H[?12l[?25h[?25l[13d[?12l[?25h[?25l[14d[?12l[?25h[?25l[15d[?12l[?25h[?25l[16d[?12l[?25h[?25l[17d[?12l[?25h[?25l[18d[?12l[?25h[?25l[19d[?12l[?25h[?25l[20d[?12l[?25h[?25l[21d[?12l[?25h[?25l7[3;22r8[22d[10S[1;24r[12;1Hbetrant   2249  0.0  0.0 278552  5916 ?[12;48HSl   08:35   0:00 /usr/lib/ibus/i[13;1Hbetrant   2254  0.0  0.0 349344  5532 ?[13;48HSsl  08:35   0:00 /usr/lib/at-spi[14;1Hbetrant   2259  0.0  0.0  50056  4344 ?[14;48HS    08:35   0:00 /usr/bin/dbus-d[15;1Hbetrant   2261  0.0  0.0 220640  5284 ?[15;48HSl   08:35   0:00 /usr/lib/at-spi[16;1Hbetrant   2305  0.0  0.0[31G0     0 ?[16;48HZ    08:35   0:00 [xbrlapi] <defu[17;1Hbetrant   2325  0.0  0.0  11304   316 ?[17;48HSs   08:35   0:00 /usr/bin/ssh-ag[18;1Hbetrant   2329  0.0  0.0 204880  6544 ?[18;48HSl   08:35   0:03 /usr/lib/ibus/i[19;1Hbetrant   2342  0.0  0.4 504280 33260 ?[19;48HSl   08:35   0:01 /usr/bin/gnome-[20;1Hbetrant   2356  0.0  0.2 500716 23228 ?[20;48HSl   08:35   0:00 /usr/lib/gnome-[21;1Hbetrant   2357  0.0  0.3 942952 25772 ?[21;48HSl   08:35   0:00 /usr/lib/gnome-[12;1H[?12l[?25h[?25l[13d[?12l[?25h[?25l[14d[?12l[?25h[?25l[15d[?12l[?25h[?25l[16d[?12l[?25h[?25l[17d[?12l[?25h[?25l[18d[?12l[?25h[?25l[19d[?12l[?25h[?25l[20d[?12l[?25h[?25l[23d[J[24;80H[?12l[?25h[24;1H[?1049l[23;0;0t[?1l>]0;betrant@T2-Reborn:~/Desktop/ossec]0;~/Desktop/ossec[0m[27m[24m[J
-[34m~/Desktop/ossec[39m [33m7s[39m
-[35m❯[39m [K[?1h=[?2004h[1m[31me[0m[39m[0m[32me[32mx[39m[1m[31me[1m[31mx[1m[31mi[0m[39m[0m[32me[0m[32mx[0m[32mi[32mt[39m[?1l>[?2004l
-]0;ossec: exitScript done, file is typescript
-]0;betrant@T2-Reborn:~/Desktop/ossec]0;~/Desktop/ossec[0m[27m[24m[J
-[34m~/Desktop/ossec[39m [33m17s[39m
-[35m❯[39m [K[?1h=[?2004h[1m[31me[0m[39m[0m[32me[32mx[39m[1m[31me[1m[31mx[1m[31mi[0m[39m[0m[32me[0m[32mx[0m[32mi[32mt[39m[?1l>[?2004l
-]0;ossec: exit
-Script done on 2018-08-02 15:46:14+0530

