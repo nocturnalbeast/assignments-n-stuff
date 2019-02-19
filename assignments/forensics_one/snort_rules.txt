@@ -1,0 +1,31 @@
+# SNORT rule file for forensics_assignment_one
+
+alert tcp $HOME_NET any -> $EXTERNAL_NET $HTTP_PORTS (msg:"EXPLOIT-KIT Goon/Infinity/Redkit exploit kit short jar request"; flow:to_server,established; content:".jar"; fast_pattern:only; http_uri; content:" Java/1."; http_header; content:"content-type|3A| application/x-java-archive"; http_header; pcre:"/^\/[a-z0-9]{1,4}\.jar$/U"; content:!"cbssports.com"; http_header; metadata:policy max-detect-ips drop, service http; reference:cve,2012-0188; reference:cve,2012-0507; reference:cve,2012-1723; reference:cve,2012-4681; reference:cve,2013-0422; reference:cve,2013-2423; classtype:trojan-activity; sid:26808; rev:11;)
+
+alert tcp $EXTERNAL_NET $HTTP_PORTS -> $HOME_NET any (msg:"EXPLOIT-KIT Goon/Infinity exploit kit iframe redirection"; flow:established,to_client; file_data; content:"<iframe style=|22|position|3A|fixed|3B|top|3A|0px|3B|left|3A|-550px|3B 22| src="; fast_pattern:only; metadata:policy balanced-ips drop, policy security-ips drop, service http; classtype:trojan-activity; sid:27273; rev:2;)
+
+alert tcp $EXTERNAL_NET $HTTP_PORTS -> $HOME_NET any (msg:"EXPLOIT-KIT Multiple exploit kit binkey xored binary download attempt"; flow:to_client,established; file_data; content:"binkeybinkeybinkeybinkeybinkeybinkey"; fast_pattern:only; metadata:policy balanced-ips drop, policy security-ips drop, service http; reference:url,vrt-blog.snort.org/2013/11/im-calling-this-goon-exploit-kit-for-now.html; classtype:trojan-activity; sid:28797; rev:1;)
+
+alert tcp $HOME_NET any -> $EXTERNAL_NET $HTTP_PORTS (msg:"EXPLOIT-KIT iFRAMEr successful cnt.php redirection"; flow:to_server,established; content:"/cnt.php?id="; fast_pattern:only; http_uri; content:"Referer|3A 20|"; http_header; pcre:"/^\/cnt\.php\?id=\d+$/U"; metadata:policy balanced-ips alert, policy security-ips alert, service http; reference:url,vrt-blog.snort.org/2013/11/im-calling-this-goon-exploit-kit-for-now.html; classtype:trojan-activity; sid:28796; rev:1;)
+
+alert tcp $HOME_NET any -> $EXTERNAL_NET $HTTP_PORTS (msg:"EXPLOIT-KIT Goon/Infinity exploit kit payload download attempt"; flow:to_server,established; urilen:<30; content:".mp3"; fast_pattern:only; http_uri; content:" Java/1."; http_header; pcre:"/\/\d+\.mp3$/U"; flowbits:set,file.exploit_kit.pe; metadata:policy balanced-ips drop, policy security-ips drop, service http; reference:cve,2012-0507; reference:url,vrt-blog.snort.org/2013/11/im-calling-this-goon-exploit-kit-for-now.html; classtype:trojan-activity; sid:28795; rev:3;)
+
+alert tcp $EXTERNAL_NET $HTTP_PORTS -> $HOME_NET any (msg:"EXPLOIT-KIT Goon/Infinity exploit kit landing page"; flow:to_client,established; file_data; content:"nib|28 27|http|3A 2F 2F|"; content:".mp3|27 29 3B|"; within:25; distance:10; metadata:policy balanced-ips drop, policy security-ips drop, service http; classtype:trojan-activity; sid:29361; rev:2;)
+
+alert tcp $EXTERNAL_NET $HTTP_PORTS -> $HOME_NET any (msg:"EXPLOIT-KIT Goon/Infinity exploit kit encrypted binary download"; flow:to_client,established; file_data; content:"4Um3S0Vm3"; depth:15; metadata:policy balanced-ips drop, policy security-ips drop, service http; classtype:trojan-activity; sid:29360; rev:2;)
+
+alert tcp $HOME_NET any -> $EXTERNAL_NET $HTTP_PORTS (msg:"EXPLOIT-KIT Goon/Infinity exploit kit malicious portable executable file request"; flow:to_server,established; content:".mp3?rnd="; fast_pattern:only; http_uri; pcre:"/\/\d+\.mp3\?rnd=\d+$/U"; flowbits:set,file.exploit_kit.pe; metadata:policy balanced-ips drop, policy security-ips drop, service http; classtype:trojan-activity; sid:30319; rev:2;)
+
+alert tcp $EXTERNAL_NET $HTTP_PORTS -> $HOME_NET any (msg:"EXPLOIT-KIT Goon/Infinity exploit kit landing page"; flow:to_client,established; file_data; content:"<html><th>Wait Please...</th><body>"; fast_pattern:only; metadata:policy balanced-ips drop, policy security-ips drop, service http; classtype:trojan-activity; sid:30317; rev:1;)
+
+alert tcp $EXTERNAL_NET $HTTP_PORTS -> $HOME_NET any (msg:"EXPLOIT-KIT Goon/Infinity exploit kit landing page"; flow:to_client,established; file_data; content:".xml|22| name=|22|jnlp_href|22|"; fast_pattern:only; metadata:policy balanced-ips drop, policy security-ips drop, service http; classtype:trojan-activity; sid:30316; rev:1;)
+
+alert tcp $HOME_NET any -> $EXTERNAL_NET $HTTP_PORTS (msg:"EXPLOIT-KIT Goon/Infinity exploit kit mp3 requested by Java"; flow:to_server,established; urilen:<50,norm; content:".mp3"; fast_pattern:only; http_uri; content:" Java/1."; http_header; pcre:"/\d+\.mp3$/U"; metadata:policy balanced-ips drop, policy security-ips drop, service http; classtype:trojan-activity; sid:30878; rev:1;)
+
+alert tcp $HOME_NET any -> $EXTERNAL_NET $HTTP_PORTS (msg:"EXPLOIT-KIT Goon/Infinity/Rig exploit kit outbound uri structure"; flow:to_server,established; content:".php?req="; fast_pattern; nocase; http_uri; content:"&PHPSSESID="; distance:0; http_uri; pcre:"/\.php\?req=(?:x(?:ap|ml)|swf(IE)?|mp3|jar)\&/Ui"; flowbits:set,file.exploit_kit.jar&file.exploit_kit.silverlight; metadata:policy balanced-ips drop, policy security-ips drop, service http; classtype:trojan-activity; sid:30936; rev:3;)
+
+alert tcp $EXTERNAL_NET $HTTP_PORTS -> $HOME_NET any (msg:"EXPLOIT-KIT Goon/Infinity/Rig exploit kit landing page - specific structure"; flow:to_client,established; file_data; content:"|3A|stroke id="; fast_pattern:only; content:"|3B|function pop(koz)"; metadata:policy balanced-ips drop, policy security-ips drop, service http; classtype:trojan-activity; sid:30935; rev:2;)
+
+alert tcp $EXTERNAL_NET $HTTP_PORTS -> $HOME_NET any (msg:"EXPLOIT-KIT Goon/Infinity/Rig exploit kit encrypted binary download"; flow:to_client,established; file_data; content:"|89 B4 F4 6A 24 1F 46 14|"; depth:8; metadata:policy balanced-ips drop, policy security-ips drop, service http; classtype:trojan-activity; sid:30934; rev:2;)
+
+alert tcp $EXTERNAL_NET $HTTP_PORTS -> $HOME_NET any (msg:"EXPLOIT-KIT Goon/Infinity exploit kit landing page"; flow:to_client,established; file_data; content:"#default#VML"; fast_pattern:only; content:"*/var "; isdataat:500,relative; content:"|3B|function "; within:50; pcre:"/\x3bfunction\s(?P<name>\w)\x28.*\x3b(?P=name)\x28\x22[\da-z]+\x22\x29\x3b/"; metadata:policy security-ips drop, service http; classtype:trojan-activity; sid:31298; rev:2;)
