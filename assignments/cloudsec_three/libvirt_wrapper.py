@@ -95,6 +95,13 @@ def vm_stop():
 	print "Stopping", chosen_stop_dom.name()
 	chosen_stop_dom.shutdown()
 
+# function to create a virtual machine, given an XML definition
+def vm_create():
+	path_xml = raw_input("Enter the path to the XML definition: ")
+	xml_file = open(path_xml)
+	xml_data = xml_file.read()
+	dom_create = conn.defineXML(xml_data)
+	print "Virtual machine created."
 
 # connect to the libvirt instance, in this case it'll be KVM (I think)
 conn = libvirt.open(None)
@@ -122,6 +129,7 @@ if len(sys.argv) != 2:
 		print conn.lookupByID(domain).name()
 	print
 	print "Use", sys.argv[0], "with the domain name as argument to get the information about the domain."
+	print "To create, start or stop a virtual machine, use", sys.argv[0] "with the required operation as the argument to do so."
 
 # section to print the info of a specified virtual machine or start/stop a virtual machine
 else:
@@ -129,5 +137,7 @@ else:
 		vm_start()
 	elif sys.argv[1] == "stop":
 		vm_stop()
+	elif sys.argv[1] == "create":
+		vm_create()
 	else:
 		print_info(conn.lookupByName(sys.argv[1]))
