@@ -1,0 +1,42 @@
+1. 
+	- The primary difference: both files are a variable-sized sequence of bits, but bits in text file represent characters, while bits in binary file represent some other form of data which may/may not include text
+	- in a way, text files are also binary files, but are encoded in special manner
+	- encodings include UTF-8, UTF-16, ASCII, EBCDIC etc.
+	- text files store only text and its metadata (such as formatting)
+	- but binary files can store all kinds of data including text, such as multimedia, executables, and so on.
+
+2.
+  a)
+	- ELF refers to Executable and Linkable Format
+	- can be normal executables, relocatable object files, core dumps, and library objects
+	- ELF files contain header, followed by a program header table and then section header table
+	- in between these tables sections are present, such as .rodata, .text and .data
+	- magic number is 0x7F
+	- extensions include .elf, .o, .prx, .so and more
+  b)
+	- Hex dump is the binary-level dump of any file
+	- usually represented in hexadecimal format or any format of liking
+	- usually used for debugging, forensics and reverse engineering
+
+3.
+	- Hex dump usually shows binary data
+	- in case of executables, sections of data shown
+	- similar in case of process dumps, sections of memory pertaining to the process shown like the stack, heap etc.
+	- for regular files, just binary level data and its character representation shown
+
+4.
+	- Big endian representation:
+
+		---------------------
+		|    |    |    |    |
+		| DE | AD | BE | EF |
+		|    |    |    |    |
+		---------------------
+
+	-Little endian representation:
+
+		---------------------
+		|    |    |    |    |
+		| EF | BE | AD | DE |
+		|    |    |    |    |
+		---------------------
