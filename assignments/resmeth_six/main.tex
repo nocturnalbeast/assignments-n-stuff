@@ -1,0 +1,58 @@
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+
+\title{Abstract + Introduction}
+\author{nocturnalbeast}
+\date{February 2019}
+
+\usepackage{biblatex}
+\addbibresource{cite.bib}
+
+\begin{document}
+
+\maketitle
+
+\section{Abstract}
+
+\textbf{KEYWORDS}: smartphone addiction, mental health, brain wave analytics, technostress
+
+\paragraph{} The smartphone is a wondrous device, and it's usage has been steadily on the rise since the turn of the last decade. However, the purported benefits of this device and the increase in productivity it offers is not without its caveats. Several studies have proven that increase in smartphone usage have been linked to deterioration of mental health\cite{bian2015linking,twenge2017have,ward2017brain}. It is also found that the mental health of smartphone users have been declining on an average. Thus, it comes as no shock when we understand that the pervasive adoption of these devices without the user being aware of such risks drags an increasing amount of people into mental health issues like depression and lethargy. This paper attempts to tackle the aforementioned problem by proposing a solution which aims to decrease such excessive usage of smartphones amongst users. It is a smartphone application which connects to a wearable system which tracks the user's mental acuity and status, and helps the user limit smartphone use by suggesting a daily limit on the time he/she is able to use the device. This application proves to be more effective than its counterparts utilising similar strategies to reduce smartphone usage, since it delivers dynamic and personalized usage limits based on the multiple inputs recorded by the wearable system that it connects to. The solution proves effective in curbing excessive and/or compulsive smartphone use, which resulted in a visible improvement in overall mental health amongst the users of the solution.This was confirmed with an analysis of brain wave activity of a fixed number of users (420 users) conducted before and after 60 days of continued usage of the application, out of which 381 (90.71\%) users indicated improvement in mental acuity, concentration, satisfaction and happiness, which in turn indicated positive trends in overall mental health.
+
+
+\newpage
+
+
+\section{Introduction}
+
+\paragraph{} Ever since its conception in the early 2000s, the smartphone has always remained a tool that its users have utilized to increase productivity. This was achieved by the plethora of features offered by these devices, rendering the users of such devices able to achieve a substantial increase in productivity. It's ability to provide content from the Internet has made it a device to easily consume media such as news, articles, videos music and much, much more. All of these have fostered its adoption among humankind, as the number of smartphones in use amongst the total population of the world has always been on the increase since it was introduced into the world. Even if this seems something to be regarded positively when casting a cursory glance, a deeper foray into this subject shows that all is not well in this seemingly cheery world.\cite{lee2014dark} A substantial percentage of all the smartphone users are reported to be overdependent on their smartphones\cite{lopez2014prevalence, merlo2013measuring, lee2016dependency, davey2014assessment, eduardo2012mobile, koo2014risk}, and as the number of smartphone users increase, so do the number of such users. Such usage patterns lead to technostress\cite{brod1984technostress}, leading them on a declining slope of mental health and rendering these users prone to mental health issues such as mood swings, depression and a constant feeling of lethargy.\cite{van2015modeling, lee2013relationship, choi2012influence, wang2014studentlife}
+
+\paragraph{} This paper is an attempt to understand this problem further, building on past analyses and then trying to tackle the problem of excessive and/or compulsive usage of smartphones. We then proceed to introduce SageSense, our solution which consists of two subsystems:
+
+\begin{itemize}
+    \item an Android application that displays usage of the smartphone on a temporal basis (and additionally per-app usage) and provides lock-out timeframes based on automated analysis of the data collected from the second subsystem.
+    \item an interlinked set of wearable devices which include a headband and a wristband, and the inbuilt sensors present in the smartphone (accelerometer, front-facing camera, touchscreen), which together collect data like brain wave activity, eye movements, and touchscreen interaction patterns.
+\end{itemize}
+
+These subsystems work in tandem to record and analyze real-time data, based on which inferences can be made about the user's current state of mind and levels of mental acuity. This is then used to generate a dynamically generated lockout timeframe which the user is compelled to follow. The generation of the timeframe is adjusted according to the user's day-to-day usage patterns and mental health levels. This provides SageSense a clear advantage over the competition, giving it the ability to adapt to users by delivering lockout timeframes that provide the optimal improvement in the user's usage of his/her smartphone.
+
+\paragraph{} Our solution, SageSense, provides an objectively better method by which a user can keep track of his/her smartphone usage patterns and decrease technostress by the method of adhering to the lockout timeframes regulated by the application. The effectiveness of the solution was analyzed with the help of an analysis of brain wave data collected from a fixed number of users (420 users) at two points in time:
+
+\begin{itemize}
+    \item before the user started using the application
+    \item after the user completed 60 days of continued usage of the application
+\end{itemize}
+
+This data was collected over a 24-hour period (on both instances), which allowed us to analyze the difference in the user's mental health before using the application and after using the application. The analysis of this data ended in the conclusion that 90.71\% of users (381 users) showed noticeable improvement in overall mental health, which was indicated by increase in levels of mental acuity, concentration, satisfaction and happiness in general.
+
+\paragraph{} We believe the following to be our contributions:
+\begin{itemize}
+    \item We conduct an analysis of brain-wave patterns on a multi-ethnographic group of participants, and reinforce the hypothesis that excessive and/or compulsive smartphone usage has detrimental effects on mental health.
+    \item We propose and implement a solution, SageSense, which provides an improvement over similar solutions, by providing the user with a dynamic and personalized timeframe in which the user is not allowed to use his/her smartphone.
+    \item We confirm the effectiveness of the solution implemented by conducting a comparatory analysis on the brain wave activity of users before and after using the solution for a period of 60 days.
+\end{itemize}
+
+
+\newpage
+\printbibliography
+
+\end{document}
