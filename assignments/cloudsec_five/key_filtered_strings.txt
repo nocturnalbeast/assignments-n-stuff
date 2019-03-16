@@ -1,0 +1,5291 @@
+ Press any key to exit.
+grub_checkkey
+grub_getkey
+i8042 keyboard test failed (got %x not 0x00)
+etc/ps2-keyboard-spinup
+keyboard self test failed (got %x not 0xaa)
+PS2 keyboard initialized
+USB keyboard initialized
+etc/boot-menu-key
+__process_key unknown scancode read: 0x%02x!
+ps2 keyboard irq but found mouse data?!
+__pthread_key_create
+pthread_key_delete
+__GI___pthread_keys
+_thread_db___pthread_keys
+_thread_db_sizeof_pthread_key_struct
+_thread_db_pthread_key_struct_destr
+_thread_db_pthread_key_struct_seq
+__pthread_key_create_internal
+_thread_db_pthread_key_data_data
+_thread_db_sizeof_pthread_key_data_level2
+_thread_db_pthread_key_data_level2_data
+__pthread_keys
+_thread_db_pthread_key_data_seq
+../../../../../share/pyshared/keyring/tests/__init__.py
+../../../../../share/pyshared/keyring/tests/test_backend.py
+../../../../../share/pyshared/keyring/tests/test_core.py
+../../../../../share/pyshared/keyring/tests/test_cli.py
+../../../../../share/pyshared/keyring/tests/test_util.py
+../../../../../share/pyshared/keyring/backends/__init__.py
+../../../../share/pyshared/keyring/py25compat.py
+../../../../../share/pyshared/keyring/util/__init__.py
+../../../../../share/pyshared/keyring/util/properties.py
+../../../../../share/pyshared/keyring/util/escape.py
+../../../../../share/pyshared/keyring/util/platform.py
+../../../../../share/pyshared/keyring/util/loc_compat.py
+../../../../share/pyshared/keyring/backend.py
+../../../../share/pyshared/keyring/http.py
+nih_hash_string_key
+nih_hash_string_key
+ply_boot_client_ask_daemon_to_watch_for_keystroke
+ply_boot_client_ask_daemon_to_ignore_keystroke
+ply_boot_client_ask_daemon_to_watch_for_keystroke
+ply_boot_client_ask_daemon_to_ignore_keystroke
+missing <key>=<value> in '%s'[%i], skip line
+place_keywords_in_env
+rl_read_key
+_rl_enable_keypad
+rl_make_keymap
+emacs_meta_keymap
+rl_translate_keyseq
+emacs_standard_keymap
+_rl_keymap
+rl_bind_keyseq_if_unbound
+rl_bind_keyseq
+bind_keyseq_to_unix_command
+_rl_dispatching_keymap
+rl_binding_keymap
+rl_set_key
+rl_executing_keymap
+rl_bind_key_if_unbound
+vi_movement_keymap
+rl_unbind_key
+emacs_ctlx_keymap
+rl_get_keymap
+rl_bind_key_if_unbound_in_map
+rl_bind_keyseq_in_map
+rl_invoking_keyseqs_in_map
+rl_get_keymap_name_from_edit_mode
+vi_insertion_keymap
+rl_key_sequence_length
+rl_bind_keyseq_if_unbound_in_map
+assoc_keys_to_word_list
+_rl_keyseq_cxt_alloc
+rl_bind_key_in_map
+array_keys_to_word_list
+rl_completion_invoking_key
+rl_untranslate_keyseq
+rl_set_keymap_from_edit_mode
+_rl_enable_meta_key
+rl_get_keymap_name
+rl_make_bare_keymap
+rl_invoking_keyseqs
+rl_arrow_keys
+array_keys
+rl_set_keyboard_input_timeout
+rl_get_keymap_by_name
+rl_set_keymap
+_rl_keyseq_chain_dispose
+_rl_next_macro_key
+rl_unbind_key_in_map
+rl_function_of_keyseq
+it_keywords
+_nc_init_keytry
+_nc_tinfo_fkeys
+key_defined
+_nc_keyname
+keybound
+has_key
+_nc_keypad
+_nc_remove_key
+define_key
+keyok
+pfkey
+keypad_xmit
+keypad_local
+key_backspace
+key_catab
+key_clear
+key_ctab
+key_dc
+key_dl
+key_down
+key_eic
+key_eol
+key_eos
+key_f0
+key_f1
+key_f10
+key_f2
+key_f3
+key_f4
+key_f5
+key_f6
+key_f7
+key_f8
+key_f9
+key_home
+key_ic
+key_il
+key_left
+key_ll
+key_npage
+key_ppage
+key_right
+key_sf
+key_sr
+key_stab
+key_up
+pkey_key
+pkey_local
+pkey_xmit
+key_a1
+key_a3
+key_b2
+key_c1
+key_c3
+key_btab
+key_beg
+key_cancel
+key_close
+key_command
+key_copy
+key_create
+key_end
+key_enter
+key_exit
+key_find
+key_help
+key_mark
+key_message
+key_move
+key_next
+key_open
+key_options
+key_previous
+key_print
+key_redo
+key_reference
+key_refresh
+key_replace
+key_restart
+key_resume
+key_save
+key_suspend
+key_undo
+key_sbeg
+key_scancel
+key_scommand
+key_scopy
+key_screate
+key_sdc
+key_sdl
+key_select
+key_send
+key_seol
+key_sexit
+key_sfind
+key_shelp
+key_shome
+key_sic
+key_sleft
+key_smessage
+key_smove
+key_snext
+key_soptions
+key_sprevious
+key_sprint
+key_sredo
+key_sreplace
+key_sright
+key_srsume
+key_ssave
+key_ssuspend
+key_sundo
+key_f11
+key_f12
+key_f13
+key_f14
+key_f15
+key_f16
+key_f17
+key_f18
+key_f19
+key_f20
+key_f21
+key_f22
+key_f23
+key_f24
+key_f25
+key_f26
+key_f27
+key_f28
+key_f29
+key_f30
+key_f31
+key_f32
+key_f33
+key_f34
+key_f35
+key_f36
+key_f37
+key_f38
+key_f39
+key_f40
+key_f41
+key_f42
+key_f43
+key_f44
+key_f45
+key_f46
+key_f47
+key_f48
+key_f49
+key_f50
+key_f51
+key_f52
+key_f53
+key_f54
+key_f55
+key_f56
+key_f57
+key_f58
+key_f59
+key_f60
+key_f61
+key_f62
+key_f63
+key_mouse
+pkey_plab
+other_non_function_keys
+arrow_key_map
+pfkey
+number_of_function_keys
+gnu_has_meta_key
+ecryptfs_generate_new_key
+process_request_key_err
+decrypt_pki_encrypted_session_key
+decrypt_passphrase_encrypted_session_key
+ecryptfs_generate_key_packet_set
+pki_encrypt_session_key
+smack_key_permission
+kbd_keycode
+keyboard.brl_nbchords
+keyboard.brl_timeout
+scsi_dev_info_list_add_keyed
+            task   PID         tree-key  switches  prio     exec-runtime         sum-exec        sum-sleep
+mouse_button2_keycode
+mouse_button3_keycode
+ key=
+  'grep' is just a key word.
+Magic SysRq key
+<key>
+<4>Either the lower file is not in a valid eCryptfs format, or the key could not be retrieved. Plaintext passthrough mode is not enabled; returning -EIO
+<3>Error attempting to initialize cipher with name = [%s] and key size = [%td]; rc = [%d]
+<3>Could not find valid key in user session keyring for sig specified in mount option: [%s]
+<3>Requested key size is [%zd] bytes; maximum allowable is [%d]
+<3>Error attempting to set key of size [%zd] for cipher [%s]; rc = [%d]
+<3>%s: Error setting key; rc = [%d]
+&crypt_stat->keysig_list_mutex
+<7>%s: Initializing cipher [%s]; strlen = [%d]; key_size_bits = [%zd]
+<4>%s: Session key not valid; cannot generate root IV
+<3>Error adding keysig; rc = [%d]
+<3>Error attempting to copy mount-wide key sigs to the inode key sigs; rc = [%d]
+<7>%s: Generated new session key:
+<4>%s: Error generating key packet set; rc = [%d]
+<3>Error attempting to allocate from ecryptfs_key_tfm_cache
+<3>Error attempting to initialize key TFM cipher with name = [%s]; rc = [%d]
+<3>Error adding new key_tfm to list; rc = [%d]
+<7>%s: Session key encryption key (size [%d]):
+<3>Internal error whilst attempting to convert auth_tok->session_key.encrypted_key to scatterlist; expected rc = 1; got rc = [%d]. auth_tok->session_key.encrypted_key_size = [%d]
+<3>Internal error whilst attempting to convert auth_tok->session_key.decrypted_key to scatterlist; expected rc = 1; got rc = [%d]
+<3>Error setting key for crypto context
+<3>Invalid auth_tok structure returned from key query
+<3>%s: Encrypted key_size [%zd] larger than the maximum key size [%d]
+<4>Tag 3 packet contains key larger than ECRYPTFS_MAX_ENCRYPTED_KEY_BYTES
+<4>Tag 1 packet contains key larger than ECRYPTFS_MAX_ENCRYPTED_KEY_BYTES
+<3>%s: The decrypted key is not long enough to include a cipher code and checksum
+<3>%s: key_size [%d] larger than the maximum key size [%d]
+<3>%s: Invalid checksum for file encryption  key; expected [%x]; calculated [%x]
+<4>No key size specified at mount; defaulting to [%d]
+<7>%s: encrypted_session_key_valid != 0; using auth_tok->session_key.encrypted_key, where key_rec->enc_key_size = [%zd]
+<7>%s: Using previously generated session key encryption key of size [%d]
+<7>%s: Cached session key encryption key:
+<7>%s: Session key encryption key:
+<3>%s: Error generating scatterlist for crypt_stat session key; expected rc = 1; got rc = [%d]. key_rec->enc_key_size = [%zd]
+<3>%s: Error generating scatterlist for crypt_stat encrypted session key; expected rc = 1; got rc = [%d]. key_rec->enc_key_size = [%zd]
+<3>%s: Error setting key for crypto context; rc = [%d]
+<7>%s: Encrypting [%zd] bytes of the key
+<7>%s: This should be the encrypted key:
+<3>Failed to encrypt session key via a key module; rc = [%d]
+<7>%s: Decrypted session key:
+<3>Could not find key with description: [%s]
+<3>%s: Error setting key for crypto context; rc = [%d]. s->auth_tok->token.password.session_key_encryption_key = [0x%p]; mount_crypt_stat->global_default_fn_cipher_key_bytes = [%zd]
+<4>%s: Unable to generate code for cipher [%s] with key bytes [%zd]
+<4>%s: Error decrypting the session key for authentication token with sig [%.*s]; rc = [%d]. Removing auth tok candidate from the list and searching for the next match.
+/build/buildd/linux-lts-quantal-3.5.0/fs/ecryptfs/keystore.c
+<3>Error allocating from ecryptfs_key_sig_cache
+<7>%s:  * session_key.flags = [0x%x]
+<7>%s:  * Contains decrypted key
+<7>%s:  * session_key.decrypted_key_size = [0x%x]
+<7>%s:  * Decrypted session key dump:
+<7>%s:  * Contains encrypted key
+<7>%s:  * session_key.encrypted_key_size = [0x%x]
+<7>%s:  * Encrypted session key dump:
+ecryptfs_key_record_cache
+ecryptfs_key_sig_cache
+ecryptfs_key_tfm_cache
+ecryptfs_key_bytes=%u
+ecryptfs_fn_key_bytes=%u
+,ecryptfs_key_bytes=%zd
+<7>%s: Key size [%zd]; key:
+&key_tfm_list_mutex
+&tmp_tfm->key_tfm_mutex
+<4>%s: No key
+<7>%s: Encrypted key:
+<7>%s:  * private key type
+key_t
+       key      msqid perms      cbytes       qnum lspid lrpid   uid   gid  cuid  cgid      stime      rtime      ctime
+       key      semid perms      nsems   uid   gid  cuid  cgid      otime      ctime
+       key      shmid perms                  size  cpid  lpid nattch   uid   gid  cuid  cgid      atime      dtime      ctime                   rss                  swap
+&key->sem
+key_jar
+keyring
+sys_exit_keyctl
+sys_enter_keyctl
+sys_keyctl
+sys_exit_request_key
+sys_enter_request_key
+sys_request_key
+sys_exit_add_key
+sys_enter_add_key
+sys_add_key
+key_serial_t
+/sbin/request-key
+key:
+.request_key_auth
+key-users
+root_maxkeys
+keyhandle=%s
+keyauth=%s
+setkeycreate
+key_socket
+ key=%d 
+ key_serial=%u
+ key_desc=
+<3>digsig: no %s keyring: %d
+evm-key
+/build/buildd/linux-lts-quantal-3.5.0/security/keys/keyring.c
+/build/buildd/linux-lts-quantal-3.5.0/security/keys/process_keys.c
+/build/buildd/linux-lts-quantal-3.5.0/security/keys/request_key.c
+Cannot create /proc/key-users
+<6>trusted_key: could not allocate crypto %s
+<6>trusted_key: can't alloc %s
+<6>trusted_key: oiap failed (%d)
+<6>trusted_key: tpm_get_random failed (%d)
+<6>trusted_key: authhmac failed (%d)
+<6>trusted_key: TSS_checkhmac2 failed (%d)
+<6>trusted_key: srkunseal failed (%d)
+<6>trusted_key: srkseal failed (%d)
+<6>trusted_key: key_seal failed (%d)
+<6>trusted_key: pcrlock failed (%d)
+<6>trusted_key: key_unseal failed (%d)
+<6>trusted_key: key_create failed (%d)
+<6>encrypted_key: could not allocate crypto %s
+<3>encrypted_key: failed to alloc_cipher (%ld)
+<6>encrypted_key: insufficient parameters specified
+<3>encrypted_key: insufficient parameters specified
+<6>encrypted_key: master key parameter is missing
+<6>encrypted_key: master key parameter '%s' is invalid
+<6>encrypted_key: keylen parameter is missing
+<6>encrypted_key: keyword '%s' not allowed when called from .update method
+<6>encrypted_key: hex blob is missing
+<6>encrypted_key: keyword '%s' not allowed when called from .instantiate method
+<6>encrypted_key: keyword '%s' not recognized
+<6>encrypted_key: key %s not supported
+<6>encrypted_key: key %s not found
+<3>encrypted_key: failed to load %s transform (%ld)
+<3>encrypted_key: failed to setkey (%d)
+<3>encrypted_key: keylen for the ecryptfs format must be equal to %d bytes
+<6>encrypted_key: can't alloc %s
+<3>encrypted_key: failed to encrypt (%d)
+<3>encrypted_key: out of memory
+<3>encrypted_key: bad hmac (%d)
+<3>encrypted_key: failed to decrypt key (%d)
+<3>encrypted_key: key description must be %d hexadecimal characters long
+<3>encrypted_key: key description must contain only hexadecimal characters
+unspec unix local inet ax25 ipx appletalk netrom bridge atmpvc x25 inet6 rose netbeui security key netlink packet ash econet atmsvc rds sna irda pppox wanpipe llc can tipc bluetooth iucv rxrpc isdn phonet ieee802154 caif alg nfc max
+min keysize  : %u
+max keysize  : %u
+<3>add_uevent_var: too many keys
+<3>digsig: key not found, id: %s
+SOURCE=hotkey
+Failed to add onkey subdev
+88pm860x-onkey
+stmpe-keypad
+failed to keypad child
+added keypad block
+tc3589x-keypad
+&wm831x->key_lock
+da9052-onkey
+max8925-onkey
+adp5520-keys
+rc5t583-key
+Set key (osd)
+Set master key (osd)
+Security working key frozen
+Incorrect data encryption key
+AT Set 2 Extra keyboard
+AT %s Set %d keyboard
+keyboard reset failed on %s
+AT and PS/2 keyboard driver
+<3>keyboard: k_lowercase was called - impossible
+<4>keyboard: keyboard mode must be unicode for braille patterns
+<4>keyboard: can't emulate rawmode for keycode %d
+can't allocate memory for key lists
+Failed to read security key: %d
+Security key had non-zero value %x
+Access denied - invalid mgmt id key
+Data decryption key fail limit reached
+Incomplete key-associated data set
+Vendor specific key reference not found
+Data encryption key instance counter has changed
+Maximum number of supplemental decryption keys exceeded
+Copy protection key exchange failure - authentication failure
+Copy protection key exchange failure - key not present
+Copy protection key exchange failure - key not established
+Unknown signature verification key
+External data encryption key manager access error
+External data encryption key manager error
+External data encryption key not found
+<6>cdrom: Invalid DVD key ioctl (%d)
+<7>i8042: [%d] Extra keyboard ACK - filtered out
+NCD terminal keyboards are only supported on non-translating controlelrs. Use i8042.direct=1 to disable translation.
+Failed to enable keyboard on %s
+Unknown key %s (%s set %d, code %#x on %s).
+Use 'setkeycodes %s%02x <keycode>' to make it known.
+keyspan/mpr.fw
+keyspan/usa18x.fw
+keyspan/usa19.fw
+keyspan/usa19qi.fw
+keyspan/usa19qw.fw
+keyspan/usa19w.fw
+keyspan/usa28.fw
+keyspan/usa28xa.fw
+keyspan/usa28xb.fw
+keyspan/usa28x.fw
+keyspan/usa49w.fw
+keyspan/usa49wlc.fw
+<4>fib_trie tp=%p pos=%d, bits=%d, key=%0x plen=%d
+<7>[%-6.6s] DNS resolver keyring: %d
+<4>Empty option to dns_resolver key %d
+<4>Option '%*.*s' to dns_resolver key %d: bad/missing value
+<7>[%-6.6s] call request_key(,%s,%s)
+init_timer_deferrable_key
+init_timer_key
+setup_deferrable_timer_on_stack_key
+__alloc_workqueue_key
+__wake_up_sync_key
+__wake_up_locked_key
+static_key_slow_dec_deferred
+static_key_slow_dec
+static_key_slow_inc
+unregister_key_type
+register_key_type
+key_invalidate
+key_revoke
+key_update
+key_create_or_update
+key_set_timeout
+key_put
+key_reject_and_link
+key_instantiate_and_link
+key_payload_reserve
+key_alloc
+keyring_clear
+key_unlink
+key_link
+keyring_search
+key_type_keyring
+key_validate
+key_task_permission
+request_key_async_with_auxdata
+request_key_async
+request_key_with_auxdata
+request_key
+wait_for_key_construction
+complete_request_key
+key_type_logon
+key_type_user
+key_type_trusted
+key_type_encrypted
+ecryptfs_get_auth_tok_key
+crypto_ahash_setkey
+crypto_shash_setkey
+crypto_aes_set_key
+crypto_aes_expand_key
+pci_vpd_find_info_keyword
+unregister_sysrq_key
+register_sysrq_key
+unregister_keyboard_notifier
+register_keyboard_notifier
+agp_free_key
+scsi_sense_key_string
+scsi_get_device_flags_keyed
+scsi_dev_info_list_del_keyed
+scsi_dev_info_list_add_keyed
+ps2_is_keyboard_id
+input_set_keycode
+input_get_keycode
+__ip_route_output_key
+tcp_md5_hash_key
+_thread_db_sizeof_pthread_key_data
+__pthread_key_create
+pthread_key_create
+pthread_key_delete
+nih_hash_string_key
+nih_hash_string_key
+keyboard-request
+key != NULL
+Malformed line %lu in source list %s ([%s] has no key)
+Malformed line %lu in source list %s ([%s] key %s has no value)
+libkeyutils.so.1
+/lib/x86_64-linux-gnu/libkeyutils.so.1
+key_setnet
+xdr_keybuf
+xdr_cryptkeyres
+key_decryptsession
+key_encryptsession
+nih_hash_string_key
+# console-setup - set console keymap
+# Set the console keyboard as early as possible so that the administrator
+# can interact with the system during file system checks.  The keymap may be
+# set on any virtual console as long as it isn't in raw mode; loadkeys will
+description	"set console keymap"
+exec loadkeys /etc/console-setup/cached.kmap.gz
+/usr/lib/python2.7/dist-packages/keyring-0.9.2.egg-info/top_level.txt
+/etc/default/keyboard
+/lib/udev/rules.d/95-keyboard-force-release.rules
+/lib/udev/rules.d/95-keymap.rules
+/usr/lib/python2.7/keyword.py
+/usr/lib/python2.7/keyword.pyc
+input: AT Translated Set 2 keyboard as /devices/platform/i8042/serio0/input/input1
+ply_key_file_new
+ply_key_file_load
+ply_key_file_get_value
+ply_key_file_free
+ply_keyboard_free
+ply_keyboard_add_input_handler
+ply_keyboard_remove_input_handler
+ply_keyboard_add_backspace_handler
+ply_keyboard_remove_backspace_handler
+ply_keyboard_add_escape_handler
+ply_keyboard_remove_escape_handler
+ply_keyboard_add_enter_handler
+ply_keyboard_remove_enter_handler
+ply_boot_splash_set_keyboard
+ply_boot_splash_unset_keyboard
+ply_keyboard_new_for_terminal
+ply_keyboard_new_for_renderer
+ply_keyboard_watch_for_input
+ply_keyboard_stop_watching_for
+__pthread_key_create
+ssh-keyscanp%
+loadkeys
+apt-key.
+add_displays_and_keyboard_to_boot_splash
+[%s] %45.45s:escape key pressed
+[%s] %45.45s:adding default displays and keyboard
+[%s] %45.45s:activating keyboard
+on_watch_for_keystroke
+on_ignore_keystroke
+remove_displays_and_keyboard
+add_display_and_keyboard_for_terminal
+set_keyboard
+add_default_displays_and_keyboard
+ply_boot_connection_on_keystroke_answer
+[%s] %45.45s:watching for keystroke
+[%s] %45.45s:listening for keystrokes
+[%s] %45.45s:adding display and keyboard for %s
+[%s] %45.45s:ignoring for keystroke
+[%s] %45.45s:setting keyboard on boot splash
+[%s] %45.45s:removing displays and keyboard
+[%s] %45.45s:removing keyboard
+[%s] %45.45s:deactivating keyboard
+[%s] %45.45s:got key: %s
+[%s] %45.45s:got keystroke request
+[%s] %45.45s:got keystroke remove request
+ply_key_file_new
+ply_key_file_get_value
+ply_key_file_load
+ply_key_file_free
+ply_keyboard_stop_watching_for_input
+ply_keyboard_add_backspace_handler
+ply_boot_splash_unset_keyboard
+ply_keyboard_free
+ply_keyboard_add_input_handler
+ply_keyboard_new_for_terminal
+ply_boot_splash_set_keyboard
+ply_keyboard_new_for_renderer
+ply_keyboard_watch_for_input
+ply_keyboard_add_escape_handler
+ply_keyboard_add_enter_handler
+tdb_firstkey: error occurred while tdb_unlocking!
+tdb_nextkey: lock_record failed (%s)!
+tdb_nextkey: WARNING tdb_unlock failed!
+Lock exists on other keys
+ rec: hash=%d offset=0x%08x next=0x%08x rec_len=%d key_len=%d data_len=%d full_hash=0x%x magic=0x%x
+tdb_traverse: key.dptr == NULL and unlock_record failed!
+x509_pkey
+evp_pkey
+keyUsage
+keyBag
+id-it-keyPairParamReq
+id-it-keyPairParamRep
+j <= (int)sizeof(ctx->key)
+len>=0 && len<=(int)sizeof(ctx->key)
+hexkey
+in && out && key && ivec
+client write key
+server write key
+key expansion
+SSLv3 write key exchange A
+SSLv3 write key exchange B
+SSLv3 read server key exchange A
+SSLv3 read server key exchange B
+SSLv3 write client key exchange A
+SSLv3 write client key exchange B
+SSLv3 read client key exchange A
+SSLv3 read client key exchange B
+SSL_check_private_key
+SSL_CTX_check_private_key
+bad dh pub key length
+error generating tmp rsa key
+invalid ticket keys length
+key arg too long
+missing dh key
+missing export tmp dh key
+missing export tmp rsa key
+missing tmp dh key
+missing tmp ecdh key
+missing tmp rsa key
+missing tmp rsa pkey
+no privatekey
+no private key assigned
+no publickey
+public key encrypt error
+public key is not rsa
+public key not rsa
+and keyword arguments taken from the optional dictionary kwargs.
+    function(*args, **keywords).
+max(iterable[, key=func]) -> value
+max(a, b, c, ...[, key=func]) -> value
+min(iterable[, key=func]) -> value
+min(a, b, c, ...[, key=func]) -> value
+Optional keyword arguments:
+sorted(iterable, cmp=None, key=None, reverse=False) --> new sorted list
+putenv(key, value)
+unsetenv(key)
+Object wrapper with a custom sort key.
+cmp() wrapper for sort with custom keys.
+iterkeys
+_ssl.c:291: Both the key & certificate files must be specified
+_ssl.c:298: Both the key & certificate files must be specified for server-side operation
+%.200s%s got multiple values for keyword argument '%.200s'
+execve(): env.keys() or env.values() is not a list
+s;execve() arg 3 contains a non-string key
+keywords
+Dict field "keys" must be a list, not a %.200s
+required field "keys" missing from Dict
+required field "key" missing from DictComp
+Call field "keywords" must be a list, not a %.200s
+required field "arg" missing from keyword
+required field "value" missing from keyword
+required field "keywords" missing from Call
+non-keyword arg after keyword arg
+keyword can't be an expression
+%.200s() keywords must be strings
+%.200s() got an unexpected keyword argument '%.400s'
+%.200s() got multiple values for keyword argument '%.400s'
+keyword argument repeated
+import:  deleting existing key insys.modules failed
+D.has_key(k) -> True if D has a key k, else False
+D.get(k[,d]) -> D[k] if D.has_key(k), else d.  d defaults to None.
+D.items() -> list of D's (key, value) pairs, as 2-tuples
+D.iterkeys() -> an iterator over the keys of D
+D.iteritems() -> an iterator over the (key, value) items of D
+Mapping key not found.
+dictionary-keyiterator
+dict_keys
+has_key
+D.keys() -> list of D's keys
+viewkeys
+fromkeys
+nonlocal is a keyword in 3.x
+Couldn't create autoTLSkey mapping
+dictionary of keyword arguments to future partial calls
+incomplete format key
+invalid load key, '%s'.
+Label %s is a keyword
+tls find_key: small circular list(!)
+tls find_key: circular list(!)
+keywords must be strings
+%s does not take keyword arguments
+More keyword list entries (%d) than format specifiers (%d)
+more argument specifiers than keyword list entries (remaining format:'%s')
+'%s' is an invalid keyword argument for this function
+type.__init__() takes no keyword arguments
+wrapper %s doesn't take keyword arguments
+%.200s() takes no keyword arguments
+keyword list must be a dictionary
+%s() got an unexpected keyword argument
+izip_longest() got an unexpected keyword argument
+keyword
+field key is required for DictComp
+dir(): expected keys() of locals to be a list, not '%.200s'
+    (key, value) pairs
+    in the keyword argument list.  For example:  dict(one=1, two=2)
+D.__contains__(k) -> True if D has a key k, else False
+D.has_key(k) -> True if D has a key k, else False
+D.pop(k[,d]) -> v, remove specified key and return the corresponding value.
+If key is not found, d is returned if given, otherwise KeyError is raised
+D.popitem() -> (k, v), remove and return some (key, value) pair as a
+D.keys() -> list of D's keys
+D.items() -> list of D's (key, value) pairs, as 2-tuples
+D.viewkeys() -> a set-like object providing a view on D's keys
+If E present and has a .keys() method, does:     for k in E: D[k] = E[k]
+If E present and lacks .keys() method, does:     for (k, v) in E: D[k] = v
+dict.fromkeys(S[,v]) -> New dict with keys from S and values equal to v.
+D.iterkeys() -> an iterator over the keys of D
+D.iteritems() -> an iterator over the (key, value) items of D
+L.sort(cmp=None, key=None, reverse=False) -- stable sort *IN PLACE*;
+keyword.py
+dict.has_key() not supported in 3.x; use the in operator
+# set up the keyboard but to leave the console font unchanged.
+if [ -f /etc/default/keyboard ]; then
+    . /etc/default/keyboard
+    key="%s" val="%s"
+cryptd_hash_setkey
+crypto_shash_setkey
+groupby(iterable[, keyfunc]) --> sub-iterators grouped by value of keyfunc(v)
+defaults to None or can be specified by a keyword argument.
+nl_langinfo(key) -> string
+Return the value for the locale information associated with key.
+a new value when a key is not present, in __getitem__ only.
+__missing__(key) # Called by __getitem__ for missing key; pseudo-code:
+  if self.default_factory is None: raise KeyError((key,))
+  self[key] = value = self.default_factory()
+sslwrap(socket, server_side, [keyfile, certfile, certs_mode, protocol,
+groupby(iterable[, keyfunc]) -> create an iterator which returns
+(key, sub-iterator) grouped by each value of key(value).
+function with positional arguments from the tuple args and keyword arguments
+                             or status -c; use specified time as sort key
+_rl_control_keypad
+_rl_keyseq_cxt_dispose
+rl_free_keymap
+rl_copy_keymap
+<dummy key>
+PyThread_get_key_value
+PyThread_set_key_value
+of repetitions with the optional repeat keyword argument. For example,
+keyrings
+xdr_keydat
+xdr_ypreq_key
+xdr_ypreq_nokey
+xdr_ypresp_key_val
+key_gendes
+key_secretkey_is_set
+loadkeys /etc/console-setup/cached.kmap.gz
+TDB: Lock exists on other keys
+ply_key_file_new
+ply_key_file_free
+ply_key_file_load
+ply_key_file_has_key
+ply_key_file_get_value
+ext2fs_tdb_firstkey
+ext2fs_tdb_nextkey
+publickey
+on_keyboard_input
+ply-keyboard.c
+[%s] %45.45s:escape key!
+[%s] %45.45s:backspace key!
+[%s] %45.45s:return key!
+keyboard != ((void *)0)
+[%s] %45.45s:end escape key handler
+[%s] %45.45s:keyboard input terminal watch invalidated, rewatching
+ply_keyboard_watch_for_input
+process_keyboard_input
+ply_keyboard_watch_for_terminal_input
+ply_keyboard_stop_watching_for_input
+ply_keyboard_add_input_handler
+ply_keyboard_remove_input_handler
+ply_keyboard_add_backspace_handler
+ply_keyboard_remove_backspace_handler
+ply_keyboard_add_escape_handler
+ply_keyboard_remove_escape_handler
+ply_keyboard_add_enter_handler
+ply_keyboard_remove_enter_handler
+publickey
+key_function != NULL
+key != NULL
+key1 != NULL
+key2 != NULL
+nih_hash_string_key
+Gkey
+keylayouts.mod.m
+keystatus.mod.dpkg-new
+keylayouts.mod.dpkg-new
+__crc_snd_jack_set_key
+snd_jack_set_key
+__key.24291
+__key.23337
+__key.22966
+__key.22969
+__key.22970
+__key.22971
+__ksymtab_snd_jack_set_key
+__kstrtab_snd_jack_set_key
+__kcrctab_snd_jack_set_key
+        @param kwargs: keyword arguments to L{_setupChild} method.
+/* Define to empty if the keyword does not work. */
+/* Define to empty if the keyword does not work. */
+        --keymapping)
+            --ignore-repl --dont-ignore-repl --jargon --keyboard \
+            --time --dont-time --keymapping --add-email-quote \
+kernel/drivers/platform/x86/panasonic-laptop.ko: kernel/drivers/input/sparse-keymap.ko
+Pkernel/drivers/input/misc/pcap_keys.ko:
+4_keypad
+Rkernel/drivers/input/misc/pcf8574_keypad.ko:
+kernel/drivers/input/keyboard/qt1070.ko:
+                        -sgckey -des -des3 -idea -text -noout -modulus -check \
+options='-in -out -inkey -pubin -certin -sign -verify \
+options='-connect -www -cert -key -CApath -CAfile -reuse \
+/usr/bin/loadkeys
+/lib/udev/rules.d/95-keyboard-force-release.rules
+/lib/udev/rules.d/95-keymap.rules
+            pluto ranbits rsasigkey setup showdefaults showhostkey spi spigrp \
+~/.ssh2/hostkeys
+application/pgp-keys
+			key
+application/vnd.mediastation.cdkey
+/lib/x86_64-linux-gnu/libkeyutils.so.1
+    the current process. The chosen technique gets monkey-patched into the
+keyrings|
+keyring-0.9.2.egg-infokg-new
+keyrings
+keyring-0.9.2.egg-infokg-new
+an customize the level by using the C{logLevel} key::
+        keyword-only.
+keyed_md5
+keyword
+keyword
+pam_keyinit.so
+pam_keyinit.so.dpkg-new
+pam_keyinit.so.dpkg-tmp
+keystatus.modmod.dpkg-new
+usb_keyboard.modg-new
+at_keyboard.mod
+sendkey.mod
+sendkey.mod.dpkg-new
+monkey.pyy.dl
+data too small for key size
+digest too big for rsa key
+invalid keybits
+key size too small
+operation not supported for this keytype
+rsa_keygen_bits
+rsa_keygen_pubexp
+pub_key
+priv_key
+DSA_generate_key
+dh_key.c
+DH_generate_key
+invalid public key
+private-key:
+public-key:
+ECDH_compute_key
+../../../../../share/pyshared/twisted/test/test_monkey.py
+/etc/default/keyboard
+    A L{ContextTracker} provides a way to pass arbitrary key/value data up and
+        To pass exception information, use the keyword argument exc_info with
+        To pass exception information, use the keyword argument exc_info with
+        To pass exception information, use the keyword argument exc_info with
+Arguments(args, varargs, keywords)
+The public SSL key to verify the server. Only used if the given URL is https.
+    space.  See TextWrapper class for available keyword args to customize
+        indicated by a name in square brackets (`[]'), plus key/value
+    available keyword args to customize wrapping behaviour.
+            --expiredate --inactive --gid --groups --help --skel --key \
+        key|enc)
+            ap nick rate rts frag enc key power txpower commit' -- "$cur" ) )
+            channel rate bit bitrate key enc encryption power \
+    @ivar kw: A dictionary of keyword arguments to pass to the function.
+/lib/udev/rules.d/95-keymap.rules
+/lib/udev/rules.d/95-keyboard-force-release.rules
+Environment contains a non-string key
+t keys/values pa
+        of a callable, a tuple of positional arguments, and a dict of keyword
+        of a callable, a tuple of positional arguments, and a dict of keyword
+        of a callable, a tuple of positional arguments, and a dict of keyword
+omap4_keypad
+Ppcap_keys
+k.3589x_keypad
+tc3589x_keypad
+gpio_keys_polled
+gpio_keys
+rix_keypad
+matrix_keypad
+_keypad
+        @param kw: The keyword arguments to pass to the callable.
+    @param kw: the keyword arguments to pass to C{f}.
+    @ivar kw: A dictionary of keyword arguments to pass to the function.
+        of a callable, a tuple of positional arguments, and a dict of keyword
+        of a callable, a tuple of positional arguments, and a dict of keyword
+        of a callable, a tuple of positional arguments, and a dict of keyword
+        mapping C{str} environment keys to C{str} environment values.
+    @param **kwargs: keyword arguments to pass to f.
+    @param **kwargs: keyword arguments to pass to f.
+    @param **kw: The keyword arguments to pass to C{callable}.
+/usr/lib/python2.7/dist-packages/keyring-0.9.2.egg-info/top_level.txt
+            schemes by providing the errors keyword argument. These
+        providing the errors keyword argument. See the module docstring
+            schemes by providing the errors keyword argument. These
+        providing the errors keyword argument. See the module docstring
+pthread_key_create
+pthread_key_delete
+Report key must have a value.
+e6589x_keypad
+kernel/drivers/input/keyboard/tc3589x-keypad.ko: kernel/drivers/input/matrix-keymap.ko
+416_keypad
+kernel/drivers/input/keyboard/tca6416-keypad.ko:
+418_keypad
+kernel/drivers/input/keyboard/tca8418_keypad.ko: kernel/drivers/input/matrix-keymap.ko
+    ssh-installkeys showmount
+/lib/udev/rules.d/85-keyboard-configuration.rules
+    Used by .{safe_,}substitute() to combine the mapping and keyword
+key(
+keyfilet
+se_keymap
+\kernel/drivers/input/sparse-keymap.ko:
+ext2fs_tdb_firstkey
+ext2fs_tdb_nextkey
+dnode_getkey
+# int get_lsb_header_val (char *scriptpathname, char *key)
+TSU*", ATTR{[dmi/id]product_name}=="*ESPRIMO Mobile V5*", RUN+="keymap $name fujitsu-esprimo_mobile_v5"
+ENV{DMI_VENDOR}=="FUJITSU*", ATTR{[dmi/id]product_name}=="*ESPRIMO Mobile V6*", RUN+="keymap $name fujitsu-esprimo_mobile_v6"
+ENV{DMI_VENDOR}=="FUJITSU*", ATTR{[dmi/id]product_name}=="*AMILO Pro Edition V3505*", RUN+="keymap $name fujitsu-amilo_pro_edition_v3505"
+ENV{DMI_VENDOR}=="FUJITSU*", ATTR{[dmi/id]product_name}=="*Amilo Si 1520*", RUN+="keymap $name fujitsu-amilo_si_1520"
+ENV{DMI_VENDOR}=="FUJITSU*", ATTR{[dmi/id]product_name}=="AMILO*M*", RUN+="keymap $name 0x97 prog2 0x9F prog1"
+ENV{DMI_VENDOR}=="FUJITSU*", ATTR{[dmi/id]product_name}=="Amilo Li 1718", RUN+="keymap $name 0xD6 wlan"
+ENV{DMI_VENDOR}=="FUJITSU*", ATTR{[dmi/id]product_name}=="AMILO Li 2732", RUN+="keymap $name fujitsu-amilo_li_2732"
+ENV{DMI_VENDOR}=="LG*", ATTR{[dmi/id]product_name}=="*X110*", RUN+="keymap $name lg-x110"
+ENV{DMI_VENDOR}=="MEDION*", ATTR{[dmi/id]product_name}=="*FID2060*", RUN+="keymap $name medion-fid2060"
+ENV{DMI_VENDOR}=="MEDIONNB", ATTR{[dmi/id]product_name}=="A555*", RUN+="keymap $name medionnb-a555"
+ENV{DMI_VENDOR}=="MICRO-STAR*|Micro-Star*", RUN+="keymap $name micro-star"
+ENV{DMI_VENDOR}=="MICRO-STAR*", ATTR{[dmi/id]product_name}=="*U-100*|*U100*|*N033", RUN+="keymap $name 0xF7 reserved 0xF8 reserved"
+ENV{DMI_VENDOR}=="INVENTEC", ATTR{[dmi/id]product_name}=="SYMPHONY 6.0/7.0", RUN+="keymap $name inventec-symphony_6.0_7.0"
+ENV{DMI_VENDOR}=="MAXDATA", ATTR{[dmi/id]product_name}=="Pro 7000*", RUN+="keymap $name maxdata-pro_7000"
+ENV{DMI_VENDOR}=="[sS][aA][mM][sS][uU][nN][gG]*", RUN+="keymap $name samsung-other"
+ENV{DMI_VENDOR}=="[sS][aA][mM][sS][uU][nN][gG]*", ATTR{[dmi/id]product_name}=="*SX20S*", RUN+="keymap $name samsung-sx20s"
+ENV{DMI_VENDOR}=="[sS][aA][mM][sS][uU][nN][gG]*", ATTR{[dmi/id]product_name}=="SQ1US", RUN+="keymap $name samsung-sq1us"
+ENV{DMI_VENDOR}=="[sS][aA][mM][sS][uU][nN][gG]*", ATTR{[dmi/id]product_name}=="*700Z*", RUN+="keymap $name 0xBA ejectcd 0x96 keyboardbrightnessup 0x97 keyboardbrightnessdown"
+ENV{DMI_VENDOR}=="[sS][aA][mM][sS][uU][nN][gG]*", ATTR{[dmi/id]product_name}=="*90X3A*", RUN+="keymap $name samsung-90x3a"
+ENV{DMI_VENDOR}=="TOSHIBA", ATTR{[dmi/id]product_name}=="SATELLITE A100", RUN+="keymap $name toshiba-satellite_a100"
+ENV{DMI_VENDOR}=="TOSHIBA", ATTR{[dmi/id]product_name}=="Satellite A110", RUN+="keymap $name toshiba-satellite_a110"
+ENV{DMI_VENDOR}=="TOSHIBA", ATTR{[dmi/id]product_name}=="Satellite M30X", RUN+="keymap $name toshiba-satellite_m30x"
+ENV{DMI_VENDOR}=="OQO Inc.*", ATTR{[dmi/id]product_name}=="OQO Model 2*", RUN+="keymap $name oqo-model2"
+ENV{DMI_VENDOR}=="ONKYO CORPORATION", ATTR{[dmi/id]product_name}=="ONKYOPC", RUN+="keymap $name onkyo"
+ENV{DMI_VENDOR}=="ASUS", RUN+="keymap $name asus"
+ENV{DMI_VENDOR}=="VIA", ATTR{[dmi/id]product_name}=="K8N800", ATTR{[dmi/id]product_version}=="VT8204B", RUN+="keymap $name 0x81 prog1"
+ENV{DMI_VENDOR}=="Zepto", ATTR{[dmi/id]product_name}=="Znote", ATTR{[dmi/id]product_version}=="62*|63*", RUN+="keymap $name zepto-znote"
+ENV{DMI_VENDOR}=="Everex", ATTR{[dmi/id]product_name}=="XT5000*", RUN+="keymap $name everex-xt5000"
+ENV{DMI_VENDOR}=="COMPAL", ATTR{[dmi/id]product_name}=="HEL80I", RUN+="keymap $name 0x84 wlan"
+ENV{DMI_VENDOR}=="OLPC", ATTR{[dmi/id]product_name}=="XO", RUN+="keymap $name olpc-xo"
+ENV{DMI_VENDOR}=="Alienware*", ATTR{[dmi/id]product_name}=="M14xR1", RUN+="keymap $name 0x8A ejectcd"
+LABEL="keyboard_end"
+name}=="*E500*|*Evo N*", RUN+="keymap $name compaq-e_evo"
+ENV{DMI_VENDOR}=="LENOVO*", ATTR{[dmi/id]product_version}=="*3000*", RUN+="keymap $name lenovo-3000"
+ENV{DMI_VENDOR}=="LENOVO*", ATTR{[dmi/id]product_version}=="ThinkPad X6*", ATTR{[dmi/id]product_version}=="* Tablet", RUN+="keymap $name lenovo-thinkpad_x6_tablet"
+ENV{DMI_VENDOR}=="LENOVO*", ATTR{[dmi/id]product_version}=="ThinkPad X2[02]* Tablet*", ATTR{[dmi/id]product_version}=="* Tablet", RUN+="keymap $name lenovo-thinkpad_x200_tablet"
+ENV{DMI_VENDOR}=="LENOVO*", ATTR{[dmi/id]product_version}=="*IdeaPad*", RUN+="keymap $name lenovo-ideapad"
+ENV{DMI_VENDOR}=="LENOVO*", ATTR{[dmi/id]product_name}=="S10-*", RUN+="keymap $name lenovo-ideapad"
+ENV{DMI_VENDOR}=="LENOVO", ATTR{[dmi/id]product_version}=="*IdeaPad Y550*", RUN+="keymap $name 0x95 media 0xA3 play"
+ENV{DMI_VENDOR}=="Hewlett-Packard*", RUN+="keymap $name hewlett-packard"
+ENV{DMI_VENDOR}=="Hewlett-Packard*", ATTR{[dmi/id]product_name}=="*[tT][aA][bB][lL][eE][tT]*", RUN+="keymap $name hewlett-packard-tablet"
+ENV{DMI_VENDOR}=="Hewlett-Packard*", ATTR{[dmi/id]product_name}=="*[pP][aA][vV][iI][lL][iI][oO][nN]*", RUN+="keymap $name hewlett-packard-pavilion"
+ENV{DMI_VENDOR}=="Hewlett-Packard*", ATTR{[dmi/id]product_name}=="*Compaq*|*EliteBook*|*2230s*", RUN+="keymap $name hewlett-packard-compaq_elitebook"
+ENV{DMI_VENDOR}=="Hewlett-Packard*", ATTR{[dmi/id]product_name}=="*Presario*CQ*", RUN+="keymap $name 0xD8 f21 0xD9 f21"
+ENV{DMI_VENDOR}=="Hewlett-Packard*", ATTR{[dmi/id]product_name}=="*2510p*|*2530p*|HP G60 Notebook PC", RUN+="keymap $name hewlett-packard-2510p_2530p"
+ENV{DMI_VENDOR}=="Hewlett-Packard*", ATTR{[dmi/id]product_name}=="*[tT][xX]2*", RUN+="keymap $name hewlett-packard-tx2"
+ENV{DMI_VENDOR}=="Hewlett-Packard", ATTR{[dmi/id]product_name}=="Presario 2100*", RUN+="keymap $name hewlett-packard-presario-2100"
+ENV{DMI_VENDOR}=="Hewlett-Packard", ATTR{[dmi/id]product_name}=="HP G62 Notebook PC", RUN+="keymap $name 0xB2 www"
+ENV{DMI_VENDOR}=="Hewlett-Packard", ATTR{[dmi/id]product_name}=="HP ProBook*", RUN+="keymap $name 0xF8 rfkill"
+ATTR{[dmi/id]board_vendor}=="Quanta", ATTR{[dmi/id]board_name}=="30B7", ATTR{[dmi/id]board_version}=="65.2B", RUN+="keymap $name 0x88 media" # "quick play
+ENV{DMI_VENDOR}=="Gateway*", ATTR{[dmi/id]product_name}=="*AOA1*", RUN+="keymap $name acer"
+ENV{DMI_VENDOR}=="Acer*", RUN+="keymap $name acer"
+ENV{DMI_VENDOR}=="Acer*", ATTR{[dmi/id]product_name}=="Extensa*", ATTR{[dmi/id]product_name}=="*5210*|*5220*|*5610*|*5620*|*5720*", RUN+="keymap $name 0xEE screenlock"
+ENV{DMI_VENDOR}=="Acer*", ATTR{[dmi/id]product_name}=="TravelMate*C3[01]0*", RUN+="keymap $name acer-travelmate_c300"
+ENV{DMI_VENDOR}=="Acer*", ATTR{[dmi/id]product_name}=="TravelMate*6292*|TravelMate*8471*|TravelMate*4720*|TravelMate*7720*|Aspire 1810T*|AO751h|AO531h", RUN+="keymap $name 0xD9 bluetooth"
+ENV{DMI_VENDOR}=="Acer*", ATTR{[dmi/id]product_name}=="TravelMate*4720*", RUN+="keymap $name 0xB2 www 0xEE screenlock"
+ENV{DMI_VENDOR}=="Acer*", ATTR{[dmi/id]product_name}=="TravelMate 6593|Aspire 1640", RUN+="keymap $name 0xB2 www 0xEE screenlock"
+ENV{DMI_VENDOR}=="Acer*", ATTR{[dmi/id]product_name}=="Aspire 6920", RUN+="keymap $name acer-aspire_6920"
+ENV{DMI_VENDOR}=="Acer*", ATTR{[dmi/id]product_name}=="Aspire 5920G", RUN+="keymap $name acer-aspire_5920g"
+ENV{DMI_VENDOR}=="Acer*", ATTR{[dmi/id]product_name}=="Aspire 5720*", RUN+="keymap $name acer-aspire_5720"
+ENV{DMI_VENDOR}=="Acer*", ATTR{[dmi/id]product_name}=="Aspire 8930", RUN+="keymap $name acer-aspire_8930"
+ENV{DMI_VENDOR}=="Acer*", ATTR{[dmi/id]product_serial}=="ZG8*", RUN+="keymap $name acer-aspire_5720"
+ENV{DMI_VENDOR}=="*BenQ*", ATTR{[dmi/id]product_name}=="*Joybook R22*", RUN+="keymap $name 0x6E wlan"
+ENV{DMI_VENDOR}=="FUJITSU*", ATTR{[dmi/id]product_name}=="*AMILO Pro V3205*", RUN+="keymap $name fujitsu-amilo_pro_v3205"
+ENV{DMI_VENDOR}=="FUJITSU*", ATTR{[dmi/id]product_name}=="*AMILO Pa 2548*", RUN+="keymap $name fujitsu-amilo_pa_2548"
+ENV{DMI_VENDOR}=="FUJI# Set model specific hotkey keycodes.
+# Key map overrides can be specified by either giving scancode/keyname pairs
+# directly as keymap arguments (if there are just one or two to change), or as
+# a file name (in /lib/udev/keymaps), which has to contain scancode/keyname
+ACTION=="remove", GOTO="keyboard_end"
+KERNEL!="event*", GOTO="keyboard_end"
+ENV{ID_INPUT_KEY}=="", GOTO="keyboard_end"
+SUBSYSTEMS=="bluetooth", GOTO="keyboard_end"
+SUBSYSTEMS=="usb", GOTO="keyboard_usbcheck"
+GOTO="keyboard_modulecheck"
+# The following are external USB keyboards
+LABEL="keyboard_usbcheck"
+ENV{ID_VENDOR}=="Genius", ENV{ID_MODEL_ID}=="0708", ENV{ID_USB_INTERFACE_NUM}=="01", RUN+="keymap $name genius-slimstar-320"
+ENV{ID_VENDOR}=="Logitech*", ATTRS{name}=="Logitech USB Multimedia Keyboard", RUN+="keymap $name logitech-wave"
+ENV{ID_VENDOR}=="Logitech*", ATTRS{name}=="Logitech USB Receiver", RUN+="keymap $name logitech-wave-cordless"
+# Logitech Cordless Wave Pro looks slightly weird; some hotkeys are coming through the mouse interface
+ENV{ID_VENDOR_ID}=="046d", ENV{ID_MODEL_ID}=="c52[9b]", ATTRS{name}=="Logitech USB Receiver", RUN+="keymap $name logitech-wave-pro-cordless"
+ENV{ID_VENDOR}=="Lite-On_Technology_Corp*", ATTRS{name}=="Lite-On Technology Corp. ThinkPad USB Keyboard with TrackPoint", RUN+="keymap $name lenovo-thinkpad-usb-keyboard-trackpoint"
+ENV{ID_VENDOR_ID}=="04b3", ENV{ID_MODEL_ID}=="301[89]", RUN+="keymap $name ibm-thinkpad-usb-keyboard-trackpoint"
+ENV{ID_VENDOR}=="Microsoft", ENV{ID_MODEL_ID}=="00db", RUN+="keymap $name 0xc022d zoomin 0xc022e zoomout"
+GOTO="keyboard_end"
+# The following are exposed as separate input devices with low key codes, thus
+LABEL="keyboard_modulecheck"
+ENV{DMI_VENDOR}=="", GOTO="keyboard_end"
+ENV{DMI_VENDOR}=="LENOVO*", KERNELS=="input*", ATTRS{name}=="ThinkPad Extra Buttons", RUN+="keymap $name module-lenovo"
+ENV{DMI_VENDOR}=="LENOVO*", KERNELS=="input*", ATTRS{name}=="Lenovo ThinkPad SL Series extra buttons", RUN+="keymap $name 0x0E bluetooth"
+ENV{DMI_VENDOR}=="ASUS*", KERNELS=="input*", ATTRS{name}=="Asus Extra Buttons", ATTR{[dmi/id]product_name}=="W3J", RUN+="keymap $name module-asus-w3j"
+ENV{DMI_VENDOR}=="ASUS*", KERNELS=="input*", ATTRS{name}=="Eee PC WMI hotkeys|Asus Laptop Support|Asus*WMI*", RUN+="keymap $name 0x6B f21"
+ENV{DMI_VENDOR}=="ASUS*", KERNELS=="input*", ATTRS{name}=="Eee PC Hotkey Driver", RUN+="keymap $name 0x37 f21"
+ENV{DMI_VENDOR}=="IBM*", KERNELS=="input*", ATTRS{name}=="ThinkPad Extra Buttons", RUN+="keymap $name module-ibm"
+ENV{DMI_VENDOR}=="Sony*", KERNELS=="input*", ATTRS{name}=="Sony Vaio Keys", RUN+="keymap $name module-sony"
+ENV{DMI_VENDOR}=="Acer*", KERNELS=="input*", ATTRS{name}=="Acer WMI hotkeys", RUN+="keymap $name 0x82 f21"
+ENV{DMI_VENDOR}=="MICRO-STAR*|Micro-Star*", KERNELS=="input*", ATTRS{name}=="MSI Laptop hotkeys", RUN+="keymap $name 0x213 f22 0x214 f23"
+# Older Vaios have some different keys
+ENV{DMI_VENDOR}=="Sony*", ATTR{[dmi/id]product_name}=="*PCG-C1*|*PCG-K25*|*PCG-F1*|*PCG-F2*|*PCG-F3*|*PCG-F4*|*PCG-F5*|*PCG-F6*|*PCG-FX*|*PCG-FRV*|*PCG-GR*|*PCG-TR*|*PCG-NV*|*PCG-Z*|*VGN-S360*", ATTRS{name}=="Sony Vaio Keys", RUN+="keymap $name module-sony-old"
+ENV{DMI_VENDOR}=="Sony*", ATTR{[dmi/id]product_name}=="VGN-AR71*|VGN-FW*|VGN-Z21*", ATTRS{name}=="Sony Vaio Keys", RUN+="keymap $name module-sony-vgn"
+# The following rules belong to standard i8042 AT keyboard with high key codes.
+DRIVERS=="atkbd", GOTO="keyboard_vendorcheck"
+GOTO="keyboard_end"
+LABEL="keyboard_vendorcheck"
+ENV{DMI_VENDOR}=="Dell*", RUN+="keymap $name dell"
+ENV{DMI_VENDOR}=="Dell*", ATTR{[dmi/id]product_name}=="Inspiron 910|Inspiron 1010|Inspiron 1011|Inspiron 1012|Inspiron 1110|Inspiron 1210", RUN+="keymap $name 0x84 wlan"
+ENV{DMI_VENDOR}=="Dell*", ATTR{[dmi/id]product_name}=="Latitude XT2", RUN+="keymap $name dell-latitude-xt2"
+# Several laptops have hotkeys which don't generate release events,
+# which can cause problems with software key repeat.
+# in /usr/lib/udev/keymaps, and add a rule here.
+# If the hotkeys also need a keymap assignment you can copy the
+# scancodes from the keymap file, otherwise you can run
+# /usr/lib/udev/keymap -i /dev/input/eventX
+ENV{DMI_VENDOR}=="[sS][aA][mM][sS][uU][nN][gG]*", RUN+="keyboard-force-release.sh $devpath samsung-other"
+ENV{DMI_VENDOR}=="[sS][aA][mM][sS][uU][nN][gG]*", ATTR{[dmi/id]product_name}=="*90X3A*", RUN+="keyboard-force-release.sh $devpath samsung-90x3a"
+ENV{DMI_VENDOR}=="Dell Inc.", ATTR{[dmi/id]product_name}=="Studio 1557|Studio 1558", RUN+="keyboard-force-release.sh $devpath common-volume-keys"
+ENV{DMI_VENDOR}=="Dell Inc.", ATTR{[dmi/id]product_name}=="Latitude E*|Precision M*", RUN+="keyboard-force-release.sh $devpath dell-touchpad"
+ENV{DMI_VENDOR}=="Dell Inc.", ATTR{[dmi/id]product_name}=="XPS*", RUN+="keyboard-force-release.sh $devpath dell-xps"
+ENV{DMI_VENDOR}=="FUJITSU SIEMENS", ATTR{[dmi/id]product_name}=="AMILO Si 1848+u|AMILO Xi 2428", RUN+="keyboard-force-release.sh $devpath common-volume-keys"
+ENV{DMI_VENDOR}=="FOXCONN", ATTR{[dmi/id]product_name}=="QBOOK", RUN+="keyboard-force-release.sh $devpath common-volume-keys"
+ENV{DMI_VENDOR}=="MTC", ATTR{[dmi/id]product_version}=="A0", RUN+="keyboard-force-release.sh $devpath common-volume-keys"
+ENV{DMI_VENDOR}=="PEGATRON CORP.", ATTR{[dmi/id]product_name}=="Spring Peak", RUN+="keyboard-force-release.sh $devpath common-volume-keys"
+ENV{DMI_VENDOR}=="TOSHIBA", ATTR{[dmi/id]product_name}=="Satellite [uU]300*|Satellite Pro [uU]300*|Satellite [uU]305*|SATELLITE [uU]500*", RUN+="keyboard-force-release.sh $devpath common-volume-keys"
+ENV{DMI_VENDOR}=="Viooo Corporation", ATTR{[dmi/id]product_name}=="PT17", RUN+="keyboard-force-release.sh $devpath common-volume-keys"
+# These are all the HP laptops that setup a touchpad toggle key
+ENV{DMI_VENDOR}=="Hewlett-Packard*", ATTR{[dmi/id]product_name}=="*[pP][aA][vV][iI][lL][iI][oO][nN]*", RUN+="keyboard-force-release.sh $devpath hp-other"
+ENV{DMI_VENDOR}=="Hewlett-Packard*", ATTR{[dmi/id]product_name}=="*[tT][xX]2*", RUN+="keyboard-force-release.sh $devpath hp-other"
+ENV{DMI_VENDOR}=="Hewlett-Packard*", ATTR{[dmi/id]product_name}=="*2510p*|*2530p*|HP G60 Notebook PC", RUN+="keyboard-force-release.sh $devpath hp-other"
+ENV{DMI_VENDOR}=="Zepto", ATTR{[dmi/id]product_name}=="Znote 6615WD", RUN+="keyboard-force-release.sh $devpath common-volume-keys"
+ENV{DMI_VENDOR}=="Zepto", ATTR{[dmi/id]product_name}=="Znote", ATTR{[dmi/id]product_version}=="6625WD", RUN+="keyboard-force-release.sh $devpath common-volume-keys"
+ENV{DMI_VENDOR}=="HANNspree", ATTR{[dmi/id]product_name}=="SN10E100", RUN+="keyboard-force-release.sh $devpath common-volume-keys"
+ENV{DMI_VENDOR}=="GIGABYTE", ATTR{[dmi/id]product_name}=="i1520M", RUN+="keyboard-force-release.sh $devpath common-volume-keys"
+ENV{DMI_VENDOR}=="BenQ", ATTR{[dmi/id]product_name}=="*nScreen*", RUN+="keyboard-force-release.sh $devpath common-volume-keys"
+keyst
+non-alphanumeric key '%s' in %s', ignoring
+key(
+key %s is not registered with code %sN(
+key %s is already registered with code %ss$
+code %s is already in use for key %s(
+            COMPREPLY=( $( compgen -W 'select update_key update_nokey insert
+        -s|-k|--srvtab|--keytab)
+        srv2keytab srvcreate key2srvtab'
+            -k|--keytab)
+                options='--keys --timestamp'
+            srv2keytab|key2srvtab)
+                options='-k --keytab -v --verbose --version -v --help'
+        -g|--gid|-K|--key|-p|--password)
+            --key --non-unique --password --system' -- "$cur" ) )
+        -c|--comment|-h|--help|-e|--expiredate|-f|--inactive|-k|--key|\
+            --expiredate --inactive --gid --groups --help --skel --key \
+        -o|--keymode)
+            COMPREPLY=( $( compgen -W '$( mcrypt --list-keymodes \
+        -k|-s|--key|--keysize)
+        -f|-c|--keyfile|--config)
+            --decrypt --keysize --keymode --keyfile \
+            --mode --modes-directory --hash --key \
+            --force --echo --random --list --list-keymodes \
+snd_jack_set_key
+monkey.pykg-S
+monkey.pyc
+Error!  Unable to set %s key creation context %s.
+set %s key creation context to %s
+    @cvar required_options: Optionally, a sequence of key names to require when
+    @cvar unsaved_options: Optionally, a sequence of key names to never write
+        Map a logging level name to a key in the priority_names map.
+              - C{ssl_public_key}
+        --key-file|--master-key-file|--header-backup-file|-d)
+                --key-file --master-key-file --key-slot --key-size --size \
+kernel/drivers/hid/hid-ezkey.ko: kernel/drivers/hid/hid.ko
+kernel/drivers/hid/hid-keytouch.ko: kernel/drivers/hid/hid.ko
+dikeys
+kernel/drivers/hid/hid-prodikeys.ko: kernel/sound/core/snd-rawmidi.ko kernel/sound/core/seq/snd-seq-device.ko kernel/sound/core/snd.ko kernel/sound/soundcore.ko kernel/drivers/hid/usbhid/usbhid.ko kernel/drivers/hid/hid.ko
+    Also, some keys for persisted information have changed, so stored
+key conflict
+no key specified
+zone TSIG key not known
+invalid TSIG key
+bad DNS key
+more than one object matches key
+setkeycreatecon
+Error!  Unable to set %s key creation context %s.
+set %s key creation context to %s
+non-alphanumeric key '%s' in %s', ignoring
+        PreferredAuthentications Protocol ProxyCommand PubkeyAuthentication \
+        RekeyLimit RemoteForward RhostsRSAAuthentication RSAAuthentication \
+        PubkeyAuthentication|RhostsRSAAuthentication|RSAAuthentication|\
+                    publickey keyboard-interactive password' -- "$cur" ) )
+        PreferredAuthentications Protocol ProxyCommand PubkeyAuthentication \
+        RekeyLimit RemoteForward RhostsRSAAuthentication RSAAuthentication \
+                    publickey keyboard-interactive password' -- "$cur" ))
+partial(func, *args, **keywords) - new function with partial application
+    of the given arguments and keywords.
+keyst
+target_keyst
+keyt
+--nrlsignkey
+--sign-key
+strdup(&key[i+1])
+                        keys %Config::Config" 2>/dev/null )' -- "$temp" ))
+# madwifi from loading by default. Use Jockey to select one driver
+PubkeyAuthentication
+<key>ProductUserVisibleVersion</key>\s*s
+publickey
+nkey
+9kernel/drivers/input/misc/88pm860x_onkey.ko:
+kernel/drivers/platform/x86/acer-wmi.ko: kernel/drivers/platform/x86/wmi.ko kernel/drivers/input/sparse-keymap.ko kernel/drivers/acpi/video.ko
+keyt
+cachekeyt
+    the current process. The chosen technique gets monkey-patched into the
+crypted_keys
+"af_key
+            ap nick rate rts frag enc key power txpower commit' -- "$cur" ))
+121_touchkey
+mpr121_touchkey
+keypad
+Rpcf8574_keypad
+max7359_keypad
+uchkey
+mcs_touchkey
+0_touchkey
+mcs_touchkey
+x_keys
+adp5588_keys
+adp5588_keys
+_keys
+adp5589_keys
+2_keys
+adp5589_keys
+adp5589_keys
+hid_keytouch
+hid_prodikeys
+hid_ezkey
+        -keystore)
+        -storepass|-keypass|-sigfile|-digestalg|-sigalg|-tsacert|-altsigner|\
+            COMPREPLY=( $( compgen -W '-keystore -storepass -storetype \
+                -keypass -sigfile -signedjar -digestalg -sigalg -verify \
+    If any of the dictionaries being accumulated have the same key, the
+at_keyboard.mod.dpkg-newb
+keystatus.mod.dpkg-new
+keylayouts.mod.dpkg-new
+../../../../../share/pyshared/twisted/python/monkey.py
+keyc
+init_timer_key
+__key.23012
+init_timer_key
+options='-connect -verify -cert -certform -key -keyform \
+__key.24037
+__key.24038
+__key.24039
+__key.24043
+../../../../share/pyshared/keyring/cli.py
+../../../../share/pyshared/keyring-0.9.2.egg-info/PKG-INFO
+adp5520_keys
+nkey
+Gda9052_onkey
+        use keys from dict that already have a corresponding attribute
+        in self.  Any keys in dict without a corresponding attribute
+        @param kwargs: keyword arguments to L{_setupChild} method.
+        C{total-space} and C{free-space} keys. If the filesystem information
+target_keys
+loadkeys
+keyringsdpkg-neww
+kernel/drivers/platform/x86/eeepc-laptop.ko: kernel/drivers/input/sparse-keymap.ko
+kernel/drivers/platform/x86/eeepc-wmi.ko: kernel/drivers/platform/x86/asus-wmi.ko kernel/drivers/platform/x86/wmi.ko kernel/drivers/input/sparse-keymap.ko
+_hx509_cert_private_key
+_hx509_cert_assign_key
+hx509_private_key_free
+_hx509_private_key_ref
+hx509_private_key_private_decrypt
+keyword.py
+keyword.pyc
+bkeymap
+unknown keysym '%s'
+NAME="AT Translated Set 2 keyboard"
+publickey
+error: "%s" is an unknown key
+error: "%s" setting key "%s"
+error: "%s" reading key "%s"
+error: permission denied on key '%s'
+/lib/udev/rules.d/85-keyboard-configuration.rules
+/lib/udev/rules.d/95-keyboard-force-release.rules
+/lib/udev/rules.d/95-keymap.rules
+publickey
+keycode %d, table %d = %d%s
+deallocate keymap %d
+keys
+defkeymap.kmap
+key bindings not changed
+#include <linux/keyboard.h>
+bkeymap
+/usr/share/keymaps/**
+/usr/share/keymaps/include/
+failed to bind key %d to value %d
+%s: could not deallocate keymap %d
+%s: cannot deallocate or clear keymap
+%s: could not return to original keyboard mode
+adding map %d violates explicit keymaps line
+addkey called with bad keycode %d
+addkey called with bad index %d
+addkey called with bad table %d
+loadkeys: don't know how to compose for %s
+unicode keysym out of range: %s
+'%s' is not a function key symbol
+killkey called with bad index %d
+killkey called with bad table %d
+too many key definitions on one line
+loadkeys version %s
+Usage: loadkeys [option...] [mapfile...]
+  -b --bkeymap       output a binary keymap to stdout
+  -m --mktable       output a "defkeymap.c" to stdout
+%s: error reading keyboard mode
+%s: warning: loading Unicode keymap on non-Unicode console
+/*    loadkeys --mktable defkeymap.map > defkeymap.c          */
+ushort *key_maps[MAX_NR_KEYMAPS] = {
+unsigned int keymap_count = %d;
+/usr/share/keymaps/i386/include/
+/usr/share/keymaps/mac/include/
+unknown key '%s' in %s:%u
+get_key_attribute
+rule_add_key
+test_key: no EV_KEY capability
+test_key: checking bit block %lu for any keys; found=%i
+test_key: Found key %x in high block
+capabilities/key
+test_key
+wrong key format '%s'
+	type clash or keyword
+        --export|--sign-key|--lsign-key|--nrsign-key|--nrlsign-key|--edit-key)
+            # return list of public keys
+            COMPREPLY=( $( compgen -W "$( gpg2 --list-keys 2>/dev/null | \
+            COMPREPLY=( $( compgen -W "$( gpg2 --list-keys 2>/dev/null | \
+publickey
+keyword.pyc
+keys:
+kernel/drivers/platform/x86/ideapad-laptop.ko: kernel/drivers/input/sparse-keymap.ko
+publickey
+-key
+-keyout
+-inkey
+-dkey
+-CAkey
+missing <key>=<value> in '%s'[%i], skip line
+key(
+key(
+keysR]
+has_key
+bad key
+ ; key_tag= %u
+pkey_key
+pfkey
+pkey_local
+pkey_xmit
+pkey_plab
+keymaps
+findkeyboards
+keymap
+keyboard-force-release.sh
+findkeyboards.dpkg-new
+findkeyboards.dpkg-tmp
+keymap.dpkg-new
+keymap.dpkg-tmp
+keyboard-force-release.sh.dpkg-new
+keyboard-force-release.sh.dpkg-tmp
+../../linux-headers-3.5.0-23/include/keys
+95-keyboard-fQ
+95-keymap.rules
+95-keyboard-force-release.rules
+85-keyboard-configuration.rulesg
+95-keymap.rules.dpkg-newz
+95-keymap.rules.dpkg-tmp4
+95-keyboard-force-release.rules.dpkg-new
+95-keyboard-force-release.rules.dpkg-tmpF
+publickey
+Authenticator has no subkey
+[    0.404264] input: AT Translated Set 2 keyboard as /devices/platform/i8042/serio0/input/input1
+kernel/drivers/usb/serial/keyspan_pda.ko: kernel/drivers/usb/serial/usbserial.ko
+Jkernel/drivers/input/misc/keyspan_remote.ko:
+kernel/drivers/usb/serial/keyspan.ko: kernel/drivers/usb/serial/usbserial.ko
+keyR2
+oncekeyt
+altkey(
+        keyword-only.
+-dkeyform
+-CAkeyform
+keyst
+keyboard-force-release.sh $devpath samsung-other
+keyboard-force-release.sh $devpath samsung-90x3a
+keyboard-force-release.sh $devpath common-volume-keys
+keyboard-force-release.sh $devpath dell-touchpad
+keyboard-force-release.sh $devpath dell-xps
+keyboard-force-release.sh $devpath hp-other
+keyboard_end
+keyboard_usbcheck
+keyboard_modulecheck
+keymap $name genius-slimstar-320
+keymap $name logitech-wave
+keymap $name logitech-wave-cordless
+keymap $name logitech-wave-pro-cordless
+keymap $name lenovo-thinkpad-usb-keyboard-trackpoint
+keymap $name ibm-thinkpad-usb-keyboard-trackpoint
+keymap $name 0xc022d zoomin 0xc022e zoomout
+keymap $name module-lenovo
+keymap $name 0x0E bluetooth
+keymap $name module-asus-w3j
+Eee PC WMI hotkeys|Asus Laptop Support|Asus*WMI*
+keymap $name 0x6B f21
+Eee PC Hotkey Driver
+keymap $name 0x37 f21
+keymap $name module-ibm
+keymap $name module-sony
+Acer WMI hotkeys
+keymap $name 0x82 f21
+MSI Laptop hotkeys
+keymap $name 0x213 f22 0x214 f23
+keymap $name module-sony-old
+keymap $name module-sony-vgn
+keyboard_vendorcheck
+keymap $name dell
+fromkeysH
+key(
+keys(
+iterkeys(
+has_key-
+iterkeysb
+keysm
+key(
+crypto_shash_setkey
+COMPREPLY=($( compgen -W "$( gpg --list-keys 2>/dev/null |                 sed -ne 's@^pub.*/\([^ ]*\).*$@\1@p'                     -ne 's@^.*\(<\([^>]*\)>\).*$@\2@p' )" -- "$cur" ))
+COMPREPLY=($( compgen -W "$( gpg --list-keys 2>/dev/null |                 sed -ne 's@^.*<\([^>]*\)>.*$@\1@p')" -- "$cur" ))
+  --property-match=<key>=<value>  trigger devices with a matching property
+  --tag-match=<key>=<value>       trigger devices with a matching property
+specified by a RUN key. It may show incorrect results, because
+missing <key>=<value> in '%s'[%i], skip line
+found, all possible attributes in the udev rules key format.
+test_key: no EV_KEY capability
+test_key: checking bit block %lu for any keys; found=%i
+test_key: Found key %x in high block
+capabilities/key
+test_key
+  --attribute-walk           print all key matches while walking along the chain
+  --export                   export key/value pairs
+  --export-prefix            export the key name with a prefix
+unknown key '%s' in %s:%u
+get_key_attribute
+rule_add_key
+--lsignkey
+--nrsignkey
+__key.18557
+ethtool_stats_keys
+ethtool_stats_keys
+__key.7667
+/etc/apache2/ssl/apache.key
+/etc/apache2/ssl/apache.key
+/etc/apache2/ssl/apache.key
+/etc/apache2/ssl/apache.key
+key set
+/etc/apache2/ssl/apache.key
+publickey
+/usr/lib/python2.7/dist-packages/keyring-0.9.2.egg-info/top_level.txt
+        of a keyfile, or a 2-value tuple with the names of the keyfile and
+--ssl-public-key
+Methods of socket objects (keyword arguments not allowed):
+        of a callable, a tuple of positional arguments, and a dict of keyword
+        of a callable, a tuple of positional arguments, and a dict of keyword
+        of a callable, a tuple of positional arguments, and a dict of keyword
+entry_keys
+by_key
+keys2
+    message_key, and persist_name class attributes.
+    message_key, and persist_name class attributes.
+    space.  See TextWrapper class for available keyword args to customize
+        indicated by a name in square brackets (`[]'), plus key/value
+        Retrieve the value for a key from the context.
+        @param key: The key to look up in the context.
+        @param default: The value to return if C{key} is not found in the
+        @return: The value most recently remembered in the context for C{key}.
+    kargs - optional keyword arguments to pass to func
+        of a callable, a tuple of positional arguments, and a dict of keyword
+        of a callable, a tuple of positional arguments, and a dict of keyword
+        of a callable, a tuple of positional arguments, and a dict of keyword
+ArgSpec(args, varargs, keywords, defaults)
+keywords
+keywords
+ArgInfo(args, varargs, keywords, locals)
+keywords
+keywords
+Copy (key,value) pairs from 'dict'.
+        You can effectively pass keyword arguch new
+# set up the keyboard but to leave the console font unchanged.
+if [ -f /etc/default/keyboard ]; then
+    . /etc/default/keyboard
+        @param kwargs: keyword arguments to L{_setupChild} method.
+        of a keyfile, or a 2-value tuple with the names of the keyfile and
+    thing, as keystrokes will not be echoed.
+/build/buildd/glib2.0-2.32.3/./gio/gkeyfilesettingsbackend.c
+g_keyfile_settings_backend_new
+g_keyfile_settings_backend_write_one
+get_from_keyfile
+key != NULL
+key[0] == '/'
+key[length - 1] != '/'
+is_key (key)
+*keys + nnodes == state.keys
+key[i] != '/' || key[i + 1] != '/'
+is_key
+g_settings_backend_keys_changed
+Settings schema '%s' does not contain a key named '%s'
+Failed to parse translated string `%s' for key `%s' in schema `%s': %s
+Translated default `%s' for key `%s' in schema `%s' is outside of valid range
+g_settings_schema_key_type_check
+g_settings_schema_key_to_enum
+g_settings_schema_key_to_flags
+key == binding->key.name
+key == binding->key
+Translated default `%s' for key `%s' in schema `%s' was rejected by the binding mapping function
+The schema default value for key `%s' in schema `%s' was rejected by the binding mapping function.
+binding mapping function for key `%s' returned GVariant of type `%s' when type `%s' was requested
+GObject property `%s' on a `%s' object is out of schema-specified range for key `%s' of `%s': %s
+g_settings_get_enum() called on key `%s' which is not associated with an enumerated type
+g_settings_set_enum() called on key `%s' which is not associated with an enumerated type
+g_settings_set_enum(): invalid enum value %d for key `%s' in schema `%s'.  Doing nothing.
+g_settings_get_flags() called on key `%s' which is not associated with a flags type
+g_settings_set_flags() called on key `%s' which is not associated with a flags type
+g_settings_set_flags(): invalid flags value 0x%08x for key `%s' in schema `%s'.  Doing nothing.
+g_settings_set_value: key '%s' in '%s' expects type '%s', but a GVariant of type '%s' was given
+g_settings_set_value: value for key '%s' in schema '%s' is outside of valid range
+The mapping function given to g_settings_get_mapped() for key `%s' in schema `%s' returned FALSE when given a NULL value.
+g_settings_bind: G_SETTINGS_BIND_INVERT_BOOLEAN was specified, but key `%s' on schema `%s' has type `%s'
+g_settings_bind: property '%s' on class '%s' has type '%s' which is not compatible with type '%s' of key '%s' on schema '%s'
+settings_backend_keys_changed
+g_settings_binding_key_changed
+Error unescaping key or value in Key/Value pair %d, `%s', in address element `%s'
+Error in address `%s' - the unix transport requires exactly one of the keys `path' or `abstract' to be set
+Unsupported key `%s' in address entry `%s'
+Address `%s' is invalid (need exactly one of path, tmpdir or abstract keys)
+Meaningless key/value pair combination in address entry `%s'
+.dbus-keyrings
+Error opening keyring `%s' for reading: 
+Line %d of the keyring at `%s' with content `%s' is malformed
+First token of line %d of the keyring at `%s' with content `%s' is malformed
+Second token of line %d of the keyring at `%s' with content `%s' is malformed
+Didn't find cookie with id %d in the keyring at `%s'
+Problems looking up entry in keyring: %s
+Error opening keyring `%s' for writing: 
+Error adding entry to keyring: %s
+keyring_lookup_entry
+ensure_keyring_directory
+keyring_release_lock
+keyring_acquire_lock
+n == num_keys
+/etc/apache2/ssl/apache.key
+key != NULL && value != NULL
+!g_variant_is_container (key)
+unknown keyword
+n_keys == 1 && n_values == 1
+n_keys == n_values
+dictionary keys must have basic types
+ or `,' to follow dictionary entry key
+ to follow dictionary entry key
+g_variant_type_check (key)
+g_variant_type_key
+pthread_key_create
+pthread_key_delete
+g_utf8_collate_key
+Cannot combine '+' or '-' with 'None' keyword
+Cannot combine other IndexOptions keywords with 'None'
+Second keyword must be 'Name', 'Date', 'Size', or 'Description'
+First keyword must be 'Ascending' or 'Descending'
+Invalid RequestReadTimeout parameter. Parameter must be in the form 'key=value'
+X509_get_pubkey
+RSA_generate_key
+apr_dbm_firstkey
+apr_dbm_nextkey
+private keys
+Configuring %s server private key
+Unable to import %s server private key
+Unable to configure %s server private key
+Copying DSA parameters from private key to certificate
+Init: Failed to generate temporary %d bit RSA private key
+Oops, no RSA or DSA server private key found?!
+incomplete client cert configured for SSL proxy (missing or encrypted private key?)
+Init: Generating temporary RSA private keys (512/1024 bits)
+handing out temporary %d bit RSA key
+handing out temporary %d bit DH key
+Init: Private key not found
+Some of your private key files are encrypted for security reasons.
+Loading certificate & private key of SSL-aware server
+Init: Can't open server private key file %s
+%s reusing existing %s private key on restart
+Init: Unable to read pass phrase [Hint: key introduced or changed before restart?]
+Apache:mod_ssl:Error: Private key not found.
+Init: Multiple %s server private keys not allowed
+unencrypted %s private key - pass phrase not required
+encrypted %s private key - pass phrase requested
+encrypted %s private key - pass phrase reused
+sslcertificatekeyfile
+# keyword --- those with documents in Polish (whose net-standard
+/etc/apache2/ssl/apache.key
+	#   If both key and certificate are stored in the same file, only the
+	SSLCertificateKeyFile /etc/apache2/ssl/apache.key
+/etc/apache2/ssl/apache.key
+sslcertificatekeyfile
+/etc/apache2/ssl/apache.key
+/etc/apache2/ssl/apache.key
+apache.key
+application/pgp-keys
+/etc/apache2/ssl/apache.key
+application/vnd.mediastation.cdkey
+application/pgp-keys				key
+application/vnd.mediastation.cdkey
+/etc/apache2/ssl/apache.key
+/etc/apache2/ssl/apache.key
+sslcertificatekeyfile
+/etc/apache2/ssl/apache.key
+/etc/apache2/ssl/apache.key
+application/pgp-keys
+application/vnd.mediastation.cdkey
+keylayouts.mod
+sendkey.mod
+usb_keyboard.mod
+at_keyboard.mod
+keylayouts.mod
+keystatus.mod
+sendkey.mod
+usb_keyboard.mod
+ Press any key to exit.
+dm_hash_get_key
+ghash_setkey
+ghash_async_setkey
+crypto_ahash_setkey
+clmul_ghash_setkey
+publickey
+g_key_file_new
+g_key_file_set_list_separator
+g_key_file_ref
+g_key_file_unref
+g_key_file_free
+g_key_file_to_data
+g_key_file_get_keys
+g_key_file_get_start_group
+g_key_file_get_groups
+g_key_file_get_value
+g_key_file_set_value
+g_key_file_get_string
+g_key_file_load_from_dirs
+g_key_file_load_from_data_dirs
+g_key_file_load_from_file
+g_key_file_load_from_data
+g_key_file_set_string
+g_key_file_get_string_list
+g_key_file_set_string_list
+g_key_file_set_locale_string
+g_key_file_get_locale_string
+g_key_file_get_locale_string_list
+g_key_file_set_locale_string_list
+g_key_file_get_boolean
+g_key_file_set_boolean
+g_key_file_get_boolean_list
+g_key_file_set_boolean_list
+g_key_file_get_integer
+g_key_file_set_integer
+g_key_file_get_int64
+g_key_file_set_int64
+g_key_file_get_uint64
+g_key_file_set_uint64
+g_key_file_get_integer_list
+g_key_file_set_integer_list
+g_key_file_get_double
+g_key_file_set_double
+g_key_file_get_double_list
+g_key_file_set_double_list
+g_key_file_set_comment
+g_key_file_get_comment
+g_key_file_remove_comment
+g_key_file_has_group
+g_key_file_has_key
+g_key_file_remove_group
+g_key_file_remove_key
+g_utf8_collate_key
+g_utf8_collate_key_for_filename
+g_variant_type_key
+krb5_ser_keytab_init
+krb5_auth_con_setsendsubkey_k
+krb5_auth_con_setuseruserkey
+krb5_k_create_key
+krb5_auth_con_getsendsubkey
+krb5_free_keyblock
+krb5_k_key_keyblock
+krb5_k_key_enctype
+gcry_md_setkey
+gcry_cipher_setkey
+gnutls_calc_dh_key
+(genkey(H
+ng keyproc
+FAST armor key missing when FAST started:state->armor_crypto != NULL
+replykey
+strengthenkey
+Encryption key %d is %lu bytes long, %lu was passed in
+Failed to find %s%s in keytab %s (%s)
+start_seq_get is not supported in the %s keytab type
+next_entry is not supported in the %s  keytab
+end_seq_get is not supported in the %s  keytab
+Name canon failed while searching keytab
+Add is not supported in the %s keytab
+Remove is not supported in the %s keytab
+unknown keytab type %.*s
+unknown keytab
+No entry in keytab: %s
+Failed to remove keytab entry from %s
+empty ANY: keytab
+Failed decoding length of keytab principal in keytab file %s
+Keytab principal contains invalid length in keytab %s
+Can't read realm from keytab: %s
+Can't read principal from keytab: %s
+Can't read name-type from keytab: %s
+Cant read keyblock from file %s
+failed reading tag from keytab %s
+Failed storing principal in keytab %s
+Failed storing timpstamp in keytab %s
+Failed storing kvno in keytab %s
+Cant store keyblock to file %s
+Failed storing extended kvno in keytab %s
+Failed converting keytab entry to memory block for keytab %s
+Failed writing keytab block in keytab %s: %s
+keytab %s open failed: %s
+%s: keytab is corrupted: %s
+Bad version in keytab %s
+open keyfile(%s): %s
+seeking in keyfile: %s
+Failed seeing in keyfile: %s
+Failed getting kvno from keyfile
+keytab keyfile failed new length
+keytab keyfile failed store kvno
+keytab keyfile failed to add key
+keytab afs keyfile open %s failed: %s
+krb5 internal error, memory keytab refcount < 1 on close
+Double close on memory keytab, refcount < 1 %d
+FILE:/etc/krb5.keytab
+default_keytab_name
+default_keytab_modify_name
+(unkeyed)
+encryption key has bad length
+derive_key() called with unknown keytype (%u)
+Checksum type %s is keyed but no crypto context (key) was passed in
+Checksum type %s is keyed, but the key type %s passed didnt have that checksum type as the keyed type
+Decrypt integrity check failed for checksum type %s, key type %s
+encryption key %s needs %d bytes of random to make an encryption key out of it
+krb5_derive_key
+Checksum type %d not keyed
+PKINIT enckey nonce is wrong
+PKINIT: resulting DH key <= 0
+PKINIT decoding reply key failed
+PKINIT failed copying reply key
+krb5_get_init_creds: using kinit enc reply key
+krb5_get_init_creds: using BTMM kinit enc reply key
+pkinit; got key expiration without server nonce
+pkinit: got server nonce without key expiration
+pkinit: can't decode without key expiration
+PKINIT: Can't compute Diffie-Hellman key
+keyCertSign
+keyAgreement
+keyEncipherment
+keyCompromise
+use-session-key
+enc-tkt-in-skey
+use-sad-as-key
+reply_key_replaced
+reply_key_used
+use_reply_key
+PKINIT: can't create key from DH key
+pkinit: failed to generate DH key
+key type %d not supported
+key type %s not supported
+no ntlm session key
+Digest failed to get local subkey
+Digest reply have no remote subkey
+subkeyarmor
+decrypt_tkt_with_subkey
+krb5_rd_req: user to user auth without session key given
+Service key not available
+Inconsistent key purpose
+End of key table reached
+Error writing to key table
+DES key has bad parity
+DES key is a weak key
+Client's key is encrypted in an old master key
+Server's key is encrypted in an old master key
+Client or server has a null key
+Public key encryption not supported
+Program lacks support for key type
+Cannot write to specified key table
+Required preauthentication key not supplied
+Unsupported key table format version number
+Invalid key generation parameters from KDC
+Incorrect Kerberos 4 master key version
+Kerberos 4 principal has null key
+Failed to get the master key
+Private key missing
+Private key invalid
+wrong keytype in ticket
+Bad direction for converting keys
+Cannot find master key record in database
+Master key does not match database
+Cannot find/read stored master key
+Stored master key is corrupted
+KVNO of new master key does not match expected value
+Stored master key is not current
+No matching key in entry having a permitted enctype
+Cannot find active master key
+No matching key in entry
+Service key not available
+Inconsistent key purpose
+End of key table reached
+Error writing to key table
+DES key has bad parity
+DES key is a weak key
+Bad format in keytab
+Client's key is encrypted in an old master key
+Server's key is encrypted in an old master key
+Client or server has a null key
+Public key encryption not supported
+Program lacks support for key type
+Cannot write to specified key table
+Required preauthentication key not supplied
+Unsupported key table format version number
+Key version number for principal in key table is incorrect
+Invalid key generation parameters from KDC
+Bad magic number for krb5_keyblock structure
+Bad magic number for krb5_keytab_entry structure
+Bad magic number for krb5_keytab structure
+Bad magic number for krb5_sam_key
+Cannot convert V5 keyblock
+keyring
+_gssd_keyring_ids_
+Retrieving {princ} from {keytab} (vno {int}, enctype {etype}) with result: {kerr}
+Cannot change keytab with keytab iterators active
+No key table entry found for %s
+Too many keytab iterators active
+Armor ccache sesion key: {keyblock}
+subkeyarmor
+FAST armor key: {keyblock}
+replykey
+strengthenkey
+FAST reply key: {keyblock}
+state->armor_key
+TGS reply didn't decode with subkey; trying session key ({keyblock)}
+TGS reply is for {princ} -> {princ} with session key {keyblock}
+AS key determined by preauth: {keyblock}
+Decrypt with preauth AS key failed: {kerr}
+Getting AS key, salt "{data}", params "{data}"
+AS key obtained from gak_fct: {keyblock}
+Decrypted AS reply; session key is: {keyblock}
+Reply has wrong form of session key for anonymous request
+Creating AP-REP, time {long}.{int}, subkey {keyblock}, seqnum {int}
+Creating authenticator for {creds}, seqnum {int}, subkey {key}, session key {keyblock}
+AS key obtained for encrypted timestamp: {keyblock}
+Read AP-REP, time {long}.{int}, subkey {keyblock}, seqnum {int}
+Decrypted AP-REQ with specified server principal {princ}: {keyblock}
+Decrypted AP-REQ with server principal {princ}: {keyblock}
+AP-REQ ticket: {princ} -> {princ}, session key {keyblock}
+Authenticator contains subkey: {keyblock}
+Generated subkey for TGS request: {keyblock}
+subkey != ((void *)0)
+pubkeys:%s:
+pubkey
+cipher %d w/o key length
+pubkey.c
+public-key
+genkey
+pubkey_verify: algo=%d
+  pkey
+pubkey_sign: algo=%d
+  skey:
+pubkey_decrypt: algo=%d
+pubkey_encrypt: algo=%d
+  pkey:
+protected-private-key
+shadowed-private-key
+using dummy public key function
+dummy_check_secret_key
+_gcry_pk_genkey
+keylen <= hd->ctx->macpads_Bsize
+gcry_md_setkey failed
+data-28 key-4
+data-9 key-20
+data-50 key-20
+data-50 key-26
+data-54 key-131
+data-152 key-131
+This is a test using a larger than block-size key and a larger than block-size data. The key needs to be hashed before being used by the HMAC algorithm.
+weak key table defect
+DES weak key detection failed
+set key
+key consistency
+ (transient-key)
+transient-key
+self-test after key generation failed
+(private-key (dsa  (p #00AD7C0025BA1A15F775F3F2D673718391D00456978D347B33D7B49E7F32EDAB      96273899DD8B2BB46CD6ECA263FAF04A28903503D59062A8865D2AE8ADFB5191      CF36FFB562D0E2F5809801A1F675DAE59698A9E01EFE8D7DCFCA084F4C6F5A44      44D499A06FFAEA5E8EF5E01F2FD20A7B7EF3F6968AFBA1FB8D91F1559D52D8777B#)  (q #00EB7B5751D25EBBB7BD59D920315FD840E19AEBF9#)  (g #1574363387FDFD1DDF38F4FBE135BB20C7EE4772FB94C337AF86EA8E49666503      AE04B6BE81A2F8DD095311E0217ACA698A11E6C5D33CCDAE71498ED35D13991E      B02F09AB40BD8F4C5ED8C75DA779D0AE104BC34C960B002377068AB4B5A1F984      3FBA91F537F1B7CAC4D8DD6D89B0D863AF7025D549F9C765D2FC07EE208F8D15#)  (y #64B11EF8871BE4AB572AA810D5D3CA11A6CDBC637A8014602C72960DB135BF46      A1816A724C34F87330FC9E187C5D66897A04535CC2AC9164A7150ABFA8179827      6E45831AB811EEE848EBB24D9F5F2883B6E5DDC4C659DEF944DCFD80BF4D0A20      42CAA7DC289F0C5A9D155F02D3D551DB741A81695B74D4C8F477F9C7838EB0FB#)  (x #11D54E4ADBD3034160F2CED4B7CD292A4EBF3EC0#)))
+(public-key (dsa  (p #00AD7C0025BA1A15F775F3F2D673718391D00456978D347B33D7B49E7F32EDAB      96273899DD8B2BB46CD6ECA263FAF04A28903503D59062A8865D2AE8ADFB5191      CF36FFB562D0E2F5809801A1F675DAE59698A9E01EFE8D7DCFCA084F4C6F5A44      44D499A06FFAEA5E8EF5E01F2FD20A7B7EF3F6968AFBA1FB8D91F1559D52D8777B#)  (q #00EB7B5751D25EBBB7BD59D920315FD840E19AEBF9#)  (g #1574363387FDFD1DDF38F4FBE135BB20C7EE4772FB94C337AF86EA8E49666503      AE04B6BE81A2F8DD095311E0217ACA698A11E6C5D33CCDAE71498ED35D13991E      B02F09AB40BD8F4C5ED8C75DA779D0AE104BC34C960B002377068AB4B5A1F984      3FBA91F537F1B7CAC4D8DD6D89B0D863AF7025D549F9C765D2FC07EE208F8D15#)  (y #64B11EF8871BE4AB572AA810D5D3CA11A6CDBC637A8014602C72960DB135BF46      A1816A724C34F87330FC9E187C5D66897A04535CC2AC9164A7150ABFA8179827      6E45831AB811EEE848EBB24D9F5F2883B6E5DDC4C659DEF944DCFD80BF4D0A20      42CAA7DC289F0C5A9D155F02D3D551DB741A81695B74D4C8F477F9C7838EB0FB#)))
+(misc-key-info(p-q-swapped))
+(private-key (rsa  (n #00e0ce96f90b6c9e02f3922beada93fe50a875eac6bcc18bb9a9cf2e84965caa      2d1ff95a7f542465c6c0c19d276e4526ce048868a7a914fd343cc3a87dd74291      ffc565506d5bbb25cbac6a0e2dd1f8bcaab0d4a29c2f37c950f363484bf269f7      891440464baf79827e03a36e70b814938eebdc63e964247be75dc58b014b7ea251#)  (e #010001#)  (d #046129f2489d71579be0a75fe029bd6cdb574ebf57ea8a5b0fda942cab943b11      7d7bb95e5d28875e0f9fc5fcc06a72f6d502464dabded78ef6b716177b83d5bd      c543dc5d3fed932e59f5897e92e6f58a0f33424106a3b6fa2cbf877510e4ac21      c3ee47851e97d12996222ac3566d4ccb0b83d164074abf7de655fc2446da1781#)  (p #00e861b700e17e8afe6837e7512e35b6ca11d0ae47d8b85161c67baf64377213      fe52d772f2035b3ca830af41d8a4120e1c1c70d12cc22f00d28d31dd48a8d424f1#)  (q #00f7a7ca5367c661f8e62df34f0d05c10c88e5492348dd7bddc942c9a8f369f9      35a07785d2db805215ed786e4285df1658eed3ce84f469b81b50d358407b4ad361#)  (u #304559a9ead56d2309d203811a641bb1a09626bc8eb36fffa23c968ec5bd891e      ebbafc73ae666e01ba7c8990bae06cc2bbe10b75e69fcacb353a6473079d8e9b#)))
+(public-key (rsa  (n #00e0ce96f90b6c9e02f3922beada93fe50a875eac6bcc18bb9a9cf2e84965caa      2d1ff95a7f542465c6c0c19d276e4526ce048868a7a914fd343cc3a87dd74291      ffc565506d5bbb25cbac6a0e2dd1f8bcaab0d4a29c2f37c950f363484bf269f7      891440464baf79827e03a36e70b814938eebdc63e964247be75dc58b014b7ea251#)  (e #010001#)))
+Elgamal test key for %s %s failed
+(public-key(ecc(p%m)(a%m)(b%m)(g%m)(n%m)))
+check_secret_key: E is not a curve of order n
+ap_hack_apr_dbm_firstkey
+ap_hack_apr_dbm_nextkey
+ap_hack_apr_sdbm_firstkey
+ap_hack_apr_os_threadkey_put
+ap_hack_apr_memcache_add_multget_key
+ap_hack_apr_threadkey_data_get
+ap_hack_apr_threadkey_private_get
+ap_hack_apr_threadkey_private_set
+ap_hack_apr_os_threadkey_get
+ap_hack_apr_threadkey_private_create
+ap_hack_apr_sdbm_nextkey
+ap_hack_apr_threadkey_data_set
+ap_hack_apr_threadkey_private_delete
+Error loading the keyring.
+Could not get OpenPGP key.
+PKCS #11 error in key
+The certificate and the given key do not match.
+An unknown public key algorithm was encountered.
+The given DSA key is incompatible with the selected TLS protocol.
+Public key decryption has failed.
+Public key encryption has failed.
+Public key signing has failed.
+Public key signature verification has failed.
+The OpenPGP key has not a preferred key set.
+Could not find OpenPGP subkey.
+key expansion
+client write key
+server write key
+keyIdentifier
+keyDerivationFunc
+keyLength
+gnutls_privkey.c
+gnutls_pubkey.c
+Public key
+Private key
+Secret key
+pkcs11_privkey.c
+Cannot determine PKCS #11 key algorithm
+%s: unknown public key algorithm: %s
+error: get_key_usage: %s
+		Public key (bits %d):
+error: get_key_id: %s
+%s key %d bits, 
+error: get_key_id2: %s
+error: get_authority_key_id: %s
+error: get_authority_key_id2: %s
+error: get_subject_key_id: %s
+error: get_subject_key_id2: %s
+error: more than one key usage extension
+error: more than one key purpose extension
+error: get_key_purpose_oid: %s
+error: get_key_purpose_oid2: %s
+Falling back to PKCS #8 key decoding
+privkey_pkcs8.c
+keyDerivationFunc.algorithm
+keyDerivationFunc.parameters
+keyLength: %d
+keyDerivationFunc.algorithm: %s
+PKCS #8 key derivation OID '%s' is unsupported.
+PKCS #8 private key OID '%s' is unsupported.
+Looking keyid: %x.%x
+Found keyid: %x.%x
+the requested subkey does not exist
+PGP: key not found %08lX
+PGP: keyring import format '%s'
+key algorithm %s (%d bits)
+unknown key algorithm (%d)
+	Subkey[%d]:
+Importing Openpgp cert and using openpgp sub key: %s
+Importing Openpgp cert and using main openpgp key
+The OpenPGP subkey ID has to be 16 hexadecimal characters.
+signature %s: signer %08X keyid %08X
+find_by_keyid: invalid mode = %d
+disable key index table err=%d
+cdk_keydb_search_start: invalid mode = %d
+cache: found keyid entry in idx table.
+key db import: skip local signature
+key db import: skip invalid node of type %d
+keydb.c
+create key index table
+keydb_get_keyblock: error %d
+write_secret_key
+write_public_key
+write_pubkey_enc
+seskey.c
+invalid public key algorithm %d
+(public-key(rsa(n%m)(e%m)))
+(genkey(dsa(nbits %d)))
+(genkey(rsa(nbits %d)))
+(public-key(dsa(p%m)(q%m)(g%m)(y%m)))
+(private-key(dsa(p%m)(q%m)(g%m)(y%m)(x%m)))
+(private-key(rsa((n%m)(e%m)(d%m)(p%m)(q%m)(u%m))))
+Client key
+Server key exchange
+Client key exchange
+g_drive_get_sort_key
+private-key
+private-key-pem
+g_mount_get_sort_key
+apr_dbm_firstkey
+apr_dbm_nextkey
+apr_sdbm_nextkey
+apr_sdbm_firstkey
+apu__sdbm_getnkey
+apr_memcache_add_multget_key
+Testing key.
+No thread key structure was provided and one was required.
+Shared memory is implemented using a key system
+apr_threadkey_private_create
+pthread_key_create
+apr_threadkey_private_get
+apr_threadkey_private_set
+apr_threadkey_private_delete
+pthread_key_delete
+apr_threadkey_data_get
+apr_threadkey_data_set
+apr_os_threadkey_get
+apr_os_threadkey_put
+publickey
+LogLevel requires level keyword: one of emerg/alert/crit/error/warn/notice/info/debug
+LogLevel requires level keyword
+Unknown keyword '
+sslcertificatekeyfile
+/etc/apache2/ssl/apache.key
+/etc/apache2/ssl/apache.key
+Required key not available
+Private key
+Private key (PEM)
+Cannot decrypt PEM-encoded private key
+No PEM-encoded private key found
+Could not parse PEM-encoded private key
+The DER representation of the certificate's private key
+The PEM representation of the certificate's private key
+g_volume_get_sort_key
+keypair
+No item with that key
+keys
+Returns the keys of the row.
+keyst
+    in /users/users, next to /users/groups. The key will be created
+    Also, some keys for persisted information have changed, so stored
+firstkeyt
+nextkeyt
+keyt
+foreign key constraint failed
+foreign key mismatch
+Failed to read ptrmap key=%d
+keyinfo(%d
+foreign_key_list
+foreign key
+foreign_keys
+foreign key on %s should reference only one column of table %T
+number of columns in foreign key does not match the number of columns in the referenced table
+unknown column "%s" in foreign key definition
+Bad ptr map entry key=%d expected=(%d,%d) got=(%d,%d)
+table "%s" has more than one primary key
+keyst
+keyR
+g_settings_backend_keys_changed
+g_key_file_set_value
+g_key_file_get_groups
+g_key_file_remove_group
+g_key_file_get_value
+g_key_file_load_from_data
+g_keyfile_settings_backend_new
+g_settings_list_keys
+g_volume_get_sort_key
+g_key_file_new
+g_key_file_load_from_file
+g_key_file_free
+g_key_file_get_string
+g_key_file_remove_key
+g_key_file_get_string_list
+g_key_file_to_data
+g_key_file_has_group
+g_key_file_set_string
+g_key_file_set_string_list
+g_key_file_get_keys
+g_key_file_get_start_group
+g_key_file_get_locale_string
+g_key_file_get_locale_string_list
+g_key_file_get_boolean
+g_key_file_set_boolean
+g_desktop_app_info_new_from_keyfile
+g_desktop_app_info_get_keywords
+g_hash_table_get_keys
+g_variant_type_key
+fkeys
+tca6416_keypad
+keys
+tca6416_keypad
+R418_keypad
+tca8418_keypad
+keyc
+        C{total-space} and C{free-space} keys. If the filesystem information
+        C{total-space} and C{free-space} keys. If the filesystem information
+    @param f: A callable, followed by its arguments and keyword arguments
+keyt
+publickey
+global constructors keyed to 
+global destructors keyed to 
+    message_key, and persist_name class attributes.
+message_key(
+gcry_cipher_setkey
+gcry_cipher_get_algo_keylen
+gcry_pk_testkey
+gcry_pk_genkey
+gcry_pk_get_keygrip
+gcry_md_setkey
+gcry_ac_key_init
+gcry_ac_key_pair_generate
+gcry_ac_key_pair_extract
+gcry_ac_key_data_get
+gcry_ac_key_test
+gcry_ac_key_get_nbits
+gcry_ac_key_get_grip
+gcry_ac_key_destroy
+gcry_ac_key_pair_destroy
+# 3) Set the keyboard mode on each virtual console to K_XLATE or K_UNICODE
+# We don't have to set the console keymap here.  This only needs to be done
+# once after setting the keyboard mode, so it belongs in an Upstart job
+setup_keyboard_mode () {
+    # Set the keyboard mode.
+	setup_keyboard_mode "$1"
+asn1_oid_id_x509_ce_keyUsage
+/lib/x86_64-linux-gnu/libkeyutils.so.1
+libkeyutils.so.1
+libkeyutils.so.1
+key_hash
+authfreekeys
+cache_key
+sys_authkey
+cache_keylen
+key_file
+authkeyexpired
+authkeyuncached
+authnumkeys
+authnumfreekeys
+authkeynotfound
+usage: %s [-46bBdqsuv] [-a key#] [-e delay] [-k file] [-p samples] [-o version#] [-t timeo] server ...
+authentication key %lu unknown
+receive: rpkt keyid=%ld sys_authkey=%ld decrypt=%ld
+no key file <%s>, exiting
+/etc/ntp.keys
+auth_setkey: key %d type %d len %d 
+auth_agekeys: at %lu keys %lu expired %lu
+authreadkeys: file %s: %m
+authreadkeys: cannot change key %s
+authreadkeys: key %s > %d reserved for Autokey
+authreadkeys: no key type for key %d
+authreadkeys: invalid type for key %d
+authreadkeys: no algorithm for key %d
+authreadkeys: no key for key %d
+authreadkeys: invalid hex digit for key %d
+key type %s %u octet digests are too big, max %lu
+(unknown key type)
+NAME="AT Translated Set 2 keyboard"
+## the keyword 'command_line' are not run until after the root filesystem
+nih_hash_string_key
+error creating key for RNG: %s
+error setting key for RNG
+x931_generate_key
+g_mount_get_sort_key
+signaturekey
+HMAC-SHA1 DES3 key
+HMAC-SHA1 AES128 key
+HMAC-SHA1 AES256 key
+pthread_key_create
+pthread_key_delete
+krb5int_key_register
+krb5int_key_delete
+# Check /usr/share/doc/keyboard-configuration/README.Debian for
+# The following variables describe your keyboard and can have the same
+# specify an alternative keymap.  Make sure it will be accessible
+# KMAP=/etc/console-setup/defkeymap.kmap.gz
+publickey
+ache_keyid
+authnokey
+authkeylookups
+hx509_cert_keyusage_print
+hx509_crypto_set_key_data
+hx509_crypto_set_random_key
+hx509_parse_private_key
+hc_RSA_generate_key_ex
+hx509_private_key2SPKI
+_hx509_generate_private_key_init
+_hx509_generate_private_key_is_ca
+_hx509_generate_private_key_bits
+_hx509_generate_private_key_free
+hx509_private_key_init
+_hx509_generate_private_key
+hx509_private_key_assign_rsa
+hx509_crypto_set_key_name
+hc_EVP_CIPHER_key_length
+hc_PKCS12_key_gen
+hc_RSA_check_key
+add_key
+request_key
+keyctl
+keyctl_get_keyring_ID
+keyctl_join_session_keyring
+keyctl_update
+keyctl_revoke
+keyctl_chown
+keyctl_setperm
+keyctl_describe
+keyctl_clear
+keyctl_link
+keyctl_unlink
+keyctl_search
+keyctl_read
+keyctl_instantiate
+keyctl_negate
+keyctl_set_reqkey_keyring
+keyctl_set_timeout
+keyctl_assume_authority
+keyctl_get_security
+keyctl_session_to_parent
+keyctl_reject
+keyctl_instantiate_iov
+keyctl_describe_alloc
+keyctl_read_alloc
+keyctl_get_security_alloc
+recursive_key_scan
+recursive_session_key_scan
+libkeyutils.so.1
+Cannot import a key of the wrong size
+Cannot export because the key is invalid
+Cannot export because the key is of the wrong size
+Cannot export because the key is of the wrong type
+secret-key
+secretkey
+The key is missing or invalid
+The key is the wrong size
+The key is of the wrong type
+No key is needed
+A key is needed
+The key cannot be wrapped
+Cannot export this key
+Cannot import an invalid key
+The key is different than before
+Cannot include the key in the digest
+This operation cannot be done with this key
+Cannot import because the key is invalid
+Cannot import because the key is of the wrong size
+Cannot import because the key is of the wrong type
+pthread_key_create
+pthread_key_dele
+keyring
+libkeyutils.so.1.4
+key_compare_func != NULL
+../../../../src/lib/crypto/krb/keyblocks.c
+krb5int_c_init_keyblock
+crypto_ahash_setkey
+pthread_key_create
+pthread_key_delete
+krb5_rd_req_in_set_keytab
+krb5_rd_req_out_get_keyblock
+krb5_auth_con_getremotesubkey
+krb5_auth_con_setlocalsubkey
+krb5_free_keyblock
+krb5_get_init_creds_keytab
+  --export                      print values as environment keys
+%s: sense key 0x%x ASC 0x%x ASCQ 0x%x
+%s: old sense key: 0x%x
+missing <key>=<value> in '%s'[%i], skip line
+key(
+                helptopic hostname job keyword running service setopt shopt \
+_key_expansion_128
+_key_expansion_256a
+_key_expansion_192a
+_key_expansion_192b
+_key_expansion_256b
+aeskeygen_opd1
+aeskeygen_opd2
+ablk_set_key
+aes_set_key
+rfc4106_set_hash_subkey
+__key.8546
+rfc4106_set_hash_subkey_done
+rfc4106_set_key
+crypto_fpu_setkey
+crypto_aes_expand_key
+aesni_set_key
+/etc/default/keyboard
+keysi
+ -p, --loginpause           wait for any key before the login
+has_keyt	
+keyt
+keysR?
+krb5int_aes_enc_key
+krb5int_c_free_keyblock
+krb5int_c_init_keyblock
+krb5_k_create_key
+krb5_k_free_key
+krb5int_derive_key
+krb5int_c_combine_keys
+krb5_c_random_to_key
+krb5_k_reference_key
+krb5int_c_copy_keyblock
+krb5int_c_copy_keyblock_contents
+krb5int_c_free_keyblock_contents
+krb5_k_key_keyblock
+krb5_k_key_enctype
+krb5_c_is_keyed_cksum
+krb5_c_keyed_checksum_types
+krb5_c_keylengths
+krb5_c_make_random_key
+krb5_process_key
+krb5_finish_key
+krb5_string_to_key
+krb5_c_string_to_key
+krb5_init_random_key
+krb5_finish_random_key
+krb5_random_key
+krb5_c_string_to_key_with_params
+        of a callable, a tuple of positional arguments, and a dict of keyword
+        of a callable, a tuple of positional arguments, and a dict of keyword
+        of a callable, a tuple of positional arguments, and a dict of keyword
+        @param kw: The keyword arguments to pass to the callable.
+        mapping C{str} environment keys to C{str} environment values.
+Argument strings and environment keys/values passed to reactor.spawnProcess should be str, not unicode.R
+Environment contains a non-string keys'
+keyt
+keyspan_pda-newwA
+keyspan
+cryptd_blkcipher_setkey
+    @param **kwargs: keyword arguments to pass to f.
+    @param **kwargs: keyword arguments to pass to f.
+    @param kw: the keyword arguments to pass to C{f}.
+session key to client-to-server sealing key magic constant
+session key to client-to-server signing key magic constant
+session key to server-to-client sealing key magic constant
+session key to server-to-client signing key magic constant
+ntlm-key-%s
+No principal in keytab matches desired name
+keysRB
+publickey
+g_cache_key_foreach
+keyspan_pda-:?
+keyst
+        @param kwargs: keyword arguments to L{_setupChild} method.
+    the current process. The chosen technique gets monkey-patched into the
+g_key_file_set_value
+g_key_file_get_string
+g_key_file_set_string
+g_key_file_get_string_list
+g_key_file_set_string_list
+g_key_file_set_locale_string
+g_key_file_get_locale_string
+g_key_file_get_locale_string_list
+g_key_file_set_locale_string_list
+g_key_file_get_boolean
+g_key_file_set_boolean
+g_key_file_get_boolean_list
+g_key_file_set_boolean_list
+g_key_file_get_integer
+g_key_file_set_integer
+g_key_file_get_int64
+g_key_file_set_int64
+g_key_file_get_uint64
+g_key_file_set_uint64
+g_key_file_get_integer_list
+g_key_file_set_integer_list
+g_key_file_get_double
+g_key_file_set_double
+g_key_file_get_double_list
+g_key_file_set_double_list
+g_key_file_set_comment
+g_key_file_set_group_comment
+g_key_file_set_top_comment
+g_key_file_get_comment
+g_key_file_get_top_comment
+g_key_file_get_key_comment
+g_key_file_remove_comment
+g_key_file_has_group
+g_key_file_has_key_full
+g_key_file_remove_group
+g_key_file_remove_key
+key_dup_func != NULL
+key_destroy_func != NULL
+hash_key_func != NULL
+key_equal_func != NULL
+g_cache_key_foreach
+*** key %p
+tuple_key == tuple_value
+key_id > 0
+g_hash_table_get_keys
+key_file->groups == NULL
+key_file->groups != NULL
+key_file != NULL
+g-key-file-error-quark
+Invalid key name: %s
+key_end != NULL
+key_len <= length
+key_file->start_group != NULL
+key != NULL
+g_key_file_is_key_name (key)
+/build/buildd/glib2.0-2.32.3/./glib/gkeyfile.c
+group->key_value_pairs == NULL
+key_file->current_group != NULL
+g_key_file_is_group_name (group_name)
+Key file does not have key '%s' in group '%s'
+Key file contains line '%s' which is not a key-value pair, group, or comment
+Key file does not have key '%s'
+Key file contains key '%s' with value '%s' which is not UTF-8
+Key file contains key '%s' which has a value that cannot be interpreted.
+Valid key file could not be found in search dirs
+Key file contains key '%s' in group '%s' which has a value that cannot be interpreted.
+g_key_file_set_list_separator
+g_key_file_load_from_file
+g_key_file_clear
+g_key_file_remove_group_node
+g_key_file_remove_key_value_pair_node
+g_key_file_parse_data
+g_key_file_parse_comment
+g_key_file_flush_parse_buffer
+g_key_file_parse_line
+g_key_file_add_group
+g_key_file_parse_key_value_pair
+g_key_file_load_from_data
+g_key_file_load_from_dirs
+g_key_file_load_from_data_dirs
+g_key_file_ref
+g_key_file_free
+g_key_file_unref
+g_key_file_to_data
+g_key_file_get_keys
+g_key_file_get_start_group
+g_key_file_get_groups
+g_key_file_get_value
+/lib/udev/rules.d/85-keyboard-configuration.rules
+ssl_key_file 
+        uptime usb-add usb-del vcpu-list vcpu-pin vcpu-set debug-keys dmesg \
+                        -in -certfile -signer -recip -inform -passin -inkey \
+                        -startdate -enddate -days -md -policy -keyfile -key \
+                        -crl_check_all -cert -certform -key -keyform -pass \
+                        -dcert -dcertform -dkey -dkeyform -dpass -dhparam \
+options='-inform -outform -keyform -CAform -CAkeyform -in \
+                        -days -set_serial -signkey -x509toreq -req -CA -CAkey \
+        --export|--sign-key|--lsignkey|--nrsignkey|--nrlsignkey|--editkey)
+            # return list of public keys
+            COMPREPLY=( $( compgen -W "$( gpg --list-keys 2>/dev/null | \
+            COMPREPLY=( $( compgen -W "$( gpg --list-keys 2>/dev/null | \
+/usr/lib/python2.7/keyword.py
+/usr/lib/python2.7/keyword.pyc
+            channel rate bit bitrate key enc encryption power \
+Cannot use lesskey file "%s"
+Warning: environment variables from lesskey file unavailable
+Hit any key to quit w3m:
+keymap
+        of a keyfile, or a 2-value tuple with the names of the keyfile and
+        Map a logging level name to a key in the priority_names map.
+Invalid public key algorithm
+Bad public key
+Bad secret key
+No public key
+No secret key
+Wrong secret key used
+Bad session key
+Invalid keyring
+Wrong public key algorithm
+Weak encryption key
+Invalid key length
+Unusable public key
+Unusable secret key
+Invalid session key
+Wrong key usage
+Invalid key info
+Public key not trusted
+Missing key
+krb5_store_keyblock
+hc_DES_set_key_unchecked
+krb5_ret_keyblock
+krb5_auth_con_setremotesubkey
+krb5_free_keyblock_contents
+krb5_auth_con_setkey
+pthread_key_create
+krb5_auth_con_generatelocalsubkey
+__gss_krb5_get_subkey_x_oid_desc
+__gss_krb5_get_initiator_subkey_x_oid_desc
+__gss_krb5_get_acceptor_subkey_x_oid_desc
+__gss_krb5_get_service_keyblock_x_oid_desc
+krb5_auth_con_getlocalsubkey
+krb5_auth_con_getkey
+gsskrb5_extract_service_keyblock
+gsskrb5_get_initiator_subkey
+gsskrb5_get_subkey
+__gss_c_ntlm_session_key_oid_desc
+__gss_ntlm_get_session_key_x_oid_desc
+hc_RC4_set_key
+heim_ntlm_nt_key
+krb5_ntlm_rep_get_sessionkey
+              - C{ssl_public_key}
+--ssl-public-keysM
+The public SSL key to verify the server. Only us
+    @cvar required_options: Optionally, a sequence of key names to require when
+    @cvar unsaved_options: Optionally, a sequence of key names to never write
+    Return the string key in 'wordmap' for which 's' is an unambiguous
+        use keys from dict that already have a corresponding attribute
+        in self.  Any keys in dict without a corresponding attribute
+        using all keys from the dictionary regardless of whether
+invalid keyword arguments: %ss
+keyst
+/apache.key
+transient failure (e.g., weak key)
+    space.  See TextWrapper class for available keyword args to customize
+    available keyword args to customize wrapping behaviour.
+publickey
+%(?:\((?P<key>.*?)\))?(?P<modifiers>[-#0-9 +*.hlL]*?)
+keyt
+heim_ntlm_nt_key
+heim_ntlm_ntlmv2_key
+keynum >= 0 && keynum < K5_KEY_MAX
+destructors_set[keynum] == 1
+destructors_set[keynum] == 0
+krb5int_key_register
+krb5int_key_delete
+Required key not available
+No local key attribute
+Failed to parse key
+add key ok: %lx
+called commonInit on key that doesn't support required attr
+Private key missing for CRL signing
+Signature algorithm doesn't match certificate key
+Private key required for the operation is missing
+Required keyusage for this certificate is missing
+	authority key id: %s
+	subject key id: %s
+keyUsage
+key type: 0x%08lx not found
+private key NULL
+public key
+secret key
+keystore if type %s doesn't support store operation
+keystore if type %s doesn't support key add operation
+Failed to do string2key for private key
+Out of memory to decrypt for private key
+Private key encrypted in unknown method %s in file
+Encrypted private key missing DEK-Info
+Private key encrypted with unsupported cipher: %s
+Salt have wrong length in private key file
+Password for keyfile: 
+rsa-pkcs-key-pair-gen
+genereate-key-pair
+Private RSA key missing
+private key not an RSA key
+key refcount <= 0 on ref
+key refcount == 0 on free
+Subjectless certificate missing keyIdentifier inside AuthKeyID
+Private key missing for signing
+No private key matched any certificate
+No private key decrypted the transfer key
+Failed to set key for decryption of EnvelopedData
+Create random key for EnvelopedData content
+Failed to encrypt transport key for EnvelopedData
+No local key attribute on private key
+No private key to compare with
+Failed to decrypt using private key: %d
+Private key have no key2SPKI function
+key refcount == UINT_MAX on ref
+String to key algorithm not supported
+Failed to generate RSA key
+Failed to parse RSA key
+Private key is not exportable
+Raised when a key-value pair is found before any section header.c
+keyR
+keys(
+	key    : %s
+        keys must be strings, the values must be appropriate for %()s string
+g_drive_get_sort_key
+g_utf8_collate_key
+Can't return keys for %s(
+keysR5
+Persist a hierarchical database of key=>value pairs.
+        optional argument `raw' is true. Values for interpolation keys are
+        indicated by a name in square brackets (`[]'), plus key/value
+__alloc_workqueue_key
+        @param kw: the keyword arguments to call it with.
+ssl_keys1
+ssl_keys.dpkg-new
+init_timer_key
+__alloc_workqueue_key
+kernel/drivers/platform/x86/dell-wmi-aio.ko: kernel/drivers/platform/x86/wmi.ko kernel/drivers/input/sparse-keymap.ko
+kernel/drivers/platform/x86/dell-wmi.ko: kernel/drivers/platform/x86/wmi.ko kernel/drivers/input/sparse-keymap.ko
+__key.34388
+nkey
+Gkernel/drivers/input/misc/da9052_onkey.ko:
+                   --noauth --user --key --version \
+  /etc/krb5.keytab            r,
+Execution of xargs will continue now, and it will try to read its input and run commands; if this is not what you wanted to happen, please type the end-of-file keystroke.
+Warning: %s will be run at least once.  If you do not want that to happen, then press the interrupt keystroke.
+                         to a file descriptor (specified by the key) in the
+        @param kw: the keyword arguments to call it with.
+        @param kw: the keyword arguments to call it with.
+init_timer_key
+keyboardkg-neww
+sparse-keymap.kokg-new
+sparse-keymap.ko.dpkg-new
+matrix-keymap.kow
+#the keyword 'command_line', and no attempt is made to validate syntax.  
+asn1_oid_id_pkrkeydata
+asn1_oid_id_pkdhkeydata
+asn1_oid_id_pkcs12_keyBag
+asn1_oid_id_x509_ce_keyUsage
+%s: DH pubkey position: %d
+%s: Secret key: 
+%s: Digest key: 
+DH public key must be at least 2
+DH public key must be at most p-2
+DH public key does not fulfill y^q mod p = 1
+%s: Couldn't generate Diffie-Hellmann public key!
+%s: Couldn't write public key!
+%s: Client DH public key offset: %d
+%s: Wrong secret key position!
+%s: Calculated digest key from secure key and server digest: 
+%s: Server DH public key offset: %d
+Checked keyframe successfully!
+Found keyframe with resume-keyframe timestamp!
+First packet does not contain keyframe, all timestamps are smaller than the keyframe timestamp; probably the resume seek failed?
+Couldn't find the seeked keyframe in this chunk!
+		eval $IWCONFIG "$IFACE" key $IF_WIRELESS_KEY && IF_WIRELESS_KEY= || FAIL=true
+		$IWCONFIG "$IFACE" key [1] "$IF_WIRELESS_KEY1" && IF_WIRELESS_KEY1= || FAIL=true
+		$IWCONFIG "$IFACE" key [2] "$IF_WIRELESS_KEY2" && IF_WIRELESS_KEY2= || FAIL=true
+		$IWCONFIG "$IFACE" key [3] "$IF_WIRELESS_KEY3" && IF_WIRELESS_KEY3= || FAIL=true
+		$IWCONFIG "$IFACE" key [4] "$IF_WIRELESS_KEY4" && IF_WIRELESS_KEY4= || FAIL=true
+		$IWCONFIG "$IFACE" key ["$IF_WIRELESS_DEFAULTKEY"] && IF_WIRELESS_DEFAULTKEY= || FAIL=true
+		$IWCONFIG "$IFACE" key "$IF_WIRELESS_KEYMODE" && IF_WIRELESS_KEYMODE= || FAIL=true
+                        keys %Config::Config" 2>/dev/null )' -- "$temp" ) )
+line %d: unknown key '%s'
+defkey: unknown key '%s'
+defkey: invalid command '%s'
+--key
+            passed as keyword arguments.  For example, if the description were
+        and keyword arguments.
+omapi_auth_key_stuff_values
+omapi_auth_key_lookup
+omapi_auth_key_get_value
+omapi_auth_key_destroy
+# 256-bit hexadecimal key must be 64 characters in length
+wpa_key_check_and_set () {
+		wep_key*)
+				wpa_msg stderr "WARNING: plaintext or ascii WEP key has $KEY_LEN characters,"
+				wpa_msg stderr "WARNING: plaintext or ascii WPA key has $KEY_LEN characters,"
+				wpa_msg stderr "If the WPA key is a 256-bit hexadecimal key, it must have"
+		*-psk|*-passphrase|*-passwd*|*-wep-key*)
+krb5_ret_keyblock
+krb5_verify_opt_set_keytab
+asn1_oid_id_pkdhkeydata
+hc_DH_compute_key
+hc_DH_generate_key
+krb5_rd_req_in_set_keytab
+krb5_rd_req_in_set_keyblock
+krb5_rd_req_out_get_keyblock
+krb5_rd_req_with_keyblock
+krb5_string_to_key_data_salt
+krb5_string_to_key_data
+krb5_string_to_key
+krb5_string_to_key_salt_opaque
+krb5_string_to_key_derived
+krb5_get_init_creds_keyblock
+krb5_get_init_creds_keytab
+krb5_store_keyblock
+krb5_keyblock_zero
+krb5_keyblock_get_enctype
+krb5_keyblock_init
+krb5_kt_read_service_key
+krb5_c_is_keyed_cksum
+krb5_c_make_random_key
+krb5_c_keylengths
+krb5_auth_con_getsendsubkey
+krb5_ntlm_rep_get_sessionkey
+_krb5_fast_armor_key
+krb5_string_to_key_data_salt_opaque
+krb5_keyblock_key_proc
+krb5_init_creds_set_keytab
+krb5_copy_keyblock_contents
+krb5_checksum_is_keyed
+krb5_generate_random_keyblock
+krb5_enctype_keybits
+krb5_enctype_keysize
+krb5_enctype_to_keytype
+krb5_derive_key
+krb5_random_to_key
+krb5_keytype_to_enctypes
+krb5_enctypes_compatible_keys
+hc_DES_set_key_unchecked
+hc_DES_is_weak_key
+_krb5_pk_octetstring2key
+krb5_keytab_key_proc
+krb5_password_key_proc
+krb5_string_to_key_salt
+krb5_keytype_to_enctypes_default
+krb5_keytype_to_string
+krb5_string_to_keytype
+krb5_get_in_tkt_with_keytab
+krb5_get_in_tkt_with_skey
+krb5_generate_subkey
+krb5_digest_get_session_key
+krb5_defkeyname
+krb5_free_keyblock_contents
+krb5_copy_keyblock
+krb5_auth_con_getkey
+krb5_auth_con_getlocalsubkey
+krb5_auth_con_getremotesubkey
+krb5_auth_con_setkey
+krb5_free_keyblock
+krb5_auth_con_setlocalsubkey
+krb5_auth_con_generatelocalsubkey
+krb5_generate_subkey_extended
+krb5_auth_con_setremotesubkey
+krb5_auth_con_setkeytype
+krb5_auth_con_getkeytype
+krb5_auth_con_setuserkey
+No public key set
+Private key missing
+    keyusage: 
+match subject key id
+private key
+ku keycertsign
+ku keyagreement
+match local key id
+match key hash sha1
+Required extension key usage missing from certifiate
+(key-datH
+key(1
+-keyL
+__key.26413
+__key.26588
+Private-key-format: v
+Private-key-format: v%s
+omapi_type_auth_key
+auth_key_hash
+key_file_fmt_str
+dx wpa-wep-tx-keyidx
+			set_network proactive_key_caching wpa-proactive-key-caching
+			set_network peerkey wpa-peerkey
+			wpa_key_check_and_set "$IF_WPA_PSK" \
+			set_network key_mgmt wpa-key-mgmt
+			set_network private_key wpa-private-key
+			set_network private_key_passwd wpa-private-key-passwd
+			set_network private_key2 wpa-private-key2
+			set_network private_key_passwd2 wpa-private-key-passwd2
+			set_network key_id wpa-key-id
+			wpa_key_check_and_set "$IF_WPA_WEP_KEY0" \
+				wep_key0 wpa-wep-key0
+			wpa_key_check_and_set "$IF_WPA_WEP_KEY1" \
+				wep_key1 wpa-wep-key1
+			wpa_key_check_and_set "$IF_WPA_WEP_KEY2" \
+				wep_key2 wpa-wep-key2
+			wpa_key_check_and_set "$IF_WPA_WEP_KEY3" \
+				wep_key3 wpa-wep-key3
+			set_network wep_tx_keyiedc
+dns zone key %s: %s
+expecting identifier after option keyword.
+no memory for key
+no memory for key name.
+key %s: too many algorithms
+expecting key algorithm name.
+no memory for key %s.
+key %s: too many secrets
+tsig key %s: %s
+expecting "integer" keyword.
+__key.23587
+__key.22565
+__key.22566
+expecting key name.
+unknown key %s
+expecting "code" keyword.
+key definition not allowed here.
+<keydataH
+kernel/drivers/input/keyboard/adp5520-keys.ko:
+AS_keys
+kernel/drivers/input/keyboard/adp5588-keys.ko:
+_keys
+kernel/drivers/input/keyboard/adp5589-keys.ko:
+"kernel/net/key/af_key.ko: kernel/net/xfrm/xfrm_algo.ko
+        number of other positional and keyword arguments.  When the
+has_keyR
+        @param fireOnOneCallback: (keyword param) a flag indicating that this
+        @param fireOnOneErrback: (keyword param) a flag indicating that this
+        @param consumeErrors: (keyword param) a flag indicating that failures in
+    @param consumeErrors: (keyword param) a flag, defaulting to False,
+        -i|--sleep|--ssl-ca|--ssl-cert|--ssl-cipher|--ssl-key|-w|--wait|\
+        --ssl-cipher --ssl-key --ssl-verify-server-cert --user --verbose \
+    @ivar kw: A dictionary of keyword arguments to pass to the function.
+    @param kw: The keyword arguments to pass to C{f}
+crypto_aes_expand_key
+    @param **kw: The keyword arguments to pass to C{callable}.
+X509_get_pubkey
+init_crypto_pkey
+X509_set_pubkey
+DSA_generate_key
+RSA_generate_key
+X509_REQ_set_pubkey
+X509_REQ_get_pubkey
+NETSCAPE_SPKI_set_pubkey
+NETSCAPE_SPKI_get_pubkey
+No public key
+iO!|sO:dump_privatekey
+is#|O:load_privatekey
+O!:set_pubkey
+:get_pubkey
+ii:generate_key
+No such key type
+O:set_privatekey
+:get_privatekey
+pkey
+pkey must be type X509 or None
+keyCompromise
+Load a private key from a buffer
+@param buffer: The buffer the key is stored in
+Dump a private key to a buffer
+@param pkey: The PKey to dump
+@return: The buffer with the dumped key in
+@param pkey: Pkey to sign with
+Get the public key of the certificate
+@return: The public key
+Set the public key of the certificate
+@param pkey: The public key
+Sign the certificate using the supplied key and digest
+@param pkey: The key to sign with
+Generate a key of a given type, with a given number of a bits
+@param type: The key type (TYPE_RSA or TYPE_DSA)
+Returns the number of bits of the key
+@return: The number of bits of the key.
+Returns the type of the key
+@return: The type of the key.
+Get the public key from the certificate request
+@return: The public key
+Set the public key of the certificate request
+@param pkey: The public key to use
+Sign the certificate request using the supplied key and digest
+@param pkey: The key to sign with
+Verifies a certificate request using the supplied public key
+@param key: a public key
+Return private key portion of the PKCS12 structure
+@returns: PKey object containing the private key
+@param pkey: The new private key.
+@type pkey: L{PKey}
+Get the public key of the certificate
+@return: The public key
+Set the public key of the certificate
+@param pkey: The public key
+Sign the certificate request using the supplied key and digest
+@param pkey: The key to sign with
+Verifies a certificate request using the supplied public key
+@param key: a public key
+export(cert, key[, type[, days]]) -> export a CRL as a string
+@param key: Used to sign CRL.
+@type key: L{PKey}
+keyt
+_pyOpenSSL_tstate_key
+PyThread_delete_key_value
+PyThread_set_key_value
+PyThread_get_key_value
+SSL_CTX_check_private_key
+PyThread_create_key
+:master_key
+s|i:use_privatekey_file
+:check_privatekey
+O!:use_privatekey
+Get a copy of the master key.
+Load a private key from a file
+@param keyfile: The name of the key file
+Load a private key from a PKey object
+@param pkey: The PKey object
+Check that the private key and certificate match up
+key_len %u 
+          [ [i|o]seq ] [ [i|o]key KEY ] [ [i|o]csum ]
+ key %u
+ ikey %u 
+ okey %u 
+invalid value of "key"
+ikey
+invalid value of "ikey"
+okey
+invalid value of "okey"
+"key" is invalid with proto=%s
+ikey %s 
+Invalid value for "key"
+ [ key { DOTTED-QUAD | NUMBER } ] | PROTO }
+__alloc_workqueue_key
+init_timer_key
+__key.34125
+__key.34126
+__key.34323
+__key.34324
+__key.34325
+init_timer_key
+__alloc_workqueue_key
+__key.28981
+keymap $name 0x84 wlan
+keymap $name dell-latitude-xt2
+keymap $name compaq-e_evo
+keymap $name lenovo-3000
+keymap $name lenovo-thinkpad_x6_tablet
+keymap $name lenovo-thinkpad_x200_tablet
+keymap $name lenovo-ideapad
+keymap $name 0x95 media 0xA3 play
+keymap $name hewlett-packard
+keymap $name hewlett-packard-tablet
+keymap $name hewlett-packard-pavilion
+keymap $name hewlett-packard-compaq_elitebook
+keymap $name 0xD8 f21 0xD9 f21
+keymap $name hewlett-packard-2510p_2530p
+keymap $name hewlett-packard-tx2
+keymap $name hewlett-packard-presario-2100
+keymap $name 0xB2 www
+keymap $name 0xF8 rfkill
+keymap $name 0x88 media
+keymap $name acer
+keymap $name 0xEE screenlock
+keymap $name acer-travelmate_c300
+keymap $name 0xD9 bluetooth
+keymap $name 0xB2 www 0xEE screenlock
+keymap $name acer-aspire_6920
+keymap $name acer-aspire_5920g
+keymap $name acer-aspire_5720
+keymap $name acer-aspire_8930
+keymap $name 0x6E wlan
+keymap $name fujitsu-amilo_pro_v3205
+keymap $name fujitsu-amilo_pa_2548
+keymap $name fujitsu-esprimo_mobile_v5
+keymap $name fujitsu-esprimo_mobile_v6
+keymap $name fujitsu-amilo_pro_edition_v3505
+keymap $name fujitsu-amilo_si_1520
+keymap $name 0x97 prog2 0x9F prog1
+keymap $name 0xD6 wlan
+keymap $name fujitsu-amilo_li_2732
+keymap $name lg-x110
+keymap $name medion-fid2060
+keymap $name medionnb-a555
+keymap $name micro-star
+keymap $name 0xF7 reserved 0xF8 reserved
+keymap $name inventec-symphony_6.0_7.0
+keymap $name maxdata-pro_7000
+keymap $name samsung-other
+keymap $name samsung-sx20s
+keymap $name samsung-sq1us
+keymap $name 0xBA ejectcd 0x96 keyboardbrightnessup 0x97 keyboardbrightnessdown
+keymap $name samsung-90x3a
+keymap $name toshiba-satellite_a100
+keymap $name toshiba-satellite_a110
+keymap $name toshiba-satellite_m30x
+keymap $name oqo-model2
+keymap $name onkyo
+keymap $name asus
+keymap $name 0x81 prog1
+keymap $name zepto-znote
+keymap $name everex-xt5000
+keymap $name olpc-xo
+keymap $name 0x8A ejectcd
+="keymap $name 0x8A ejectcd
+="keymap $name zepto-znote
+tnessup 0x97 keyboardbrightnessdown
+="keymap $name module-sony-old
+fromkeyst
+keyt
+keys(
+ Associates 'value' with 'key'. N(
+keymap $name 0x84 wlan
+keymap $name dell-latitude-xt2
+keymap $name compaq-e_evo
+keymap $name lenovo-3000
+keymap $name lenovo-thinkpad_x6_tablet
+keymap $name lenovo-thinkpad_x200_tablet
+keymap $name lenovo-ideapad
+keymap $name 0x95 media 0xA3 play
+keymap $name hewlett-packard
+keymap $name hewlett-packard-tablet
+keymap $name hewlett-packard-pavilion
+keymap $name hewlett-packard-compaq_elitebook
+keymap $name 0xD8 f21 0xD9 f21
+keymap $name hewlett-packard-2510p_2530p
+keymap $name hewlett-packard-tx2
+keymap $name hewlett-packard-presario-2100
+keymap $name 0xB2 www
+keymap $name 0xF8 rfkill
+keymap $name 0x88 media
+keymap $name acer
+keymap $name 0xEE screenlock
+keymap $name acer-travelmate_c300
+keymap $name 0xD9 bluetooth
+keymap $name 0xB2 www 0xEE screenlock
+keymap $name acer-aspire_6920
+keymap $name acer-aspire_5920g
+keymap $name acer-aspire_5720
+keymap $name acer-aspire_8930
+keymap $name 0x6E wlan
+keymap $name fujitsu-amilo_pro_v3205
+keymap $name fujitsu-amilo_pa_2548
+keymap $name fujitsu-esprimo_mobile_v5
+keymap $name fujitsu-esprimo_mobile_v6
+keymap $name fujitsu-amilo_pro_edition_v3505
+keymap $name fujitsu-amilo_si_1520
+keymap $name 0x97 prog2 0x9F prog1
+keymap $name 0xD6 wlan
+keymap $name fujitsu-amilo_li_2732
+keymap $name lg-x110
+keymap $name medion-fid2060
+keymap $name medionnb-a555
+keymap $name micro-star
+keymap $name 0xF7 reserved 0xF8 reserved
+keymap $name inventec-symphony_6.0_7.0
+keymap $name maxdata-pro_7000
+keymap $name samsung-other
+keymap $name samsung-sx20s
+keymap $name samsung-sq1us
+keymap $name 0xBA ejectcd 0x96 keyboardbrightnessup 0x97 keyboardbrightnessdown
+keymap $name samsung-90x3a
+keymap $name toshiba-satellite_a100
+keymap $name toshiba-satellite_a110
+keymap $name toshiba-satellite_m30x
+keymap $name oqo-model2
+keymap $name onkyo
+keymap $name asus
+keymap $name 0x81 prog1
+keymap $name zepto-znote
+keymap $name everex-xt5000
+keymap $name olpc-xo
+keymap $name 0x8A ejectcd
+="keymap $name 0x8A ejectcd
+="keymap $name zepto-znote
+tnessup 0x97 keyboardbrightnessdown
+="keymap $name module-sony-old
+kbd_mode: error reading keyboard mode
+The keyboard is in raw (scancode) mode
+The keyboard is in mediumraw (keycode) mode
+The keyboard is in xlate (8-bit) mode
+The keyboard is in Unicode (UTF-8) mode
+The keyboard is in some unknown mode
+%s: error setting keyboard mode
+keys(
+keyrefsR
+Return an iterator that yields the weak references to the keys.
+        keep the keys around longer than needed.
+iterkeyrefs:
+Return a list of weak references to the keys.
+        keep the keys around longer than needed.
+Specialized reference that includes a key corresponding to the value.
+    a function object for each key stored in the mapping.  A shared
+    callback object can use the 'key' attribute of a KeyedRef instead
+    of getting a reference to the key from an enclosing scope.
+key(
+ Mapping class that references keys weakly.
+    longer a strong reference to the key. This can be used to
+key(
+has_keyE
+iterkeys(
+*key_22_$curd*.pub
+host=${i/#*key_22_/}
+keyspan
+GC_thread_key
+TLS: only one of certfile and keyfile specified
+keyString != ((void *)0)
+ldap_create_sort_keylist
+key != ((void *)0)
+ldap_pvt_thread_pool_purgekey
+        a true positional or keyword argument is given, then
+        a true positional or keyword argument is given, then
+          accepts arbitrary keyword arguments.
+Associates `value` with `key`.N(
+        This method returns a dictionary with the following keys:
+  --export    print values as environment keys
+missing <key>=<value> in '%s'[%i], skip line
+    The possible keys of eventDict are:
+       the event. It uses all keys present in C{eventDict} to format
+    Other keys will be used when applying the C{format}, or ignored.
+    the chance of colliding with a keyword argument the application wishes
+    positionally, not by keyword.
+    but it serves as a key for the default information in a log.
+        @type eventDict: C{dict} with C{str} keys.
+        @param eventDict: A dictionary with arbitrary keys.  However, these
+            keys are often available:
+publickey
+        level, and you can customize the level by using the C{logLevel} key::
+kernel/drivers/platform/x86/asus-laptop.ko: kernel/drivers/input/sparse-keymap.ko kernel/drivers/input/input-polldev.ko
+kernel/drivers/platform/x86/asus-nb-wmi.ko: kernel/drivers/platform/x86/asus-wmi.ko kernel/drivers/platform/x86/wmi.ko kernel/drivers/input/sparse-keymap.ko
+kernel/drivers/platform/x86/asus-wmi.ko: kernel/drivers/platform/x86/wmi.ko kernel/drivers/input/sparse-keymap.ko
+keyspan
+keyspan
+keyspan
+keyspan_pda
+keyspan_pda
+keyspan
+keyspan
+keyspan
+keyspan
+keyspan
+keyspan
+keyspan
+keyspan
+keyspan
+keyspan
+keyspan
+keyspan
+keyspan
+keyspan
+keyspan
+keyspan
+keyspan
+keyspan
+keyspan
+keyspan
+keyspan
+keyspan
+keyspan
+Jkeyspan_remote
+keyspan_pda
+keyspan_pda
+keysR
+        To pass exception information, use the keyword argument exc_info with
+        To pass exception information, use the keyword argument exc_info with
+        To pass exception information, use the keyword argument exc_info with
+        To pass exception information, use the keyword argument exc_info with
+        To pass exception information, use the keyword argument exc_info with
+        To pass exception information, use the keyword argument exc_info with
+key(
+        You can effectively pass keyword arguments as shown in the
+        Process the logging message and keyword arguments passed in to
+        manipulate the message itself, the keyword args or both. Return
+kernel/drivers/input/keyboard/lkkbd.ko:
+kernel/drivers/input/keyboard/lm8323.ko:
+kernel/drivers/input/keyboard/lm8333.ko: kernel/drivers/input/matrix-keymap.ko
+crypto_aes_set_key
+crypto_aes_set_key
+g_key_file_get_type
+g_key_file_unref
+g_key_file_ref
+    A number of optional keyword arguments may be specified, which can alter
+krb5_free_keyblock
+krb5_free_keyblock_contents
+decode_krb5_encryption_key
+encode_krb5_encryption_key
+encode_krb5_sam_key
+keyctl_read
+keyctl_read_alloc
+add_key
+keyctl_search
+keyctl_clear
+keyctl_unlink
+request_key
+krb5_ser_keytab_init
+krb5_free_keytab_entry_contents
+krb5_init_creds_set_keytab
+krb5_get_init_creds_keytab
+krb5_get_in_tkt_with_keytab
+krb5_c_string_to_key_with_params
+krb5_get_in_tkt_with_skey
+krb5_init_keyblock
+krb5int_c_init_keyblock
+krb5int_c_free_keyblock_contents
+krb5int_c_free_keyblock
+krb5_c_keyed_checksum_types
+krb5_c_string_to_key
+krb5int_c_combine_keys
+ekeyH
+key != NULL
+(key - (char *) 0) % __alignof__ (md5_uint32) == 0
+(key - (char *) 0) % __alignof__ (uint32_t) == 0
+(key - (char *) 0) % __alignof__ (uint64_t) == 0
+_hx509_certs_keys_get
+_hx509_certs_keys_free
+asn1_oid_id_pkcs12_keyBag
+    kargs - optional keyword arguments to pass to func
+%d is not a valid subkey type
+have no subkey of type %d
+No service keyblock on gssapi context
+unknown kerberos prf_key
+no prf_key found
+No initiator subkey available
+No acceptor subkey available
+No token key available
+    If any of the dictionaries being accumulated have the same key, the
+has_keyt
+keyst
+    calling with keyword arguments; for example, C{x(a=b,c=d,y=z)} is the
+keyt
+Call functions with context.call({key: value}, func); func and
+functions that it calls will be able to use 'context.get(key)' to
+    A L{ContextTracker} provides a way to pass arbitrary key/value data up and
+        @param **kw: Any additional keyword arguments to pass to C{func}.
+        Retrieve the value for a key from the context.
+        @param key: The key to look up in the context.
+        @param default: The value to return if C{key} is not found in the
+        @return: The value most recently remembered in the context for C{key}.
+keyt
+kernel/drivers/platform/x86/hp-wmi.ko: kernel/drivers/platform/x86/wmi.ko kernel/drivers/input/sparse-keymap.ko
+keyt
+kernel/drivers/input/keyboard/gpio_keys_polled.ko: kernel/drivers/input/input-polldev.ko
+kernel/drivers/input/keyboard/gpio_keys.ko:
+                        - On POSIX: pass the key/value pairs in C{env} as the
+                        - On Windows: update C{os.environ} with the key/value
+                          keys with empty values in an effort to unset
+        and keyword arguments.
+fromkeys(
+keyst
+keys2(
+entry_keyst
+by_keyt	
+keyt
+Convert a version string to a chronologically-sortable key
+_keyR
+Copy this distribution, substituting in any changed keyword argsR
+krb5_auth_con_getkey_k
+krb5_k_free_key
+krb5_auth_con_getrecvsubkey_k
+krb5_auth_con_getsendsubkey_k
+krb5_free_keytab_entry_contents
+krb5int_key_register
+krb5int_key_delete
+keyboard
+hc_PKCS12_key_gen
+hc_DES_new_random_key
+hc_DES_rand_data_key
+hc_DES_random_key
+hc_RSA_check_key
+hc_RSA_generate_key_ex
+hc_AES_set_encrypt_key
+hc_AES_decrypt_key
+hc_DES_check_key_parity
+hc_DES_is_weak_key
+hc_DES_set_key_unchecked
+hc_DES_set_key_checked
+hc_DES_set_key
+hc_DES_key_sched
+hc_DES_string_to_key
+hc_DH_check_pubkey
+hc_DH_generate_key
+hc_DH_compute_key
+hc_EVP_CIPHER_key_length
+hc_EVP_CIPHER_CTX_set_key_length
+hc_EVP_CIPHER_CTX_key_length
+hc_EVP_CIPHER_CTX_rand_key
+hc_RC4_set_key
+hc_RC2_set_key
+hc_PKCS12_key_gen
+keyt
+JSON DB requires keys that are actually strings
+DB transaction not open:db->set_keys == NULL && db->set_keys == NULL
+Internal error:db->set_keys != NULL
+DB keys must be data
+heim_dict_delete_key
+heim_db_delete_key
+pthread_key_create
+    @param f: A callable, followed by its arguments and keyword arguments
+message_key
+    message_key, and persist_name class attributes.
+has_key
+keys
+viewkeys
+fromkeys
+iterkeys
+    message_key, and persist_name class attributes.
+/usr/bin/loadkeys
+        C{total-space} and C{free-space} keys. If the filesystem information
+e} keys.
+        C{total-space} and C{free-space} keys. If the filesystem information
+    @param f: A callable, followed by its arguments and keyword arguments
+        optional argument `raw' is true. Values for interpolation keys are
+        keys must be strings, the values must be appropriate for %()s string
+    Also, some keys for persisted information have changed, so stored
+<key>ProductUserVisibleVersion</key>\s*s
+    such as invalid keyword arguments to 'setup()'.(
+    @cvar required_options: Optionally, a sequence of key names to require when
+    @cvar unsaved_options: Optionally, a sequence of key names to never write
+ssl_public_key
+application/pgp-keys
+			key
+/usr/lib/python2.7/keyword.py
+/usr/lib/python2.7/keyword.pyc
+/lib/udev/rules.d/85-keyboard-configuration.rules
+/lib/x86_64-linux-gnu/libkeyutils.so.1
+keysRU
+ldap_pvt_thread_key_create
+ldap_pvt_thread_key_destroy
+ldap_pvt_thread_pool_getkey
+ldap_pvt_thread_pool_setkey
+ldap_pvt_thread_pool_purgekey
+ldap_pvt_thread_key_getdata
+ldap_pvt_thread_key_setdata
+pthread_key_create
+pthread_key_delete
+ldap_free_sort_keylist
+ldap_create_sort_keylist
+gnutls_cipher_get_key_size
+gnutls_x509_privkey_init
+gnutls_x509_privkey_import
+gnutls_certificate_set_x509_key
+publickey
+%s:%lu: unrecognized keyword %s
+firstkey
+nextkey
+__key.23526
+__key.23527
+libkeyutils.so.1.4
+144f  Askey Computer Corp.
+	0700  OneConnect 10G../../../../share/pyshared/keyring-0.9.2.egg-info/top_level.txt
+keyring
+            -CA|-CAfile|-CAkey|-CAserial|-cert|-certfile|-config|-content| \
+            -dcert|-dkey|-dhparam|-extfile|-in|-inkey|-kfile|-key|-keyout| \
+            -spkac|-sign|-signkey|-signer|-signature|-ss_cert|-untrusted| \
+            -inform|-outform|-keyform|-certform|-CAform|-CAkeyform|-dkeyform|-dcertform)
+                        -startdate -enddate -days -md -policy -keyfile -key \
+                        -genkey'
+                        -noout -verify -modulus -new -rand -newkey -newkey \
+                        -nodes -key -keyform -keyout -md5 -sha1 -md2 -mdc2 \
+                        -sgckey -des -des3 -idea -text -noout -modulus -check \
+                    options='-in -out -inkey -pubin -certin -sign -verify \
+                    options='-connect -verify -cert -certform -key -keyform \
+                        -crl_check_all -cert -certform -key -keyform -pass \
+                        -dcert -dcertform -dkey -dkeyform -dpass -dhparam \
+                    options='-connect -www -cert -key -CApath -CAfile -reuse \
+                        -in -certfile -signer -recip -inform -passin -inkey \
+                    options='-inform -outform -keyform -CAform -CAkeyform -in \
+                        -days -set_serial -signkey -x509toreq -req -CA -CAkey \
+keymap $name 0x84 wlan
+keymap $name dell-latitude-xt2
+keymap $name compaq-e_evo
+keymap $name lenovo-3000
+keymap $name lenovo-thinkpad_x6_tablet
+keymap $name lenovo-thinkpad_x200_tablet
+keymap $name lenovo-ideapad
+keymap $name 0x95 media 0xA3 play
+keymap $name hewlett-packard
+keymap $name hewlett-packard-tablet
+keymap $name hewlett-packard-pavilion
+keymap $name hewlett-packard-compaq_elitebook
+keymap $name 0xD8 f21 0xD9 f21
+keymap $name hewlett-packard-2510p_2530p
+keymap $name hewlett-packard-tx2
+keymap $name hewlett-packard-presario-2100
+keymap $name 0xB2 www
+keymap $name 0xF8 rfkill
+keymap $name 0x88 media
+keymap $name acer
+keymap $name 0xEE screenlock
+keymap $name acer-travelmate_c300
+keymap $name 0xD9 bluetooth
+keymap $name 0xB2 www 0xEE screenlock
+keymap $name acer-aspire_6920
+keymap $name acer-aspire_5920g
+keymap $name acer-aspire_5720
+keymap $name acer-aspire_8930
+keymap $name 0x6E wlan
+keymap $name fujitsu-amilo_pro_v3205
+keymap $name fujitsu-amilo_pa_2548
+keymap $name fujitsu-esprimo_mobile_v5
+keymap $name fujitsu-esprimo_mobile_v6
+keymap $name fujitsu-amilo_pro_edition_v3505
+keymap $name fujitsu-amilo_si_1520
+keymap $name 0x97 prog2 0x9F prog1
+keymap $name 0xD6 wlan
+keymap $name fujitsu-amilo_li_2732
+keymap $name lg-x110
+keymap $name medion-fid2060
+keymap $name medionnb-a555
+keymap $name micro-star
+keymap $name 0xF7 reserved 0xF8 reserved
+keymap $name inventec-symphony_6.0_7.0
+keymap $name maxdata-pro_7000
+keymap $name samsung-other
+keymap $name samsung-sx20s
+keymap $name samsung-sq1us
+keymap $name 0xBA ejectcd 0x96 keyboardbrightnessup 0x97 keyboardbrightnessdown
+keymap $name samsung-90x3a
+keymap $name toshiba-satellite_a100
+keymap $name toshiba-satellite_a110
+keymap $name toshiba-satellite_m30x
+keymap $name oqo-model2
+keymap $name onkyo
+keymap $name asus
+keymap $name 0x81 prog1
+keymap $name zepto-znote
+keymap $name everex-xt5000
+keymap $name olpc-xo
+keymap $name 0x8A ejectcd
+NAME="AT Translated Set 2 keyboard"
+="keymap $name 0x8A ejectcd
+="keymap $name zepto-znote
+tnessup 0x97 keyboardbrightnessdown
+="keymap $name module-sony-old
+        To pass exception information, use the keyword argument exc_info with
+        To pass exception information, use the keyword argument exc_info with
+        To pass exception information, use the keyword argument exc_info with
+ames: %%r' %% kwds.keys())
+_iskeywordt
+    or multiset.  Elements are stored as dictionary keys and their counts
+        >>> c = Counter(a=4, b=2)                   # a new counter from keyword args
+    >>> p = Point(11, y=22)             # instantiate with positional args or keywords
+Type names and field names cannot be a keyword: %rs9
+iterkeyss
+od.iteritems -> an iterator over the (key, value) pairs in odN(
+od.pop(k[,d]) -> v, remove specified key and return the corresponding
+        value.  If key is not found, d is returned if given, otherwise KeyError
+od.popitem() -> (k, v), return and remove a (key, value) pair.
+call_key(
+OD.fromkeys(S[, v]) -> New ordered dictionary with keys from S.
+fromkeys
+od.viewkeys() -> a set-like object providing a view on od's keys(
+viewkeys
+iskeyword(
+        regular dictionaries, but keyword arguments are not recommended because
+keyt
+od.keys() -> list of keys in od(
+keysg
+od.items() -> list of (key, value) pairs in od(
+od.iterkeys() -> an iterator over the keys in od(
+There is no public key available for the following key IDs:
+Mar 11 16:35:33 ubuntu kernel: [    0.404264] input: AT Translated Set 2 keyboard as /devices/platform/i8042/serio0/input/input1
+Mar 11 16:35:33 ubuntu kernel: [    0.404264] input: AT Translated Set 2 keyboard as /devices/platform/i8042/serio0/input/input1
+        To pass exception information, use the keyword argument exc_info with
+        To pass exception information, use the keyword argument exc_info with
+        To pass exception information, use the keyword argument exc_info with
+keyfile
+g_hash_table_get_keys
+g_key_file_error_quark
+accesskey
+keywordR
+Counter.fromkeys() is undefined.  Use Counter(iterable) instead.(
+/etcche.key
+    Equivalent to:  sorted(iterable, key=key, reverse=True)[:n]
+    Equivalent to:  sorted(iterable, key=key)[:n]
+keyi
+    python Lib/keyword.py
+iskeywordt
+Lib/keyword.pys	
+#--start keywords--
+#--end keywords--
+/usr/lib/python2.7/keyword.pyt
+/usr/lib/python2.7/keyword.pyt
+        indicated by a name in square brackets (`[]'), plus key/value
+entry_keys
+by_key
+keys2
+    calling with keyword arguments; for example, C{x(a=b,c=d,y=z)} is the
+Curl_str_key_compare
+X509_get_pubkey
+SSL_get_privatekey
+SSL_CTX_check_private_key
+ENGINE_load_private_key
+DES_set_key
+/usr/lib/python2.7/keyword.py
+/usr/lib/python2.7/keyword.pyc
+        --justification --kudos --keyid --license --list-cc \
+                /usr/share/rdesktop/keymaps 2>/dev/null | \
+                $HOME/.rdesktop/keymaps 2>/dev/null ) )
+                ./keymaps 2>/dev/null ) )
+sslcertificatekeyfile
+/etc/apache2/ssl/apache.key
+/etc/apache2/ssl/apache.key
+invalid keyword arguments: %s
+        use keys from dict that already have a corresponding attribute
+        in self.  Any keys in dict without a corresponding attribute
+                        -genkey'
+/usr/lib/python2.7/dist-packages/keyring-0.9.2.egg-info/top_level.txt
+   Unable to load public key
+priv_key
+pub_key
+unable to set private key
+unable to use client certificate (no key found or wrong pass phrase?)
+unable to use private key from PKCS12 file '%s'
+private key from PKCS12 file '%s' does not match certificate in same file
+unable to set private key file: '%s' type %s
+failed to load private key from crypto engine
+crypto engine not set, can't load private key
+file type P12 for private key not supported
+not supported file type for private key
+Private key does not match the certificate public key
+SSL peer certificate or SSH remote key was not OK
+missing <key>=<value> in '%s'[%i], skip line
+    A L{ContextTracker} provides a way to pass arbitrary key/value data up and
+    the chance of colliding with a keyword argument the application wishes
+    positionally, not by keyword.
+    The possible keys of eventDict are:
+       the event. It uses all keys present in C{eventDict} to format
+    Other keys will be used when applying the C{format}, or ignored.
+an customize the level by using the C{logLevel} key::
+%(?:\((?P<key>.*?)\))?(?P<modifiers>[-#0-9 +*.hlL]*?)[eEfFgGdiouxXcrs%]
+    in /users/users, next to /users/groups. The key will be created
+    Return the string key in 'wordmap' for
+/usr/bin/loadkeys
+of repetitions with the optional repeat keyword argument. For example,
+        @type eventDict: C{dict} with C{str} keys.
+        @param eventDict: A dictionary with arbitrary keys.  However, these
+            keys are often available:
+/lib/x86_64-linux-gnu/libkeyutils.so.1
+        @param kw: The keyword arguments to pass to the callable.
+Arguments(args, varargs, keywords)
+iskeyword
+__key.26318
+__key.26319
+__key.26421
+__key.26422
+        -subfile|-vobsub|-aofile|-fbmodeconfig|-include|-o|-dvdkey| \
+                mbqmax= vqdiff= vmax_b_frames= vme= vhq v4mv keyint= \
+                quant_range= min_key_interval= max_key_interval= mpeg_quant \
+                mod_quant lumi_mask hintedme hintfile debug keyframe_boost= \
+            COMPREPLY=( $( compgen -W 'br= key= deinterlace q= min_quant= \
+key-users
+<dummy key>
+            passed as keyword arguments.  For example, if the description were
+p4_keypad
+kernel/drivers/input/keyboard/omap4-keypad.ko: kernel/drivers/input/matrix-keymap.ko
+kernel/drivers/input/keyboard/opencores-kbd.ko:
+kernel/drivers/input/keyboard/newtonkbd.ko:
+121_touchkey
+kernel/drivers/input/keyboard/mpr121_touchkey.ko:
+kernel/drivers/platform/x86/msi-laptop.ko: kernel/drivers/input/sparse-keymap.ko
+kernel/drivers/platform/x86/msi-wmi.ko: kernel/drivers/platform/x86/wmi.ko kernel/drivers/input/sparse-keymap.ko
+q[touchkey
+kernel/drivers/input/keyboard/mcs_touchkey.ko:
+]kernel/drivers/input/matrix-keymap.ko:
+kernel/drivers/input/keyboard/matrix_keypad.ko: kernel/drivers/input/matrix-keymap.ko
+x_key
+359_keypad
+kernel/drivers/input/keyboard/max7359_keypad.ko:
+nkey
+Lkernel/drivers/input/misc/max8925_onkey.ko:
+export(cert, key[, type[, days]]) -> export a CRL as a string
+@param key: Used to sign CRL.
+@type key: L{PKey}
+load_privatekey
+dump_privatekey
+generate_key
+get_privatekey
+set_privatekey
+get_pubkey
+set_pubkey
+master_key
+Load a private key from a buffer
+@param buffer: The buffer the key is stored in
+Dump a private key to a buffer
+@param pkey: The PKey to dump
+@return: The buffer with the dumped key in
+@param pkey: Pkey to sign with
+Get the public key of the certificate
+@return: The public key
+Set the public key of the certificate
+@param pkey: The public key
+Sign the certificate using the supplied key and digest
+@param pkey: The key to sign with
+Generate a key of a given type, with a given number of a bits
+@param type: The key type (TYPE_RSA or TYPE_DSA)
+Returns the number of bits of the key
+@return: The number of bits of the key.
+Returns the type of the key
+@return: The type of the key.
+Get the public key from the certificate request
+@return: The public key
+Set the public key of the certificate request
+@param pkey: The public key to use
+Sign the certificate request using the supplied key and digest
+@param pkey: The key to sign with
+Verifies a certificate request using the supplied public key
+@param key: a public key
+Return private key portion of the PKCS12 structure
+@returns: PKey object containing the private key
+@param pkey: The new private key.
+@type pkey: L{PKey}
+Get the public key of the certificate
+@return: The public key
+Set the public key of the certificate
+@param pkey: The public key
+Sign the certificate request using the supplied key and digest
+@param pkey: The key to sign with
+Verifies a certificate request using the supplied public key
+@param key: a public key
+mouse_button2_keycode
+mouse_button3_keycode
+mouse_button2_keycode
+mouse_button3_keycode
+Get a copy of the master key.
+Load a private key from a file
+@param keyfile: The name of the key file
+Load a private key from a PKey object
+@param pkey: The PKey object
+Check that the private key and certificate match up
+use_privatekey_file
+use_privatekey
+check_privatekey
+application/vnd.mediastation.cdkey
+            COMPREPLY=( $( compgen -W 'conf= ar-delay ar-rate keylist cmdlist \
+Profile names must begin with a '/', namespace or keyword 'profile' or 'hat'.
+    thing, as keystrokes will not be echoed.
+    Create the keyed MD5 string for the given secret and challenge.
+keyed_md5() is deprecated.  Use the stdlib module hmac instead.t
+keyed_md5O
+If 'key' doesn't exists, associate it with the 'default' value.
+        Return value associated with 'key'.(
+Copy (key,value) pairs from 'dict'.N(
+Dictionary, that has case-insensitive keys.
+    Normally keys are retained in their original form when queried with
+    .keys() or .items().  If initialized with preserveCase=0, keys are both
+    looked up in lowercase and returned in lowercase by .keys() and .items().
+keyt
+Retrieve the value associated with 'key' (in any case).i
+Associate 'value' with 'key'. If 'key' already exists, but
+Case insensitive test whether 'key' exists.(
+has_key(
+List of keys in their original case.(
+iterkeys(
+keysH
+List of (key,value) pairs.(
+Retrieve value associated with 'key' or return default value
+        if 'key' doesn't exist.N(
+        key:       key for the keyed hash object.
+_secret_backdoor_keyt
+keyt
+    key: The starting key for the hash.
+    @param **kwargs: keyword arguments passed to C{function}
+global constructors keyed to 
+global destructors keyed to 
+keyt
+_ZN9__gnu_cxx6__poolILb1EE21_M_destroy_thread_keyEPp
+                               keyword like `match' or an operator like `/'
+pthread_key_create
+pthread_key_delete
+ssh-installkeys
+                afh lst auth enc key clkoff clock' -- "$cur" ) )
+            name|info|dc|rssi|lq|afh|auth|key|clkoff|lst)
+keyst
+    A dict is returned, with keys the function argument names (including the
+%s() got multiple values for keyword argument '%s't
+%s() got an unexpected keyword argument '%s's
+args varargs keywords defaultsc
+args varargs keywords localsc
+args varargs keywordsc
+network {af_mask {unspec unix local inet ax25 ipx appletalk netrom bridge atmpvc x25 inet6 rose netbeui security key netlink packet ash econet atmsvc rds sna irda pppox wanpipe llc can tipc bluetooth iucv rxrpc isdn phonet ieee802154 caif alg nfc max
+gnutls_calc_dh_key
+gnutls_privkey_decrypt_data
+gnutls_certificate_get_openpgp_keyring
+gnutls_x509_crt_get_key_usage
+gnutls_certificate_free_keys
+gnutls_privkey_deinit
+gnutls_openpgp_keyring_deinit
+gnutls_openpgp_crt_get_preferred_key_id
+gnutls_privkey_init
+gnutls_privkey_import_x509
+gnutls_privkey_import_pkcs11
+gnutls_privkey_import_openpgp
+gnutls_dh_get_pubkey
+gnutls_rsa_export_get_pubkey
+gnutls_privkey_sign_hash
+gnutls_privkey_get_pk_algorithm
+gnutls_mac_get_key_size
+gnutls_cipher_get_key_size
+krb5_copy_keyblock_contents
+krb5_kt_read_service_key
+krb5_copy_keyblock
+krb5_k_free_key
+krb5_auth_con_setuseruserkey
+krb5_k_create_key
+krb5_auth_con_getkey
+krb5_k_key_keyblock
+krb5_auth_con_getkey_k
+krb5_k_reference_key
+krb5_auth_con_setsendsubkey
+krb5_auth_con_setsendsubkey_k
+krb5_auth_con_setrecvsubkey
+krb5_auth_con_setrecvsubkey_k
+krb5_auth_con_getsendsubkey
+krb5_auth_con_getlocalsubkey
+krb5_auth_con_getsendsubkey_k
+krb5_auth_con_getrecvsubkey
+krb5_auth_con_getremotesubkey
+krb5_auth_con_getrecvsubkey_k
+krb5_k_key_enctype
+krb5_c_is_keyed_cksum
+krb5int_c_copy_keyblock
+krb5int_c_copy_keyblock_contents
+krb5_c_make_random_key
+krb5_generate_subkey
+krb5_ser_keyblock_init
+krb5_server_decrypt_ticket_keytab
+krb5_overridekeyname
+krb5_defkeyname
+libkeyutils.so.1
+/lib/udev/rules.d/95-keyboard-force-release.rules
+/lib/udev/rules.d/95-keymap.rules
+        of a keyfile, or a 2-value tuple with the names of the keyfile and
+Argument strings and environment keys/values passed to reactor.spawnProcess should be str, not unicode.
+        using all keys from the dictionary regardless of whether
+[Hit any key]
+pysqlite_row_keys
+group-key
+No keyring installed in %s.
+--keyring
+-keyform
+        number of other positional and keyword arguments.  When the
+        @param fireOnOneCallback: (keyword param) a flag indicating that this
+        @param fireOnOneErrback: (keyword param) a flag indicating that this
+        @param consumeErrors: (keyword param) a flag indicating that failures in
+    @param consumeErrors: (keyword param) a flag, defaulting to False,
+            --key --non-unique --password --system' -- "$cur" ))
+--key
+PEM encoded private key file of client
+ssl_key_file
+keymap_file
+keymap file
+init_timer_key
+__key.24749
+__key.24750
+init_timer_key
+keywords
+ArgInfo(args, varargs, keywords, locals)
+keywords
+keywords
+Copy (key,value) pairs from 'dict'.
+        Retrieve the value for a key from the context.
+        @param key: The key to look up in the context.
+        @param default: The value to return if C{key} is not found in the
+        @return: The value most recently remembered in the context for C{key}.
+e]  .  --lesskey-file=[_
+                  Use a lesskey file.
+                --no-keypad
+                  Don't use termcap keypad init/deinit strings.
+      ........  --no-keypad
+                  Don't send keypad init/deinit sequence.
+        These keys can be used to edit text being entered 
+Use keypad mode
+Don't use keypad mode
+lesskey-file
+no-keypad
+publickey
+defaultnetstreamdriverkeyfile
+[    0.404264] input: AT Translated Set 2 keyboard as /devices/platform/i8042/serio0/input/input1
+    @param kw: The keyword arguments to pass to C{f}
+pthread_key_create
+pthread_key_delete
+key_equals_string
+defaultnetstreamdriverkeyfile
+message_key
+    message_key, and persist_name class attributes.
+/etc/apache2/ssl/apache.key
+defaultnetstreamdriverkeyfile
+(ion into a key= functiont
+cmp_to_keyP
+__key.18557
+gpm_morekeys
+-signkey
+ec_key.c
+RSA_check_key
+RSA_generate_key
+RSA_generate_key_ex
+data too large for key size
+nkey <= EVP_MAX_KEY_LENGTH
+evp_key.c
+EVP_CIPHER_CTX_set_key_length
+EVP_PKEY_keygen
+EVP_PKEY_keygen_init
+PKCS5_PBE_keyivgen
+private key header missing
+unable to decode rsa key
+unknown public key type
+unsupported public key type
+digest and key type not supported
+unable to decode rsa private key
+ENGINE_get_pkey_asn1_meth
+ENGINE_get_pkey_meth
+ENGINE_load_private_key
+ENGINE_load_public_key
+failed loading private key
+failed loading public key
+unimplemented public key method
+eng_pkey.c
+(TEST_ENG_OPENSSL_PKEY)Loading Private key %s
+(TEST_ENG_OPENSSL_RC4) test_init_key() called
+invalid key encryption parameter
+unsupported key encryption algorithm
+unable to load private key: %s
+signer_key
+Become sensitive to a keystroke
+Command to send keystroke to via standard input
+ply_boot_client_ask_daemon_to_watch_for_keystroke
+ply_boot_client_ask_daemon_to_ignore_keystroke
+keys
+ignore-keystroke
+watch-keystroke
+Remove sensitivity to a keystroke
+enc_key->length == 16
+subkey != ((void *)0)
+kg_setup_keys
+No principal in keytab matches desired name
+Authenticator has no subkey
+ctx->have_acceptor_subkey
+No key table entry found matching %s
+cred->keytab == ((void *)0)
+PKCS8_add_keyusage
+key gen error
+subkey
+keyvalue
+unable to decode issuer public key
+authority and subject key identifier mismatch
+key usage does not include certificate signing
+key usage does not include CRL signing
+key usage does not include digital signature
+keyEncipherment
+keyAgreement
+keyCertSign
+EC_KEY_check_key
+EC_KEY_generate_key
+invalid private key
+keys not set
+missing private key
+EC_KEY_set_public_key_affine_coordinates
+no public key
+unable to get issuer keyid
+v3_skey.c
+v3_akey.c
+keyCompromise
+  Unable to load public key
+n_pkey.c
+private-key
+enckey
+x_pkey.c
+keyfunc
+pkeyalg
+error converting private key
+expecting private key blob
+expecting public key blob
+keyblob header parse error
+keyblob too short
+public key no rsa
+read key
+unsupported key components
+pem_pkey.c
+X509_check_private_key
+X509_get_pubkey_parameters
+X509_REQ_check_private_key
+cant check dh key
+key type mismatch
+key values mismatch
+public key decode error
+public key encode error
+unknown key type
+unable to get certs public key
+key_enc_algor
+enc_key
+decrypted key is wrong length
+no recipient matches key
+encryption not supported for this key type
+private key does not match certificate
+signing not supported for this key type
+value.keybag
+value.shkeybag
+p12_key.c
+PKCS12_add_localkeyid
+PKCS12_key_gen_asc
+PKCS12_key_gen_uni
+PKCS12_PBE_keyivgen
+keyDerivationAlgorithm
+keyEncryptionAlgorithm
+keyIdentifier
+keyAttrId
+keyAttr
+CMS_add0_recipient_key
+CMS_decrypt_set1_key
+CMS_decrypt_set1_pkey
+CMS_EncryptedData_set1_key
+CMS_RecipientInfo_set0_key
+CMS_RecipientInfo_set0_pkey
+certificate has no keyid
+error getting public key
+error setting key
+invalid encrypted key length
+not key transport
+no key
+no key or cert
+no private key
+PBE_keyivgen
+aes key setup failed
+bad key length
+bn pubkey error
+camellia key setup failed
+different key types
+expecting an rsa key
+expecting a dh key
+expecting a dsa key
+expecting a ecdsa key
+expecting a ec key
+invalid key length
+keygen failure
+no key set
+private key decode error
+private key encode error
+public key not rsa
+unsupported keylength
+unsupported key size
+wrong public key type
+unsupported key derivation function
+unsupported private key algorithm
+evp_pkey.c
+EVP_CIPHER_key_length(cipher) <= (int)sizeof(md_tmp)
+keylen <= sizeof key
+x_pubkey.c
+pubkey
+        Public key OCSP hash: 
+                pageparms pageto afhmode aclmtu scomtu putkey \
+                delkey commands features version revision lm' \
+            putkey|delkey)
+# the line below. However this makes the meta key not work as a meta key,
+# try to enable the application keypad when it is called.  Some systems
+# need this to enable the arrow keys.
+# set enable-keypad on
+# see /usr/share/doc/bash/inputrc.arrows for other codes of arrow keys
+# allow the use of the Home/End keys
+# allow the use of the Delete/Insert keys
+# The keywords COLOR, OPTIONS, and EIGHTBIT (honored by the
+missing <key>=<value> in '%s'[%i], skip line
+Raised when a key-value pair is found before any section header.
+	key    : %s
+Persist a hierarchical database of key=>value pairs.
+Persist a hierarchical database of key=>value pairs.
+Can't return keys for %s
+Raised when a key-value pair is found before any section header.
+          accepts arbitrary keyword arguments.
+gnutls_x509_crt_set_subject_key_id
+gnutls_x509_crt_set_authority_key_id
+gnutls_x509_crt_set_key_purpose_oid
+gnutls_x509_crt_privkey_sign
+gnutls_openpgp_crt_get_key_id
+gnutls_openpgp_crt_get_subkey_count
+gnutls_openpgp_crt_get_subkey_revoked_status
+gnutls_openpgp_crt_get_subkey_creation_time
+gnutls_openpgp_crt_get_subkey_expiration_time
+gnutls_openpgp_crt_get_subkey_id
+gnutls_openpgp_crt_get_subkey_fingerprint
+gnutls_openpgp_crt_get_subkey_pk_rsa_raw
+gnutls_openpgp_crt_get_subkey_pk_dsa_raw
+gnutls_openpgp_crt_set_preferred_key_id
+gnutls_openpgp_crt_get_auth_subkey
+gnutls_openpgp_keyring_check_id
+gnutls_openpgp_keyring_init
+gnutls_openpgp_keyring_import
+gnutls_openpgp_keyring_get_crt_count
+gnutls_openpgp_keyring_get_crt
+gnutls_openpgp_privkey_import
+gnutls_openpgp_privkey_export
+gnutls_openpgp_privkey_sec_param
+gnutls_openpgp_privkey_get_revoked_status
+gnutls_openpgp_privkey_get_fingerprint
+gnutls_openpgp_privkey_get_key_id
+gnutls_openpgp_privkey_get_subkey_count
+gnutls_openpgp_privkey_get_subkey_revoked_status
+gnutls_openpgp_privkey_get_subkey_creation_time
+gnutls_openpgp_privkey_get_subkey_expiration_time
+gnutls_openpgp_privkey_get_subkey_id
+gnutls_openpgp_privkey_get_subkey_fingerprint
+gnutls_openpgp_privkey_export_rsa_raw
+gnutls_openpgp_privkey_export_dsa_raw
+gnutls_openpgp_privkey_export_subkey_rsa_raw
+gnutls_openpgp_privkey_export_subkey_dsa_raw
+gnutls_openpgp_privkey_set_preferred_key_id
+gnutls_openpgp_get_key
+gnutls_openpgp_count_key_names
+gnutls_certificate_set_openpgp_keyring_mem
+gnutls_certificate_set_openpgp_keyring_file
+gnutls_openpgp_set_recv_key_function
+gnutls_certificate_set_openpgp_key
+gnutls_certificate_set_openpgp_key_mem2
+gnutls_certificate_set_openpgp_key_file2
+gnutls_certificate_set_openpgp_key_file
+gnutls_certificate_set_openpgp_key_mem
+gcry_pk_genkey
+gcry_md_setkey
+gcry_cipher_setkey
+gnutls_x509_crq_set_key
+gnutls_x509_crq_set_key_rsa_raw
+gnutls_x509_crq_get_key_rsa_raw
+gnutls_x509_crq_get_key_usage
+gnutls_x509_crq_get_key_purpose_oid
+gnutls_x509_crq_set_key_purpose_oid
+gnutls_x509_crq_get_key_id
+gnutls_x509_crq_privkey_sign
+gnutls_x509_crt_get_authority_key_id
+gnutls_x509_crt_get_key_purpose_oid
+gnutls_x509_crt_get_subject_key_id
+_gnutls_pkcs12_string_to_key
+gnutls_pkcs12_bag_set_key_id
+gnutls_pkcs12_bag_get_key_id
+gnutls_x509_privkey_sec_param
+gnutls_x509_privkey_import_dsa_raw
+gnutls_x509_privkey_sign_hash
+gnutls_x509_privkey_sign_data
+gnutls_x509_privkey_verify_data
+gnutls_x509_privkey_fix
+gnutls_x509_privkey_export_pkcs8
+gnutls_x509_crt_set_key
+gnutls_pubkey_get_pk_dsa_raw
+gnutls_pubkey_import
+gnutls_x509_crt_set_pubkey
+gnutls_x509_crt_set_key_usage
+gnutls_x509_crq_set_pubkey
+gnutls_x509_crq_set_key_usage
+gnutls_pubkey_import_rsa_raw
+gnutls_pubkey_import_dsa_raw
+gnutls_pubkey_import_pkcs11
+gnutls_pubkey_import_pkcs11_url
+gnutls_pubkey_verify_data
+gnutls_pubkey_verify_hash
+gnutls_pubkey_get_verify_algorithm
+gnutls_pkcs11_privkey_get_info
+gnutls_pkcs11_privkey_export_url
+gnutls_pkcs11_copy_x509_privkey
+gnutls_x509_privkey_export_rsa_raw2
+gnutls_x509_privkey_export_dsa_raw
+gnutls_pkcs11_copy_secret_key
+gnutls_psk_netconf_derive_key
+gnutls_session_ticket_key_generate
+gnutls_x509_crl_get_authority_key_id
+gnutls_x509_crl_set_authority_key_id
+gnutls_x509_crl_privkey_sign
+gnutls_x509_privkey_init
+gnutls_x509_privkey_import
+gnutls_x509_privkey_deinit
+gnutls_certificate_set_x509_key_mem
+gnutls_certificate_set_x509_key
+gnutls_certificate_set_x509_key_file
+gnutls_pkcs11_privkey_init
+gnutls_pkcs11_privkey_import_url
+gnutls_pkcs11_privkey_deinit
+gnutls_x509_privkey_import_pkcs8
+gnutls_x509_privkey_get_key_id
+gnutls_x509_crt_get_key_id
+gnutls_x509_privkey_import_rsa_raw
+gnutls_x509_privkey_cpy
+gnutls_x509_privkey_generate
+gnutls_x509_privkey_export
+gnutls_x509_privkey_export_rsa_raw
+gnutls_privkey_get_type
+gnutls_x509_privkey_get_pk_algorithm
+gnutls_openpgp_privkey_get_pk_algorithm
+gnutls_pkcs11_privkey_get_pk_algorithm
+gnutls_openpgp_privkey_get_preferred_key_id
+gnutls_openpgp_privkey_deinit
+gnutls_openpgp_privkey_get_subkey_idx
+gnutls_openpgp_privkey_get_subkey_pk_algorithm
+gnutls_openpgp_privkey_init
+gnutls_openpgp_privkey_sign_hash
+gnutls_privkey_sign_data
+gnutls_pubkey_get_pk_algorithm
+gnutls_pubkey_get_key_usage
+gnutls_pubkey_init
+gnutls_pubkey_deinit
+gnutls_pubkey_import_x509
+gnutls_pubkey_import_privkey
+gnutls_pubkey_get_preferred_hash_algorithm
+gnutls_pubkey_import_openpgp
+gnutls_openpgp_crt_get_subkey_idx
+gnutls_openpgp_crt_get_subkey_usage
+gnutls_openpgp_crt_get_subkey_pk_algorithm
+gnutls_openpgp_crt_get_key_usage
+gnutls_pubkey_export
+gnutls_pubkey_get_key_id
+gnutls_pubkey_get
+publickey
+Secret keyring file contains non-ASCII! Ignoring existing contents
+Could not lock keyring file to add to it
+Unable to create DBus keyring when setuid
+Invalid context in keyring creation
+No recent-enough key found in keyring, and unable to create a new key
+.dbus-keyrings
+Dict key must be basic type
+Match rule has a key with no subsequent '=' character
+Unknown key "%s" in match rule
+Invalid characters in key name
+Empty key name
+No '=' in key/value pair
+No "%s" key in .service file
+__ksymtab_snd_jack_set_key
+__kstrtab_snd_jack_set_key
+__kcrctab_snd_jack_set_key
+/usr/lib/python2.7/dist-packages/keyring-0.9.2.egg-info/top_level.txt
+/usr/lib/python2.7/keyword.pyc
+mouse_button2_keycode
+mouse_button3_keycode
+mouse_button2_keycode
+mouse_button3_keycode
+strdup(&key[i+1])
+/usr/lib/python2.7/keyword.py
+__key.24749
+__key.24750
+keycode %d, table %d = %d%s
+deallocate keymap %d
+keys
+defkeymap.kmap
+unknown keysym '%s'
+/sys/devices/LNXSYSTM:00/LNXPWRBN:00/input/input0/capabilities/key
+/usr/bin/loadkeys
+/usr/lib/python2.7/dist-packages/keyring-0.9.2.egg-info/top_level.txt
+/usr/lib/python2.7/keyword.py
+/usr/lib/python2.7/keyword.pyc
+/lib/x86_64-linux-gnu/libkeyutils.so.1
+/lib/udev/rules.d/95-keyboard-force-release.rules
+/lib/udev/rules.d/95-keymap.rules
+/lib/udev/rules.d/85-keyboard-configuration.rules
+xdr_cryptkeyarg2
+__key_encryptsession_pk_LOCAL
+__key_gendes_LOCAL
+xdr_key_netstarg
+key_secretkey_is_set
+xdr_cryptkeyarg
+xdr_keystatus
+getsecretkey
+xdr_key_netstres
+key_setsecret
+getpublickey
+key_get_conv
+key_decryptsession_pk
+__key_decryptsession_pk_LOCAL
+key_gendes
+key_encryptsession_pk
+key_setnet
+xdr_keybuf
+xdr_cryptkeyres
+key_decryptsession
+key_encryptsession
+/sys/devices/platform/i8042/serio0/input/input1/capabilities/key
+__GI___pthread_keys
+__key.23526
+__key.23527
+lesskey
+loadkeys
+/sys/devices/LNXSYSTM:00/LNXPWRBN:00/input/input0/capabilities/key
+__alloc_workqueue_key
+__key.27452
+init_timer_key
+init_timer_key
+init_timer_key
+init_timer_key
+init_timer_key
+init_timer_key
+__alloc_workqueue_key
+init_timer_key
+__key.28240
+__key.28241
+__key.7367
+init_timer_key
+__alloc_workqueue_key
+init_timer_key
+__key.28352
+init_timer_key
+__key.26637
+__key.19258
+init_timer_key
+__key.23012
+init_timer_key
+__key.15453
+author=http://rt2x00.serialmonkey.com
+__alloc_workqueue_key
+__key.22283
+__key.22286
+__alloc_workqueue_key
+__key.23662
+__key.22590
+__key.18542
+init_timer_key
+init_timer_key
+__key.7666
+init_timer_key
+__key.42492
+__key.42493
+__key.42494
+init_timer_key
+crypto_hash_setkey() failed with %d
+init_timer_key
+__key.48707
+__key.48708
+__key.7666
+__key.7367
+__key.50634
+__key.50635
+__key.50636
+__key.50643
+__key.50644
+__key.50645
+__key.50646
+__key.50647
+__key.50648
+__key.50732
+init_timer_key
+init_timer_key
+__key.7666
+__key.34396
+__key.34397
+init_timer_key
+%s: %s: Sense key: %x, ASC: %x, ASQ: %x
+%s: Sense key: %x, ASC: %x, ASQ: %x
+__key.21727
+__key.21771
+%s: Sense key: %x, ASC: %x, ASQ: %x
+__key.22375
+__key.22297
+init_timer_key
+__key.7698
+__key.30510
+init_timer_key
+__key.29831
+__key.34125
+__key.34126
+__key.34323
+__key.34324
+__key.34325
+__key.28981
+keyring-0.9.2.egg-info
+init_timer_key
+cmd 0x%02x check condition, sense key = 0x%02x
+cmd %p has CHECK CONDITION sense key = 0x%x
+/sys/devices/platform/i8042/serio0/input/input1/capabilities/key
+__key
+init_timer_key
+__key.39117
+init_timer_key
+init_timer_key
+__alloc_workqueue_key
+__key.7667
+init_timer_key
+__alloc_workqueue_key
+__key.32587
+__key.32157
+__key.7666
+__key.32158
+missing <key>=<value> in '%s'[%i], skip line
+  --export                      print values as environment keys
+%s: sense key 0x%x ASC 0x%x ASCQ 0x%x
+%s: old sense key: 0x%x
+missing <key>=<value> in '%s'[%i], skip line
+  --export    print values as environment keys
+missing <key>=<value> in '%s'[%i], skip line
+dm_hash_get_key
+key set
+__pthread_key_create
+AT Translated Set 2 keyboard
+ext2fs_tdb_firstkey
+ext2fs_tdb_nextkey
+dumpkeys
+init_timer_key
+ethtool_driver_stats_keys
+init_timer_key
+__alloc_workqueue_key
+init_timer_key
+__key.7196
+__key.50304
+__key.50305
+__key.8267
+__key.6965
+init_timer_key
+__alloc_workqueue_key
+init_timer_key
+init_timer_key
+init_timer_key
+init_timer_key
+author=Jes Sorensen <jes@trained-monkey.org>
+init_timer_key
+niu_get_tcamkey_from_ip4fs
+niu_get_ip4fs_from_tcam_key
+niu_xmac_stat_keys
+niu_rxchan_stat_keys
+niu_txchan_stat_keys
+niu_bmac_stat_keys
+init_timer_key
+init_timer_key
+init_timer_key
+init_timer_key
+init_timer_key
+init_timer_key
+__key.43876
+init_timer_key
+init_timer_key
+rss_init_key
+__key.46103
+init_timer_key
+init_timer_key
+init_timer_key
+snd_jack_set_key
+__key.45072
+__key.45074
+__key.39582
+__key.39699
+__key.38405
+__key.38332
+__key.39650
+__key.39651
+__key.39652
+__key.39689
+pci_vpd_find_info_keyword
+init_timer_key
+__alloc_workqueue_key
+__alloc_workqueue_key
+RSS disabled, Failed to set RSS key.
+init_timer_key
+enic_set_rsskey
+enic_set_rss_key
+init_timer_key
+init_timer_key
+init_timer_key
+__key.41553
+init_timer_key
+init_timer_key
+init_timer_key
+init_timer_key
+init_timer_key
+ethtool_stats_keys
+init_timer_key
+init_timer_key
+init_timer_key
+init_timer_key
+init_timer_key
+init_timer_deferrable_key
+init_timer_key
+init_timer_deferrable_key
+init_timer_key
+init_timer_key
+init_timer_key
+missing VPD keyword RV
+missing VPD keyword EC
+missing VPD keyword SN
+__alloc_workqueue_key
+init_timer_key
+pci_vpd_find_info_keyword
+pci_vpd_find_info_keyword
+init_timer_key
+__alloc_workqueue_key
+init_timer_key
+init_timer_key
+__alloc_workqueue_key
+init_timer_key
+__key.41458
+init_timer_key
+__alloc_workqueue_key
+__key.37941
+init_timer_key
+init_timer_key
+init_timer_key
+init_timer_key
+init_timer_key
+init_timer_key
+init_timer_key
+init_timer_key
+init_timer_key
+init_timer_key
+init_timer_key
+init_timer_key
+init_timer_key
+ethtool_stats_keys
+__key.39610
+__key.39611
+init_timer_key
+__key.36289
+__key.36127
+init_timer_key
+init_timer_key
+init_timer_key
+init_timer_key
+__key.45062
+init_timer_key
+ethtool_stats_keys
+init_timer_key
+ethtool_stats_keys
+init_timer_key
+init_timer_key
+init_timer_key
+__alloc_workqueue_key
+init_timer_key
+__key.52511
+__key.52699
+init_timer_key
+__alloc_workqueue_key
+init_timer_key
+init_timer_key
+__alloc_workqueue_key
+init_timer_key
+pci_vpd_find_info_keyword
+__key.54300
+__key.54013
+__key.54014
+__key.54016
+__key.42971
+pci_vpd_find_info_keyword
+init_timer_key
+__alloc_workqueue_key
+pci_vpd_find_info_keyword
+init_timer_key
+ethtool_test_keys
+ethtool_stats_keys
+pci_vpd_find_info_keyword
+init_timer_key
+init_timer_key
+pci_vpd_find_info_keyword
+__key.48989
+pci_vpd_find_info_keyword
+init_timer_key
+init_timer_key
+init_timer_key
+init_timer_key
+init_timer_key
+init_timer_key
+init_timer_key
+init_timer_key
+init_timer_key
+init_timer_key
+init_timer_key
+init_timer_key
+init_timer_key
+init_timer_key
+init_timer_key
+init_timer_key
+__key.46205
+init_timer_key
+init_timer_key
+rsskey.46059
+init_timer_key
+init_timer_key
+init_timer_key
+__key.22966
+__key.22969
+__key.22970
+__key.22971
+__key.24291
+__key.23337
+init_timer_key
+__alloc_workqueue_key
+init_timer_key
+__alloc_workqueue_key
+__key.26413
+__key.26588
+__key.34388
+ghash_setkey
+ghash_async_setkey
+clmul_ghash_setkey
+init_timer_key
+cryptd_blkcipher_setkey
+cryptd_hash_setkey
+sensekey.31861
+__key.23587
+/etc/default/keyboard
+__key.22565
+__key.22566
+kvp_send_key
+kvp_sendkey_work
+/etc/default/keyboard
+/etc/default/keyboard
+init_timer_key
+__key.35587
+__key.35536
+__key.35537
+__key.35528
+__key.35529
+init_timer_key
+init_timer_key
+__key.7667
+init_timer_key
+__key.40437
+<7>mppe_compress[%d]: rekeying
+<4>%s[%d]: unknown key length
+<7>%s[%d]: keys: master: %s initial session: %s
+__key.19098
+__key.36079
+__key.7666
+__alloc_workqueue_key
+init_timer_key
+__alloc_workqueue_key
+init_timer_key
+init_timer_key
+__key.37548
+init_timer_key
+__key.7648
+__key.25073
+__key.25165
+__key.8546
+__key.20916
+__key.23417
+__key.23418
+__key.23419
+__key.23428
+__key.38182
+__key.7367
+__key.8070
+__key.25129
+init_timer_deferrable_key
+init_timer_key
+__alloc_workqueue_key
+init_timer_key
+init_timer_key
+init_timer_key
+init_timer_key
+/bin/loadkeys
+is_keyword
+adkeys
+loadkeys
+__alloc_workqueue_key
+keyboard
+keyring-0.9.2.egg-info
+keyring-0.9.2.egg-info
+init_timer_key
+keyword
+keyword.so
+keywordmodule.so
+keyword.py
+keyword.pyc
+keyword
+keyword.so
+keywordmodule.so
+keyword.py
+keyword.pyc
+hid_ezkey
+ezkey
+libkeyutils.so.1.4
+libkeyutils.so.1
+libkeyutils.so.1.4
+apache.key
+is_keyword
+__key.37270
+key.3727
+__alloc_workqueue_key
+loadkeys
+85-keyboard-configuration.rules
+95-keyboard-force-release.rules
+95-keymap.rules
+init_timer_key
+key unlock for use with gnu public licensed code only
+init_key.39051
+__key.40084
+__key.40085
+__key.8305
+__key.32089
+init_timer_key
+<3>osd: Block-layer returned error(0x%x) but sense_len(%u) || key(%d) is empty
+<3>osd: Main Sense information key=0x%x length(%d, %d) additional_code=0x%x async_error=%d errors=0x%x
+<3>osd:     sense_key_specific_information %usksv_cd_bpv_bp (0x%x)
+__key.29885
+__key.31721
+__key.7668
+__key.31677
+init_timer_key
+init_timer_key
+init_timer_key
+init_timer_key
+<7>%s: Assigned keycode %d to HID usage code %x
+hid_check_keys_pressed
+__key.22834
+keys
+__key.26105
+__key.26172
+__ksymtab_hid_check_keys_pressed
+__kstrtab_hid_check_keys_pressed
+__kcrctab_hid_check_keys_pressed
+match_keycode
+hidinput_find_key
+hidinput_getkeycode
+hidinput_setkeycode
+hid_keyboard
+__key.23412
+__key.23323
+__key.23435
+__crc_hid_check_keys_pressed
+hid_check_keys_pressed
+<7>%s: samsung wireless keyboard/mouse input mapping event [0x%x]
+<7>%s: %s: sending a power keys report descriptor: %x
+init_timer_key
+hid_check_keys_pressed
+__key.28462
+__key.26790
+__key.26979
+__key.26981
+pidff_find_special_keys.isra.6
+hid_check_keys_pressed
+init_timer_key
+fixing up Logitech keyboard report descriptor
+__key.23127
+e_keymap.23096
+fixing up MacBook JIS keyboard report descriptor
+parm=iso_layout:Enable/Disable hardcoded ISO-layout of the keyboard. (0 = disabled, [1] = enabled)
+parm=fnmode:Mode of fn key on Apple keyboards (0 = disabled, [1] = fkeyslast, 2 = fkeysfirst)
+apple_fn_keys
+powerbook_fn_keys
+powerbook_numlock_keys
+apple_iso_keyboard
+macbookair_fn_keys
+hid_ezkey
+ezkey
+hid_ezkey
+hid-ezkey.ko
+last_key.19962
+__alloc_workqueue_key
+init_timer_key
+__key.37332
+__key.37248
+__key.7666
+__key.37249
+__key.37250
+init_timer_key
+__alloc_workqueue_key
+init_timer_key
+__key.37888
+__key.37889
+__key.37890
+__key.7666
+__key.37892
+init_timer_key
+__alloc_workqueue_key
+__alloc_workqueue_key
+<7>mptscsih: %s: 	[sense_key,asc,ascq]: [0x%02x,0x%02x,0x%02x]
+__alloc_workqueue_key
+__key.24179
+__key.20908
+__key.20837
+__alloc_workqueue_key
+__alloc_workqueue_key
+init_timer_key
+__alloc_workqueue_key
+__alloc_workqueue_key
+__key.32679
+__alloc_workqueue_key
+init_timer_key
+__key.33643
+__key.35066
+__key.34092
+__key.7666
+/etc/default/keyboard
+__alloc_workqueue_key
+init_timer_key
+__key.8267
+__key.8445
+init_timer_key
+__alloc_workqueue_key
+__key.31089
+__key.31090
+__key.26318
+__key.26319
+__key.26421
+__key.26422
+keyword.py
+/sys/devices/platform/i8042/serio1/input/input2/capabilities/key
+/sys/devices/platform/i8042/serio1/input/input2/capabilities/key
+/sys/devices/platform/i8042/serio1/input/input2/capabilities/key
+__alloc_workqueue_key
+__wake_up_locked_key
+init_timer_key
+init_timer_deferrable_key
+__alloc_workqueue_key
+__wake_up_locked_key
+init_timer_key
+init_timer_deferrable_key
+__key.31834
+__key.31845
+__key.32265
+__key.32266
+/etc/default/keyboard
+/etc/default/keyboard
+/etc/default/keyboard
+	key-users
+__key.32205
+__key.32206
+__key.24037
+__key.24038
+__key.24039
+__key.24043
+snd_jack_set_key
+__key.23012
+init_timer_key
+__key.29668
+__key.30119
+__key.32547
+<6>scsi_debug:    [sense_key,asc,ascq]: [0x%x,0x%x,0x%x]
+init_timer_key
+__key.31823
+init_timer_key
+__key.32404
+init_timer_key
+init_timer_key
+init_timer_key
+__key.30953
+init_timer_key
+init_timer_key
+init_timer_key
+__alloc_workqueue_key
+init_timer_key
+init_timer_key
+__alloc_workqueue_key
+__alloc_workqueue_key
+__key.32414
+__alloc_workqueue_key
+__alloc_workqueue_key
+__alloc_workqueue_key
+init_timer_key
+__key.30965
+init_timer_key
+init_timer_key
+__key.38381
+__key.7666
+__key.38277
+__key.38280
+__key.37446
+__key.38160
+init_timer_key
+alias symbol:hid_check_keys_pressed hid
+_key_expansion_128
+_key_expansion_256a
+_key_expansion_192a
+_key_expansion_192b
+_key_expansion_256b
+ablk_set_key
+aes_set_key
+rfc4106_set_hash_subkey
+__key.8546
+rfc4106_set_hash_subkey_done
+rfc4106_set_key
+crypto_fpu_setkey
+aesni_set_key
+kernel/net/key/af_key.ko
+__alloc_workqueue_key
+fscache_fsdef_netfs_get_key
+__key.25742
+__alloc_workqueue_key
+__key.46738
+__key.43332
+__key.43333
+__key.43334
+__key.44096
+__key.27365
+__key.27366
+__key.27367
+__key.25861
+__key.25862
+__key.25172
+__key.26739
+__key.29407
+__key.29412
+__key.29337
+__key.29325
+__key.29320
+__key.29311
+__key.26412
+__key.26413
+__key.26417
+__key.26418
+__key.26419
+__key.26423
+__key.26424
+search_by_entry_key
+search_by_key
+errcatch_decrement_key
+key %k, found item %h
+search_by_key returned %d
+number of key seems wrong: %z
+search_by_key returned item position == 0
+entry with this key (%K) already exists
+object with this key exists (%k)
+search_by_key (%K) returned %d
+level=%d, nr_items=%d, free_space=%d rdkey 
+|##|   type    |           key           | ilen | free_space | version | loc  |
+key %K already exists in the tree
+set_de_object_key.part.9
+__key.26543
+__key.31439
+__key.31679
+__key.31683
+sprintf_cpu_key
+sprintf_le_key
+internal_insert_key.isra.1
+search_by_key_reada
+search_for_position_by_key.part.20
+__key.30173
+__key.30216
+__key.30217
+__key.30218
+sd_decrement_key
+direct_decrement_key
+indirect_decrement_key
+direntry_decrement_key
+errcatch_decrement_key
+search_by_entry_key
+comp_le_keys
+comp_short_keys
+replace_key
+make_cpu_key
+search_for_position_by_key
+search_by_key
+get_rkey
+init_timer_key
+le_key2cpu_key
+keyed_hash
+__alloc_workqueue_key
+comp_short_le_keys
+<6>		tree block key (%llu %x %llu) level %d
+<6>	item %d key (%llu %x %llu) itemoff %d itemsize %d
+<6>	key %d (%llu %u %llu) block %llu
+<2>unable to update root key %llu %u %llu
+bad key order
+init_timer_key
+tree_mod_log_set_node_key.isra.28.part.29
+tree_mod_log_insert_key_mask
+tree_mod_log_insert_key
+fixup_low_keys.isra.36
+comp_keys
+find_next_key
+__key.35699
+__key.35701
+__key.34931
+__key.34932
+__key.6965
+__key.36921
+__key.36922
+__key.36923
+__key.36924
+__key.36925
+__key.36981
+__key.36983
+__key.37140
+__key.35692
+__key.37149
+__key.37150
+__key.37151
+__key.37153
+__key.37154
+__key.37157
+__key.37158
+__key.37159
+__key.37160
+__key.37161
+__key.37162
+__key.37163
+__key.37164
+__key.37165
+__key.37166
+__key.37167
+__key.37168
+__key.37169
+__key.34648
+__key.34649
+__key.34655
+__key.37767
+__key.37768
+__key.34294
+__key.37372
+__key.37373
+__key.36207
+__key.35206
+__key.35195
+__key.35492
+key_in_sk
+btrfs_item_key_to_cpu
+insert_dir_log_key
+__key.34612
+__key.31460
+memcmp_node_keys
+get_tree_block_key.isra.37
+__key.31479
+__key.34822
+__key.34791
+max_key.34790
+__add_keyed_refs.isra.10
+__add_missing_keys.isra.11
+btrfs_comp_cpu_keys
+btrfs_set_item_key_safe
+btrfs_set_key_blockptr
+btrfs_node_key
+btrfs_token_key_generation
+btrfs_set_token_key_blockptr
+btrfs_key_generation
+btrfs_set_key_generation
+btrfs_set_token_key_generation
+btrfs_token_key_blockptr
+init_timer_key
+btrfs_key_blockptr
+btrfs_find_next_key
+__key.18280
+__key.29871
+__key.29872
+__key.30068
+__key.30070
+__key.30072
+nfs4_warn_keyexpired
+<5>NFS: Registering the %s key type
+<4>NFS: Cache request denied due to non-unique superblock keys
+lkey
+lkeyi
+lkeyp
+request_key
+key_set_timeout
+__alloc_workqueue_key
+init_timer_key
+key_validate
+key_revoke
+request_key_with_auxdata
+key_put
+complete_request_key
+register_key_type
+key_instantiate_and_link
+key_type_keyring
+unregister_key_type
+key_alloc
+__key.48580
+__key.48575
+__key.7648
+__key.7367
+nfs4_warn_keyexpired
+nfs_idmap_request_key
+key_type_id_resolver
+key_type_id_resolver_legacy
+nfs_idmap_init_keyring
+nfs_idmap_quit_keyring
+__key.46831
+nfs_fscache_keys_lock
+nfs_fscache_keys
+nfs_fscache_inode_get_key
+nfs_super_get_key
+nfs_server_get_key
+key_alloc
+unregister_key_type
+key_type_keyring
+key_instantiate_and_link
+register_key_type
+complete_request_key
+key_put
+request_key_with_auxdata
+key_revoke
+key_validate
+init_timer_key
+__alloc_workqueue_key
+key_set_timeout
+request_key
+__alloc_workqueue_key
+init_timer_key
+ecryptfs_key_record_cache
+ecryptfs_key_record_cache
+ecryptfs_key_sig_cache
+ecryptfs_key_tfm_cache
+hid_ezkey
+"key: 0x%08lx, nsems: 0x%08lx, semflg: 0x%08lx", ((unsigned long)(REC->key)), ((unsigned long)(REC->nsems)), ((unsigned long)(REC->semflg))
+"key: 0x%08lx, msgflg: 0x%08lx", ((unsigned long)(REC->key)), ((unsigned long)(REC->msgflg))
+key_t
+key_t
+key_t
+key_serial_t
+key_serial_t
+"key: 0x%08lx, size: 0x%08lx, shmflg: 0x%08lx", ((unsigned long)(REC->key)), ((unsigned long)(REC->size)), ((unsigned long)(REC->shmflg))
+key_jar
+sys_exit_keyctl
+sys_enter_keyctl
+sys_exit_request_key
+sys_enter_request_key
+sys_exit_add_key
+sys_enter_add_key
+keyboard
+keyboard
+keys
+_rl_next_macro_key
+rl_set_keyboard_input_timeout
+rl_copy_keymap
+rl_make_keymap
+rl_discard_keymap
+rl_free_keymap
+emacs_ctlx_keymap
+emacs_meta_keymap
+rl_bind_key_in_map
+_rl_enable_keypad
+_rl_control_keypad
+rl_completion_invoking_key
+rl_bind_key
+rl_binding_keymap
+rl_unbind_key
+rl_unbind_key_in_map
+rl_translate_keyseq
+rl_set_key
+rl_bind_keyseq
+rl_untranslate_keyseq
+rl_function_of_keyseq
+rl_bind_keyseq_if_unbound_in_map
+rl_bind_key_if_unbound
+rl_bind_key_if_unbound_in_map
+rl_get_keymap_by_name
+rl_get_keymap_name
+rl_set_keymap
+rl_get_keymap
+rl_get_keymap_name_from_edit_mode
+rl_invoking_keyseqs_in_map
+rl_invoking_keyseqs
+_rl_dispatching_keymap
+vi_insertion_keymap
+rl_set_keymap_from_edit_mode
+emacs_standard_keymap
+_rl_enable_meta_key
+rl_bind_keyseq_in_map
+rl_make_bare_keymap
+rl_arrow_keys
+_rl_keymap
+rl_bind_keyseq_if_unbound
+rl_read_key
+vi_movement_keymap
+_rl_keyseq_cxt_alloc
+_rl_keyseq_cxt_dispose
+_rl_keyseq_chain_dispose
+rl_executing_keymap
+rl_key_sequence_length
+PyThread_delete_key
+unable to find public key parameters
+unable to extract public key
+unknown key exchange type
+unknown pkey type
+wrong number of key bits
+ecc cert not for key agreement
+krb5 server rd_req (keytab perms?)
+SRP_Calc_server_key
+SRP_Calc_client_key
+EVP_CIPHER_key_length
+EVP_PKEY_new_mac_key
+SSL_CTX_check_private_key
+X509_check_private_key
+SSL_check_private_key
+SSL_export_keying_material
+SSL_get_privatekey
+DH_generate_key
+EC_KEY_get0_public_key
+EC_KEY_get0_private_key
+EC_KEY_generate_key
+X509_get_pubkey
+EC_KEY_set_private_key
+ECDH_compute_key
+EC_KEY_set_public_key
+DES_check_key_parity
+DES_is_weak_key
+DES_set_key_unchecked
+DES_set_key_checked
+DES_set_key
+_shadow_DES_check_key
+DES_key_sched
+DES_string_to_key
+DES_string_to_2keys
+DES_random_key
+_ossl_old_des_random_key
+_ossl_old_des_is_weak_key
+_ossl_old_des_set_key
+_ossl_old_des_key_sched
+_ossl_old_des_string_to_key
+_ossl_old_des_string_to_2keys
+AES_set_encrypt_key
+AES_set_decrypt_key
+AES_wrap_key
+AES_unwrap_key
+RC2_set_key
+RC4_set_key
+BF_set_key
+CAST_set_key
+Camellia_set_key
+SEED_set_key
+EC_KEY_generate_key
+EC_KEY_check_key
+EC_KEY_get0_private_key
+EC_KEY_set_private_key
+EC_KEY_get0_public_key
+EC_KEY_set_public_key
+EC_KEY_set_public_key_affine_coordinates
+EC_KEY_get_key_method_data
+EC_KEY_insert_key_method_data
+PKCS8_pkey_get0
+PKCS8_pkey_set0
+ECDH_compute_key
+RSA_generate_key_ex
+RSA_check_key
+RSA_generate_key
+EVP_PKEY_CTX_get0_pkey
+DSA_generate_key
+DH_check_pub_key
+DH_generate_key
+ENGINE_set_load_privkey_function
+ENGINE_set_load_pubkey_function
+ENGINE_get_load_privkey_function
+ENGINE_get_load_pubkey_function
+ENGINE_load_private_key
+ENGINE_load_public_key
+ENGINE_set_default_pkey_meths
+ENGINE_set_default_pkey_asn1_meths
+ENGINE_register_pkey_meths
+ENGINE_unregister_pkey_meths
+ENGINE_register_all_pkey_meths
+ENGINE_get_pkey_meth_engine
+ENGINE_get_pkey_meths
+ENGINE_get_pkey_meth
+ENGINE_set_pkey_meths
+ENGINE_unregister_pkey_asn1_meths
+ENGINE_register_pkey_asn1_meths
+ENGINE_register_all_pkey_asn1_meths
+ENGINE_get_pkey_asn1_meth_engine
+ENGINE_get_pkey_asn1_meths
+ENGINE_get_pkey_asn1_meth
+ENGINE_set_pkey_asn1_meths
+ENGINE_get_pkey_asn1_meth_str
+ENGINE_pkey_asn1_find_str
+EVP_CIPHER_CTX_key_length
+EVP_CIPHER_CTX_set_key_length
+EVP_CIPHER_CTX_rand_key
+EVP_CIPHER_key_length
+EVP_MD_pkey_type
+PKCS5_PBE_keyivgen
+PKCS12_PBE_keyivgen
+PKCS5_v2_PBE_keyivgen
+EVP_PKEY_CTX_set0_keygen_info
+EVP_PKEY_CTX_get0_peerkey
+EVP_PKEY_meth_set_keygen
+EVP_PKEY_keygen_init
+EVP_PKEY_keygen
+EVP_PKEY_CTX_get_keygen_info
+EVP_PKEY_new_mac_key
+X509_keyid_set1
+X509_keyid_get0
+X509_REQ_get_pubkey
+X509_get_pubkey
+X509_set_pubkey
+X509_get0_pubkey_bitstr
+X509_check_private_key
+X509_REQ_set_pubkey
+X509_REQ_check_private_key
+NETSCAPE_SPKI_set_pubkey
+NETSCAPE_SPKI_get_pubkey
+X509_get_pubkey_parameters
+X509_pubkey_digest
+PKCS12_decrypt_skey
+PKCS12_add_localkeyid
+PKCS8_add_keyusage
+PKCS12_key_gen_asc
+PKCS12_add_key
+PKCS12_key_gen_uni
+CMS_EncryptedData_set1_key
+CMS_decrypt_set1_pkey
+CMS_RecipientInfo_set0_pkey
+CMS_decrypt_set1_key
+CMS_RecipientInfo_set0_key
+CMS_add0_recipient_key
+TS_RESP_CTX_set_signer_key
+TS_CONF_load_key
+TS_CONF_set_signer_key
+SRP_Calc_server_key
+SRP_Calc_client_key
+pthread_key_create
+publickey
+../../../../../share/pyshared/Crypto/PublicKey/pubkey.py
+# control-alt-delete - emergency keypress handling
+# This task is run whenever the Control-Alt-Delete key combination is
+description	"emergency keypress handling"
+No such key in map
+_nss_nis_getpublickey
+_nss_nis_getsecretkey
+publickey.byname
+keycreate
+key_socket
+keyboard-request
+rl_discard_keymap
+rl_bind_key
+nih_hash_string_key
+/bin/dumpkeys
+/bin/loadkeys
+/bin/lesskey
+../../../../../share/pyshared/gi/overrides/keysyms.py
+%s: invalid associative array key
+bash_execute_unix_command: cannot find keymap for command
+      -t	output a single word which is one of `alias', `keyword',
+              keyword      same as -k
+keymap
+no closing `"' in key binding
+%s is not bound to any keys
+enable-keypad
+enable-meta-key
+arrow-key-prefix
+%s is a shell keyword
+Shell commands matching keywords `
+Shell commands matching keyword `
+keyword
+`%s': invalid keymap name
+%s is not bound to any keys.
+bind [-lpvsPVS] [-m keymap] [-f filename] [-q name] [-u name] [-r keyseq] [-x keyseq:shell-command] [keyseq:readline-function or readline-command]
+Set Readline key bindings and variables.
+    Bind a key sequence to a Readline function or a macro, or set a
+      -m  keymap         Use KEYMAP as the keymap for the duration of this
+                         command.  Acceptable keymap names are emacs,
+      -S                 List key sequences that invoke macros and their values
+      -s                 List key sequences that invoke macros and their values
+      -q  function-name  Query about which keys invoke the named function.
+      -u  function-name  Unbind all keys which are bound to the named function.
+      -r  keyseq         Remove the binding for KEYSEQ.
+      -f  filename       Read key bindings from FILENAME.
+      -x  keyseq:shell-command	Cause SHELL-COMMAND to be executed when
+_Py_keyword
+PyThread_create_key
+PyThread_delete_key_value
+Methods of socket objects (keyword arguments not allowed):
+is_keypad
+_nc_keypad
+keyok
+ble-meta-key
+arrow-key-prefix
+no closing `"' in key binding
+keymap
+%s is not bound to any keys
+enable-keypad
+publickey
+xdr_cryptkeyarg
+xdr_keystatus
+getsecretkey
+xdr_key_netstres
+key_setsecret
+getpublickey
+xdr_cryptkeyarg2
+__key_encryptsession_pk_LOCAL
+__key_gendes_LOCAL
+xdr_key_netstarg
+key_secretkey_is_set
+key_get_conv
+key_decryptsession_pk
+__key_decryptsession_pk_LOCAL
+key_gendes
+key_encryptsession_pk
+pthread_key_create
+pthread_key_delete
+getkeycreatecon_raw
+setkeycreatecon_raw
+getkeycreatecon
+setkeycreatecon
+setkey
+setkey_r
+--editkey
+                helptopic hostname job keyword running service setopt shopt \
+showkey-7	
+ssh-vulnkeywwnewew
+emergency keypress handling
+libkeyutils.so.1.4.dpkg-neww
+libkeyutils.so.1.4.dpkg-new
+Secret keyring file contains non-ASCII! Ignoring existing contents
+Could not lock keyring file to add to it
+Unable to create DBus keyring when setuid
+Invalid context in keyring creation
+No recent-enough key found in keyring, and unable to create a new key
+Dict key must be basic type
+../../../../share/pyshared/keyring/__init__.py
+../../../../share/pyshared/keyring/getpassbackend.py
+../../../../share/pyshared/keyring/core.py
+_nss_files_getpublickey
+_nss_files_getsecretkey
+ply-key-file.c
+key_file != ((void *)0)
+key_file->filename != ((void *)0)
+[%s] %45.45s:Failed to open key file %s: %m
+[%s] %45.45s:key file has no %sgroups
+[%s] %45.45s:key file has comments but no groups
+[%s] %45.45s:key file does not have group '%s'
+[%s] %45.45s:key file does not have entry for key '%s'
+ply_key_file_new
+ply_key_file_free
+ply_key_file_load
+ply_key_file_load
+ply_key_file_open_file
+ply_key_file_load_groups
+ply_key_file_load_group
+ply_key_file_get_value
+/etc/publickey
+dumpkeys
+loadkeys
+lesskeykp
+lesskeye
+infokey
+ssh-keygenkg-new
+infokey
+../../../console-setup/keyboard
+set console keymap
+../keyboard-configuration/changelog.gz
+ is a shell keyword
+keyboard
+                        -noout -verify -modulus -new -rand -newkey -newkey \
+                        -nodes -key -keyform -keyout -md5 -sha1 -md2 -mdc2 \
+keys:
+keys:%s
+%s: Received odd keys '%s'
+ply_boot_client_ask_daemon_to_watch_for_keystroke
+ply_boot_client_ask_daemon_to_ignore_keystroke
+/lib/udev/rules.d/85-keyboard-configuration.rules
+/usr/bin/loadkeys
+        for i in /etc/ssh2/knownhosts ~/.ssh2/hostkeys; do
+            # .../.ssh2/key_22_<hostname>.pub
+            # there can be hundreds of hostkeys
+                if [[ "$i" == *key_22_$curd*.pub && -r "$i" ]]; then
+                    host=${i/#*key_22_/}
+keybits
+keybits=
+mount: argument to --keybits or -k must be a number
+setkeycreate
+field arg is required for keyword
+field value is required for keyword
+SSL_CTX_check_private_key
+getkeycodespW
+setkeycodesm\
+dumpkeys
+ssh-keyscanp
+Required key not available
+Unknown .netrc keyword %s
+getpublickey
+getsecretkey
+/var/run/keyservsock
+.dbus-keyrings
+qemu_get_romfile_key
+ps2_keyboard_setup
+i8042 keyboard test failed (got %x not 0x00)
+etc/ps2-keyboard-spinup
+keyboard self test failed (got %x not 0xaa)
+PS2 keyboard initialized
+USB keyboard initialized
+etc/boot-menu-key
+__process_key unknown scancode read: 0x%02x!
+ps2 keyboard irq but found mouse data?!

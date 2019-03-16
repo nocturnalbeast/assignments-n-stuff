@@ -1,0 +1,80 @@
+1. Browser Security
+
+a. Least Privilege Principle (ii)
+This is because the kernel process limits the browser's (renderer's) privileges and restricts it from controlling the access to the file system. This provides a clear separation of privileges and by delegating these permissions to the kernel process via the kernel API, there is a clear example of the least privilege principle in its design.
+
+b. XSS attacks, Drive-by Malware, CSRF (i, iv, v)
+XSS attacks will be countered since the browser's renderer process enforces Same-Origin Policy (SOP), thus it will be immune to it. Drive-by Malware will be restricted access to the filesystem, and even if one such download does trigger, then the renderer process will call the kernel API, which will notify the user about the download and display a prompt where the user can choose to decline the download. Due to the SOP checks implemented in the renderer process, the browser will also be relatively secure against Cross-Site Request Forgery attacks as well.
+
+c. Yes, the malicious website can cause transactions to occur from Bob’s bank account. Let us understand why using the following scenario. 
+The malicious website issues a CSRF attack to trigger a transaction from Bob's bank account. This attack will not involve the kernel process, but will try to initiate the transaction from the browser itself. Since the renderer is completely controlled by the attacker, the SOP (Same-Origin Policy) can be disabled, and it will allow HTTP referers that are not the same as the site itself, thus allowing a CSRF request to be successfully executed.
+It is still to be noted that extracting the cookie from the browser will not work, since the kernel process and it's API cannot be exploited.
+
+
+2. Denial of Service
+
+a. The attacker would initiate multiple connection setup requests to the GreenMail server, by sending TCP SYN packets, which request for a connection between the server and the other endpoint controlled by the attacker. Thus the traffic sent will consist of only TCP SYN packets. As expected, the server will respond with a SYN-ACK packet, but the attacker will not respond with the expected ACK code, thus rendering the connection incomplete and consuming the server's resources.
+
+b. The DDoS attack starts with the attacker sending multiple TCP SYN packets from a set of machines in his control, possibly zombie machines. All these TCP SYN packets are sent to the server the attacker wants to DDoS, which in this case is the GreenMail server. When these packets reach the server, the server understands that a number of machines want to initiate a TCP connection, and sends back TCP-SYN packets to the attacker's machines. Then the server allocates resources for the connection, and since a high enough number of connections are requested for, the server will exhaust its resources allocating them to these machines, thus rendering it unable to accept any more connections. This will cause a Denial-of-Service.
+
+c. This presents two possiblities; one where DDoS attack is carried out from a small number of machines without IP spoofing, and another where the DDoS attack is carried out from a very large set of machines and wherein those SYN packets sent contain spoofed IP addresses.
+In the first case, it is possible to just analyse the incoming packets at the firewall and apply rules such that all inbound TCP connections from those IP addresses are blocked. This approach will not cause much damage if these rules are applied as soon as the DDoS attack starts.
+In the second case, packet analysis at the firewall will only reveal the spoofed IP addresses, and as such, is not possible to use a packet filter at the firewall to defend against this attack.
+It is to be noted that in the real-world attacks, the second type of attack is more likely, since the attacker always will attempt to cover his/her tracks.
+
+d. A huge number of spam reports can be sent to GreenMail servers, wherein the spam reports mention that a website (which is in fact, the site we want to launch a DDoS attack against) is sending spam. This will result in GreenMail's servers visiting the target website exactly the same number of times the spam reports were sent, causing the target site to be DoS'ed.
+
+e. The victim website could simply choose to drop all incoming packets from GreenMail's servers, thus stopping this attack dead in it's tracks.
+
+
+3. Spoofing
+
+a. Reflected XSS attack is a non-persistent attack, i.e. it works by sending the victim with a link that executes a malicious JavaScript executable on the victim's browser, when the victim clicks the link, which will perform actions like cookie theft, identity duplication etc. Thus, in this case, spoofing is merely a method for the attacker to cover his/her tracks. So, prevention of spoofing IP addresses will have no impact on the threat.
+
+b. Kaminsky's DNS cache poisoning attack works by telling the DNS server that the sibling domains are pointing to certain IP addresses which are owned by the attacker, which does not need spoofing. In this case, spoofing merely is used as a anonymization agent to remove the trace back to the attacker, so while it could be argued that the prevention of spoofing could reduce the threat, it does not in actuality, and thus it has no impact on the threat.
+
+c. "DoS amplification where the attacker sends traffic to an Internet broadcast address" is an attack technique that is similar to Smurf DDoS attacks, but in this case, the attacker is simply sending packets to the broadcast address, and as such does not require IP spoofing, save for removing tracks. Thus prevention of IP spoofing will have no impact on the threat.
+However, if the attacker intends to perform a Smurf DDoS attack, then it requires IP spoofing, and thus the prevention of IP spoofing will eliminate the threat.
+Overall, we can argue that the prevention of IP spoofing will reduce the threat.
+
+d. Clickjacking is a social engineering attack wherein the victim is tricked into clicking something that does a malicious activity, which is not what the user sees and/or perceives. In this case, IP spoofing does not play any role, and as such prevention of IP spoofing has no impact on the threat.
+
+e. Format string vulnerabilities can be exploited directly without the need for spoofing IP addresses, and even if done remotely, it will be performed on form inputs and similar user input structures, which do not require spoofing IP addresses as well. Thus the prevention of spoofing IP addresses has no impact on the threat.
+
+
+4. Attacking home routers - CheepO'router
+
+a. The attacker can first log into the router with the default username and password, using the URL:
+http://router_ip_address/login?u=admin&p=password
+This will authenticate him/her with a cookie, after which he/she can setup a malicious DNS server containing one of two things:
+    - A CNAME entry that says that google.com has an alias which is HackrzSrch.com.
+    - An A record which says that google.com points to the IP address where HackrzSrch.com is hosted.
+The malicious DNS server can additionally contain an upstream DNS server record to resolve other addresses.
+Then he/she can change the default DNS server that is used by the router to the address of the malicious DNS server using the URL:
+http://router_ip_address/set?dns=ip_address_of_malicious_DNS_server
+Thus all searches intended for google.com will be redirected to HackrzSrch.com.
+Additionally, to cover the attacker's tracks, the attacker can also turn loggging off using the URL:
+http://router_ip_address/set?logging=off
+
+b. The same attack can be performed by an attacker who drives by the house in which the CheepO'router is setup in. The attacker can connect to the router via WiFi, since the network is not password-protected, and can perform the same set of steps while the malicious DNS server is hosted on the attacker's machine itself.
+
+
+5. Investigating a cyber criminal insider suspect, evidence collection
+
+We start with attaining chain of custody to gather digital evidence and perform investigation by obtaining warrants to do the same. This should be followed by maintaining chain of custody and ensuring validity of evidence collected while the forensics operations are conducted.
+
+To maintain the chain of custody, we have to do the following:
+
+    Archive the original evidence
+    Photograph the physical evidence
+    Take screenshots of digital evidence
+    Document date and time of all events
+    Use a perfect bit-for-bit clone of all digital evidence while performing operations in forensic systems
+    Always verify digital evidence with hash tests
+
+At the start of the investigation, we scan the machine for fingerprints, that can be easily traced to the suspect. Next, we take photos of the cubicle and of the machine to serve as evidence. To continue, we take screenshots of the current content and windows displayed on the system, which is also served as evidence.
+Next we proceed with the forensics operations on the suspect machine. 
+We use a write blocker before proceeding to ensure that the system remains as intact as possible. We try to obtain to obtain as much data out of the running system as possible. Thus we first can use FTK Imager/OSForensics/Magnet RAM Capture to generate a live dump of the system's RAM. This is then followed by a hard disk dump by similar tools like dd, DiskImager or EnCase. The evidence generated until now is archived and only bit-perfect copies of the archived evidence are used in analysis operations. We also generate hashes for all the obtained evidence and use those are references to prove that the evidence hasn't been tampered with.
+Then we can proceed to inspect the system, where the browser's cache and history, along with other data such as browser session and cookies can be extracted from the browser using Dumpzilla/Foxton etc. Next we proceed to gain all other local Windows-related evidence such as Prefetch, registry dump, temporary files, INetCache, SIDs etc. to understand the configuration of the system, which can be done with tools like ForensicUserInfo, SIFT, Autopsy etc. All the evidence generated until now is archived and hashes are computed to verify legitimacy.
+Now, we proceed to the second phase of live forensics, where events like windows left open by the suspect, data input into multiple programs, and data and/or malware downloaded for exploitation are all recorded to create the timeline of the attack that the suspect performed. After this phase, we continue with the post-mortem analysis of the hard disk and memory images.
+To start with the post-mortem analysis of the hard disk and RAM images, we first generate a bit-by-bit clone of the archived data and load it into a forensics distribution like CAINE or DEFT Linux. To start with memory analysis of the RAM dump obtained, we can use the "strings" utility to extract all readable strings in the RAM dump. Then the list of extracted strings can be searched for any suspicious information. Next, we can load the RAM dump into a more comprehensive memory forensics toolkit like Volatility, which can be used to see more information like the list of loaded DLLs, the list of processes running on the system, and so on. The registry dump can be analyzed with utilities like RegRipper and Registry Analyzer; which will reveal all information about the configuration of the Windows system and additional sensitive information like SIDs, usernames etc.

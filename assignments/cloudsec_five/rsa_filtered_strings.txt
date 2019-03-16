@@ -1,0 +1,353 @@
+rsavI
+powersavf
+rl_universal_argument
+8250.probe_rsa
+powersave
+rsa.:s
+rsa ;c
+rsa ;c
+rsav
+<3>CYCLIC DEPENDENCY FOUND! %pS depends on %pS and vice-versa. BREAKING IT.
+powersave-nap
+powersave
+serial-rsa
+oversampling
+Universal Xport
+powersave_bias
+Universal TUN/TAP device driver
+<6>uhci_hcd: USB Universal Host Controller Interface driver%s
+powersave
+tun: Universal TUN/TAP device driver, 1.6
+uhci_hcd: USB Universal Host Controller Interface driver
+rsadsi
+rsaEncryption
+rsaSignature
+rsaOAEPEncryptionSET
+rsassaPss
+rsaesOaep
+Microsoft Universal Principal Name
+ssl_rsa.c
+bad rsa decrypt
+bad rsa encrypt
+bad rsa e length
+bad rsa modulus length
+bad rsa signature
+error generating tmp rsa key
+missing dh rsa cert
+missing export tmp rsa key
+missing rsa certificate
+missing rsa encrypting cert
+missing rsa signing cert
+missing tmp rsa key
+missing tmp rsa pkey
+public key is not rsa
+public key not rsa
+Add a 'U' to mode to open the file for input with universal newline
+to lowercase ASCII and vice versa.
+universal newline mode can only be used with modes starting with 'r'
+and vice versa.
+converted to lowercase and vice versa.
+converted to lowercase and vice versa.
+Py_UniversalNewlineFgets
+Not currently in an auth conversation
+/* Define if building universal (internal helper macro) */
+genrsa
+            pluto ranbits rsasigkey setup showdefaults showhostkey spi spigrp \
+                    rsa512 rsa1024 rsa2048 rsa4096 dsa512 dsa1024 dsa2048 idea \
+                    rc2 des rsa blowfish' -- "$cur" ))
+digest too big for rsa key
+non fips rsa method
+rsa operations not supported
+rsa_pk1.c
+rsa_ssl.c
+rsa_none.c
+rsa_oaep.c
+rsa_chk.c
+rsa_null.c
+rsa_pss.c
+rsa_x931.c
+rsa_ameth.c
+rsa_prn.c
+rsa_pmeth.c
+rsa_padding_mode
+rsa_pss_saltlen
+rsa_keygen_bits
+rsa_keygen_pubexp
+rsa_crpt.c
+    converted to lowercase and vice versa.
+		1033 80cd  Versa Note VXi
+_pm_powersave
+universals%
+wersave
+#  Run the unitests for both architectures in a Universal build on OSX
+testuniversal:	all platform
+ampersand
+erroneous conversation (%d)
+[    0.342089] tun: Universal TUN/TAP device driver, 1.6
+[    0.360189] uhci_hcd: USB Universal Host Controller Interface driver
+	25a9  6300ESB USB Universal Host Controller
+DeflateInflateLimitRequestBody is not parsable.
+SSL_set_tmp_rsa_callback
+SSL_CTX_set_tmp_rsa_callback
+moduli file %s have un-parsable bits on line %d
+rsa-md5-des
+rsa-md4-des
+rsa-md4
+rsa-md5
+rsa-md5-des3
+dsa:elgamal:rsa:ecc
+rsa-use-e
+rsa.c
+openpgp-rsa
+(private-key (rsa  (n #00e0ce96f90b6c9e02f3922beada93fe50a875eac6bcc18bb9a9cf2e84965caa      2d1ff95a7f542465c6c0c19d276e4526ce048868a7a914fd343cc3a87dd74291      ffc565506d5bbb25cbac6a0e2dd1f8bcaab0d4a29c2f37c950f363484bf269f7      891440464baf79827e03a36e70b814938eebdc63e964247be75dc58b014b7ea251#)  (e #010001#)  (d #046129f2489d71579be0a75fe029bd6cdb574ebf57ea8a5b0fda942cab943b11      7d7bb95e5d28875e0f9fc5fcc06a72f6d502464dabded78ef6b716177b83d5bd      c543dc5d3fed932e59f5897e92e6f58a0f33424106a3b6fa2cbf877510e4ac21      c3ee47851e97d12996222ac3566d4ccb0b83d164074abf7de655fc2446da1781#)  (p #00e861b700e17e8afe6837e7512e35b6ca11d0ae47d8b85161c67baf64377213      fe52d772f2035b3ca830af41d8a4120e1c1c70d12cc22f00d28d31dd48a8d424f1#)  (q #00f7a7ca5367c661f8e62df34f0d05c10c88e5492348dd7bddc942c9a8f369f9      35a07785d2db805215ed786e4285df1658eed3ce84f469b81b50d358407b4ad361#)  (u #304559a9ead56d2309d203811a641bb1a09626bc8eb36fffa23c968ec5bd891e      ebbafc73ae666e01ba7c8990bae06cc2bbe10b75e69fcacb353a6473079d8e9b#)))
+(public-key (rsa  (n #00e0ce96f90b6c9e02f3922beada93fe50a875eac6bcc18bb9a9cf2e84965caa      2d1ff95a7f542465c6c0c19d276e4526ce048868a7a914fd343cc3a87dd74291      ffc565506d5bbb25cbac6a0e2dd1f8bcaab0d4a29c2f37c950f363484bf269f7      891440464baf79827e03a36e70b814938eebdc63e964247be75dc58b014b7ea251#)  (e #010001#)))
+auth_rsa.c
+auth_rsa: Possible PKCS #1 format attack
+auth_rsa: Possible PKCS #1 version check format attack
+universalString
+UniversalString
+rsadsi
+gnutls_rsa_export.c
+auth_rsa_export.c
+auth_srp_rsa.c
+error: get_pk_rsa_raw: %s
+(public-key(rsa(n%m)(e%m)))
+(sig-val(rsa(s%m)))
+(enc-val(rsa(a%m)))
+(genkey(rsa(nbits %d)))
+(private-key(rsa((n%m)(e%m)(d%m)(p%m)(q%m)(u%m))))
+LimitRequestBody argument is not parsable.
+pkg->status == stat_triggerspending || pkg->status == stat_triggersawaited
+giveup->status == stat_triggersawaited || giveup->status == stat_triggerspending
+xUSB Universal Host Controller
+asn1_oid_id_pkcs1_rsaEncryption
+asn1_oid_id_heim_rsa_pkcs1_x509
+hx509_signature_rsa_with_sha512
+hx509_signature_rsa_with_sha384
+hx509_signature_rsa_with_sha256
+hx509_signature_rsa_with_sha1
+hx509_signature_rsa_with_md5
+hx509_signature_rsa
+hx509_private_key_assign_rsa
+asn1_oid_id_rsadsi_rc2_cbc
+asn1_oid_id_rsadsi_des_ede3_cbc
+rsa-ltm.c
+size <= hc_RSA_size(rsa)
+ltm_rsa_private_decrypt
+ltm_rsa_private_encrypt
+ltm_rsa_public_decrypt
+ltm_rsa_public_encrypt
+unparsable value for LS_COLORS environment variable
+pigp->status >= stat_triggersawaited && pigp->status <= stat_triggerspending
+pigp->status > stat_configfiles && pigp->status <= stat_triggersawaited
+Character reference did not end with a semicolon; most likely you used an ampersand character without intending to start an entity - escape ampersand as &amp;
+Entity did not end with a semicolon; most likely you used an ampersand character without intending to start an entity - escape ampersand as &amp;
+	1c27  6 Series/C200 Series Chipset Family USB Universal Host Controller #1
+	1c2c  6 Series/C200 Series Chipset Family USB Universal Host Controller #5
+        dsaparam ec ecparam enc engine errstr gendh gendsa genrsa \
+        nseq ocsp passwd pkcs12 pkcs7 pkcs8 prime rand req rsa \
+        rsautl s_client s_server s_time sess_id smime speed spkac \
+                        -CAfile -nocert -cipher -quiet -no_tmp_rsa -ssl2 \
+		1033 0000  Versa Note Vxi
+		1033 80cc  Versa Note VXi
+	719a  82440MX USB Universal Host Controller
+		1028 0291  CERC SATA RAID 2 PCI SATA 6ch (DellCorsair)
+		9005 0292  AAR-2810SA PCI SATA 8ch (Corsair-8)
+		9005 0293  AAR-21610SA PCI SATA 16ch (Corsair-16)
+ATIes/3400 Series Chipset USB Universal Host Controller
+	3b37  5 Series/3400 Series Chipset USB Universal Host Controller
+	3b38  5 Series/3400 Series Chipset USB Universal Host Controller
+	3b39  5 Series/3400 Series Chipset USB Universal Host Controller
+	3b3a  5 Series/3400 Series Chipset USB Universal Host Controller
+	3b3b  5 Series/3400 Series Chipset USB Universal Host Controller
+	3b3e  5 Series/3400 Series Chipset USB Universal Host Controller
+	3b3f  5 Series/3400 Series Chipset USB Universal Host Controller
+	3b40  5 Series/3400 Series Chipset USB Universal Host Controller
+universals
+universal.utf8@ucs4s
+rsa-pkcs-key-pair-gen
+rsa-x-509
+md5-rsa-pkcs
+sha1-rsa-pkcs
+sha256-rsa-pkcs
+sha384-rsa-pkcs
+sha512-rsa-pkcs
+ripemd160-rsa-pkcs
+rsa-pkcs-oaep
+rsa-with-sha512
+rsa-with-sha384
+rsa-with-sha256
+rsa-with-sha1
+rsa-with-md5
+rsa-pkcs1-x509
+rsa-md5
+internal rsa decryption failure: ret > tosize
+rsa-modulus
+rsa-exponent
+der_put_universal_string
+der_free_universal_string
+der_get_universal_string
+der_length_universal_string
+der_copy_universal_string
+der_heim_universal_string_cmp
+asn1_oid_id_rsadsi_des_ede3_cbc
+asn1_oid_id_rsadsi_rc2_cbc
+asn1_oid_id_rsadsi_encalg
+asn1_oid_id_rsa_digest_md5
+asn1_oid_id_rsa_digest_md4
+asn1_oid_id_rsa_digest_md2
+asn1_oid_id_rsa_digestAlgorithm
+asn1_oid_id_heim_rsa_pkcs1_x509
+asn1_oid_id_pkcs1_rsaEncryption
+rsautl
+#> connections which carry long term conversations.  For the purpose of
+ disabling Seagate auto powersaving mode
+ HDIO_DRIVE_CMD(seagatepwrsave) failed
+	25a9  6300ESB USB Universal Host Controller
+asn1_oid_id_rsa_digest_md5
+universals%
+../../../../share/pyshared/chardet/universaldetector.py
+		1033 8112  Versa Note VXi
+		1033 80a8  Versa Note Vxi
+		12ae 0001  Gigabit Ethernet-SX (Universal)
+	1021  CP102UL (2-port RS-232 Universal PCI)
+	1022  CP102U (2-port RS-232 Universal PCI)
+	1041  CP104U (4-port RS-232 Universal PCI)
+	1042  CP104JU (4-port RS-232 Universal PCI)
+	1044  POS104UL (4-port RS-232 Universal PCI)
+	1143  CP-114UL (4-port RS-232/422/485 Smart Universal PCI Serial Board)
+	1180  CP118U (8-port RS-232/422/485 Smart Universal PCI)
+	1321  CP132U (2-Port RS-422/485 Universal PCI)
+	1340  CP134U (4-Port RS-422/485 Universal PCI)
+	1380  CP138U (8-port RS-232/422/485 Smart Universal PCI)
+14cd  Universal Scientific Ind.
+	2002  Fast Universal Data Output
+        dsaparam ec ecparam enc engine errstr gendh gendsa genrsa \
+        nseq ocsp passwd pkcs12 pkcs7 pkcs8 prime rand req rsa \
+        rsautl s_client s_server s_time sess_id smime speed spkac \
+                genrsa)
+                rsa)
+                rsautl)
+                        -CAfile -nocert -cipher -quiet -no_tmp_rsa -ssl2 \
+                    rsa512 rsa1024 rsa2048 rsa4096 dsa512 dsa1024 dsa2048 idea \
+                    rc2 des rsa blowfish' -- "$cur" ) )
+ -Z   Disable Seagate auto-powersaving mode
+            backend=cc1 # (near-)universal backend
+Mar 11 16:35:33 ubuntu kernel: [    0.342089] tun: Universal TUN/TAP device driver, 1.6
+Mar 11 16:35:33 ubuntu kernel: [    0.342089] tun: Universal TUN/TAP device driver, 1.6
+Mar 11 16:35:33 ubuntu kernel: [    0.360189] uhci_hcd: USB Universal Host Controller Interface driver
+Mar 11 16:35:33 ubuntu kernel: [    0.413470] NET: Register 11 16:35:33 ubuntu kernel: [    0.360189] uhci_hcd: USB Universal Host Controller Interface driver
+rsaquo
+Add a 'U' to mode to open the file for input with universal newline
+unexpected response from failed conversation function
+Conversation error
+Conversation is waiting for event
+no conversation function
+conversation failed
+Add a 'U' to mode to open the file for input with universal newline
+GeoTrust_Universal_CA.pem
+GeoTrust_Universal_CA.pem
+VeriSign_Universal_Root_Certification_Authority.pem
+VeriSign_Universal_Root_Certification_Authority.pem
+TC_TrustCenter_Universal_CA_III.pem
+TC_TrustCenter_Universal_CA_III.pem
+TC_TrustCenter_Universal_CA_I.pem
+TC_TrustCenter_Universal_CA_I.pem
+	8516  PEX 8516  Versatile PCI Express Switch
+	8532  PEX 8532  Versatile PCI Express Switch
+gnutls_rsa_export_get_pubkey
+gnutls_rsa_export_get_modulus_bits
+gnutls_certificate_set_rsa_export_params
+rsa_eay.c
+rsa_gen.c
+rsa_lib.c
+rsa_sign.c
+rsa_saos.c
+rsa routines
+mstring not universal
+unable to decode rsa key
+invalid universalstring length
+unable to decode rsa private key
+universalstring is wrong length
+rsa not implemented
+eng_rsax.c
+rsax
+have pm-powersave &&
+_pm_powersave()
+complete -F _pm_powersave pm-powersave
+public key no rsa
+expecting an rsa key
+public key not rsa
+_pm_powersave
+universal.utf8@ucs4
+gnutls_openpgp_crt_get_pk_rsa_raw
+gnutls_openpgp_crt_get_subkey_pk_rsa_raw
+gnutls_openpgp_privkey_export_rsa_raw
+gnutls_openpgp_privkey_export_subkey_rsa_raw
+gnutls_x509_crq_set_key_rsa_raw
+gnutls_x509_crq_get_key_rsa_raw
+gnutls_x509_crt_get_pk_rsa_raw
+gnutls_x509_crt_set_act_pk_rsa_raw
+gnutls_pubkey_import_rsa_raw
+gnutls_x509_privkey_export_rsa_raw2
+gnutls_rsa_params_deinit
+_gnutls_rsa_pms_set_version
+gnutls_rsa_params_import_raw
+gnutls_x509_privkey_import_rsa_raw
+gnutls_rsa_params_init
+gnutls_rsa_params_cpy
+gnutls_rsa_params_generate2
+gnutls_rsa_params_import_pkcs1
+gnutls_rsa_params_export_pkcs1
+gnutls_rsa_params_export_raw
+gnutls_x509_privkey_export_rsa_raw
+Not currently in an auth conversation
+ampersand
+t1powersave
+parm=t1powersave:Enable/Disable T1 powersaving mode
+parmtype=t1powersave:int
+t1powersave
+__mod_t1powersave108
+__mod_t1powersavetype107
+__param_t1powersave
+__param_str_t1powersave
+e1000_polarity_reversal_workaround.part.13
+e1000_polarity_reversal_workaround
+pm-powersave
+pm-powersave
+pm-powersave
+pm-powersave
+pm-powersave
+pm-powersave
+pm-powersave
+Waiting List traversal
+Waiting TID List traversal
+Waiting List traversal
+Universal Xport
+Universal Xport
+Universal Xport
+Universal Xport
+rl_universal_argument
+universal
+  or:  %s [-u|--utc|--universal] [MMDDhhmm[[CC]YY][.ss]]
+  -u, --utc, --universal    print or set Coordinated Universal Time
+traversal failed: %s
+	0020  HB6 Universal PCI-PCI bridge (transparent mode)
+	0021  HB6 Universal PCI-PCI bridge (non-transparent mode)
+tls rsa encrypted value length is wrong
+ecc cert should have rsa signature
+SSL_CTX_set_tmp_rsa_callback
+SSL_set_tmp_rsa_callback
+ENGINE_load_rsax
+	Universal addresses (%u)
+GeoTrust_Universal_CA_2.pem
+GeoTrust_Universal_CA_2.pem
+# Use 'blkid' to print the universally unique identifier for a
+Py_UniversalNewlineFread
+universal-argument
+ampersand
+ersa:d:i:n:p:t:u:N:
+universal-argument
+traversal failed: %s
+mount: ignore %s (unparsable offset= option)
+Universal
