@@ -1,0 +1,53 @@
+1. LinkedIn Passwords
+
+
+a. The attacker's goal is to crack a specific user's username and password combination using the dictionary attack. This will entail hashing the dictionary entries and comparing the hashes against the given hash to see if it matches. In the case where the hashing scheme lacks the presence of a salting mechanism, the only difference the dictionary attack possesses is that the dictionary entries have to be appended with the salt before hashing, which does not bring a noticeable change in the computational intensity. Thus the lack of salting in LinkedIn's scheme does not make this goal substantially easier.
+
+b. The attacker's goal is to crack as many hashes from the given set of hashes and recover as many plain-text passwords as possible using a dictionary attack. This can be done most password cracking tools that feature a dictionary attack. With traditional password crackers that perform the same, the absence of salting in the hashing scheme will not bring a noticeable change in the computational intensity. However, in more modern password crackers, they implement a feature known as hash caching, in which the hashes that are computed are stored to a cache file so that it can be looked up without needing to recompute the hash for the given dictionary entry again. In this case, the presence of a salting mechanism in the hashing scheme will render usage of the hash cache useless, in which case it can be argued that the lack of salting can probably make the attacker's goal substantially easier (if he/she uses a modern password cracker).
+
+c. Using regular metadata such as hash length, there is no way to understand if the hashes are likely salted or not. But we can utilize a crafty strategy to infer the same. Using a wordlist of common passwords, we can generate hashes of the wordlist entries and check to see if any of the given hashes are found inside the hashes that we just generated. If we do find at least one match, then we can make sure that the hashes are not salted. But even if we do not find a match, we can argue that there is a higher possibility of the hashes being salted.
+
+d. Yes, Yahoo should be concerned about the LinkedIn breach. This is because if the attacker manages to extract the plain-text passwords by a dictionary attack on the hashes obtained, he/she can use the username-password combination to try and login to other sites including Yahoo, since users tend to utilize the same username-password combination for multiple sites. If this succeeds, then the attacker can steal user data from Yahoo as well.
+
+
+
+2. Twitter and Botnet C&C
+
+
+a. The botmaster can perform the following steps to achieve a C&C flow using Twitter:
+
+    1. Sign up for Twitter, creating a new account.
+    2. Create another account for the bots, then make this account follow the first one.
+    3. Then hardcode the credentials of the second account into all the bots, logging them into Twitter in the process.
+    4. Deploy a cronjob (if Linux) or a Scheduled Task (if Windows) in all the bots to use the Twitter API to update the feed of tweets.
+    5. Now, the bots will regularly wait for the tweets, and update the feed at regular intervals.
+    6. Build a service into the bots to extract the command from the tweet recieved in JSON format using the Twitter API, and execute it.
+    7. Finally, issue commands by posting a tweet, which will be recieved by the botnet and will be executed.
+
+b. Twitter can use a multitude of measures to block such botnets that use it for Command and Control. Some methods include:
+
+    • Track users that post repetitive messages and block them, if necessary. Such users have a greater chance of being the botmaster, since regular users do not post repetitive tweets, and the repetitive messages are very likely to be the commands issued to the botnet.
+    • Track users that do not post anything, but follow certain users whose behavior corresponds to the above, these accounts have maximum probablility of being the bot accounts.
+    • Compare user activities against known profiles of botmasters and botnets.
+    • Search the whole network for tweets that resemble commands and detain users that post such tweets.
+
+c. There are certain botnets that used similar means of C&C flows. We can analyze each of them and see if our detection methods work against such botnets:
+
+    • IRC botnets: There are a variety of botnets that subscribed to IRC channels that were controlled by the botmaster, and the bots used to listen to the updates arriving in the IRC channel. It is evident that these botnets used a similar C&C flow as described in the question, and our methods of profiling user messages against the activity of known profiles of botmasters can help in finding the botnet and breaking the C&C control flow, provided we can efficiently track IRC channels and other communication happening over the IRC protocol.
+    • Android/Twitoor: There was a malware named Android/Twitoor that when installed on an Android phone, turned the phone into a bot and made it a part of a botnet of Android devices. This used the Twitter API to view the feed of tweets from a hardcoded Twitter handle, which was supposedly the botmaster's Twitter handle. This Twitter handle was issuing commands which when read by the Android devices, would be executed. All of our detection measures are effective against this botnet, since the proposed problem is very similar to the implementation of Android/Twitoor, if not exactly the same.
+
+
+
+3. Random scanning Worms/Malware/Spam
+
+
+a. After one minute (60 seconds), worm B will exploit more devices. This is because even by the first second, worm A can only infect 10 devices while worm B can infect a maximum of 1000 devices. This when speculated over 60 seconds i.e. a minute, it becomes evident that worm A can only infect a maximum of 600 devices which is already surpassed by worm B in the first second.
+
+b. After one day (86400 seconds), worm A will exploit more devices. This is because over time, the infection rate of worm B will gradually decrease, since there is a fixed limit on how much devices it can infect (10000 devices) which is much, much lower than the limit on worm A (1000000 devices). Thus, while worm B nears 10000 devices, the rate of infection will go below 0.0025 devices per second, which is very slow. While this happens, the relatively slow infection rate of worm A will not decrease as much due to its higher limit on the number of devices it can infect, and it will cross 10000 devices, which is more than the maximum that worm B can infect.
+
+c. The problems with using user feedback on email to train spam classifiers are:
+
+    • Users can classify legimitate messages as spam. These false positives can derail the classifier's detection capabilities.
+    • Spearphishing attacks can be misidentifed as legitimate messages by unaware users. These true negatives can also weaken the classifier's capabilities.
+
+d. The sleep call is designed to work around the on-access scan performed on executables of unknown origin, which is done when the executable first launches. These type of scans check to see if the executable displays any malicious behavior, which is not the case here, since the sleep call puts the process in a waiting state for two minutes, which is a guesstimate of how long the on-access scan could be.
