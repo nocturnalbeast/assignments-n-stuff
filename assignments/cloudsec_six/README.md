@@ -1,4 +1,4 @@
-# [Security in the Cloud - Assignment 5](https://github.com/nocturnalbeast/assignments-n-stuff/tree/sem_two/assignments/cloudsec_six)
+# [Security in the Cloud - Assignment 6](https://github.com/nocturnalbeast/assignments-n-stuff/tree/sem_two/assignments/cloudsec_six)
 
 ## Apache Hadoop
 
