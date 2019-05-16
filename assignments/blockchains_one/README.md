@@ -1,4 +1,4 @@
-# [Blockchains and Cryptocurrencies](https://github.com/nocturnalbeast/assignments-n-stuff/tree/sem_two/assignments/blockchains_one) 
+# [Blockchains and Cryptocurrencies - Assignment 1](https://github.com/nocturnalbeast/assignments-n-stuff/tree/sem_two/assignments/blockchains_one) 
 
 ## Demonstration of Solidity contracts
 
